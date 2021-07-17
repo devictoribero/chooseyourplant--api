@@ -1,20 +1,23 @@
 export const resolvers = {
   Query: {
-    getManyPlants: (root, args, context) => {
-      const plants = [
-        { id: "1", latinName: "Alocasia Amazonica" },
-        { id: "2", latinName: "Monstera Adansonii" },
-      ];
+    getManyPlants: async (root, args, context) => {
+      const plants = [];
+
+      const fs = require("fs");
+      const pathToPlants = `server/plants`;
+      const fileNames = fs.readdirSync(pathToPlants);
+      fileNames.forEach((fileName) => {
+        const fileContent = fs.readFileSync(`${pathToPlants}/${fileName}`);
+        const plantJSON = JSON.parse(fileContent);
+        plants.push(plantJSON);
+      });
 
       return plants;
     },
     getPlant: (root, args, context) => {
-      console.log(args);
       const { slug } = args;
 
-      // find plant by slug
       const fs = require("fs");
-
       const pathToPlantFile = `server/plants/${slug}.json`;
       const doesPlantExist = fs.existsSync(pathToPlantFile);
 
