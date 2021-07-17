@@ -27,14 +27,14 @@ export const typeDefs = gql`
     features: [PlanFeature!]
   }
 
-  Enum PlanFeature {
+  enum PlanFeature {
     hasFlower
     IsToxic
     IsAirPurifier
   }
 
 
-  Enum PlantPopularity {
+  enum PlantPopularity {
     Classic
   }
 
@@ -45,13 +45,13 @@ export const typeDefs = gql`
   }
 
   // TODO do market research or ask people from the community
-  Enum GrowthType {
+  enum GrowthType {
     Upwards
     Trailing
     Cascade
   }
 
-  Enum GrowthSpeed {
+  enum GrowthSpeed {
     Slow
     Medium
     Fast
@@ -79,37 +79,37 @@ export const typeDefs = gql`
     recommendedSpaces: [Space!]
   }
 
-  Enum Space {
+  enum Space {
     Bathroom
     LivingRoom
     Bedroom
     Office
   }
 
-  Enum FertilizationFrequency {
+  enum FertilizationFrequency {
     Annually
     OncePerMonth
     TwicePerMonth
   }
 
-  Enum Humidity {
+  enum Humidity {
     Average
     High
   }
 
-  Enum WateringFrequency {
+  enum WateringFrequency {
     Little
     Often
     Frequent
   }
 
-  Enum LightExposure {
+  enum LightExposure {
     Low
     Bright
     Direct
   }
 
-  Enum CareDifficulty {
+  enum CareDifficulty {
     Easy
     Difficult
   }
@@ -167,7 +167,7 @@ export const typeDefs = gql`
     origins: [String!]
   }
 
-  Enum FoliageSize {
+  enum FoliageSize {
     Mini
     Small
     Medium
