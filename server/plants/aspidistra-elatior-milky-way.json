@@ -1,0 +1,135 @@
+{
+  "isTrendy": false,
+  "slug": "aspidistra-elatior-milky-way",
+  "latinName": "Aspidistra Elatior Milky Way",
+  "mostCommonName": "Cast Iron Plant Milky Way",
+  "names": ["Cast Iron Plant Milky Way"],
+  "description": [
+    "Aspidistra Elatior Milky Way is an easy, low maintenance and drought tolerant plant that is recommended for beginners and travelers, as it can survive without water for a time.",
+    "Aspidistra grows in the dark undergrowth of the forest from Asia, that's why this plant grows so well in low light conditions and it's for being one of the best office plants.",
+    "Cast iron plants are safe for cats, dogs, and children because they are non-toxic and its leaves have a dark green color and can grow slowly up to 90 cm."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "aspidistra",
+  "origins": ["asia"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Aspidistra Elatior Milky Way is a hardy plant famous how well it tolerates artificial or low light conditions which makes it a versatile plant that you can have at any spot in your house.",
+    "Your plant in those conditions will be happy without a lot of effort but it will grow slowly. Provide to your Aspidistra Elatior Milky Way a bright light far from direct sunlight to make it grow fast and big keeping it always far from direct sunlight so its leaves do not burn."
+  ],
+  "waterExplanation": [
+    "Aspidistra Elatior Milky Way loves soil moist but not soggy, although it is a drought-tolerant plant, so don't worry if you forget to water it sometimes.",
+    "Water your aspidistra when the soil is almost completely dry before pouring water again.",
+    "The amount of water is directly related to the amount of light it receives. This plant doesn't require much light, so in low light conditions and in winter yous Cast Iron Plant will need way less water than usual, so you'll have to water it less frequently or its roots will rot and cause death."
+  ],
+  "humidityExplanation": [
+    "Aspidistra does handle dry air and low humidity that would kill other plants, but does best with some air moisture. So it's easy to combine Aspidistra Elatior Milky Waywith other plants."
+  ],
+  "fertilizerExplanation": [
+    "Fertilize your aspidistra once a month with a slow release fertilizer, because this plant is a slow grower you don't need to fertilize it that much."
+  ],
+  "tips": [
+    "Don't place your Aspidistra Elatior Milky Way in direct sunlight.",
+    "Aspidistra Elatior are good office plants because they survive low light conditions even artificial.",
+    "Get this plant right now if you're a beginner or a traveler",
+    "Water your Cast Iron Plant only when its soil has dried almost completely.",
+    "Wipe the leaves with a damp cloth to remove dust.",
+    "To propagate this plant just cut a leaf from the bottom."
+  ],
+  "growth": "slow",
+  "heightCm": 60,
+  "spreadCm": 50,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": false,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": [],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "iamlilliancreates",
+        "link": "https://www.instagram.com/iamlilliancreates"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "coco_and_cuttings",
+        "link": "https://www.instagram.com/coco_and_cuttings"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "coco_and_cuttings",
+        "link": "https://www.instagram.com/coco_and_cuttings"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantsidechat",
+        "link": "https://www.instagram.com/plantsidechat"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "chapollinaria",
+        "link": "https://www.instagram.com/chapollinaria"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantthetowngreen",
+        "link": "https://www.instagram.com/plantthetowngreen"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "kasvipsykoosi",
+        "link": "https://www.instagram.com/kasvipsykoosi"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "planttwins",
+        "link": "https://www.instagram.com/planttwins"
+      },
+      "src": "/images/plants/aspidistra-elatior-milky-way-8.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=crBZsaSXWTU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Alohatropicals",
+      "href": "https://alohatropicals.com/product/aspidistra-elatior-milky-way/",
+      "lowestPrice": {
+        "amount": 14.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

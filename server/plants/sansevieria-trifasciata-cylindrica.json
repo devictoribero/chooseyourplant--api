@@ -1,0 +1,105 @@
+{
+  "isTrendy": false,
+  "slug": "sansevieria-trifasciata-cylindrica",
+  "latinName": "Sansevieria Trifasciata Cylindrica",
+  "mostCommonName": "Sansevieria Cylindrica",
+  "names": [
+    "Sansevieria Cylindrica",
+    "African Spear",
+    "Snake Plant",
+    "Mother's Tongue",
+    "Magic Sword"
+  ],
+  "description": [
+    "Sansevieria Trifasciata Cylindrica is a succulent plant native to Africa that in its natural habitat is used to receiving lots of direct sunlight and surviving without water.",
+    "Sansevierias thrive in low light conditions and are drought-tolerant, making it a recommended plant for beginners or travelers that fits every house and that is recommended for bedrooms, living rooms or offices because it is an air purifier plant",
+    "Sansevieria Cylindrica has smooth, greenish-gray striped sub-cylindrical leaves that can grow up to 2 meters. The most common reason for the death of a snake plant is excessive watering.",
+    "Snake plants are slightly toxic if swallowed, so keep it far from cats, dogs, and children."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "snake plant",
+  "origins": ["Africa"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Sansevieria Cylindrica likes bright light and can stand plenty of direct sunlight. They thrive in low light conditions even though their growth is slowed substantially.",
+    "Sansevieria plants have more vibrant colors if they are placed in bright spots."
+  ],
+  "waterExplanation": [
+    "The Snake Plant requires little water to survive. You should only water it when the soil in the pot is completely dry because this plant is drought-tolerant.",
+    "Check every two weeks by raising the plant. If it's heavy, give it a week more. If it's light, check it by sticking a wooden stick into the soil to see how wet it is."
+  ],
+  "humidityExplanation": [
+    "Sansevieria Trifasciata Cylindrica tolerates dry air, but keep it away from air vents or drafts. An average room humidity is enough to keep this plant happy.",
+    "If you have to increase the humidity because of other plants, it won't be a problem."
+  ],
+  "fertilizerExplanation": [
+    "Snake Plants don't need too much fertilizer because is a light feeder, so too much fertilizer makes the leaves fall over.",
+    "Feed your Snake Plant Cylindrica once a month during summer with a slow fertilizer."
+  ],
+  "tips": [
+    "Living rooms and bedrooms are good spots to place your Sansevieria because it removes air toxins.",
+    "Sansevierias are mildly toxic if ingested, so put it away from cats, dogs and children.",
+    "If the leaves are drooping it's because you're over-watering it, let it dry for a while and it will recover.",
+    "Sansevieria Trifasciata usually dies because of over-watering. Don't do it."
+  ],
+  "growth": "slow",
+  "heightCm": 120,
+  "spreadCm": 30,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "spaces": ["bedroom", "living room"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "Greenandvibrant",
+        "link": "https://www.greenandvibrant.com/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-cylindrica-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vZwIRORXwVU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0N44F_gLtAE",
+      "author": {
+        "name": "delaplants",
+        "link": "https://www.instagram.com/delaplants"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=k86DsC3tc3w",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/collections/buy-snake-plants-online-garden-goods-direct/products/cylindrical-snake-plant",
+      "lowestPrice": {
+        "amount": 24.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

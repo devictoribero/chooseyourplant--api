@@ -1,0 +1,165 @@
+{
+  "isTrendy": true,
+  "slug": "maranta-leuconeura-erythroneura",
+  "latinName": "Maranta Leuconeura Erythroneura",
+  "mostCommonName": "Red Prayer Plant",
+  "names": ["Red Prayer Plant", "Prayer Plant"],
+  "description": [],
+  "family": "marantaceae",
+  "plantVariety": "maranta",
+  "difficulty": "intermediate",
+  "light": ["moderate"],
+  "water": "frequently",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Maranta Leuconeura Erythroneura loves living in shaded places with indirect light and can grow under artificial light.",
+    "As all Prayer plants, when there isn't enough light, the leaves won't open entirely, and if the light is too strong, it will fade the leaves and in some cases could kill the plant."
+  ],
+  "waterExplanation": [
+    "You must water your Prayer Plant often to keep the soil moist. If you over water your plant and the soil doesn't drain well, it will become soggy and will rot the roots.",
+    "If your Maranta is in low light conditions, you must water just to don't let the soil dry out. The same in winter.",
+    "Yellow-pigmented, spotted, and curled leaves usually indicate under-watering, while limp stems are usually a sign of over-watering, which is most common in winter."
+  ],
+  "humidityExplanation": [
+    "Maranta Leuconeura needs high humidity. If you have a bright bathroom, it would be a great spot to place your Prayer Plant because the steam from the shower will add humidity to the air.",
+    "Misting its leaves or group it to other plants are good ways to increase the humidity. Brown tips show that the humidity is too low."
+  ],
+  "fertilizerExplanation": [
+    "This plant doesn't need much fertilizer. If you want to boost its growth, feed it with light, half-diluted liquid fertilizer once every two weeks through the growing season.",
+    "Don't fertilize in the winter."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Prayer Plants need good drainage soil to don't become soggy.",
+    "Leaves are good indicators of the amount of light."
+  ],
+  "growth": "moderate",
+  "heightCm": 45,
+  "spreadCm": 90,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": false,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "studio.foliage",
+        "link": "https://www.instagram.com/studio.foliage/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "agillianplants",
+        "link": "https://www.instagram.com/agillianplants/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "hoopsplants",
+        "link": "https://www.instagram.com/hoopsplants/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "salateando",
+        "link": "https://www.instagram.com/salateando/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "mama_opal_s",
+        "link": "https://www.instagram.com/mama_opal_s/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "hoopsplants",
+        "link": "https://www.instagram.com/hoopsplants/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "peperomiapotts",
+        "link": "https://www.instagram.com/peperomiapotts/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "jtgreenhouse",
+        "link": "https://www.instagram.com/jtgreenhouse/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "mniej_",
+        "link": "https://www.instagram.com/mniej_/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "hoopsplants",
+        "link": "https://www.instagram.com/hoopsplants/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "bobandplants",
+        "link": "https://www.instagram.com/bobandplants/"
+      },
+      "src": "/images/plants/maranta-leuconeura-erythroneura-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=ZagsG8JQ4LU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=pUm7t3boYbs",
+      "author": {
+        "name": "Botanibabies",
+        "link": "https://www.youtube.com/channel/UCC1hInNfKT5rkltM8UgPXWg"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=xw5-64qWKlA",
+      "author": {
+        "name": "Harli G",
+        "link": "https://www.youtube.com/channel/UCPlDlUEtyrOwDXOpIs36b3g"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Babygreens",
+      "href": "https://www.babygreens.co/products/prayer-plant-maranta",
+      "lowestPrice": {
+        "amount": 39.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

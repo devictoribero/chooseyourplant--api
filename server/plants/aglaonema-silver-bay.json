@@ -1,0 +1,61 @@
+{
+  "slug": "aglaonema-silver-bay",
+  "latinName": "Aglaonema Silver Bay",
+  "names": ["Chinese Evergreen", "Silver Bay"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "aglaonema",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Aglaonemas do best in bright locations such as a window sill with eastern light exposure. Be careful to not put the Aglaonema Silver Bay in full sun because the leaves will burn rapidly.",
+    "Most of the Aglaonemas tolerate and even thrive in low light or artificial light areas."
+  ],
+  "waterExplanation": [
+    "Water your Aglaonema Silver Bay thoroughly, but allow the soil to dry out between waterings. This plant prefers to be kept moist, but make sure the soil isn’t soggy—moderation is key!",
+    "Do not allow the lower soil (bottom of the pot where roots reside) to remain wet as this may cause root rot."
+  ],
+  "humidityExplanation": [
+    "Average humidity is enough for aglaonemas, but the higher, the better. You can increase the humidity to make your aglaonema happier grouping plants, misting the leaves, placing a glass of water next to the plant, etc."
+  ],
+  "fertilizerExplanation": [
+    "For best results, use a general houseplant fertilizer once a month during the spring and summer."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it far from cats, dogs and children because it causes mouth irritation."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 90,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": null,
+      "src": "https://cdn.shopify.com/s/files/1/0013/3529/6118/products/Nursery-Pot-10_Aglaonema-Silver-Bay-10.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=YW5dHqvALEk",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": []
+}

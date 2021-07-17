@@ -1,0 +1,143 @@
+{
+  "isTrendy": false,
+  "slug": "spathiphyllum-sensation",
+  "latinName": "Spathiphyllum Sensation",
+  "mostCommonName": "Peace Lily Sensation",
+  "names": [
+    "Peace Lily",
+    "Peace Lily Sensation",
+    "White Sails",
+    "Spathe Flower"
+  ],
+  "description": [
+    "Peace Lily is one of the easiest and most common houseplants to grow because they thrive in low light conditions which makes it perfect for beginners and for every house. Originally from Asia, they have conquered almost every space around the world for being one of the easiest houseplants with flowers to take care of.",
+    "'Sensation' is the largest cultivar of Spathiphyllum and produces large, deeply ribbed leaves that give a wild vibe to space.",
+    "Spathiphyllum have been proven to be among the best houseplants to help improve indoor air quality which makes it perfect for bedrooms, livings rooms, and offices. Not so recommended though, for people that have cats, dogs, and children because is mildly toxic if ingested, so make sure to either supervise them or place your Peace Lily far from them.",
+    "As a bonus point, Peace Lily Sensation happily blooms throughout the year and can reach up to a 2-meter height, which makes it worth looking at."
+  ],
+  "family": "araceae",
+  "plantVariety": "peace lily",
+  "origins": ["Asia"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Peace Lily Sensation tolerates low light but prefers moderate to bright light. Direct sunlight, however, will burn its delicate leaves if exposed for a long time. Meaning that north-facing windows are great for Peace Lily but their growth will be slowed down because of the low-light conditions.",
+    "On the other side, the best light condition for your Peace Lily is next to the east, south, or west-facing window if the light is filtered or a few feet away to avoid the direct sun. In those conditions, your Peace Lily will bloom easily and will grow quicker."
+  ],
+  "waterExplanation": [
+    "Peace Lily likes to drink a lot of water and it will tell you when it's thirsty because its leaves will droop a bit. If you don't want to let your plant be in the limit, make sure to water it every time the 2 top inches are dry.",
+    "As a more concrete indication, if your  Peace Lily is placed in a north-facing window or in low-light conditions you must water it around once per week even though you can make sure to check the humidity of the soil with the finger method (deep your finger into the soil).",
+    "On the other hand, if your Peace Lily is placed in a bright light environment or a east, south or west/facing window, you might end up watering twice per week depending on how good the soil drains the water.",
+    "Cut back watering in the cooler months to give the plant a chance to rest and go semi-dormant. And don’t leave him sitting with water in the drip tray."
+  ],
+  "humidityExplanation": [
+    "Peace Lilies do well in average humidity conditions, but they will be super happy if you increase the humidity by misting its leaves, grouping it with other plants or using a humidifier."
+  ],
+  "fertilizerExplanation": [
+    "Peace Lily doesn't need fertilization in order to thrive well, as far as you repot it once every year or two in order to give to it new nutrients with the new soil. Both things will provide your Peace Lily with macro and micronutrients that will improve their growth and blooming.",
+    "In case you want to maximize its growth, feed it during the growing season (spring and summer) using a 20-20-20 fertilizer.",
+    "If you notice the tips of the leaves and blooms turning brown, you’ve probably over-fertilized, so reduce the amount of fertilization and make sure you are using a slow-release fertilization."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it far from cats, dogs and children because it causes mouth irritation.",
+    "Use filtered water or tap water free of chlorine.",
+    "Fertilize your Peace Lily during the growing season or report it every 2 years."
+  ],
+  "growth": "slow",
+  "heightCm": 200,
+  "spreadCm": 200,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": true,
+  "isRare": null,
+  "isPopular": true,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom", "bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "thepottedearthco",
+        "link": "https://www.instagram.com/thepottedearthco"
+      },
+      "src": "/images/plants/spathiphyllum-sensation-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "the.plant.killer",
+        "link": "https://www.instagram.com/the.plant.killer"
+      },
+      "src": "/images/plants/spathiphyllum-sensation-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "distrito.botanico",
+        "link": "https://www.instagram.com/distrito.botanico"
+      },
+      "src": "/images/plants/spathiphyllum-sensation-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "theparadisebymary",
+        "link": "https://www.instagram.com/theparadisebymary"
+      },
+      "src": "/images/plants/spathiphyllum-sensation-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "kateastrify",
+        "link": "https://www.instagram.com/kateastrify"
+      },
+      "src": "/images/plants/spathiphyllum-sensation-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "indoorprops",
+        "link": "https://www.instagram.com/indoorprops"
+      },
+      "src": "/images/plants/spathiphyllum-sensation-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "ciudadnaturaleza",
+        "link": "https://www.instagram.com/ciudadnaturaleza"
+      },
+      "src": "/images/plants/spathiphyllum-sensation-7.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=i85tT_EURwY",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ufnKr4RmYus",
+      "author": {
+        "name": "Harli G",
+        "link": "https://www.youtube.com/channel/UCPlDlUEtyrOwDXOpIs36b3g"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "White Flower Farm",
+      "href": "https://www.whiteflowerfarm.com/peace-lily-sensation",
+      "lowestPrice": {
+        "amount": 79,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

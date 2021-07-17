@@ -1,0 +1,171 @@
+{
+  "isTrendy": false,
+  "slug": "sansevieria-trifasciata-moonshine",
+  "latinName": "Sansevieria Trifasciata Moonshine",
+  "mostCommonName": "Sansevieria Moonshine",
+  "names": [
+    "Sansevieria Moonshine",
+    "Snake Plant",
+    "Moonshine Snake Plant",
+    "Mother's Tongue",
+    "African Spear"
+  ],
+  "description": [
+    "Sansevieria Trifasciata Moonshine is a Snake Plant variety originally from Africa that has a very unique pale silver-grey-green foliage with dark green margins that will turn dark in shade.",
+    "Sansevieria Moonshine is a hardy plant perfect for beginners because it survives in low light conditions and is drought-tolerant, meaning you should let the soil dry out between waterings.",
+    "Sansevieria Trifasciata species contain mildly toxic compounds that cause irritation in the stomach or in the mouth."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "snake plant",
+  "origins": ["Africa"],
+  "difficulty": "easy",
+  "light": ["moderate", "bright"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Sansevieria Moonshine survives in low light conditions, thrives best in bright light and loves a few hours of direct sun light.",
+    "Your Sansevieria Moonshine won't grow much and neither will show off all its color because its leaves will turn dark if it doesn't receive much light. On the other hand, if you provide it a bright light your snake plant will grow faster and the pale silver-grey-green foliage will be maximized."
+  ],
+  "waterExplanation": [
+    "Snake Plants are succulent so they don't require much water to stay healthy and thrive. In addition, Sansevieria's is a drought-tolerant plant and its most common dead reason is over-watering because it causes root rot.",
+    "Let the soil dry out completely between waterings and use a terracotta or porous material pot to make sure you don't over water it."
+  ],
+  "humidityExplanation": [
+    "Sansevieria Moonshine does well in average room humidity, but it will love if you increase it."
+  ],
+  "fertilizerExplanation": [
+    "Sansevierias don't require too much fertilizer because they are light feeders, so too much fertilizer makes the leaves fall over.",
+    "Feed your plant once a month during summer with a slow fertilizer."
+  ],
+  "tips": [
+    "If you doubt about watering your Snake Plant, don't do it.",
+    "Use porous material pots so they soak the humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep your sansevieria far from cats, dogs and children because it causes mouth irritation.",
+    "Living rooms and bedrooms are good spots to place your Sansevieria because it removes air toxins."
+  ],
+  "growth": "slow",
+  "heightCm": 75,
+  "spreadCm": 50,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "spaces": ["bedroom", "living room"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "majas.plants.and.stuff",
+        "link": "https://www.instagram.com/majas.plants.and.stuff"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "theterracottaarmy",
+        "link": "https://www.instagram.com/theterracottaarmy"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "greenerygirl_",
+        "link": "https://www.instagram.com/greenerygirl_"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "rachelsorber",
+        "link": "https://www.instagram.com/rachelsorber"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "_plantedparenthood",
+        "link": "https://www.instagram.com/_plantedparenthood"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "minijungledxb",
+        "link": "https://www.instagram.com/minijungledxb"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "shellodendron",
+        "link": "https://www.instagram.com/shellodendron"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "tinyplantsbyzo",
+        "link": "https://www.instagram.com/tinyplantsbyzo"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "growingplantswithcats",
+        "link": "https://www.instagram.com/growingplantswithcats"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-9.jpg"
+    },
+    {
+      "owner": null,
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "latikaskincare",
+        "link": "https://www.instagram.com/latikaskincare"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-moonshine-11.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vZwIRORXwVU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0N44F_gLtAE",
+      "author": {
+        "name": "delaplants",
+        "link": "https://www.instagram.com/delaplants"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=k86DsC3tc3w",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/collections/buy-snake-plants-online-garden-goods-direct/products/snake-plant-moonshine",
+      "lowestPrice": {
+        "amount": 28.17,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

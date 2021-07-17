@@ -1,0 +1,144 @@
+{
+  "slug": "pilea-peperomioides",
+  "latinName": "Pilea Peperomioides",
+  "mostCommonName": "Pilea Peperomioides",
+  "names": ["Chinese Money Plant", "Friendship Plant", "Pancake Plant"],
+  "description": [
+    "Pilea Peperomioides is an easy plant native to Yunnan, a region of China. It has become very famous on Instagram and Pinterest for its minimal and elegant look that helps to decorate any room.",
+    "Pilea Peperomioides is also known by the name of the Chinese Money Plant because of its rounded shape that reminds us of a coin. It has some thick green leaves with a little point in the center that is where the stem joins. In nature, it grows in the shade of taller vegetation and is never in direct sunlight. Its leaves are directed towards the light in an abrupt way and although in nature the light comes from above and that is why it is usually round in shape, in our houses that is not always the case. Therefore, it is advisable to rotate it so that it adopts that symmetrical shape that we like so much.",
+    "A lot of people like to propagate this plant because it's a fast grower. Pilea Peperomioides is safe for cats, dogs, babies, and other pets, so you will not have to worry about safety anymore."
+  ],
+  "family": "urticaceae",
+  "plantVariety": "pilea",
+  "origins": ["Asia"],
+  "difficulty": "easy",
+  "light": ["moderate"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Pilea Peperomioides is a plant that loves bright and indirect light like almost all indoor plants, and cannot get direct sunlight, because it burns the leaves. A good spot for your Chinese Money Plant are east, south, and/or east-facing windows if you make sure to filter the light, or place your it a few feet inside to avoid direct sunlight.",
+    "This plant tends to move towards the light excessively and that is why, if we want a vertical and / or symmetrical growth, you should rotate the plant periodically to avoid that.",
+    "The Friendship Plant can grow perfectly in moderate or ambient light conditions but its growth will be affected as well as its shape since the stems will be lengthened to seek more exposure to light."
+  ],
+  "waterExplanation": [
+    "Pilea Peperoimoides reminds me of a semi-succulent plant because both its stem and its leaves are thick and allow it to retain water more easily compared to other plants. So, it's not good to overwater this plant because it will rot easily. You can tell when your pilea needs to be watered because it will have a droopy look.",
+    "The ideal time to water Pilea Peperoimoides is when the soil is completely dry and it depends on the temperature, how much light the plant receives, and even the material of the pot. Usually, you will see yourself watering your Pilea Peperoimoides more or less every two weeks approximately. Let the water soak the soil completely and wait until it stops draining through the pot hole.",
+    "If the plant looks droopy but the soil is completely dry, it means that it needs to be watered, on the contrary, if it shows drooping but the substrate is wet, it means that we have overgrown the water."
+  ],
+  "humidityExplanation": [
+    "Most homes and workplaces will have a decent level of humidity and it's not likely something you need to be thinking about unless where you live has a pretty dry environment. However, your Chinese Money Plant will struggle in excessively humid locations. ",
+    "This isn't the ideal houseplant for dank bathrooms or kitchens."
+  ],
+  "fertilizerExplanation": [
+    "Pilea Peperomioides doesn't need much fertilizer to keep having new growths, but it's always good to give an extra boost of food to keep working as expected. Do it biweekly or once a month using a standard houseplant or cacti based fertilizer."
+  ],
+  "tips": [
+    "The flat, round leaves can accumulate dust so give your plant friend a regular shower or at least wipe down the leaves.",
+    "Rotate the plant to get a simetric shape and make it grow straight.",
+    "Avoid direct sunlight.",
+    "If you want to control the shape of the plant, rotate on a regular basis, and use pruners or scissors with a sharp blade.",
+    "Feed plants monthly during the spring and summer growing seasons with an all-purpose plant fertilizer."
+  ],
+  "growth": "fast",
+  "heightCm": 30,
+  "spreadCm": 30,
+  "leafSize": "medium",
+  "leaf_size_cm": 8,
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": false,
+  "isPopular": false,
+  "isTrendy": true,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "isHanging": false,
+  "spaces": ["bedroom", "office", "living room"],
+  "images": [
+    {
+      "owner": {
+        "name": "potted_joys",
+        "link": "https://www.instagram.com/potted_joys/"
+      },
+      "src": "/images/plants/pilea-peperomioides-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "leafygreens_",
+        "link": "https://www.instagram.com/leafygreens_/"
+      },
+      "src": "/images/plants/pilea-peperomioides-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "leafygreens_",
+        "link": "https://www.instagram.com/leafygreens_/"
+      },
+      "src": "/images/plants/pilea-peperomioides-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "lyliplants",
+        "link": "https://www.instagram.com/lyliplants/"
+      },
+      "src": "/images/plants/pilea-peperomioides-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "doida.por.verdinhas",
+        "link": "https://www.instagram.com/doida.por.verdinhas/"
+      },
+      "src": "/images/plants/pilea-peperomioides-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "rosannahone",
+        "link": "https://www.instagram.com/rosannahone/"
+      },
+      "src": "/images/plants/pilea-peperomioides-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantomagoholic",
+        "link": "https://www.instagram.com/plantomagoholic/"
+      },
+      "src": "/images/plants/pilea-peperomioides-12.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=o1wQx6kKJSo&ab_channel=SummerRayneOakes",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/channel/UCQlO-ab3L9WIUDCN899q56w"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=xTDIaJgU0NA&ab_channel=CrazyPlantGuy",
+      "author": {
+        "name": "Crazy Plant Guy",
+        "link": "https://www.youtube.com/channel/UCtnUZGxN4m3zP1JhFXJlrsA"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=uqJbfITF0YU&ab_channel=JoleneFoliage",
+      "author": {
+        "name": "Jolene Foliage",
+        "link": "https://www.youtube.com/channel/UCGgC7BQEq2e-gWD_n_JYE4g"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Babygreens",
+      "href": "https://www.babygreens.co/products/pilea-peperomiodes",
+      "lowestPrice": {
+        "amount": 19.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

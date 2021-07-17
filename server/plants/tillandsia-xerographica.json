@@ -1,0 +1,47 @@
+{
+  "slug": "tillandsia-xerographica",
+  "latinName": "Tillandsia Xerographica",
+  "names": ["Air Plant"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "advanced",
+  "light": ["bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 50,
+  "spreadCm": 40,
+  "leafSize": "medium",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "spaces": ["bathroom"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": null,
+      "src": "https://cdn.shopify.com/s/files/1/0235/9017/products/IMG_0601_1024x1024.JPG"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/xerographica/",
+      "lowestPrice": {
+        "amount": 29.95,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

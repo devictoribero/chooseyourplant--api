@@ -1,0 +1,149 @@
+{
+  "slug": "alocasia-reginula",
+  "latinName": "Alocasia Reginula",
+  "mostCommonName": "Black Velvet",
+  "names": ["Black Velvet", "Elephant Ear", "Black Magic Elephant's Ear"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "moderate",
+  "heightCm": 60,
+  "spreadCm": 50,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isTrendy": true,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "octo.foil",
+        "link": "https://www.instagram.com/octo.foil/"
+      },
+      "src": "/images/plants/alocasia-reginula-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "theplantnecessities",
+        "link": "https://www.instagram.com/theplantnecessities/"
+      },
+      "src": "/images/plants/alocasia-reginula-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "homesteadbrooklyn",
+        "link": "https://www.instagram.com/homesteadbrooklyn/"
+      },
+      "src": "/images/plants/alocasia-reginula-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "budsandbliss",
+        "link": "https://www.instagram.com/budsandbliss/"
+      },
+      "src": "/images/plants/alocasia-reginula-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "kasvipsykoosi",
+        "link": "https://www.instagram.com/kasvipsykoosi/"
+      },
+      "src": "/images/plants/alocasia-reginula-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "gustavoplants",
+        "link": "https://www.instagram.com/gustavoplants/"
+      },
+      "src": "/images/plants/alocasia-reginula-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "planty.mami",
+        "link": "https://www.instagram.com/planty.mami/"
+      },
+      "src": "/images/plants/alocasia-reginula-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "reece_monet",
+        "link": "https://www.instagram.com/reece_monet/"
+      },
+      "src": "/images/plants/alocasia-reginula-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "ashleyemerald",
+        "link": "https://www.instagram.com/ashleyemerald/"
+      },
+      "src": "/images/plants/alocasia-reginula-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "dearplantsdiary",
+        "link": "https://www.instagram.com/dearplantsdiary/"
+      },
+      "src": "/images/plants/alocasia-reginula-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "sunnuntainoita",
+        "link": "https://www.instagram.com/sunnuntainoita/"
+      },
+      "src": "/images/plants/alocasia-reginula-11.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=DEIzmnMbE20",
+      "author": {
+        "name": "jessypotplants",
+        "link": "https://www.instagram.com/jessypotplants/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/alocasia-black-velvet",
+      "lowestPrice": {
+        "amount": 36.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Plnts",
+      "href": "https://plnts.com/product/alocasia-black-velvet/",
+      "lowestPrice": {
+        "amount": 5.45,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}

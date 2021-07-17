@@ -1,0 +1,108 @@
+{
+  "isTrendy": false,
+  "slug": "sansevieria-trifasciata-gold-hahnii",
+  "latinName": "Sansevieria Trifasciata Gold Hahnii",
+  "mostCommonName": "Golden Hahnii",
+  "names": [
+    "Golden Hahnii",
+    "Sansevieria Gold Hahnii",
+    "Golen Birds Nest Sansevieria",
+    "Snake Plant"
+  ],
+  "description": [
+    "Sansevieria Trifasciata Gold Hahnii is a compact snake plant variety perfect for beginners or travelers because it is a low maintenance, drought-resistant plant that can survive for a while without water.",
+    "Sansevierias are famous for being plants that grow in all light ranges, including low light conditions, which means they adapt to any home.",
+    "Sansevieria Gold Hahnii grows up to 40 cm tall and has greyish green leaves with dark green cross-bands and wide creamy yellow margins that remove toxins from the air making it a good plant for bedrooms, living rooms and offices.",
+    "Sansevieria is slightly toxic if swallowed, so make sure your cat, dog, or children do not eat it."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "snake plant",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Place your Sansevieria Trifasciata Gold Hahnii in moderately bright or filtered light. A north or east-facing window are good locations for this Snake Plant.",
+    "Bright light brings out the colors in the leaves, it will survive in low light conditions but leaves will possibly become green and the plant won't grow much."
+  ],
+  "waterExplanation": [
+    "Water your Sansevieria Gold Hahnii only when the soil is completely dry. You should check the soil every two weeks or so.",
+    "If you doubt about watering it, then you probably shouldn't because it is a drought-tolerant plant."
+  ],
+  "humidityExplanation": [
+    "Sansevieria Trifasciata Gold Hahnii is happy in almost all humidity levels unless it's super dry, so keep it away from air vents or drafts."
+  ],
+  "fertilizerExplanation": [
+    "Snake Plants don't need fertilization, but if you want to, do it twice a year with general fertilizer for plants."
+  ],
+  "tips": [
+    "Living rooms and bedrooms are good spots to place your Sansevieria because it removes air toxins.",
+    "Sansevierias are mildly toxic if ingested, so put it away from cats, dogs and children.",
+    "If the leaves are drooping it's because you're over-watering it, let it dry for a while and it will recover.",
+    "Raise your Snake Plant to know if you should water it or not. If it's heavy, you definitely shouldn't do it.",
+    "Use a pot that has good drainage, such as a terracotta pot or one made with some porous material."
+  ],
+  "growth": "moderate",
+  "heightCm": 20,
+  "spreadCm": 15,
+  "leafSize": "medium",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "spaces": ["bedroom", "living room"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": { "name": "Nurserylive", "link": "https://nurserylive.com" },
+      "src": "/images/plants/sansevieria-trifasciata-gold-hahnii-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vZwIRORXwVU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0N44F_gLtAE",
+      "author": {
+        "name": "delaplants",
+        "link": "https://www.instagram.com/delaplants"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=k86DsC3tc3w",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/collections/buy-snake-plants-online-garden-goods-direct/products/snake-plant-futura-superba",
+      "lowestPrice": {
+        "amount": 43.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Canarius",
+      "href": "https://www.canarius.com/es/plantas/sansevieria-trifasciata-cv-golden-hahnii.html",
+      "lowestPrice": {
+        "amount": 10.8,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}

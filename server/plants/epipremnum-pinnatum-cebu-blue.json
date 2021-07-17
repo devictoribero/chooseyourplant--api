@@ -1,0 +1,170 @@
+{
+  "isTrendy": true,
+  "slug": "epipremnum-pinnatum-cebu-blue",
+  "latinName": "Epipremnum Pinnatum Cebu Blue",
+  "mostCommonName": "Cebu Blue Pothos",
+  "names": ["Cebu Blue Pothos", "Pothos", "Devil's Ivy"],
+  "description": [
+    "Epipremnum Pinnatum Cebu Blue is a rare variety of pothos with shiny, silvery-blue and elongated leaves that seem to sparkle in bright light that is recommended for beginners because it's so easy to take care.",
+    "It's one of the recommended plants for bedrooms, living rooms, and bathrooms because it's an air purifier plant, but you might take care of your pets because the whole plant is toxic if ingested.",
+    "Cebu Blue Pothos likes to climb trees and surfaces to grow. It's been used as a hanging plant in a lot of houses because it can reach easily 1m long."
+  ],
+  "family": "araceae",
+  "plantVariety": "pothos",
+  "origins": ["Asia"],
+  "difficulty": "easy",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Epipremnum Pinnatum Cebu Blue is a rare trailing plant that grows super fast with bright light. You must avoid direct sunlight or its leaves will burn sooner or later.",
+    "Cebu blue pothos can tolerate low light conditions but its growth will be slow. It is a plant recommended for all houses because it tolerates a full range of light conditions.",
+    "In case hanging your pothos make sure light hits the top of the plant too and not only the hanging leaves"
+  ],
+  "waterExplanation": [
+    "To keep your Pothos happy, give it a thorough soak and let it dry out a little bit between watering. You'll be able to tell if you're going too long between watering because when pothos needs water they curve its leaves to keep moisture.",
+    "Using a terracotta pot helps to prevent over watering. Remember to reduce the frequency of watering in winter"
+  ],
+  "humidityExplanation": [
+    "Epipremnum Pinnatum Cebu Blue does okay in average room humidity or higher.",
+    "In case of living in a dry area you may try to group your plants, use a humidifier or a pebble tray. Brown leaves could be an indicator of low humidity."
+  ],
+  "fertilizerExplanation": [
+    "You can give a well-balanced general-purpose indoor plant fertilizer to your Cebu during the growing to help it thrive. These plants are such good growers on their own that you probably will not need to fertilize much."
+  ],
+  "tips": [
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Use a totem to make your pothos climb.",
+    "All pothos look amazing hanging somewhere, try it!",
+    "Epipremnum Pinnatum Cebu Blue is an ideal plant for a bright bathroom.",
+    "Use terracotta pots to avoid over watering."
+  ],
+  "growth": "moderate",
+  "heightCm": 100,
+  "spreadCm": 60,
+  "leafSize": "medium",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isClimber": true,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bathroom", "bedroom", "office"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "plant_mo",
+        "link": "https://www.instagram.com/plant_mo/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "oliveshouseplants",
+        "link": "https://www.instagram.com/oliveshouseplants/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantedbyher",
+        "link": "https://www.instagram.com/plantedbyher/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "tuosesvert",
+        "link": "https://www.instagram.com/tuosesvert/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "lovethemplants",
+        "link": "https://www.instagram.com/lovethemplants/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantzzahut",
+        "link": "https://www.instagram.com/plantzzahut/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "nirnroottheplant",
+        "link": "https://www.instagram.com/nirnroottheplant/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "haunted.jungle",
+        "link": "https://www.instagram.com/haunted.jungle/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "elizabethplants",
+        "link": "https://www.instagram.com/elizabethplants/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantsythings",
+        "link": "https://www.instagram.com/plantsythings/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "umamibbi",
+        "link": "https://www.instagram.com/umamibbi/"
+      },
+      "src": "/images/plants/epipremnum-pinnatum-cebu-blue-11.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=AfSkfg2VRR8",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=wgdyyz7JlTs",
+      "author": {
+        "name": "Tropical Plant Party",
+        "link": "https://www.youtube.com/channel/UC1q227tKh0r4TKjQx8ieNVg"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=dkTOCwyVvbk",
+      "author": {
+        "name": "Stef Hall",
+        "link": "https://www.youtube.com/channel/UCmeM-NTB_isgSwux7tBtvwQ"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Cowell's Garden Centre",
+      "href": "https://www.cowellsgc.co.uk/epipremnum-pinnatum-cebu-blue",
+      "lowestPrice": {
+        "amount": 19.95,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

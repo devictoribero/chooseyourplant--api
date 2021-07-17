@@ -1,0 +1,47 @@
+{
+  "slug": "tillandsia-fuchsii",
+  "latinName": "Tillandsia Fuchsii",
+  "names": ["Air Plant"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "advanced",
+  "light": ["bright"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 8,
+  "spreadCm": 10,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "isHanging": true,
+  "images": [
+    {
+      "owner": null,
+      "src": "https://ae01.alicdn.com/kf/HTB1fdZkQFXXXXbQXFXXq6xXFXXXz/Tillandsia-Funckiana-Air-Plant-Decorations-Lime-Air-Plants-Needle-Leaf-Airplant-for-Indoor-Terrarium-Accessories.jpg_640x640.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/funckiana/",
+      "lowestPrice": {
+        "amount": 5.99,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

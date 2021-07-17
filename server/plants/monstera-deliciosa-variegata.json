@@ -1,0 +1,164 @@
+{
+  "isTrendy": true,
+  "slug": "monstera-deliciosa-variegata",
+  "latinName": "Monstera Deliciosa Variegata",
+  "mostCommonName": "Monstera Deliciosa Variegata",
+  "names": [
+    "Monstera Deliciosa",
+    "Swiss cheese plant",
+    "Mexican Plant",
+    "Hurricane plant"
+  ],
+  "description": [
+    "Monstera Deliciosa Variegata is recognizable by its large, glossy green and white leaves with deep splits and holes. Like most houseplants, it’s native to the tropics."
+  ],
+  "family": "araceae",
+  "plantVariety": "monstera",
+  "origins": ["America"],
+  "difficulty": "advanced",
+  "light": ["bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Monstera Deliciosa variegated needs a little more sunlight to survive than regular monsteras, because it has less chlorophyll. Keep your Monstera Deliciosa Variegata in a bright spot."
+  ],
+  "waterExplanation": [
+    "Water when its soil becomes dry to a half finger depth but take care to don't over watering or it will rot its roots."
+  ],
+  "humidityExplanation": [
+    "This plant will thrive in almost any environment, but if you want to give it a special treat, gently mist it once a week. It’s best to mist your Monstera in the morning so the water has plenty of time to evaporate before evening."
+  ],
+  "fertilizerExplanation": [
+    "For best results, feed your Monstera Deliciosa once a month throughout the spring and summer. Give to your plant a rest during the winter."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Don't let your Monstera remain in water.",
+    "Monstera Deliciosa Variegata roots are not the type of roots that damage walls or surfaces.",
+    "Rotate your Monstera Deliciosa Variegata periodically.",
+    "Give to Monstera Deliciosa Variegata as much indirect light as possible."
+  ],
+  "growth": "moderate",
+  "heightCm": 150,
+  "spreadCm": 150,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isClimber": true,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": null,
+      "src": "/images/plants/monstera-deliciosa-variegata-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "dorothykuek",
+        "link": "https://www.instagram.com/dorothykuek/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "perthbotanicals",
+        "link": "https://www.instagram.com/perthbotanicals/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "oneproudplantmama",
+        "link": "https://www.instagram.com/oneproudplantmama/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "rootd.sheffield",
+        "link": "https://www.instagram.com/rootd.sheffield/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantgirlonline",
+        "link": "https://www.instagram.com/plantgirlonline/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "jacesjungle",
+        "link": "https://www.instagram.com/jacesjungle/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "soulandpepper.interior",
+        "link": "https://www.instagram.com/soulandpepper.interior/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "simlandsia",
+        "link": "https://www.instagram.com/simlandsia/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "thehealthyhomestead",
+        "link": "https://www.instagram.com/thehealthyhomestead/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "simlandsia",
+        "link": "https://www.instagram.com/simlandsia/"
+      },
+      "src": "/images/plants/monstera-deliciosa-variegata-11.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=a4dDWfWAlcI",
+      "author": {
+        "name": "Legends Of Monstera",
+        "link": "https://www.youtube.com/channel/UC9aJO_vRdGGhB_o-c-Vfdzw"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=xUMejUNjKBg",
+      "author": {
+        "name": "Julie Nicole",
+        "link": "https://www.youtube.com/channel/UCQegaS60zM8ZuVk7ftwil2Q"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=QfWp8OwqBhU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=iBvmjv_Y79s",
+      "author": {
+        "name": "Wisconsin Wonder Garden",
+        "link": "https://www.youtube.com/channel/UCHL8vmWhZkXDs2UFdNxG7Sg"
+      }
+    }
+  ],
+  "productLinks": []
+}

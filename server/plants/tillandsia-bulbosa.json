@@ -1,0 +1,47 @@
+{
+  "slug": "tillandsia-bulbosa",
+  "latinName": "Tillandsia Bulbosa",
+  "names": ["Air Plant"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "intermediate",
+  "light": ["moderate"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 10,
+  "spreadCm": 10,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "isHanging": true,
+  "images": [
+    {
+      "owner": null,
+      "src": "https://static1.squarespace.com/static/55344302e4b0a9c1b1ec2d2d/586a389937c581270a2b44ce/586a389ce4fcb5e1689781e4/1483356356358/IMG_8740_edited.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/balbisiana/",
+      "lowestPrice": {
+        "amount": 7.99,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

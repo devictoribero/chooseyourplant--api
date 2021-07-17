@@ -1,0 +1,50 @@
+{
+  "slug": "tillandsia-cyanea",
+  "latinName": "Tillandsia Cyanea",
+  "names": ["Air Plant"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "intermediate",
+  "light": ["bright"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 15,
+  "spreadCm": 15,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "Veldkamp's flowers",
+        "link": "https://www.veldkampsflowers.com/"
+      },
+      "src": "https://veldkampsflowers.imgix.net/images/item/051-15033015930.jpg?w=950&auto=format"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/geminiflora/",
+      "lowestPrice": {
+        "amount": 7.99,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

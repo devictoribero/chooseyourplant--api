@@ -1,0 +1,131 @@
+{
+  "isTrendy": true,
+  "slug": "ceropegia-woodii",
+  "latinName": "Ceropegia Woodii",
+  "mostCommonName": "String of Hearts",
+  "names": [
+    "String of Hearts",
+    "Chain of hearts",
+    "Hearts Entangled",
+    "Rosary Vine",
+    "Sweetheart Vine"
+  ],
+  "description": [
+    "Ceropegia Woodii is an evergreen succulent native to South Africa well-known for its unique heart-shaped foliage that has made this plant be known also as a string of hearts.",
+    "Apart from its unique leaf shape, it has beautiful fleshy, gray-green leaves with an eye-catching marbled pattern, and the thin, string-like vines have a distinctive purple shade that would make anyone fall in love with it.",
+    "A string of hearts looks outstanding in hanging baskets or in pots on shelves or window sills because it cascades.",
+    "One of the best things about this heart-shaped succulent is that it's a long-lived and fast-growing plant, and the sprawling vines can hang down until 12' long in their natural environment."
+  ],
+  "family": "apocynaceae",
+  "plantVariety": "aspidistra",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Place your String of Hearts where it can receive plenty of bright indirect light because it will grow much faster. Small doses of direct sun are good, however too much direct sun can scorch the leaves.",
+    "One of the most common mistakes is to hang it somewhere where the light doesn't hit the top of the plant but only the strings that are cascading because it causes putrefaction.",
+    "If you hang it somewhere, make sure the whole plant is exposed to a bright light environment. This will also help the plant to grow healthier and the new propagations to root faster"
+  ],
+  "waterExplanation": [
+    "In the active growth period, water your string of hearts until the water comes through the pothole, making sure that the potting mixture is moist, but allow most of the soil to dry out between waterings.",
+    "Remember that this plant does well in a bright and warm environment. Take into account that the colder and darker is the place, the less water it needs. So during winter, water very sparingly, just enough water to prevent the potting mixture from drying out completely.",
+    "Also, it's always a good idea to plant succulents in small pots because the soil dries out quicker than in bigger pots. Then, repot them when the pot feels small for them."
+  ],
+  "humidityExplanation": [
+    "Since the string of hearts is from South Africa, it does well in dry environments, does the level of humidity on an average room works for it, and won't demand you any special care.",
+    "In case you need to increase the humidity for other plants, I wouldn't place this succulent next to the humidifier."
+  ],
+  "fertilizerExplanation": [
+    "Apply a slow release fertilizer once a month during the growing season."
+  ],
+  "tips": [
+    "Don't place this plant in low light conditions or it will lose its color.",
+    "Make sure the light hits the top of the plant",
+    "Don't over water it, the roots are skinny and can get root rot.",
+    "Use well-draining potting mix to make sure the water is not wet",
+    "Use small pots to help the soil to dry-out",
+    "Let it dry before watering again.",
+    "This plant is dormant during winter"
+  ],
+  "growth": "fast",
+  "heightCm": 60,
+  "spreadCm": 15,
+  "leafSize": "mini",
+  "leafColorRange": "multiple",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "spaces": [],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "plantgirlonline",
+        "link": "https://www.instagram.com/plantgirlonline"
+      },
+      "src": "/images/plants/ceropegia-woodii-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantgirlonline",
+        "link": "https://www.instagram.com/plantgirlonline"
+      },
+      "src": "/images/plants/ceropegia-woodii-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "perennialparenthood",
+        "link": "https://www.instagram.com/perennialparenthood"
+      },
+      "src": "/images/plants/ceropegia-woodii-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "perennialparenthood",
+        "link": "https://www.instagram.com/perennialparenthood"
+      },
+      "src": "/images/plants/ceropegia-woodii-4.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=6EzCaDaiwLY",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=DfX8LKhbmmA",
+      "author": {
+        "name": "Crazy Plant Guy",
+        "link": "https://www.youtube.com/channel/UCtnUZGxN4m3zP1JhFXJlrsA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/string-of-hearts-plant",
+      "lowestPrice": {
+        "amount": 9.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "SucculentsBox",
+      "href": "https://succulentsbox.com/products/string-of-hearts-plants-not-variegated-ceropegia-woodii-succulent-4?rfsn=5710048.d0f717",
+      "lowestPrice": {
+        "amount": 39,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

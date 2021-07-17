@@ -1,0 +1,60 @@
+{
+  "isTrendy": false,
+  "slug": "alocasia-wentii",
+  "latinName": "Alocasia Wentii",
+  "mostCommonName": "Hardy Elephant Ear",
+  "names": ["Elephant Ear"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 100,
+  "spreadCm": 100,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": { "name": "Bakker", "link": "http://www.bakker.com" },
+      "src": "/images/plants/alocasia-wentii-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Jardineria Kuka",
+      "href": "https://www.jardineriakuka.com/plantas-de-interior/8395-alocasia-wentii.html",
+      "lowestPrice": {
+        "amount": 42.46,
+        "currency": { "name": "Euro", "iso": "EUR", "symbol": "€" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "tillandsia-ionantha",
+  "latinName": "Tillandsia Ionantha",
+  "names": ["Air Plant", "Sky Plant"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "intermediate",
+  "light": ["bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 15,
+  "spreadCm": 15,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["terrarium"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "CTS Air Plants",
+        "link": "https://www.ctsairplants.com"
+      },
+      "src": "https://www.ctsairplants.com/v/vspfiles/photos/IONANTHASELECTALG-2.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/ionantha-ionantha/",
+      "lowestPrice": {
+        "amount": 3.99,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

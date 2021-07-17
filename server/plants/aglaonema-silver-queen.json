@@ -1,0 +1,59 @@
+{
+  "slug": "aglaonema-silver-queen",
+  "latinName": "Aglaonema Silver Queen",
+  "names": ["Chinese Evergreen", "Silver Queen"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "aglaonema",
+  "difficulty": "easy",
+  "light": ["moderate", "bright"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Chinese Evergreen supports low light. It thrives best in bright light but no direct sunlight because the leaves will scorch."
+  ],
+  "waterExplanation": [
+    "Water your Aglaonema Silver Queen regularly, keep the soil slightly moist during the summer and in the winter the topsoil should be dry out slightly between each watering."
+  ],
+  "humidityExplanation": [
+    "This aglaonema can endure less humidity than some other plants, yet it will still appreciate your efforts to improve surrounding humidity levels, either via regular misting or using a pebble tray."
+  ],
+  "fertilizerExplanation": [
+    "Fertilize once a month from spring through summer with a balanced houseplant fertilizer diluted by half."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it far from cats, dogs and children because it causes mouth irritation."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 90,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": { "name": "Costafarms", "link": "http://www.costafarms.com" },
+      "src": "http://www.costafarms.com/CostaFarms/Chinese-Evergreen-Aglaonema-Silver-Queen--Costa-Farms.jpg?height=257&width=256&scale=both&crop=auto"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=YW5dHqvALEk",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": []
+}

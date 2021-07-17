@@ -1,0 +1,99 @@
+{
+  "isTrendy": true,
+  "slug": "ficus-elastica-burgundy",
+  "latinName": "Ficus Elastica Burgundy",
+  "mostCommonName": "Green Rubber Plant",
+  "names": ["Green Rubber Plant", "Rubber Tree"],
+  "description": [],
+  "family": "moraceae",
+  "plantVariety": "ficus",
+  "origins": ["Asia"],
+  "difficulty": "easy",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "The Burgundy Rubber Tree will grow best with consistent, bright, filtered light—which makes leaves to become dark.",
+    "East and south facing windows are perfects for this ficus."
+  ],
+  "waterExplanation": [
+    "Keep soil evenly moist. Use a pot with a drainage hole, water thoroughly, then empty drainage tray. Be careful not to overwater, which will cause root rot. Drooping yellow leaves are a symptom of overwatering."
+  ],
+  "humidityExplanation": [
+    "As a native to the tropics, your Rubber Tree will appreciate humid environments but it gets used to average humidity."
+  ],
+  "fertilizerExplanation": [
+    "Feed monthly with a well-balanced liquid fertilizer when the plant is actively growing. It's not necessary to feed a your Rubber Plant during the winter and fall."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy."
+  ],
+  "growth": "fast",
+  "heightCm": 300,
+  "spreadCm": 100,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": true,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "spaces": ["bedroom", "office", "living room"],
+  "isHanging": false,
+  "images": [
+    { "owner": null, "src": "/images/plants/ficus-elastica-burgundy-1.jpg" }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vlXmVH17FtE",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=b-98iACU984",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=x6EML-S8fm8",
+      "author": {
+        "name": "Harli G",
+        "link": "https://www.youtube.com/channel/UCPlDlUEtyrOwDXOpIs36b3g"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=UjVx-ymWqy4",
+      "author": {
+        "name": "The Practicing Planter",
+        "link": "https://www.youtube.com/channel/UCIbfIawQILtIikvP-9wSkiQ"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": true,
+      "shop": "Cellar Door Plants",
+      "href": "https://shrsl.com/31pz1",
+      "lowestPrice": {
+        "amount": 15.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/burgundy-ficus",
+      "lowestPrice": {
+        "amount": 28.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "isTrendy": false,
+  "slug": "ficus-pumila",
+  "latinName": "Ficus Pumila",
+  "mostCommonName": "Creeping Fig",
+  "names": ["Creeping Fig", "Creeping ficus"],
+  "description": [],
+  "family": "moraceae",
+  "plantVariety": "ficus",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "The Ficus Pumila likes bright but filtered light because the leaves can easily get dried."
+  ],
+  "waterExplanation": [
+    "This creeping fig beeds to be watered when the top inch or so of the potting mix dries to the touch. As a houseplant, it doesn’t tolerate drying out as well as other figs (including fiddle leaf fig)."
+  ],
+  "humidityExplanation": [
+    "As a native to the tropics, the Ficus Pumila will appreciate humid environments but it gets used to average humidity."
+  ],
+  "fertilizerExplanation": [
+    "Feed monthly with a well-balanced liquid fertilizer when the plant is actively growing. It's not necessary to feed a your Rubber Plant during the winter and fall."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy."
+  ],
+  "growth": "fast",
+  "heightCm": 70,
+  "spreadCm": 40,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "spaces": [],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "cactusjakks",
+        "link": "https://www.instagram.com/cactusjakks/"
+      },
+      "src": "/images/plants/ficus-pumila-1.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Bakker",
+      "href": "https://en-gb.bakker.com/products/climbing-fig-ficus-white-sunny-green",
+      "lowestPrice": {
+        "amount": 7.49,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

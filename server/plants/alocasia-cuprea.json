@@ -1,0 +1,154 @@
+{
+  "slug": "alocasia-cuprea",
+  "latinName": "Alocasia Cuprea",
+  "mostCommonName": "Mirror Plant",
+  "names": ["Mirror Plant", "Jewel Alocasia"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 40,
+  "spreadCm": 30,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isTrendy": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "alltheplantbabies",
+        "link": "https://www.instagram.com/alltheplantbabies/"
+      },
+      "src": "/images/plants/alocasia-cuprea-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "potplantpat",
+        "link": "https://www.instagram.com/potplantpat/"
+      },
+      "src": "/images/plants/alocasia-cuprea-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "plant_studies",
+        "link": "https://www.instagram.com/plant_studies/"
+      },
+      "src": "/images/plants/alocasia-cuprea-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "homehorticulturist",
+        "link": "https://www.instagram.com/homehorticulturist/"
+      },
+      "src": "/images/plants/alocasia-cuprea-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "amazing__plants",
+        "link": "https://www.instagram.com/amazing__plants/"
+      },
+      "src": "/images/plants/alocasia-cuprea-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "tenny0",
+        "link": "https://www.instagram.com/tenny0/"
+      },
+      "src": "/images/plants/alocasia-cuprea-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "vertbobo",
+        "link": "https://www.instagram.com/vertbobo/"
+      },
+      "src": "/images/plants/alocasia-cuprea-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "fleurgarden_trastevere",
+        "link": "https://www.instagram.com/fleurgarden_trastevere/"
+      },
+      "src": "/images/plants/alocasia-cuprea-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "bradysbotanicals",
+        "link": "https://www.instagram.com/bradysbotanicals/"
+      },
+      "src": "/images/plants/alocasia-cuprea-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "gardencenterwemmel",
+        "link": "https://www.instagram.com/gardencenterwemmel/"
+      },
+      "src": "/images/plants/alocasia-cuprea-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "microcosmglass",
+        "link": "https://www.instagram.com/microcosmglass/"
+      },
+      "src": "/images/plants/alocasia-cuprea-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "tropical_plant_addict",
+        "link": "https://www.instagram.com/tropical_plant_addict/"
+      },
+      "src": "/images/plants/alocasia-cuprea-12.jpg"
+    },
+    {
+      "owner": {
+        "name": "aseaofplants",
+        "link": "https://www.instagram.com/aseaofplants/"
+      },
+      "src": "/images/plants/alocasia-cuprea-13.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=BqmNKjj0Ttc",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Jardineria Kuka",
+      "href": "https://www.jardineriakuka.com/plantas-de-interior/12397-alocasia-cuprea-redd-secret.html",
+      "lowestPrice": {
+        "amount": 12.95,
+        "currency": { "name": "Euro", "iso": "EUR", "symbol": "€" }
+      }
+    }
+  ]
+}

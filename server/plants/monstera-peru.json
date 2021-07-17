@@ -1,0 +1,124 @@
+{
+  "isTrendy": false,
+  "slug": "monstera-peru",
+  "latinName": "Monstera Peru",
+  "mostCommonName": "Monstera Peru",
+  "names": ["Monstera Karstenianum", "Monstera Sp. Peru"],
+  "description": [
+    "Monstera Peru is a very rare fast-growing plant with thick and unusually stiff leaves that is often mistaken for <a href='https://chooseyourplant.com/monstera-pinnatipartita'>Monstera Pinnatipartita</a> when young because the leaves look alike.",
+    "The leaves of the Monstera Sp. Peru are somewhat wider, and look rounder, and differ from the leaves of Monstera Pinnatipartita that are more elongated.",
+    "Monsteras are plants that are not especially difficult for beginners. Make sure your monstera doesn't get more than 30min of direct sunlight, water it often and use well-draining soil so it doesn't become too dense after a few waterings.",
+    "Boost the Monstera Peru growth by using a <a href='https://shrsl.com/308ca' target='_blank' rel='noreferrer noopener'>totem pole</a> or letting it climb to a surface so it can get bigger and healthier like it does in nature. Keep it away from pets and children because it is highly toxic if ingested."
+  ],
+  "family": "araceae",
+  "plantVariety": "monstera",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Monstera Peru grows fast and healthy in bright but indirect light. A recommended space to put your monstera is next to a north-facing window, in a filterer window that is not facing north, or if you don't want to filter the light, place it a few feet inside so the sun in the afternoon doesn't hit its leaves.",
+    "Monsteras can tolerate between 30 minutes and a couple of hours of the direct morning sun. This means you don't have to be scared of the sun hitting its leaves, but I wouldn't recommend it because you will have to give it more attention because since you have to keep the soil moist at all cost.",
+    "Monstera Peru survives in low light conditions but it doesn't grow much, but remember that low-light doesn't mean without light. You can also make your monstera grow fast by providing a <a href='https://shrsl.com/308d4'target='_blank' rel='noreferrer noopener'>growing light for plants</a>."
+  ],
+  "waterExplanation": [
+    "Water you monstera Karstenianum every time the top inch of the soil is dry. The amount of water depends on how much light it receives, the temperature, the material of the pot, and soil composition. If you find difficult to know when your plant needs to be watered, you can use a <a href='https://shrsl.com/3030t'target='_blank' rel='noreferrer noopener'>soil moisture indicator</a>. It will tell you instantly if the plant needs water or not while you get used to the frequency of the watering.",
+    "If you placed your monstera in bright light but indirect light, and it's not too hot, you'll find yourself watering your monstera about once or twice a week. Make sure you're using a well-draining soil so it doesn't get too compact after watering a few times.",
+    "The frequency of watering depends on the material of the pot. If you are using a pot made with a porous material, you will water the plant more often because it absorbs moisture and therefore, the substrate dries faster.",
+    "On the other hand, if you planted your monstera in a plastic pot, you will have to water it less because the substrate remains more humid. When using a plastic pot, there is a greater danger of overwatering your plant and therefore killing it."
+  ],
+  "humidityExplanation": [
+    "Monsteras are tropical plants that love humid places even though they do fine in average room humidity. You can tell if the humidity is not enough because the leaves tend to turn yellow and end up dying.",
+    "If you watn tour monstera to live in the best of conditions, use a <a href='https://shrsl.com/308fv' target='_blank' rel='noreferrer noopener'>humidifier</a> to increase the humidity of the environment.",
+    "One of the best spots for your monstera are bathrooms because it is a place that tends to be humid most of the day."
+  ],
+  "fertilizerExplanation": [
+    "Fertilize your Monstera Peru during the growing season but don't do it during winter.",
+    "A slow-release granular fertilizer is recommended. Find one which is a balanced NPK with a good level of magnesium in it. It’s preferable to use one with organic nitrogen sources as those are more easily used by the plant."
+  ],
+  "tips": [
+    "You must use well-draining soil.",
+    "Place your monstera peru in the bathroom because it's a room with high humidity.",
+    "Don't provide more than 1-2 hours of direct morning sun.",
+    "Use a totem to make your Monstera Peru climb.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it away from pets and children because Monstera Peru is highly toxic if ingested."
+  ],
+  "growth": "slow",
+  "heightCm": 100,
+  "spreadCm": 50,
+  "leafSize": "medium",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isClimber": true,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "fancyplantschic",
+        "link": "https://www.instagram.com/fancyplantschic/"
+      },
+      "src": "/images/plants/monstera-peru-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "houseplant.novice",
+        "link": "https://www.instagram.com/houseplant.novice/"
+      },
+      "src": "/images/plants/monstera-peru-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "foliagefrenzy",
+        "link": "https://www.instagram.com/foliagefrenzy/"
+      },
+      "src": "/images/plants/monstera-peru-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "lapak.online85",
+        "link": "https://www.instagram.com/lapak.online85/"
+      },
+      "src": "/images/plants/monstera-peru-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "picturedhome",
+        "link": "https://www.instagram.com/picturedhome/"
+      },
+      "src": "/images/plants/monstera-peru-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "pl.aunty",
+        "link": "https://www.instagram.com/pl.aunty/"
+      },
+      "src": "/images/plants/monstera-peru-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "rootedplanet",
+        "link": "https://www.instagram.com/rootedplanet/"
+      },
+      "src": "/images/plants/monstera-peru-7.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Plant Circle",
+      "href": "https://plantcircle.co/product/monstera-peru/",
+      "lowestPrice": {
+        "amount": 16,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}

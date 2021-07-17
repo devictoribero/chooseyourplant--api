@@ -1,0 +1,147 @@
+{
+  "isTrendy": false,
+  "slug": "alocasia-zebrina",
+  "latinName": "Alocasia Zebrina",
+  "mostCommonName": "Elephant Ear Zebrina",
+  "names": ["Elephant Ear"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 100,
+  "spreadCm": 100,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "proudplantmoom",
+        "link": "https://www.instagram.com/proudplantmoom/"
+      },
+      "src": "/images/plants/alocasia-zebrina-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "feey.pflanzen",
+        "link": "https://www.instagram.com/feey.pflanzen/"
+      },
+      "src": "/images/plants/alocasia-zebrina-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "proudplantmoom",
+        "link": "https://www.instagram.com/proudplantmoom/"
+      },
+      "src": "/images/plants/alocasia-zebrina-13.jpg"
+    },
+    {
+      "owner": {
+        "name": "forever_planted",
+        "link": "https://www.instagram.com/forever_planted/"
+      },
+      "src": "/images/plants/alocasia-zebrina-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "ohiwetmyplants",
+        "link": "https://www.instagram.com/ohiwetmyplants/"
+      },
+      "src": "/images/plants/alocasia-zebrina-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "joanagalizacarneiro",
+        "link": "https://www.instagram.com/joanagalizacarneiro/"
+      },
+      "src": "/images/plants/alocasia-zebrina-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "slagroomsoes1988",
+        "link": "https://www.instagram.com/slagroomsoes1988/"
+      },
+      "src": "/images/plants/alocasia-zebrina-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "sproutingplants",
+        "link": "https://www.instagram.com/sproutingplants/"
+      },
+      "src": "/images/plants/alocasia-zebrina-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "onesixty1",
+        "link": "https://www.instagram.com/onesixty1/"
+      },
+      "src": "/images/plants/alocasia-zebrina-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantciaraddict",
+        "link": "https://www.instagram.com/plantciaraddict/"
+      },
+      "src": "/images/plants/alocasia-zebrina-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "gro_wit_joe",
+        "link": "https://www.instagram.com/gro_wit_joe/"
+      },
+      "src": "/images/plants/alocasia-zebrina-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "gro_wit_joe",
+        "link": "https://www.instagram.com/gro_wit_joe/"
+      },
+      "src": "/images/plants/alocasia-zebrina-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "irisplants",
+        "link": "https://www.instagram.com/irisplants/"
+      },
+      "src": "/images/plants/alocasia-zebrina-12.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Plnts",
+      "href": "https://plnts.com/product/alocasia-zebrina/",
+      "lowestPrice": {
+        "amount": 26.95,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}

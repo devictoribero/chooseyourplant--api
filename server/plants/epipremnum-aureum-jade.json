@@ -1,0 +1,148 @@
+{
+  "isTrendy": false,
+  "slug": "epipremnum-aureum-jade",
+  "latinName": "Epipremnum Aureum Jade",
+  "mostCommonName": "Jade Pothos",
+  "names": ["Jade Pothos", "Pothos", "Devil's Ivy"],
+  "description": [
+    "Epipremnum Aureum Jade is a tropical trailing plant native to Southeast Asia that tolerates low light conditions and does best in bright light.",
+    "Pothos is one of the easiest and best indoor plants that purify the air with its green heart-shaped foliage. It removes chemicals from the air such as formaldehyde, trichloroethene, toluene, xylene, and benzene and is recommended for living rooms, bedrooms and offices.",
+    "It's a fast-growing plant climbs through trees and surfaces to grow healthier and longer thanks to its aerial roots.",
+    "Epipremnum aureum is mildly toxic if ingested, so find a spot for it far from cats, dogs, and children."
+  ],
+  "family": "araceae",
+  "plantVariety": "pothos",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Epipremnum Aureum Jade tolerates low light conditions but its growth will be slowed down. If you want to see your Jade pothos growing fast and healthy give it as much bright light as possible by placing it next to a south or east-facing window.",
+    "Make sure your jade pothos is not under direct sunlight for long periods of time or it will burn its leaves, so if you place it in porches or next to a sunny window, make sure to filter the light most of the time."
+  ],
+  "waterExplanation": [
+    "Water your Jade pothos every time the top inch is dried, but don't over water it because their roots rot easily. To avoid over watering you can use terracotta or porous materials.",
+    "The best practice for watering a pothos is to do it slowly so water doesn't run down the outside of the root ball and making sure the central part is watered."
+  ],
+  "humidityExplanation": [
+    "Epipremnum Aureum Jade does okay in average room humidity (around 40% relative humidity) or higher. Brown leaves could be an indicator of low humidity."
+  ],
+  "fertilizerExplanation": [
+    "You can use diluted regular houseplant fertilizer once a month or during the growing season of spring through early fall. Too much plant food causes excess salt build up in the soil that can result in leaf burn."
+  ],
+  "tips": [
+    "The leaves tend to face towards the way of light, so rotate your plant on a regular basis.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Use a totem to make your pothos climb.",
+    "Epipremnum Aureum Jade is an ideal plant for a bright bathroom.",
+    "All pothos look amazing hanging somewhere, try it!",
+    "Terracotta pots help to avoid over-watering"
+  ],
+  "growth": "moderate",
+  "heightCm": 100,
+  "spreadCm": 60,
+  "leafSize": "medium",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": true,
+  "isClimber": true,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bathroom", "bedroom", "office"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "seven_stems",
+        "link": "https://www.instagram.com/seven_stems/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "mygreengreens",
+        "link": "https://www.instagram.com/mygreengreens/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "coras_jungle",
+        "link": "https://www.instagram.com/coras_jungle/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "botanicalgram",
+        "link": "https://www.instagram.com/botanicalgram/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "growingplantsandi_",
+        "link": "https://www.instagram.com/growingplantsandi_/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "my_urban_oasis",
+        "link": "https://www.instagram.com/my_urban_oasis/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "lovethemplantsnz",
+        "link": "https://www.instagram.com/lovethemplantsnz/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "botanicals_by_bonja_",
+        "link": "https://www.instagram.com/botanicals_by_bonja_/"
+      },
+      "src": "/images/plants/epipremnum-aureum-jade-8.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=AfSkfg2VRR8",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=qo4IQriL6Ew",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=hvxr33K9jdU",
+      "author": {
+        "name": "Keisha Adinkra",
+        "link": "https://www.youtube.com/channel/UCbS9AxqQPU8Hy_g2zP1ObWw"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/jade-pothos",
+      "lowestPrice": {
+        "amount": 22.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

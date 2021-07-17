@@ -1,0 +1,50 @@
+{
+  "slug": "tillandsia-capitata",
+  "latinName": "Tillandsia Capitata",
+  "names": ["Air Plant"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "advanced",
+  "light": ["bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 8,
+  "spreadCm": 10,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "Morningwood Growers",
+        "link": "https://www.morningwoodgrowers.com"
+      },
+      "src": "https://www.morningwoodgrowers.com/images/stories/virtuemart/product/morningwood_growers_air plant_tillandsia_argentea_thin_leaf_fuchsii_side.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/argentea/",
+      "lowestPrice": {
+        "amount": 3.99,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "isTrendy": true,
+  "slug": "monstera-deliciosa",
+  "latinName": "Monstera Deliciosa",
+  "mostCommonName": "Monstera Deliciosa",
+  "names": ["Swiss cheese plant", "Mexican Plant", "Hurricane plant"],
+  "description": [
+    "Monstera Deliciosa is recognizable by its large, glossy unique green leaves with deep splits and holes called fenestrations that appear when the plant matures.",
+    "Monsteras are climbing plants native to southern Mexico and Central America that use its aerial roots to cling to large trees, so you should provide it with moss-covered support sticks or a trellis. If its aerial roots get unruly you can trim them, but it’s best to just tuck them back into the pot.",
+    "Monsteras are toxic if ingested, so think it twice before getting one if you have cats, dogs or children."
+  ],
+  "family": "araceae",
+  "plantVariety": "monstera",
+  "difficulty": "intermediate",
+  "light": ["bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Monstera Deliciosa will grow best and fast in a bright but indirect place, but can survive in low light conditions, but you may notice leggy growth as a result.",
+    "There is no excuse to have one because they can grow almost everywhere in your house!"
+  ],
+  "waterExplanation": [
+    "You should water your Monstera Deliciosa when its soil becomes dry to a half finger depth because they love humid soil (usually once per week, but it depends on how much light it receives and the type of soil on which you planted it).",
+    "It's better to underwatering your plants rather than overwatering because roots can rot easily and this might kill the plant."
+  ],
+  "humidityExplanation": [
+    "This plant will thrive in almost any environment, but it loves a humid environment so if you want to give it a special treat, gently mist it once a week. It’s best to mist your Monstera in the morning so the water has plenty of time to evaporate before the evening."
+  ],
+  "fertilizerExplanation": [
+    "Monstera is a slow grower, but during the spring and summer months you can use an organic fertilizer on it once a month to encourage new growth."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Don't let your Monstera remain in the water.",
+    "Monstera Deliciosa roots are not the type of roots that damage walls or surfaces.",
+    "Rotate your Monstera Deliciosa periodically.",
+    "Use totems or structures to let it climb so it can grow even bigger."
+  ],
+  "growth": "moderate",
+  "heightCm": 500,
+  "spreadCm": 500,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": true,
+  "isClimber": true,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "Palm Nursery",
+        "link": "https://www.palmnursery.com.au"
+      },
+      "src": "/images/plants/monstera-deliciosa-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "le.jardin_deden",
+        "link": "https://www.instagram.com/le.jardin_deden/"
+      },
+      "src": "/images/plants/monstera-deliciosa-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "rooted.wilderness",
+        "link": "https://www.instagram.com/rooted.wilderness/"
+      },
+      "src": "/images/plants/monstera-deliciosa-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "vintage__apartment",
+        "link": "https://www.instagram.com/vintage__apartment/"
+      },
+      "src": "/images/plants/monstera-deliciosa-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "livinlavidalewis",
+        "link": "https://www.instagram.com/livinlavidalewis/"
+      },
+      "src": "/images/plants/monstera-deliciosa-5.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": true,
+      "shop": "Cellar Door Plants",
+      "href": "https://shrsl.com/31pyi",
+      "lowestPrice": {
+        "amount": 12.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": true,
+      "shop": "The Sill",
+      "href": "https://shrsl.com/308nb",
+      "lowestPrice": {
+        "amount": 57,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/philodendron-monstera-split-leaf",
+      "lowestPrice": {
+        "amount": 16.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Babygreens",
+      "href": "https://www.babygreens.co/products/monstera",
+      "lowestPrice": {
+        "amount": 69,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "isTrendy": false,
+  "slug": "sansevieria-trifasciata-black-robusta",
+  "latinName": "Sansevieria Trifasciata Black Robusta",
+  "mostCommonName": "Sansevieria Black Robusta",
+  "names": [
+    "Sansevieria Black Robusta",
+    "Snake Plant",
+    "Robusta Snake Plant",
+    "Mother's Tongue",
+    "African Spear",
+    "Magic Sword"
+  ],
+  "description": [
+    "Sansevieria Trifasciata Black Robusta is a hardy drought-tolerant plant with long, broad leaves commonly confused with Sansevieria Black Coral.",
+    "Because of their adaptability and tolerance, its catalog as a beginner, low light plants that makes it perfect for offices. Their broad leaves soak up toxins and carbon dioxide and produce oxygen to help purify the air in the room.",
+    "Unfortunately for a lot of people, snake plants are not safe for cats or dogs because they are mildly toxic if ingested. A good practice to keep your pet safe with toxic plants around is to provide him some weed to purge himself. With that, he will not need to eat other plants."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "snake plant",
+  "origins": ["Africa"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Sansevieria Black Robusta has become popular for being a plant that grows in low light conditions even though it prefers bright light like most of the plants. Snake plants are hardy, tough plants that can survive almost everywhere and that's why it makes it a perfect office plant."
+  ],
+  "waterExplanation": [
+    "Snake Plant originate from arid deserts and do well in sandier soils. They can easily rot so make sure the soil is well-drained and don’t water it too much (especially in winter). Don't let your sansevieria sit in water for too long and allow the soil to dry in between waterings.",
+    "To identify when the soil is completely dry, I like put a stick into the soil to see if when taking it out is humid or not."
+  ],
+  "humidityExplanation": [
+    "Sansevieria Black Robusta does well in average room humidity, but don't hesitate in increasing it if you like, it will love it."
+  ],
+  "fertilizerExplanation": [
+    "Sansevieria Trifasciata Black Robusta doesn’t need much fertilizer, but they will grow more if you fertilize them during their growing season in the spring and summer. Use a basic fertilizer for houseplants and only add it every few weeks or every other watering."
+  ],
+  "tips": [
+    "Maximize the Sansevieria growth by placing it in bright light and feeding it during the summer season.",
+    "Wipe the leaves with a damp cloth to remove the dust.",
+    "Before watering your snake plant make sure most of the soil has dried out.",
+    "Sansevieria is one of the best air purifiers plants, place it in your bedroom or living room.",
+    "Use snake plants to decorate your office."
+  ],
+  "growth": "slow",
+  "heightCm": 60,
+  "spreadCm": 60,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "spaces": ["bedroom", "living room"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": null,
+      "src": "/images/plants/sansevieria-trifasciata-black-robusta-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vZwIRORXwVU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0N44F_gLtAE",
+      "author": {
+        "name": "delaplants",
+        "link": "https://www.instagram.com/delaplants"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=k86DsC3tc3w",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    }
+  ],
+  "productLinks": []
+}

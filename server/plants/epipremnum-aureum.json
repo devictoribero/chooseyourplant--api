@@ -1,0 +1,190 @@
+{
+  "isTrendy": true,
+  "slug": "epipremnum-aureum",
+  "latinName": "Epipremnum Aureum",
+  "mostCommonName": "Golden Pothos",
+  "names": ["Golden Pothos", "Pothos", "Devil's Ivy"],
+  "description": [
+    "Epipremnum Aureum is one of the most common indoor plants because of its hardiness and adaptability to low light conditions. Golden Pothos is a trailing plant originally from Southeastern Asia with green heart-shaped leaves that look beautiful as a hanging plant.",
+    "Its beauty's not the only reason people love it. Epipremnum Aureum is a low-maintenance plant recommended for beginners and travelers that is difficult to kill. In addition, pothos is one of the best office plants because they grow in artificial light and mentioned by NASA as one of the best air purifier plants on earth.",
+    "Golden pothos grows super fast in bright light, so you can propagate often and experiment with them by hanging or let them go wild by trailing surfaces.",
+    "Be aware that Epipremnum Aureum is mildly toxic if ingested so put it far from cats, dogs and children."
+  ],
+  "family": "araceae",
+  "plantVariety": "pothos",
+  "origins": ["asia"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Epipremnum Aureum tolerates low light conditions but its growth is slowed down. It's one of the plants that grow quickly in bright light, so you can propagate it often.",
+    "Golden pothos is one of the recommended office plants because it can grow in artificial light.",
+    "If you have pothos as a hanging plant make sure the light hits the top of the plant and not only the hanging part or it will start to lose its leaves."
+  ],
+  "waterExplanation": [
+    "Pothos are plants that like moist soil at all times, but be careful not to water them too much or their roots will rot. Also keep in mind that if your plant is in a dry place and receives a lot of light, it will need more water than if it is in a humid place with an average temperature. Therefore, it reduces the risks in winter in order not to drown it.",
+    "Water your Epipremnum Aureum whenever the top of the soil is dry, and water it until it drains water out of the pot drain hole. In case of not having a hole, be careful about the amount of water you add to it or soil will become soggy and its roots will rot.",
+    "Terracotta pots are recommended because they absorb moisture and water from the soil, so this will help if you are someone who is used to water plants too much."
+  ],
+  "humidityExplanation": [
+    "Epipremnum Aureum does okay in average room humidity (around 40% relative humidity) or higher. Brown leaves could be an indicator of low humidity.",
+    "The most efficient way to increase humidity is to group your plants or use a humidifier. Some people recommend misting its leaves but it just gives a momentaneous humidity."
+  ],
+  "fertilizerExplanation": [
+    "Pothos are not big feeders but you can fertilize your Epipremnum Aureum once per month during summer with a balanced liquier fertilizer diluted in water. In winter is not recommended to fertilize."
+  ],
+  "tips": [
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Golden pothos is a beautiful hanging plant, try it!",
+    "Use a totem to make your pothos climb.",
+    "Epipremnum Aureum is an ideal plant for a bright bathroom.",
+    "Golden pothos is a plant for low light rooms."
+  ],
+  "growth": "slow",
+  "heightCm": 100,
+  "spreadCm": 60,
+  "leafSize": "medium",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": true,
+  "isClimber": true,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bathroom", "bedroom", "office"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "just.plantsnz",
+        "link": "https://www.instagram.com/just.plantsnz"
+      },
+      "src": "/images/plants/epipremnum-aureum-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantekrok",
+        "link": "https://www.instagram.com/plantekrok"
+      },
+      "src": "/images/plants/epipremnum-aureum-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "alohafromoahu",
+        "link": "https://www.instagram.com/alohafromoahu"
+      },
+      "src": "/images/plants/epipremnum-aureum-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "spiritisgreen",
+        "link": "https://www.instagram.com/spiritisgreen"
+      },
+      "src": "/images/plants/epipremnum-aureum-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "theplantbbs",
+        "link": "https://www.instagram.com/theplantbbs"
+      },
+      "src": "/images/plants/epipremnum-aureum-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "pflanzensuechtig",
+        "link": "https://www.instagram.com/pflanzensuechtig"
+      },
+      "src": "/images/plants/epipremnum-aureum-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "hhidoorplant",
+        "link": "https://www.instagram.com/hhidoorplant"
+      },
+      "src": "/images/plants/epipremnum-aureum-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "planteeventyret",
+        "link": "https://www.instagram.com/planteeventyret"
+      },
+      "src": "/images/plants/epipremnum-aureum-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "inaplantfrenzy",
+        "link": "https://www.instagram.com/inaplantfrenzy"
+      },
+      "src": "/images/plants/epipremnum-aureum-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "sweettropicalroom",
+        "link": "https://www.instagram.com/sweettropicalroom"
+      },
+      "src": "/images/plants/epipremnum-aureum-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "manta_plantmama",
+        "link": "https://www.instagram.com/manta_plantmama"
+      },
+      "src": "/images/plants/epipremnum-aureum-11.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=AfSkfg2VRR8",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=qo4IQriL6Ew",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=hvxr33K9jdU",
+      "author": {
+        "name": "Keisha Adinkra",
+        "link": "https://www.youtube.com/channel/UCbS9AxqQPU8Hy_g2zP1ObWw"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": true,
+      "shop": "Cellar Door Plants",
+      "href": "https://shrsl.com/31pym",
+      "lowestPrice": {
+        "amount": 10.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/golden-pothos",
+      "lowestPrice": {
+        "amount": 12.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Babygreens",
+      "href": "https://www.babygreens.co/products/pothos-golden",
+      "lowestPrice": {
+        "amount": 19.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

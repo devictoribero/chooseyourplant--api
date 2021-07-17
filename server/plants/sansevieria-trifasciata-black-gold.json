@@ -1,0 +1,146 @@
+{
+  "isTrendy": false,
+  "slug": "sansevieria-trifasciata-black-gold",
+  "latinName": "Sansevieria Trifasciata Black Gold",
+  "mostCommonName": "Sansevieria Black Gold",
+  "names": [
+    "Sansevieria Black Gold",
+    "Snake Plant",
+    "Mother's Tongue",
+    "African Spear",
+    "Magic Sword"
+  ],
+  "description": [
+    "Sansevieria Trifasciata Black Gold is an easy plant thanks to its hardiness and low-maintenance that suits everyone. In special, it's a recommended plant for beginners and travelers because it doesn't need much attention.",
+    "Sansevieria Back Gold is a drought-tolerant plant, it means it can long without water for a while. In addition, snake plants can tolerate a large range of light intensities from low light (where they will survive but won't grow much) to full sun. Bright indirect light is what suits best to a sansevieria as a houseplant.",
+    "Its leaves are green about 1 meter high and are edged in gold. #SnakePlants are good bedroom and office plants because they are air purifiers. Sansevierias improve the quality of the air by removing toxins",
+    "Be extra careful if there are pets and children around because sansevierias are toxic if ingested."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "snake plant",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Sansevieria Black Coral likes bright light, but it tolerates low light conditions even though its growth is slowed. Snake plants are perfect as office plants because they can live with artificial light as well."
+  ],
+  "waterExplanation": [
+    "The Sansevieria Trifasciata Black Gold requires little water to survive because is a drought-tolerant plant. You should only water it when the soil in the pot is completely dry.",
+    "Reduce the amount of water you give to your Sansevieria Black Gold during winter to avoid over-watering because it's the most common reason for its death. It is recommended to use a porous pot instead of a plastic pot so it takes the humidity.",
+    "Check every two weeks if your Snake Plants need to be watered by raising the plant. If it's heavy, give it a week more. If it's light, check it by sticking a wooden stick into the soil to see how wet it is."
+  ],
+  "humidityExplanation": [
+    "Snake plants do not require high humidity, but they will love it. Some good practices to increase humidity are to group the plants, use a humidifier, put a glass of water, etc."
+  ],
+  "fertilizerExplanation": [
+    "Snake Plants don't need fertilization to do well, but you can feed them twice a year with a general purpose plant food."
+  ],
+  "tips": [
+    "Place your snake plant in the living room and bedrooms because it removes air toxins.",
+    "Sansevieria Trifasciata Black Gold is not safe for cats or dogs because is mildly toxic if ingested.",
+    "If the leaves are drooping it's because you're over-watering it, let it dry for a while and it will recover.",
+    "It is better to underwatering than overwatering your snake plant.",
+    "Use a pot that has good drainage, such as a terracotta pot or one made with some porous material."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 50,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom", "living room"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "coracoesemaranhados",
+        "link": "https://www.instagram.com/coracoesemaranhados/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-black-gold-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "houseplant.hobbyist",
+        "link": "https://www.instagram.com/houseplant.hobbyist/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-black-gold-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "eastcoastplantlife",
+        "link": "https://www.instagram.com/eastcoastplantlife/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-black-gold-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "golpooneh.moh",
+        "link": "https://www.instagram.com/golpooneh.moh/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-black-gold-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "hellaplantsmama",
+        "link": "https://www.instagram.com/hellaplantsmama/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-black-gold-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "theplantchronicles",
+        "link": "https://www.instagram.com/theplantchronicles/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-black-gold-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "lara_plants",
+        "link": "https://www.instagram.com/lara_plants/"
+      },
+      "src": "/images/plants/sansevieria-trifasciata-black-gold-2.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vZwIRORXwVU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0N44F_gLtAE",
+      "author": {
+        "name": "delaplants",
+        "link": "https://www.instagram.com/delaplants"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=k86DsC3tc3w",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/collections/buy-snake-plants-online-garden-goods-direct/products/snake-plant-black-gold",
+      "lowestPrice": {
+        "amount": 34.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

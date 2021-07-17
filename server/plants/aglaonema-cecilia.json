@@ -1,0 +1,62 @@
+{
+  "slug": "aglaonema-cecilia",
+  "latinName": "Aglaonema Cecilia",
+  "names": ["Chinese Evergreen", "Cecilia"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "aglaonema",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Aglaonema Cecilia is so easy to grow because it thrives in low light conditions. While you don’t want to grow your Chinese Evergreen or any plant in a completely dark room, it does do well in rooms that barely get any sunlight at all or that are lit by artificial lighting."
+  ],
+  "waterExplanation": [
+    "Aglaonemas like to dry out between waterings, so feel the soil with your finger a few inches down to ensure it isn’t moist right beneath the surface.",
+    "If your plant is in a bright location, then you will want to water it when the soil is dry halfway down the pot.",
+    "If you have your plant in fluorescent or lower light conditions, then it’s best to let the soil dry out almost all the way to the bottom of the pot before watering thoroughly."
+  ],
+  "humidityExplanation": [
+    "Aglaonemas are from warm and humid places, but you don't have to recreate these conditions. Aglaonema Cecilia does well in average humidity conditions.",
+    "In case of living in a dry area or using air conditioning/heating, try to increase the humidity by misting it more often, grouping it with other plants or using a humidifier."
+  ],
+  "fertilizerExplanation": [
+    "Fertilize it one or twice a year during the growing season."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it far from cats, dogs and children because it causes mouth irritation."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 90,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": { "name": "Costafarms", "link": "http://www.costafarms.com" },
+      "src": "http://www.costafarms.com/CostaFarms/Aglaonema-Cecilia--Costa-Farms.jpg?height=257&width=256&scale=both&crop=auto"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=YW5dHqvALEk",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": []
+}

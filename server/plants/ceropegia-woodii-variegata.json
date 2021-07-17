@@ -1,0 +1,102 @@
+{
+  "isTrendy": true,
+  "slug": "ceropegia-woodii-variegata",
+  "latinName": "Ceropegia Woodii Variegata",
+  "mostCommonName": "String of Hearts Variegated",
+  "names": [
+    "String of Hearts Variegated",
+    "Chain of hearts",
+    "Hearts Entangled",
+    "Rosary Vine",
+    "Sweetheart Vine"
+  ],
+  "description": [
+    "The Ceropegia Woodii Variegata is a trailing plant native to South Africa with a delicate heart-shaped foliage and slender vines that can reach up to 12' long in its natural environment."
+  ],
+  "family": "apocynaceae",
+  "plantVariety": "aspidistra",
+  "origins": ["Africa"],
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Place your String of Hearts where it can receive plenty of bright indirect light. Small doses of direct sun are good, however too much direct sun can scorch the leaves."
+  ],
+  "waterExplanation": [
+    "In the active growth period water sparingly, just enough to make the potting mixture barely moist, allowing the top two-thirds of the potting mixture to dry out between waterings.",
+    "During winter, water very sparingly, just enough water to prevent the potting mixture from drying out completely."
+  ],
+  "humidityExplanation": [
+    "Needs a moist environment with above average humidity. Stand on a pebble tray to improve humidity and mist frequently. Pop it in the shower for a while to give it an occasional boost."
+  ],
+  "fertilizerExplanation": [
+    "Apply a slow release fertilizer once a month during the growing season."
+  ],
+  "tips": [
+    "Don't place this plant in low light conditions or it will lose its color.",
+    "Don't over water it, the roots are skinny and can get root rot.",
+    "Let it dry before watering again.",
+    "This plant is dormant during winter"
+  ],
+  "growth": "fast",
+  "heightCm": 60,
+  "spreadCm": 15,
+  "leafSize": "small",
+  "leafColorRange": "multiple",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": [],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "plantgirlonline",
+        "link": "https://www.instagram.com/plantgirlonline"
+      },
+      "src": "/images/plants/ceropegia-woodii-variegata-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=6EzCaDaiwLY",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=DfX8LKhbmmA",
+      "author": {
+        "name": "Crazy Plant Guy",
+        "link": "https://www.youtube.com/channel/UCtnUZGxN4m3zP1JhFXJlrsA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "SucculentsBox",
+      "href": "https://succulentsbox.com/products/string-of-hearts-plants-not-variegated-ceropegia-woodii-succulent-4?rfsn=5710048.d0f717",
+      "lowestPrice": {
+        "amount": 39,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/string-of-hearts-plant",
+      "lowestPrice": {
+        "amount": 9.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

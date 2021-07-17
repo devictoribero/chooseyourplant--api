@@ -1,0 +1,91 @@
+{
+  "isTrendy": false,
+  "slug": "spathiphyllum-domino",
+  "latinName": "Spathiphyllum Domino",
+  "mostCommonName": "Peace Lily Domino",
+  "names": ["Peace Lily", "White Sails", "Spathe Flower", "Spath"],
+  "description": [
+    "Domino Peace Lily is a variegated form of the common Peace Lily. This tough and easy to grow plant recommended for beginners has blotches of white all over each leaf.",
+    "Spathyllums are air purifier plants that remove toxins from the air, so they are perfect for bedrooms, living rooms, and offices.",
+    "Peace Lilies are well known for being a flowering plant all year, except if they are in low light conditions."
+  ],
+  "family": "araceae",
+  "plantVariety": "peace lily",
+  "origins": ["America", "Asia"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "The Peace Lily Domino is happy with moderate-bright light conditions.",
+    "We don't recommend you to place this Peace Lily in low light spots because variegated plants need more sunlight to survive due to their leaves have less chlorophyll than a regular plant. Keep your Spathiphyllum Domino in a bright indirect spot."
+  ],
+  "waterExplanation": [
+    "It's easy to know when a Peace Lily is thirsty because its leaves will look droop. Water your Spathiphyllum Domino frequently because they like to be moist, but once per week is more than enough in case it receives plenty of light.",
+    "Spathiphyllum is sensible to chlorine so you better use filtered water or leave your tap water out for 24+ hours so the chlorine breaks down or its leaves will start to look bad."
+  ],
+  "humidityExplanation": [
+    "Peace Lilies do well in average humidity conditions. If you want them to be super happy, you can increase the humidity by misting its leaves, grouping it with other plants or using a humidifier."
+  ],
+  "fertilizerExplanation": [
+    "You don't need to fertilize your Peace Lily, but in case you want, feed it during the growing season (spring and summer) using a 20-20-20 fertilizer.",
+    "If you notice the tips of the leaves and blooms turning brown, you’ve probably over-fertilized."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it far from cats, dogs and children because it causes mouth irritation.",
+    "Use filtered water or tap water free of chlorine."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 120,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": true,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom", "bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "White Flower Farm",
+        "link": "https://www.whiteflowerfarm.com"
+      },
+      "src": "/images/plants/spathiphyllum-domino-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=i85tT_EURwY",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ufnKr4RmYus",
+      "author": {
+        "name": "Harli G",
+        "link": "https://www.youtube.com/channel/UCPlDlUEtyrOwDXOpIs36b3g"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/domino-peace-lily",
+      "lowestPrice": {
+        "amount": 26.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

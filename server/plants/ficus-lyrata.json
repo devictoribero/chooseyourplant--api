@@ -1,0 +1,265 @@
+{
+  "isTrendy": true,
+  "slug": "ficus-lyrata",
+  "latinName": "Ficus Lyrata",
+  "mostCommonName": "Fiddle Leaf Fig",
+  "names": ["Fiddle Leaf Fig"],
+  "description": [
+    "Ficus Lyrata commonly known as Fiddle Leaf Fig is a ficus that has become very popular in recent years thanks to how elegant and beautiful it is, the large size of its leaves, and how easy it is to take care of it.",
+    "The ficus Lyrata is a tree native to West Africa that grows in the rain forest and, like all plants, will increase in size as we give it more room to grow, reaching up to 10 meters. Its leaves are a uniform green color, soft and can measure up to 8 inches.",
+    "Fiddle Leaf Fig is a little more delicate than Ficus Elastica because it needs more light, is more sensitive to water, and is used to losing leaves.",
+    "If you have pets or small children be careful because it is toxic when ingested. That does not mean that you cannot have it, but it does mean that you must exercise extreme caution or attention."
+  ],
+  "family": "moraceae",
+  "plantVariety": "ficus",
+  "origins": ["Africa"],
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Ficus Lyrata grows in a range of light conditions, from full sun to partial shade, but will not do well in deep shade, so avoid low-light conditions.",
+    "Think that in the wild it receives plenty of direct sunlight, so as far as it has enough soil and space to grow, it will en enough. If you have your Fiddle Leaf Fig indoors, it's recommended to filter the light because the space to grow is limited, so it's easy that the leaves get burned out.",
+    "Rotation is also key! You will quickly notice your Lyrata will tend to bend and reach towards the light. Rotate the plant so it needs to bend the opposite way. This will ensure it grows tall and straight."
+  ],
+  "waterExplanation": [
+    "Like all plants, your Ficus Lyrata requires water to survive. However, this tree is native to Africa, so it doesn't need the same amount of water as an Amazon tree. Too much water will kill it.",
+    "The best practice is to stick your fingers a few inches into the ground to see how dry or wet it is. If the soil is dry a few inches below, go ahead and water your Lyrata with room temperature water. If you feel the soil is wet, wait to water until the soil is dry because it's better to underwatering than overwatering",
+    "Do not allow your Lyrata to remain in the water for more than a day or two. New growth turns black and green leaves fall off from overwatering. Leaves become brown and crunchy, drop off, and may turn yellow when the plant needs water."
+  ],
+  "humidityExplanation": [
+    "Ficus Lyrata does okay in average room humidity and doesn't need a high humidity. In case you live in a dry zone, try to elevate your humidity to 40-50% which is the average worldwide.",
+    "You can increase the humidity by grouping plants, using a humidifier or placing your plant into a bathroom."
+  ],
+  "fertilizerExplanation": [
+    "The safest and easiest fertilizer for your Ficus Lyrata is to use is a good liquid fertilizer. You’ll want to dilute the fertilizer to avoid overfeeding your plant and water it once every two weeks at most with that dilution.",
+    "Don't feed your ficus in the winter, so it can rest and save energy for the next growing season"
+  ],
+  "tips": [
+    "You must rotate periodically your Ficus Lyrata if placed indoors.",
+    "You should water your Fiddle Leaf Fig If the leaves are crispy.",
+    "You are overwatering it if new growth turns black or green leaves fall off.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "You can trim some leaves of your ficus to make it look a rounded small tree.",
+    "Pay attention to your pets, because Fiddle Leaf Fig is toxic if ingested."
+  ],
+  "growth": "moderate",
+  "heightCm": 2000,
+  "spreadCm": 1000,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "spaces": ["living room"],
+  "isHanging": false,
+  "images": [
+    { "owner": null, "src": "/images/plants/ficus-lyrata-1.jpg" },
+    {
+      "owner": {
+        "name": "plant_je_plant",
+        "link": "https://www.instagram.com/plant_je_plant/"
+      },
+      "src": "/images/plants/ficus-lyrata-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "ashcanplant",
+        "link": "https://www.instagram.com/ashcanplant/"
+      },
+      "src": "/images/plants/ficus-lyrata-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "berrykinn",
+        "link": "https://www.instagram.com/berrykinn/"
+      },
+      "src": "/images/plants/ficus-lyrata-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "kmplants",
+        "link": "https://www.instagram.com/kmplants/"
+      },
+      "src": "/images/plants/ficus-lyrata-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantidecor.es",
+        "link": "https://www.instagram.com/plantidecor.es/"
+      },
+      "src": "/images/plants/ficus-lyrata-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "that_botanical_life",
+        "link": "https://www.instagram.com/that_botanical_life/"
+      },
+      "src": "/images/plants/ficus-lyrata-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "hammershave",
+        "link": "https://www.instagram.com/hammershave/"
+      },
+      "src": "/images/plants/ficus-lyrata-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "khimyogaandplants",
+        "link": "https://www.instagram.com/khimyogaandplants/"
+      },
+      "src": "/images/plants/ficus-lyrata-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "glam_plantsmx",
+        "link": "https://www.instagram.com/glam_plantsmx/"
+      },
+      "src": "/images/plants/ficus-lyrata-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "botanike",
+        "link": "https://www.instagram.com/botanike/"
+      },
+      "src": "/images/plants/ficus-lyrata-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "kzaplnta",
+        "link": "https://www.instagram.com/kzaplnta/"
+      },
+      "src": "/images/plants/ficus-lyrata-12.jpg"
+    },
+    {
+      "owner": {
+        "name": "lenaxplants",
+        "link": "https://www.instagram.com/lenaxplants/"
+      },
+      "src": "/images/plants/ficus-lyrata-13.jpg"
+    },
+    {
+      "owner": {
+        "name": "minplanteverden",
+        "link": "https://www.instagram.com/minplanteverden/"
+      },
+      "src": "/images/plants/ficus-lyrata-14.jpg"
+    },
+    {
+      "owner": {
+        "name": "casacomdois",
+        "link": "https://www.instagram.com/casacomdois/"
+      },
+      "src": "/images/plants/ficus-lyrata-15.jpg"
+    },
+    {
+      "owner": {
+        "name": "pottedjungleto",
+        "link": "https://www.instagram.com/pottedjungleto/"
+      },
+      "src": "/images/plants/ficus-lyrata-16.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantasis",
+        "link": "https://www.instagram.com/plantasis/"
+      },
+      "src": "/images/plants/ficus-lyrata-17.jpg"
+    },
+    {
+      "owner": {
+        "name": "junglaurbanacr",
+        "link": "https://www.instagram.com/junglaurbanacr/"
+      },
+      "src": "/images/plants/ficus-lyrata-18.jpg"
+    },
+    {
+      "owner": {
+        "name": "tenhoevegardens",
+        "link": "https://www.instagram.com/tenhoevegardens/"
+      },
+      "src": "/images/plants/ficus-lyrata-19.jpg"
+    },
+    {
+      "owner": {
+        "name": "the.plant.market",
+        "link": "https://www.instagram.com/the.plant.market/"
+      },
+      "src": "/images/plants/ficus-lyrata-20.jpg"
+    },
+    { "owner": null, "src": "/images/plants/ficus-lyrata-21.jpg" }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=IcdXYNJU9qs",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=J1WuOHdRepY",
+      "author": {
+        "name": "Betsy Begonia",
+        "link": "https://www.youtube.com/channel/UCRjGbWm25MaUd3VLuJpPtYg"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=mZiNPElrsBA",
+      "author": {
+        "name": "PLANTERINA",
+        "link": "https://www.youtube.com/channel/UCUIdHDKQIy-vr-D7M6KuRUQ"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=C7nmMRUIoMw",
+      "author": {
+        "name": "Garden Answer",
+        "link": "https://www.youtube.com/user/gardenanswer"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": true,
+      "shop": "Cellar Door Plants",
+      "href": "https://shrsl.com/31pyl",
+      "lowestPrice": {
+        "amount": 9.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": true,
+      "shop": "The Sill",
+      "href": "https://shrsl.com/31psb",
+      "lowestPrice": {
+        "amount": 85,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/fiddle-leaf-fig-tree-real",
+      "lowestPrice": {
+        "amount": 19.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Babygreens",
+      "href": "https://www.babygreens.co/products/fiddle-leaf-fig",
+      "lowestPrice": {
+        "amount": 23.95,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}

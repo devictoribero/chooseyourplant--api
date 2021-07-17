@@ -1,0 +1,170 @@
+{
+  "isTrendy": false,
+  "slug": "aspidistra-elatior",
+  "latinName": "Aspidistra Elatior",
+  "mostCommonName": "Cast Iron Plant",
+  "names": ["Cast Iron Plant"],
+  "description": [
+    "Aspidistra Elatior is a hardy plant easy for beginners due to its low maintenance. It is originally from Asia and is a recommended plant for travelers because it is a drought-tolerant plant.",
+    "The Cast Iron Plant has dark green leaves and can slowly grow up to 90cm. It's common to use it as an office plant because it tolerates all ranges of light conditions.",
+    "Cast Iron plants are safe for cats, dogs, and children because it's not toxic."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "aspidistra",
+  "origins": ["Asia"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Aspidistra Elatior is one of the hardiest plants in the market and it's recommended plant for beginners because it can tolerate many light and temperature ranges.",
+    "The Cast Iron Plant survives to low light conditions even artificial, so it's a good office plant. Having it in those conditions will be happy without a lot of effort from you but it will grow slowly.",
+    "If you want your Aspidistra Elatior to grow fast and big, provide it a bright light far from direct sunlight or its leaves will burn."
+  ],
+  "waterExplanation": [
+    "At first, watering your plant will be difficult until you get used to it. Aspidistra needs a soil that is not too dry nor soaked because in nature it receives water occasionally. You'll have to keep the soil moist but not soggy.",
+    "Water your Aspidistra Elatior often but make sure the soil is almost completely dry before pouring water again. If you ever forgot to give it water, don't worry because the Cast Iron Plant is drought-tolerant.",
+    "The amount of water is directly related to the amount of light it receives, so in low light conditions and in winter you'll have to just water it a bit or its roots will rot and cause death."
+  ],
+  "humidityExplanation": [
+    "Aspidistra does handle dry air and low humidity but does best with some air moisture. So it's easy to combine Aspidistra with other plants."
+  ],
+  "fertilizerExplanation": [
+    "Fertilize your aspidistra once a year if it is in low light conditions and once every three months otherwise. Do not fertilize it in winter"
+  ],
+  "tips": [
+    "Don't place your Aspidistra Elatior in direct sunlight.",
+    "Water your Cast Iron Plant only when its soil has dried almost completely.",
+    "Aspidistra Elatior are good office plants because they survive low light conditions even artificial.",
+    "Wipe the leaves with a damp cloth to remove dust."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 50,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": false,
+  "isRare": false,
+  "isPopular": true,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "spaces": [],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "k8andherplants",
+        "link": "https://www.instagram.com/k8andherplants"
+      },
+      "src": "/images/plants/aspidistra-elatior-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "small_forest_",
+        "link": "https://www.instagram.com/small_forest_"
+      },
+      "src": "/images/plants/aspidistra-elatior-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "botanicalsmh",
+        "link": "https://www.instagram.com/botanicalsmh"
+      },
+      "src": "/images/plants/aspidistra-elatior-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "joshuaplants_",
+        "link": "https://www.instagram.com/joshuaplants_"
+      },
+      "src": "/images/plants/aspidistra-elatior-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "potplant_studio",
+        "link": "https://www.instagram.com/potplant_studio"
+      },
+      "src": "/images/plants/aspidistra-elatior-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "the.plant.killer",
+        "link": "https://www.instagram.com/the.plant.killer/"
+      },
+      "src": "/images/plants/aspidistra-elatior-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "itsgreeneroverhere",
+        "link": "https://www.instagram.com/itsgreeneroverhere"
+      },
+      "src": "/images/plants/aspidistra-elatior-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "diy_by_m_and_j",
+        "link": "https://www.instagram.com/diy_by_m_and_j"
+      },
+      "src": "/images/plants/aspidistra-elatior-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "houseplanterr",
+        "link": "https://www.instagram.com/houseplanterr"
+      },
+      "src": "/images/plants/aspidistra-elatior-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "oscarsplantdaddy",
+        "link": "https://www.instagram.com/oscarsplantdaddy"
+      },
+      "src": "/images/plants/aspidistra-elatior-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "k8andherplants",
+        "link": "https://www.instagram.com/k8andherplants"
+      },
+      "src": "/images/plants/aspidistra-elatior-2.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=_kzBFZcgRVw",
+      "author": {
+        "name": "kraftgardens",
+        "link": "https://www.youtube.com/channel/UCXmgahQoiP9A_1Z0XTQkIEg"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=KYJHiejStQE",
+      "author": {
+        "name": "The Indoor Garden TV show",
+        "link": "https://www.youtube.com/channel/UCivrMn1xjK_fqPWfQWND91A"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/cast-iron-plant",
+      "lowestPrice": {
+        "amount": 29.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Patchplants",
+      "href": "https://www.patchplants.com/gb/en/plants/aspidistra-44/",
+      "lowestPrice": {
+        "amount": 20,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "alocasia-baginda",
+  "latinName": "Alocasia Baginda",
+  "mostCommonName": "Alocasia Silver Dragon",
+  "names": ["Alocasia Silver Dragon", "Elephant Ear Silver Dragon"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 45,
+  "spreadCm": 40,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "edenmcr",
+        "link": "https://www.instagram.com/edenmcr/"
+      },
+      "src": "/images/plants/alocasia-baginda-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Plnts",
+      "href": "https://plnts.com/product/alocasia-silver-dragon/",
+      "lowestPrice": {
+        "amount": 5.95,
+        "currency": { "name": "Euro", "iso": "EUR", "symbol": "€" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "isTrendy": false,
+  "slug": "alocasia-rugosa",
+  "latinName": "Alocasia Melo",
+  "mostCommonName": "Alocasia Melo",
+  "names": ["Alocasia Rugosa", "Elephant Ear"],
+  "description": [
+    "Alocasia Melo is an exotic plant native to the Southeast Asian forests, specifically Indonesia, which tends to grow in rocky terrain, unlike other alocasias. This alocasia is considered a small plant because although in nature it can grow up to 23 inches in height, as a houseplant it is not usual, and does not exceed 15 inches approximately.",
+    "Alocasia Melo is commonly known as Alocasia Rugosa for its unique foliage. Its leaves are green, large, and thick with a rough texture that makes it look like an artificial plant. Alocasias grow in tropical forests in the shade of higher vegetation, which is why it should not be given direct sunlight.",
+    "If you have animals or children, you must take extreme precautions because alocasias are toxic plants when ingested."
+  ],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Alocasia Rugosa is a plant that should not receive direct sunlight despite having thick leaves. In its natural habitat, direct sunlight is filtered by trees and plants that are taller than it.",
+    "Indirect and bright light is the best condition for Alocasia Melo to grow strong and healthy because it is the closest thing to its natural habitat. Avoid low light conditions."
+  ],
+  "waterExplanation": [
+    "Alocasia Melo grows around the stones which means that they don’t like much water to reach their roots. well-draining soil is a must.",
+    "Water the plant moderately after the upper 2 inches of the soil gets dry. In warm days, water your alocasia every two to three days. However, the water requirement of the majority of plants decreased in the winter.",
+    "Just like the majority of Alocasias, these plants don’t tolerate wet feet. Thus, avoid overwatering and never let the oil get soggy."
+  ],
+  "humidityExplanation": [
+    "High humidity is a must when growing an alocasia. The required humidity for Alocasia Melo is about 75%.",
+    "In dry environments, consider adding a humidifier in the surroundings. Moreover, you can try mild misting, pebble-water tray under the pot, or plant grouping."
+  ],
+  "fertilizerExplanation": [
+    "Give a monthly dose of common NPK fertilizer or some domestic houseplant mix in the growing season. You can simply dilute the fertilizer or use 1/3rd to half of the stated dose.",
+    "Nevertheless, Alocasias will not require any added nutrition in fall and winter."
+  ],
+  "tips": [
+    "Use well-draining soil because Alocasia Rugosa grows in rocky terrain.",
+    "Make sure you have high humidity before having an Alocasia or it will die.",
+    "You can increase your humidity with a humidifier and grouping plants",
+    "Bathrooms are good spots for alocasias because of the high humidity",
+    "Wipe the leaves with a damp cloth to remove dust.",
+    "Don't let direct sunlight hit the plant."
+  ],
+  "growth": "slow",
+  "heightCm": 60,
+  "spreadCm": 50,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "jamo______________",
+        "link": "https://www.instagram.com/jamo______________/"
+      },
+      "src": "/images/plants/alocasia-rugosa-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "plotting_mix",
+        "link": "https://www.instagram.com/plotting_mix/"
+      },
+      "src": "/images/plants/alocasia-rugosa-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "flowers.cactus",
+        "link": "https://www.instagram.com/flowers.cactus/"
+      },
+      "src": "/images/plants/alocasia-rugosa-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "bloomorgloom",
+        "link": "https://www.instagram.com/bloomorgloom/"
+      },
+      "src": "/images/plants/alocasia-rugosa-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "mossingarden",
+        "link": "https://www.instagram.com/mossingarden/"
+      },
+      "src": "/images/plants/alocasia-rugosa-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "houseplant_boy",
+        "link": "https://www.instagram.com/houseplant_boy/"
+      },
+      "src": "/images/plants/alocasia-rugosa-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "nurserybynea",
+        "link": "https://www.instagram.com/nurserybynea/"
+      },
+      "src": "/images/plants/alocasia-rugosa-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "lakeeffectplantlover",
+        "link": "https://www.instagram.com/lakeeffectplantlover/"
+      },
+      "src": "/images/plants/alocasia-rugosa-8.jpg"
+    },
+    {
+      "owner": null,
+      "src": "/images/plants/alocasia-rugosa-9.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/alocasia-maharani",
+      "lowestPrice": {
+        "amount": 15.26,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

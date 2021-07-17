@@ -1,0 +1,54 @@
+{
+  "slug": "fittonia-verschaffeltii",
+  "latinName": "Fittonia Verschaffeltii",
+  "names": [
+    "Nerve Plant",
+    "Fitonia",
+    "Jewel Plant",
+    "Silver Nerve",
+    "Mosaic Plant",
+    "Silver Threads"
+  ],
+  "description": [],
+  "family": "acanthaceae",
+  "plantVariety": "fittonia",
+  "difficulty": "advanced",
+  "light": ["moderate", "bright"],
+  "water": "frequent",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 15,
+  "spreadCm": 15,
+  "leafSize": "small",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "spaces": ["terrarium"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": null,
+      "src": "http://surroundedbycharms.com/wp-content/uploads/2019/03/ORG_DSC05645-3.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Plnts",
+      "href": "https://plnts.com/product/fittonia-verschaffeltii/",
+      "lowestPrice": {
+        "amount": 3.45,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}

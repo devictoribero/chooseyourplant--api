@@ -1,0 +1,102 @@
+{
+  "isTrendy": false,
+  "slug": "sansevieria-trifasciata-black-dragon",
+  "latinName": "Sansevieria Trifasciata Black Dragon",
+  "mostCommonName": "Sansevieria Black Dragon",
+  "names": [
+    "Sansevieria Black Dragon",
+    "Snake Plant Black Dragon",
+    "Mother's Tongue",
+    "African Spear",
+    "Magic Sword"
+  ],
+  "description": [
+    "Sansevieria Trifasciata Black Dragon is a variety of snake plant native to Africa that is almost indestructible because it survives in low light and is drought tolerant.",
+    "The snake plant is an easy plant that makes it ideal for beginners. Sansevieria Black Dragon is a rare variety with thick, non-dark, dark green leaves and compact shape.",
+    "Snake plants have become popular because it is an air purifying plant that filters toxins and they are highly recommended for improving air quality in both rooms, offices and living rooms."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "snake plant",
+  "origins": ["Africa"],
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Sansevieria Trifasciata Black Dragon survives in low light but its growth will be almost non-existent.",
+    "On the other hand, snake plants can also grow in direct sunlight, which makes it a plant that adapts to any house."
+  ],
+  "waterExplanation": [
+    "Sansevieria is a drought-tolerant plant, so it doesn't need so much water to grow happily. If you doubt about watering it or not, you better don't do it because Sansevieria Trifasciata Black Dragon is sensible to over-watering which will produce roots rot.",
+    "It’s best to let the soil of your Sansevieria Black Dragon dry out almost all the way to the bottom of the pot before watering thoroughly."
+  ],
+  "humidityExplanation": [
+    "Sansevieria Trifasciata Black Dragon grows well in average humidity but loves a slightly humid environment."
+  ],
+  "fertilizerExplanation": [
+    "Snake Plants don't need fertilization, but if you want to, do it twice a year with slow fertilizer."
+  ],
+  "tips": [
+    "Place your Sansevieria in your living room or bedrooms because it removes air toxins.",
+    "Sansevierias are mildly toxic if ingested, so put it away from cats, dogs, and children.",
+    "If the leaves are drooping it's because you're over-watering it, let it dry for a while and it will recover.",
+    "Raise your Snake Plant to know if you should water it or not. If it's heavy, you definitely shouldn't do it.",
+    "Use a pot that has good drainage, such as a terracotta pot or one made with some porous material.",
+    "Use well-draining soil and don't use universal soil only because it tends to become soggy."
+  ],
+  "growth": "slow",
+  "heightCm": 20,
+  "spreadCm": 10,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom", "living room"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": { "name": "Bakker", "link": "https://www.bakker.com" },
+      "src": "/images/plants/sansevieria-trifasciata-black-dragon-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vZwIRORXwVU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0N44F_gLtAE",
+      "author": {
+        "name": "delaplants",
+        "link": "https://www.instagram.com/delaplants"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=k86DsC3tc3w",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/collections/buy-snake-plants-online-garden-goods-direct/products/snake-plant-black-dragon",
+      "lowestPrice": {
+        "amount": 32.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

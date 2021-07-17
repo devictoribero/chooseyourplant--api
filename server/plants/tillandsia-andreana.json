@@ -1,0 +1,64 @@
+{
+  "slug": "tillandsia-andreana",
+  "latinName": "Tillandsia Andreana",
+  "names": ["Air Plant", "Head of Medusa"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 10,
+  "spreadCm": 15,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["terrarium", "bathroom"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": null,
+      "src": "https://i.etsystatic.com/14066419/r/il/eab8dc/1558646774/il_794xN.1558646774_8gku.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=SBgno0A0erM",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=1xU8Ms5Vbkk",
+      "author": {
+        "name": "Brads Greenhouse & Gardening",
+        "link": "https://www.youtube.com/channel/UCDqaMkyqQ8zbFC5kvYrM8CQ"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/andreana/",
+      "lowestPrice": {
+        "amount": 7.99,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "isTrendy": false,
+  "slug": "alocasia-tiny-dancer",
+  "latinName": "Alocasia Tiny Dancer",
+  "mostCommonName": "Alocasia Tiny Dancer",
+  "names": ["Elephant Ear"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "moderate",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [
+    "Feed with a diluted balanced fertilizer from spring every 2 weeks and stop at the end of August then start again at the beginning of spring"
+  ],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 80,
+  "spreadCm": 40,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": true,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "plant.peep",
+        "link": "https://www.instagram.com/plant.peep/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "helloplanty",
+        "link": "https://www.instagram.com/helloplanty/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "jungleboogiie",
+        "link": "https://www.instagram.com/jungleboogiie/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "knitmoxie",
+        "link": "https://www.instagram.com/knitmoxie/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "jillyjelly1",
+        "link": "https://www.instagram.com/jillyjelly1/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "my_phytomania",
+        "link": "https://www.instagram.com/my_phytomania/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "leah.fern_",
+        "link": "https://www.instagram.com/leah.fern_/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "green.plantry",
+        "link": "https://www.instagram.com/green.plantry/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantyofdirt",
+        "link": "https://www.instagram.com/plantyofdirt/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "leafitalltome",
+        "link": "https://www.instagram.com/leafitalltome/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "eatmy.p1ant",
+        "link": "https://www.instagram.com/eatmy.p1ant/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "genshaiplants",
+        "link": "https://www.instagram.com/genshaiplants/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-12.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantmomdiaries",
+        "link": "https://www.instagram.com/plantmomdiaries/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-13.jpg"
+    },
+    {
+      "owner": {
+        "name": "sammychh",
+        "link": "https://www.instagram.com/sammychh/"
+      },
+      "src": "/images/plants/alocasia-tiny-dancer-14.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=MvkxW8BuXIc&t=130",
+      "author": {
+        "name": "Donna Joshi",
+        "link": "https://www.youtube.com/channel/UCsmY_R8eflSWXpElB6QkqBA"
+      }
+    }
+  ],
+  "productLinks": []
+}

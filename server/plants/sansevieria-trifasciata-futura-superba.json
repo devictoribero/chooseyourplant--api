@@ -1,0 +1,104 @@
+{
+  "isTrendy": false,
+  "slug": "sansevieria-trifasciata-futura-superba",
+  "latinName": "Sansevieria Trifasciata Futura Superba",
+  "mostCommonName": "Sansevieria Futura Superba",
+  "names": [
+    "Sansevieria Futura Superba",
+    "Snake Plant",
+    "Mother's Tongue",
+    "African Spear",
+    "Magic Sword"
+  ],
+  "description": [
+    "Sansevieria Trifasciata Futura Superba is a hardy and easy plant recommended for beginners that is native to Africa. Sansevierias are drought-tolerant plants that can live without any water for a while, so they are considered as low-maintains plants that are good for travelers.",
+    "Snake plants are famous because they can grow in low light conditions so it's a plant that fits every house, but you place it far from cats, dogs or children because of it mildly toxic if ingested.",
+    "Sansevieria Futura Superba is an air-purifying indoor plant recommended for living rooms, bedrooms that can grow slowly up to 1.5 meters."
+  ],
+  "family": "asparagaceae",
+  "plantVariety": "snake plant",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "low",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Like most sansevierias, Sansevieria Trifasciata Futura Superba likes bright light and can stand plenty of direct sunlight because those are the conditions in their natural environment.",
+    "Sansevieria Futura Superba can tolerate low-light conditions, but as the same happens with other plants, its growth will be slowed down, and the foliage color will be less vibrant and the color contrast will decrease.",
+    "Place your sansevieria next to a south or west-facing window for making it grow fast and healthy. Unlike other plants, you don't need to filter the direct sunlight because snake plants like it. So, make sure the surrounding plants can also handle direct sunlight and in case you're not sure, just filter the light."
+  ],
+  "waterExplanation": [
+    "Snake Plants are drought-tolerant which means they can survive for a long period of time without water. As you can imagine, the most common reason why a plant dies is over-watering and this plant is not the exception.",
+    "In fact, the lower light it receives, the less water it will need, and sansevierias usually are placed in low-light. Temperature, the size of the pot, and also how well the soil drains, are also big factors that we need to take into account to know how often you should water your snake plant.",
+    "For conventional weathers, check every two weeks more or less how humid is the soil. If you live in a hot area, you might want to check it every week. Water your Futura Superba every time the soil is completely dry.",
+    "Terracotta pots, instead of plastic, are recommended because they absorb part of the humidity. If the plant is placed in low light conditions, you will probably water it once every month."
+  ],
+  "humidityExplanation": [
+    "Futura Superba doesn't need special humidity care because it is happy in average humidity conditions. Notice that if you raised the humidity because of other plants, it won't be a problem anyway"
+  ],
+  "fertilizerExplanation": [
+    "You don't need to fertilize your Snake Plant Futura Superba if you repot the plant every 2 years approx. But if you like, you can fertilize your Futura Superba twice a year during the summer season to boost its growth a little bit by diluting the fertilizer with water"
+  ],
+  "tips": [
+    "Sansevierias are good plants for travelers and beginners because they are drought-tolerants",
+    "Bedrooms and living rooms are good spots to put your Sansevieria because it removes air toxins",
+    "Sansevierias are mildly toxic if ingested, so put it away from cats, dogs, and children",
+    "For a high leaf color contrast, place it in a bright spot",
+    "Give to your Futura Superba direct sunlight to boost its growth",
+    "Water your snake plant every time the soil has dried out completely",
+    "Use a pot that has good drainage, such as a terracotta pot or one made with some porous material"
+  ],
+  "growth": "moderate",
+  "heightCm": 40,
+  "spreadCm": 40,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "spaces": ["bedroom", "living room"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": null,
+      "src": "/images/plants/sansevieria-trifasciata-futura-superba-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=vZwIRORXwVU",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.youtube.com/user/summerrayneoakes"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0N44F_gLtAE",
+      "author": {
+        "name": "delaplants",
+        "link": "https://www.instagram.com/delaplants"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=k86DsC3tc3w",
+      "author": {
+        "name": "Good Growing",
+        "link": "https://www.youtube.com/channel/UCln2qbO4Pe3Pm1l9eeymIKA"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/collections/buy-snake-plants-online-garden-goods-direct/products/snake-plant-futura-superba",
+      "lowestPrice": {
+        "amount": 24.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

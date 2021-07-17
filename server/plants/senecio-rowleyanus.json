@@ -1,0 +1,195 @@
+{
+  "isTrendy": true,
+  "slug": "senecio-rowleyanus",
+  "latinName": "Senecio Rowleyanus",
+  "mostCommonName": "String of Pearls",
+  "names": ["String of Pearls", "Bowl of peas"],
+  "description": [
+    "Senecio Rowleyanus are succulent plants native to Africa with a beautiful look. String of Pearls is a drought-tolerant plant that stores water in its rounded leaves that reminds us of small pearls making it sensitive to water, so avoid overwatering it.",
+    "Despite its delicate appearance, this unusual succulent plant is a vigorous grower, crawling quickly across the surface of the pot and then cascading down the side. Its stems can reach 60-90 cm.",
+    "String of Pearls is generally used as a hanging plant. If so, it is important to make sure that the light reaches the top of the plant and not just the bottom, or it will rot."
+  ],
+  "family": "asteraceae",
+  "plantVariety": null,
+  "origins": ["Africa"],
+  "difficulty": "intermediate",
+  "light": ["bright"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Senecio Rowleyanus is a succulent plant that grows fast and healthy in bright conditions and does well if the sun hits the plant directly only a bit. The best light conditions for a Senecio Rowleyanus are the ones similar to the outdoor's shade.",
+    "One of the best indoor places for a string of pearls is next to a north or east-facing window, because it will receive morning sun and bright light.",
+    "If you have a south or west-facing window, you should filter the light or place it a bit far from the window because the afternoon sun will burn it out.",
+    "Independently where you place it, make sure the light hits the top of your String of Pearls"
+  ],
+  "waterExplanation": [
+    "String of Pearls is a plant native to Africa, so we must replicate its natural habitat as much as possible. Native African plants are drought tolerant, so they have learned to hold water for long periods of time until they receive a large amount of water again, and this plant is no exception.",
+    "The String of Pearls does not like to be watered frequently. In fact, it is easy to suffocate this plant in soggy soil because its roots are thin. Instead, they like to receive a large amount of water every two weeks or so, depending on the temperature, the substrate, and the amount of light it receives.",
+    "I personally recommend a well-drained mix along with a terracotta pot to make sure we are providing the right environment."
+  ],
+  "humidityExplanation": [
+    "String of Pearls also known as bowl of pearls does well in average room humidity.",
+    "The drier the environment, the more frequently you'll water this plant. And the more humid is the environment, the less frequently you'll give it water."
+  ],
+  "fertilizerExplanation": [
+    "Apply a slow release fertilizer once a month during the growing season otherwise its easy to burn the roots."
+  ],
+  "tips": [
+    "Don't mist your String of Hearts, it leads to rot.",
+    "Place your plants in a brighter place during winter.",
+    "To encourage spring flowers, cut back on watering and keep the plant in a consistent temperature of 60 degree during winter",
+    "Let it dry before watering again.",
+    "Let the light hit the top of the plant"
+  ],
+  "growth": "moderate",
+  "heightCm": 90,
+  "spreadCm": 20,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": [],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": {
+        "name": "greenswedonteat",
+        "link": "https://www.instagram.com/greenswedonteat/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "jessplants",
+        "link": "https://www.instagram.com/jessplants/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "leaf.and.frond",
+        "link": "https://www.instagram.com/leaf.and.frond/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "ysplantss",
+        "link": "https://www.instagram.com/ysplantss/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "itschasjunglehome",
+        "link": "https://www.instagram.com/itschasjunglehome/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "arillira",
+        "link": "https://www.instagram.com/arillira/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "miss_larwa",
+        "link": "https://www.instagram.com/miss_larwa/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "lifeisshort_buytheplants",
+        "link": "https://www.instagram.com/lifeisshort_buytheplants/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "house.plantherapy",
+        "link": "https://www.instagram.com/house.plantherapy/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "kaktus_na_dloni",
+        "link": "https://www.instagram.com/kaktus_na_dloni/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "botanicalsonly",
+        "link": "https://www.instagram.com/botanicalsonly/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "dora__flora__",
+        "link": "https://www.instagram.com/dora__flora__/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-12.jpg"
+    },
+    {
+      "owner": {
+        "name": "workhardplanthard",
+        "link": "https://www.instagram.com/workhardplanthard/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-13.jpg"
+    },
+    {
+      "owner": {
+        "name": "missmoonstera",
+        "link": "https://www.instagram.com/missmoonstera/"
+      },
+      "src": "/images/plants/senecio-rowleyanus-14.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=ANdfh_pDhsA",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=D0jp3OkqH1o",
+      "author": {
+        "name": "Harli G",
+        "link": "https://www.youtube.com/channel/UCPlDlUEtyrOwDXOpIs36b3g"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/string-of-pearls-plant",
+      "lowestPrice": {
+        "amount": 11.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Babygreens",
+      "href": "https://www.babygreens.co/products/senecio-string-of-pearls",
+      "lowestPrice": {
+        "amount": 29.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    }
+  ]
+}

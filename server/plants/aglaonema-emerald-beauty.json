@@ -1,0 +1,62 @@
+{
+  "slug": "aglaonema-emerald-beauty",
+  "latinName": "Aglaonema Emerald Beauty",
+  "names": ["Chinese Evergreen", "Emerald Beauty"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "aglaonema",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "The darker the leaves, the less light they need.",
+    "Chinese Evergreen plants are probably the only indoor plant with large, colorful, variegated leaves that can live in low light conditions. If placed in medium light, these plants grow more quickly."
+  ],
+  "waterExplanation": [
+    "Aglaonemas like to dry out between waterings, so feel the soila few inches down to ensure it isn’t moist right beneath the surface.",
+    "If you keep your Chinese Evergreen in a low light environment, it's recommended to let the soil dry out completely. In case a more intense light is provided, the half is recommended."
+  ],
+  "humidityExplanation": [
+    "Aglaonemas are native to the subtropical & tropical regions. Despite this, they seem fairly adaptable & do just fine in our homes which tend to have dry air.",
+    "In case of living in a dry area or using air conditioning/heating, try to increase the humidity by misting it more often, grouping it with other plants or using a humidifier."
+  ],
+  "fertilizerExplanation": [
+    "From spring until the and of summer they like to be fed with a diluted liquid fertilizer."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it far from cats, dogs and children because it causes mouth irritation."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 90,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": { "name": "Costafarms", "link": "http://www.costafarms.com" },
+      "src": "http://www.costafarms.com/CostaFarms/Aglaonema-Emerald-Beauty-Costa-Farms.jpg?height=257&width=256&scale=both&crop=auto"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=YW5dHqvALEk",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": []
+}

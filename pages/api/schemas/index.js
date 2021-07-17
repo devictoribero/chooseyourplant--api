@@ -9,22 +9,25 @@ export const typeDefs = gql`
     slug: String
     description: [String]
     bio: Bio
-    physicalCharacteristics: {
-      estimatedMaturePlantHeight: Int
-      foliage: {
-        size: FoliageSize!
-        features: [FoliageFeature!]
-        hasPattern: boolean!
-      }
-    },
+    physicalCharacteristics: PhysicalCharacteristics
     images: [PlantImage!]!
     videos: [PlantVideo!]!
     popularity: PlantPopularity
-    scarcity: Scarcity!
     linksToBuy: [LinkToBuyPlant]
     cares: PlantCares
     growth: Growth
     features: [PlanFeature!]
+  }
+
+  type PhysicalCharacteristics {
+    estimatedMaturePlantHeight: Int
+    foliage: Foliage
+  }
+
+  type Foliage {
+    size: FoliageSize!
+    features: [FoliageFeature!]
+    hasPattern: Boolean!
   }
 
   enum PlanFeature {
@@ -33,18 +36,18 @@ export const typeDefs = gql`
     IsAirPurifier
   }
 
-
   enum PlantPopularity {
     Classic
+    Trendy
+    Rare
   }
-
 
   type Growth {
     speed: GrowthSpeed
     type: GrowthType
   }
 
-  // TODO do market research or ask people from the community
+  # TODO do market research or ask people from the community
   enum GrowthType {
     Upwards
     Trailing
@@ -59,24 +62,32 @@ export const typeDefs = gql`
 
   type PlantCares {
     difficulty: CareDifficulty
-    light: {
-      expose: LightExposure
-      text: [String!]
-    }
-    watering: {
-      frequency: WateringFrequency
-      text: [String!]
-    }
-    humidity: {
-      level: Humidity
-      text: [String!]
-    }
-    fertilization: {
-      frequency: FertilizationFrequency
-      text: [String!]
-    }
+    light: LightCare
+    watering: WateringCare
+    humidity: HumidityCare
+    fertilization: FertilizationCare
     tips: [String!]
     recommendedSpaces: [Space!]
+  }
+
+  type LightCare {
+    expose: LightExposure
+    text: [String!]
+  }
+
+  type WateringCare {
+    frequency: WateringFrequency
+    text: [String!]
+  }
+
+  type HumidityCare {
+    level: Humidity
+    text: [String!]
+  }
+
+  type FertilizationCare {
+    frequency: FertilizationFrequency
+    text: [String!]
   }
 
   enum Space {
@@ -137,7 +148,7 @@ export const typeDefs = gql`
   }
 
   type PlantVideo {
-    owner: VideoOwner,
+    owner: VideoOwner
     url: String
   }
 
@@ -176,7 +187,7 @@ export const typeDefs = gql`
   }
 
   type Query {
-    getPlants: [Plant]
+    getManyPlants: [Plant]
+    getPlant(slug: String!): Plant
   }
-
 `;

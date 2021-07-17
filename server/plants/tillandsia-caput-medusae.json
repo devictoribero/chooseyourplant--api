@@ -1,0 +1,48 @@
+{
+  "slug": "tillandsia-caput-medusae",
+  "latinName": "Tillandsia Caput Medusae",
+  "names": ["Air Plant", "Head of Medusa"],
+  "description": [],
+  "family": "bromeliaceae",
+  "plantVariety": "air plant",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [""],
+  "waterExplanation": [""],
+  "humidityExplanation": [""],
+  "fertilizerExplanation": [""],
+  "tips": [],
+  "growth": "slow",
+  "heightCm": 15,
+  "spreadCm": 15,
+  "leafSize": "small",
+  "leafColorRange": "mono",
+  "hasFlower": true,
+  "isToxic": false,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["terrarium", "bathroom"],
+  "isHanging": true,
+  "images": [
+    {
+      "owner": null,
+      "src": "https://cdn.shopify.com/s/files/1/1702/7305/products/bd6809b4524fb9b8f83ca50f5263e1d8_grande.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Love Tillys",
+      "href": "https://lovetillys.co.uk/product/caput/",
+      "lowestPrice": {
+        "amount": 3.99,
+        "currency": { "name": "British Pound", "iso": "GBP", "symbol": "£" }
+      }
+    }
+  ]
+}

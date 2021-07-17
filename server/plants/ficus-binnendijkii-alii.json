@@ -1,0 +1,158 @@
+{
+  "isTrendy": false,
+  "slug": "ficus-binnendijkii-alii",
+  "latinName": "Ficus Binnendijkii Alii",
+  "mostCommonName": "Ficus Alii",
+  "names": ["Ficus Alii", "Ficus Binnendijkii"],
+  "description": [],
+  "family": "moraceae",
+  "plantVariety": "ficus",
+  "difficulty": "intermediate",
+  "light": ["moderate", "bright"],
+  "water": "often",
+  "humidity": "average",
+  "fertilizer": "moderate",
+  "lightExplanation": [
+    "Ficus Alii plants do well in bright indirect light; however, they can survive in medium light. The lower the light level, the longer a Ficus Alii takes to produce new leaves. Rotate weekly to maintain the plant's beautiful shape."
+  ],
+  "waterExplanation": [
+    "Water a Ficus Alii when the top 2\" of the soil has dried out. Water well so that excess water drains out the drip holes in the bottom of the pot. Immediately empty excess water and do not allow a Ficus Alii to sit in water. New growth turns black and green leaves fall off from over -watering. Leaves become brown and crunchy, drop off, and may turn yellow when the plant needs water."
+  ],
+  "humidityExplanation": [
+    "Average room humidity (around 40-50%). In case you live in a dry zone, try to elevate your humidity by grouping plants, misting them or with a humidifier."
+  ],
+  "fertilizerExplanation": [
+    "Feed monthly with a well-balanced liquid fertilizer when the plant is actively growing. It's not necessary to feed a Ficus Alii during the winter and fall."
+  ],
+  "tips": [
+    "This plant produce small flowers and berries which have to be removed as soon as they appear.",
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy."
+  ],
+  "growth": "moderate",
+  "heightCm": 300,
+  "spreadCm": 150,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "spaces": [],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "planttherapy.yvr",
+        "link": "https://www.instagram.com/planttherapy.yvr/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-2.jpg"
+    },
+    {
+      "owner": {
+        "name": "plantingpink",
+        "link": "https://www.instagram.com/plantingpink/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-1.jpg"
+    },
+    {
+      "owner": {
+        "name": "kateandfinn_vs_plants",
+        "link": "https://www.instagram.com/kateandfinn_vs_plants/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-3.jpg"
+    },
+    {
+      "owner": {
+        "name": "marta_pinheiro1980",
+        "link": "https://www.instagram.com/marta_pinheiro1980/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-4.jpg"
+    },
+    {
+      "owner": {
+        "name": "kma020410",
+        "link": "https://www.instagram.com/kma020410/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-5.jpg"
+    },
+    {
+      "owner": {
+        "name": "kreatyve_laydiiee",
+        "link": "https://www.instagram.com/kreatyve_laydiiee/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-6.jpg"
+    },
+    {
+      "owner": {
+        "name": "k.minjiii",
+        "link": "https://www.instagram.com/k.minjiii/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-7.jpg"
+    },
+    {
+      "owner": {
+        "name": "freedom_plants0411",
+        "link": "https://www.instagram.com/freedom_plants0411/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-8.jpg"
+    },
+    {
+      "owner": {
+        "name": "flowers_shik",
+        "link": "https://www.instagram.com/flowers_shik/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-9.jpg"
+    },
+    {
+      "owner": {
+        "name": "happygreenguys",
+        "link": "https://www.instagram.com/happygreenguys/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-10.jpg"
+    },
+    {
+      "owner": {
+        "name": "wilhelm_eichen",
+        "link": "https://www.instagram.com/wilhelm_eichen/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-11.jpg"
+    },
+    {
+      "owner": {
+        "name": "ozariaplants",
+        "link": "https://www.instagram.com/ozariaplants/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-12.jpg"
+    },
+    {
+      "owner": {
+        "name": "the_foliage_fanatic",
+        "link": "https://www.instagram.com/the_foliage_fanatic/"
+      },
+      "src": "/images/plants/ficus-binnendijkii-alii-13.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Garden Goods",
+      "href": "https://gardengoodsdirect.com/products/ficus-alii-trees",
+      "lowestPrice": {
+        "amount": 129.95,
+        "currency": { "name": "US Dollar", "iso": "USD", "symbol": "$" }
+      }
+    },
+    {
+      "isAffiliate": false,
+      "shop": "Flora Store",
+      "href": "https://www.florastore.com/en/ficus-binnendijckii-alii.html",
+      "lowestPrice": {
+        "amount": 24.95,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "aglaonema-nicole",
+  "latinName": "Aglaonema Nicole",
+  "names": ["Chinese Evergreen"],
+  "description": [],
+  "family": "araceae",
+  "plantVariety": "aglaonema",
+  "difficulty": "easy",
+  "light": ["low", "moderate"],
+  "water": "little",
+  "humidity": "average",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Aglaonema Nicole supports low light but tt thrives best in bright. Avoid direct sun light or the leaves will scorch."
+  ],
+  "waterExplanation": [
+    "Water your Chinese Evergreen thoroughly in the summer. During the winter, reduce watering but do not let the plant dry out completely.",
+    "Like all plants, the more light the environment receives or warm, the more water it will need."
+  ],
+  "humidityExplanation": [
+    "All aglaonemas like average or higher humidity. In case you doubt if it needs more humidity, make it happen. Mist the leaves, group plants, use humidifiers, etc."
+  ],
+  "fertilizerExplanation": [
+    "Feed your aglaonema with slow-release pellets or a liquid fertilizer during the growing season."
+  ],
+  "tips": [
+    "Mist the leaves to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep it far from cats, dogs and children because it causes mouth irritation."
+  ],
+  "growth": "slow",
+  "heightCm": 90,
+  "spreadCm": 90,
+  "leafSize": "big",
+  "leafColorRange": "multiple",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": null,
+  "isClimber": false,
+  "isAirPurifier": true,
+  "isPerennial": true,
+  "spaces": ["bedroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "Viveros Inmaculada",
+        "link": "https://www.viverosinmaculada.com"
+      },
+      "src": "http://viverosinmaculada.com/images/img_1896.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=YW5dHqvALEk",
+      "author": {
+        "name": "Summer Rayne Oakes",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": []
+}

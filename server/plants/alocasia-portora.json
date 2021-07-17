@@ -1,0 +1,82 @@
+{
+  "slug": "alocasia-portora",
+  "latinName": "Alocasia Portora",
+  "mostCommonName": "Alocasia Portodora",
+  "names": ["Alocasia Portodora", "Elephant Ear"],
+  "description": [
+    "Alocasia Portora is one of the largest alocasias that you can find and that is why it is commonly used in outdoor spaces although it has begun to be commercialized for large and bright spaces.",
+    "This impressive alocasia is commonly known as elephant ear because of the shape of its leaves. Most alocasias are medium size, but unlike those, the Alocasia Portora can grow up to 4-5ft in good conditions such as abundant water, a substrate rich in organic matter, high humidity, and above all a lot of bright light even direct sunlight.",
+    "A curious fact is that Alocasia Portora is really an alocasia, unlike Alocasia Amazonica or other plants commonly known as alocasias that are actually colocasia. The main difference between alocasia vs colocasia is that the leaves of the alocasia point upwards, while the leaves of the colocasia are horizontal or point downwards."
+  ],
+  "family": "araceae",
+  "plantVariety": "alocasia",
+  "difficulty": "intermediate",
+  "light": ["bright"],
+  "water": "often",
+  "humidity": "high",
+  "fertilizer": "low",
+  "lightExplanation": [
+    "Alocasia Portora is an enormous alocasia that needs plenty of bright light or direct sun in order to keep up with its dimensions and bright green color foliage. As it's usually planted outdoors, there's no difficulty in providing these conditions, but indoors is not that easy.",
+    "Place your alocasia Portora next to a south or west-facing window to make sure it receives bright light and direct sun. Avoid placing your Alocasia Portora in low-light environments such as far from the windows, or in a north-facing window."
+  ],
+  "waterExplanation": [
+    "Water your Alocasia Portora every time the top inch of the soil has dried out.",
+    "In order to keep the soil moist all the time without over watering it or causing the soil to become too compact over time, be sure to use well-draining or the roots will lack oxygen over time and will root."
+  ],
+  "humidityExplanation": [
+    "Needs a moist environment with above average humidity. Stand on a pebble tray to improve humidity and mist frequently. Pop it in the shower for a while to give it an occasional boost."
+  ],
+  "fertilizerExplanation": [
+    "Apply a slow release fertilizer once a month during the growing season."
+  ],
+  "tips": [
+    "Place your Alocasia Portora in a south or west-facing window to give bright light and direct sunlight",
+    "Mist the leaves or use a humidifier to increase humidity.",
+    "Wipe the leaves with a damp cloth and gently dry to keep them clean and healthy.",
+    "Keep most of the soil humid"
+  ],
+  "growth": "fast",
+  "heightCm": 300,
+  "spreadCm": 150,
+  "leafSize": "big",
+  "leafColorRange": "mono",
+  "hasFlower": false,
+  "isToxic": true,
+  "isRare": false,
+  "isPopular": false,
+  "isTrendy": false,
+  "isClimber": false,
+  "isAirPurifier": false,
+  "isPerennial": true,
+  "spaces": ["bathroom"],
+  "isHanging": false,
+  "images": [
+    {
+      "owner": {
+        "name": "Palm Nursery",
+        "link": "https://www.palmnursery.com.au"
+      },
+      "src": "/images/plants/alocasia-portora-1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "link": "https://www.youtube.com/watch?v=kXVaQppYhNo",
+      "author": {
+        "name": "kayleeellenofficial",
+        "link": "https://www.instagram.com/kayleeellenofficial/"
+      }
+    }
+  ],
+  "productLinks": [
+    {
+      "isAffiliate": false,
+      "shop": "Florastore",
+      "href": "https://www.florastore.com/en/portodora-copy.html",
+      "lowestPrice": {
+        "amount": 27,
+        "currency": { "name": "Euro", "iso": "EURO", "symbol": "€" }
+      }
+    }
+  ]
+}
