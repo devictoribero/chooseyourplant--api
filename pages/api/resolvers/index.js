@@ -4,8 +4,12 @@ export const resolvers = {
       const plants = [];
 
       const fs = require("fs");
-      const pathToPlants = `server/plants`;
+      const process = require("process");
+      const currentDir = process.cwd();
+
+      const pathToPlants = `${currentDir}/server/plants`;
       const fileNames = fs.readdirSync(pathToPlants);
+
       fileNames.forEach((fileName) => {
         const fileContent = fs.readFileSync(`${pathToPlants}/${fileName}`);
         const plantJSON = JSON.parse(fileContent);
@@ -18,7 +22,8 @@ export const resolvers = {
       const { slug } = args;
 
       const fs = require("fs");
-      const pathToPlantFile = `server/plants/${slug}.json`;
+      const process = require("process");
+      const pathToPlantFile = `${currentDir}/server/plants/${slug}.json`;
       const doesPlantExist = fs.existsSync(pathToPlantFile);
 
       if (!doesPlantExist) {
