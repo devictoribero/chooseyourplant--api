@@ -1,9 +1,10 @@
+const plantsFileContent = require(`public/plants.json`);
+
 export const resolvers = {
   Query: {
     getManyPlants: async (root, args, context) => {
       const plants = [];
 
-      const plantsFileContent = require(`public/plants.json`);
       const plantsInLocal = Object.values(plantsFileContent);
 
       plantsInLocal.forEach((plant) => plants.push(plant));
@@ -12,8 +13,6 @@ export const resolvers = {
     },
     getPlant: (root, args, context) => {
       const { slug } = args;
-
-      const plantsFileContent = require(`public/plants.json`);
 
       const requestedPlant = plantsFileContent[slug];
       const doesPlantExist = Boolean(requestedPlant);
