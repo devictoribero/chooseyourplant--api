@@ -3,37 +3,26 @@ export const resolvers = {
     getManyPlants: async (root, args, context) => {
       const plants = [];
 
-      const fs = require("fs");
-      const process = require("process");
-      const currentDir = process.cwd();
+      const plantsFileContent = require(`public/plants.json`);
+      const plantsInLocal = Object.values(plantsFileContent);
 
-      const pathToPlants = `${currentDir}/server/plants`;
-      const fileNames = fs.readdirSync(pathToPlants);
-
-      fileNames.forEach((fileName) => {
-        const fileContent = fs.readFileSync(`${pathToPlants}/${fileName}`);
-        const plantJSON = JSON.parse(fileContent);
-        plants.push(plantJSON);
-      });
+      plantsInLocal.forEach((plant) => plants.push(plant));
 
       return plants;
     },
     getPlant: (root, args, context) => {
       const { slug } = args;
 
-      const fs = require("fs");
-      const process = require("process");
-      const pathToPlantFile = `${currentDir}/server/plants/${slug}.json`;
-      const doesPlantExist = fs.existsSync(pathToPlantFile);
+      const plantsFileContent = require(`public/plants.json`);
+
+      const requestedPlant = plantsFileContent[slug];
+      const doesPlantExist = Boolean(requestedPlant);
 
       if (!doesPlantExist) {
         return null;
       }
 
-      const plantFileContent = fs.readFileSync(pathToPlantFile);
-      const plantJSON = JSON.parse(plantFileContent);
-
-      return { id: "2", latinName: plantJSON.latinName };
+      return { id: null, latinName: requestedPlant.latinName };
     },
   },
 };
