@@ -11,12 +11,12 @@ export const typeDefs = gql`
     bio: Bio
     physicalCharacteristics: PhysicalCharacteristics
     images: [PlantImage!]!
-    videos: [PlantVideo!]!
+    videos: [PlantVideo!]
     popularity: PlantPopularity
     linksToBuy: [LinkToBuyPlant]
     cares: PlantCares
     growth: Growth
-    features: [PlanFeature!]
+    features: [PlantFeature!]
   }
 
   type PhysicalCharacteristics {
@@ -30,7 +30,7 @@ export const typeDefs = gql`
     hasPattern: Boolean!
   }
 
-  enum PlanFeature {
+  enum PlantFeature {
     HasFlower
     IsToxic
     IsAirPurifier
