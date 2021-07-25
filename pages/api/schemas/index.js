@@ -31,7 +31,7 @@ export const typeDefs = gql`
   }
 
   enum PlanFeature {
-    hasFlower
+    HasFlower
     IsToxic
     IsAirPurifier
   }
@@ -56,7 +56,7 @@ export const typeDefs = gql`
 
   enum GrowthSpeed {
     Slow
-    Medium
+    Moderate
     Fast
   }
 
@@ -71,7 +71,8 @@ export const typeDefs = gql`
   }
 
   type LightCare {
-    expose: LightExposure
+    preferredExposure: LightExposure
+    exposures: [LightExposure]
     text: [String!]
   }
 
@@ -116,13 +117,14 @@ export const typeDefs = gql`
 
   enum LightExposure {
     Low
+    Moderate
     Bright
-    Direct
   }
 
   enum CareDifficulty {
     Easy
-    Difficult
+    Intermediate
+    Advanced
   }
 
   type LinkToBuyPlant {
@@ -153,7 +155,7 @@ export const typeDefs = gql`
   }
 
   type VideoOwner {
-    name: String
+    displayName: String
     url: String
   }
 

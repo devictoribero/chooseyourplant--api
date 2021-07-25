@@ -3,11 +3,7 @@
     "slug": "alocasia-amazonica",
     "latinName": "Alocasia Amazonica",
     "mostCommonName": "Alocasia Amazonica",
-    "names": [
-      "Alocasia Polly",
-      "Elephant Ear",
-      "African Mask"
-    ],
+    "names": ["Alocasia Polly", "Elephant Ear", "African Mask"],
     "description": [
       "Alocasia Amazonica is a hybrid plant of Alocasia Longiloba and Alocasia Sanderiana that are native to Asia although this one is from America.",
       "This plant commonly called Alocasia Polly is known as African Mask or Elephant Ear for its incredible color, shape, and resistance of its foliage that is hard, rub-resistant, and arrow-shaped. Furthermore, the thin the stems make the leaves to look bigger.",
@@ -16,13 +12,9 @@
     ],
     "family": "araceae",
     "plantVariety": "alocasia",
-    "origins": [
-      "America"
-    ],
+    "origins": ["America"],
     "difficulty": "intermediate",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -60,9 +52,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -196,33 +186,19 @@
     "slug": "alocasia-baginda",
     "latinName": "Alocasia Baginda",
     "mostCommonName": "Alocasia Silver Dragon",
-    "names": [
-      "Alocasia Silver Dragon",
-      "Elephant Ear Silver Dragon"
-    ],
+    "names": ["Alocasia Silver Dragon", "Elephant Ear Silver Dragon"],
     "description": [],
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "high",
     "fertilizer": "low",
-    "lightExplanation": [
-      ""
-    ],
-    "waterExplanation": [
-      ""
-    ],
-    "humidityExplanation": [
-      ""
-    ],
-    "fertilizerExplanation": [
-      ""
-    ],
+    "lightExplanation": [""],
+    "waterExplanation": [""],
+    "humidityExplanation": [""],
+    "fertilizerExplanation": [""],
     "tips": [],
     "growth": "slow",
     "heightCm": 45,
@@ -235,9 +211,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -277,33 +251,19 @@
     "slug": "alocasia-cuprea",
     "latinName": "Alocasia Cuprea",
     "mostCommonName": "Mirror Plant",
-    "names": [
-      "Mirror Plant",
-      "Jewel Alocasia"
-    ],
+    "names": ["Mirror Plant", "Jewel Alocasia"],
     "description": [],
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "low",
-    "lightExplanation": [
-      ""
-    ],
-    "waterExplanation": [
-      ""
-    ],
-    "humidityExplanation": [
-      ""
-    ],
-    "fertilizerExplanation": [
-      ""
-    ],
+    "lightExplanation": [""],
+    "waterExplanation": [""],
+    "humidityExplanation": [""],
+    "fertilizerExplanation": [""],
     "tips": [],
     "growth": "slow",
     "heightCm": 40,
@@ -318,9 +278,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -451,10 +409,7 @@
     "slug": "alocasia-portora",
     "latinName": "Alocasia Portora",
     "mostCommonName": "Alocasia Portodora",
-    "names": [
-      "Alocasia Portodora",
-      "Elephant Ear"
-    ],
+    "names": ["Alocasia Portodora", "Elephant Ear"],
     "description": [
       "Alocasia Portora is one of the largest alocasias that you can find and that is why it is commonly used in outdoor spaces although it has begun to be commercialized for large and bright spaces.",
       "This impressive alocasia is commonly known as elephant ear because of the shape of its leaves. Most alocasias are medium size, but unlike those, the Alocasia Portora can grow up to 4-5ft in good conditions such as abundant water, a substrate rich in organic matter, high humidity, and above all a lot of bright light even direct sunlight.",
@@ -463,9 +418,7 @@
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "often",
     "humidity": "high",
     "fertilizer": "low",
@@ -502,9 +455,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -544,34 +495,19 @@
     "slug": "alocasia-reginula",
     "latinName": "Alocasia Reginula",
     "mostCommonName": "Black Velvet",
-    "names": [
-      "Black Velvet",
-      "Elephant Ear",
-      "Black Magic Elephant's Ear"
-    ],
+    "names": ["Black Velvet", "Elephant Ear", "Black Magic Elephant's Ear"],
     "description": [],
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
-    "lightExplanation": [
-      ""
-    ],
-    "waterExplanation": [
-      ""
-    ],
-    "humidityExplanation": [
-      ""
-    ],
-    "fertilizerExplanation": [
-      ""
-    ],
+    "lightExplanation": [""],
+    "waterExplanation": [""],
+    "humidityExplanation": [""],
+    "fertilizerExplanation": [""],
     "tips": [],
     "growth": "moderate",
     "heightCm": 60,
@@ -586,9 +522,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -719,10 +653,7 @@
     "slug": "alocasia-rugosa",
     "latinName": "Alocasia Melo",
     "mostCommonName": "Alocasia Melo",
-    "names": [
-      "Alocasia Rugosa",
-      "Elephant Ear"
-    ],
+    "names": ["Alocasia Rugosa", "Elephant Ear"],
     "description": [
       "Alocasia Melo is an exotic plant native to the Southeast Asian forests, specifically Indonesia, which tends to grow in rocky terrain, unlike other alocasias. This alocasia is considered a small plant because although in nature it can grow up to 23 inches in height, as a houseplant it is not usual, and does not exceed 15 inches approximately.",
       "Alocasia Melo is commonly known as Alocasia Rugosa for its unique foliage. Its leaves are green, large, and thick with a rough texture that makes it look like an artificial plant. Alocasias grow in tropical forests in the shade of higher vegetation, which is why it should not be given direct sunlight.",
@@ -731,9 +662,7 @@
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "low",
@@ -774,9 +703,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -870,9 +797,7 @@
     "slug": "alocasia-stingray",
     "latinName": "Alocasia Stingray",
     "mostCommonName": "Alocasia Stingray",
-    "names": [
-      "Elephant Ear"
-    ],
+    "names": ["Elephant Ear"],
     "description": [
       "Alocasia Stingray is an exotic and rare plant that is easy to keep alive as it does not require excessive care. Although it is an easy plant, it is not a recommended plant for beginners as it is sensitive to temperature and humidity.",
       "This elephant ear is becoming popular and is famous for its large leaf with a unique shape that has a long upturned tail that reminds us of a stingray. Like some other alocasias, it needs bright indirect light (south or west-facing windows are best as long as it is indirect light) and loves damp, well-drained soil mixed with organic matter as these are the characteristics of its natural habitat.",
@@ -883,9 +808,7 @@
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "often",
     "humidity": "high",
     "fertilizer": "low",
@@ -925,9 +848,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -1046,29 +967,18 @@
     "slug": "alocasia-tiny-dancer",
     "latinName": "Alocasia Tiny Dancer",
     "mostCommonName": "Alocasia Tiny Dancer",
-    "names": [
-      "Elephant Ear"
-    ],
+    "names": ["Elephant Ear"],
     "description": [],
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "high",
     "fertilizer": "moderate",
-    "lightExplanation": [
-      ""
-    ],
-    "waterExplanation": [
-      ""
-    ],
-    "humidityExplanation": [
-      ""
-    ],
+    "lightExplanation": [""],
+    "waterExplanation": [""],
+    "humidityExplanation": [""],
     "fertilizerExplanation": [
       "Feed with a diluted balanced fertilizer from spring every 2 weeks and stop at the end of August then start again at the beginning of spring"
     ],
@@ -1085,9 +995,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -1212,32 +1120,19 @@
     "slug": "alocasia-wentii",
     "latinName": "Alocasia Wentii",
     "mostCommonName": "Hardy Elephant Ear",
-    "names": [
-      "Elephant Ear"
-    ],
+    "names": ["Elephant Ear"],
     "description": [],
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
-    "lightExplanation": [
-      ""
-    ],
-    "waterExplanation": [
-      ""
-    ],
-    "humidityExplanation": [
-      ""
-    ],
-    "fertilizerExplanation": [
-      ""
-    ],
+    "lightExplanation": [""],
+    "waterExplanation": [""],
+    "humidityExplanation": [""],
+    "fertilizerExplanation": [""],
     "tips": [],
     "growth": "slow",
     "heightCm": 100,
@@ -1251,9 +1146,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -1294,32 +1187,19 @@
     "slug": "alocasia-zebrina",
     "latinName": "Alocasia Zebrina",
     "mostCommonName": "Elephant Ear Zebrina",
-    "names": [
-      "Elephant Ear"
-    ],
+    "names": ["Elephant Ear"],
     "description": [],
     "family": "araceae",
     "plantVariety": "alocasia",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "low",
-    "lightExplanation": [
-      ""
-    ],
-    "waterExplanation": [
-      ""
-    ],
-    "humidityExplanation": [
-      ""
-    ],
-    "fertilizerExplanation": [
-      ""
-    ],
+    "lightExplanation": [""],
+    "waterExplanation": [""],
+    "humidityExplanation": [""],
+    "fertilizerExplanation": [""],
     "tips": [],
     "growth": "slow",
     "heightCm": 100,
@@ -1333,9 +1213,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -1460,9 +1338,7 @@
     "slug": "aspidistra-elatior-milky-way",
     "latinName": "Aspidistra Elatior Milky Way",
     "mostCommonName": "Cast Iron Plant Milky Way",
-    "names": [
-      "Cast Iron Plant Milky Way"
-    ],
+    "names": ["Cast Iron Plant Milky Way"],
     "description": [
       "Aspidistra Elatior Milky Way is an easy, low maintenance and drought tolerant plant that is recommended for beginners and travelers, as it can survive without water for a time.",
       "Aspidistra grows in the dark undergrowth of the forest from Asia, that's why this plant grows so well in low light conditions and it's for being one of the best office plants.",
@@ -1470,14 +1346,9 @@
     ],
     "family": "asparagaceae",
     "plantVariety": "aspidistra",
-    "origins": [
-      "asia"
-    ],
+    "origins": ["asia"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -1606,9 +1477,7 @@
     "slug": "aspidistra-elatior",
     "latinName": "Aspidistra Elatior",
     "mostCommonName": "Cast Iron Plant",
-    "names": [
-      "Cast Iron Plant"
-    ],
+    "names": ["Cast Iron Plant"],
     "description": [
       "Aspidistra Elatior is a hardy plant easy for beginners due to its low maintenance. It is originally from Asia and is a recommended plant for travelers because it is a drought-tolerant plant.",
       "The Cast Iron Plant has dark green leaves and can slowly grow up to 90cm. It's common to use it as an office plant because it tolerates all ranges of light conditions.",
@@ -1616,14 +1485,9 @@
     ],
     "family": "asparagaceae",
     "plantVariety": "aspidistra",
-    "origins": [
-      "Asia"
-    ],
+    "origins": ["Asia"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "average",
     "fertilizer": "low",
@@ -1803,14 +1667,9 @@
     ],
     "family": "apocynaceae",
     "plantVariety": "aspidistra",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "low",
@@ -1922,10 +1781,7 @@
     "family": "apocynaceae",
     "plantVariety": "aspidistra",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "little",
     "humidity": "average",
     "fertilizer": "low",
@@ -2048,11 +1904,7 @@
     "slug": "epipremnum-aureum-glacier",
     "latinName": "Epipremnum Aureum Glacier",
     "mostCommonName": "Glacier Pothos",
-    "names": [
-      "Glacier Pothos",
-      "Pothos",
-      "Devil's Ivy"
-    ],
+    "names": ["Glacier Pothos", "Pothos", "Devil's Ivy"],
     "description": [
       "Epipremnum Aureum Glacier is a small pothos variety in the market and it has a nice green and white contrast on their small leaves. Glacier Pothos is commonly confused with Pearls and Jade Pothos and Njoy Pothos although you can differentiate your Glacier because it tends to have more silvery-gray mottling/streaking than others and smaller leaves.",
       "Epipremnum Aureum Glacier is a hardy climbing plant highly recommended for beginners and people who travel thanks to the fact that it is a plant that adapts very well to many environments and conditions.",
@@ -2061,14 +1913,9 @@
     ],
     "family": "araceae",
     "plantVariety": "pothos",
-    "origins": [
-      "Asia"
-    ],
+    "origins": ["Asia"],
     "difficulty": "easy",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "low",
@@ -2111,11 +1958,7 @@
     "isClimber": true,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom",
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bathroom", "bedroom", "office"],
     "isHanging": true,
     "images": [
       {
@@ -2202,11 +2045,7 @@
     "slug": "epipremnum-aureum-jade",
     "latinName": "Epipremnum Aureum Jade",
     "mostCommonName": "Jade Pothos",
-    "names": [
-      "Jade Pothos",
-      "Pothos",
-      "Devil's Ivy"
-    ],
+    "names": ["Jade Pothos", "Pothos", "Devil's Ivy"],
     "description": [
       "Epipremnum Aureum Jade is a tropical trailing plant native to Southeast Asia that tolerates low light conditions and does best in bright light.",
       "Pothos is one of the easiest and best indoor plants that purify the air with its green heart-shaped foliage. It removes chemicals from the air such as formaldehyde, trichloroethene, toluene, xylene, and benzene and is recommended for living rooms, bedrooms and offices.",
@@ -2216,10 +2055,7 @@
     "family": "araceae",
     "plantVariety": "pothos",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "moderate",
@@ -2257,11 +2093,7 @@
     "isClimber": true,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bathroom",
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bathroom", "bedroom", "office"],
     "isHanging": true,
     "images": [
       {
@@ -2365,11 +2197,7 @@
     "slug": "epipremnum-aureum-neon",
     "latinName": "Epipremnum Aureum Neon",
     "mostCommonName": "Neon Pothos",
-    "names": [
-      "Neon Pothos",
-      "Pothos",
-      "Devil's Ivy"
-    ],
+    "names": ["Neon Pothos", "Pothos", "Devil's Ivy"],
     "description": [
       "Epipremnum Aureum Neon is a variety of pothos well known for its distinctive lime color. It is an easy plant recommended for beginners because it thrives in low light conditions and does not require much maintenance, although its growth is slowed down.",
       "The leaves of the pothos remind us of a heart. Your pets and you have to be careful because it causes irritation if ingested. Pothos are so common because you can do very nice projects such as hanging baskets or green walls because they are climbing plants.",
@@ -2378,10 +2206,7 @@
     "family": "araceae",
     "plantVariety": "pothos",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "low",
@@ -2423,11 +2248,7 @@
     "isClimber": true,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bathroom",
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bathroom", "bedroom", "office"],
     "isHanging": true,
     "images": [
       {
@@ -2565,11 +2386,7 @@
     "slug": "epipremnum-aureum",
     "latinName": "Epipremnum Aureum",
     "mostCommonName": "Golden Pothos",
-    "names": [
-      "Golden Pothos",
-      "Pothos",
-      "Devil's Ivy"
-    ],
+    "names": ["Golden Pothos", "Pothos", "Devil's Ivy"],
     "description": [
       "Epipremnum Aureum is one of the most common indoor plants because of its hardiness and adaptability to low light conditions. Golden Pothos is a trailing plant originally from Southeastern Asia with green heart-shaped leaves that look beautiful as a hanging plant.",
       "Its beauty's not the only reason people love it. Epipremnum Aureum is a low-maintenance plant recommended for beginners and travelers that is difficult to kill. In addition, pothos is one of the best office plants because they grow in artificial light and mentioned by NASA as one of the best air purifier plants on earth.",
@@ -2578,14 +2395,9 @@
     ],
     "family": "araceae",
     "plantVariety": "pothos",
-    "origins": [
-      "asia"
-    ],
+    "origins": ["asia"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "moderate",
@@ -2625,11 +2437,7 @@
     "isClimber": true,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bathroom",
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bathroom", "bedroom", "office"],
     "isHanging": true,
     "images": [
       {
@@ -2780,11 +2588,7 @@
     "slug": "epipremnum-pinnatum-cebu-blue",
     "latinName": "Epipremnum Pinnatum Cebu Blue",
     "mostCommonName": "Cebu Blue Pothos",
-    "names": [
-      "Cebu Blue Pothos",
-      "Pothos",
-      "Devil's Ivy"
-    ],
+    "names": ["Cebu Blue Pothos", "Pothos", "Devil's Ivy"],
     "description": [
       "Epipremnum Pinnatum Cebu Blue is a rare variety of pothos with shiny, silvery-blue and elongated leaves that seem to sparkle in bright light that is recommended for beginners because it's so easy to take care.",
       "It's one of the recommended plants for bedrooms, living rooms, and bathrooms because it's an air purifier plant, but you might take care of your pets because the whole plant is toxic if ingested.",
@@ -2792,14 +2596,9 @@
     ],
     "family": "araceae",
     "plantVariety": "pothos",
-    "origins": [
-      "Asia"
-    ],
+    "origins": ["Asia"],
     "difficulty": "easy",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "low",
@@ -2838,11 +2637,7 @@
     "isClimber": true,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bathroom",
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bathroom", "bedroom", "office"],
     "isHanging": true,
     "images": [
       {
@@ -2967,18 +2762,12 @@
     "slug": "ficus-binnendijkii-alii",
     "latinName": "Ficus Binnendijkii Alii",
     "mostCommonName": "Ficus Alii",
-    "names": [
-      "Ficus Alii",
-      "Ficus Binnendijkii"
-    ],
+    "names": ["Ficus Alii", "Ficus Binnendijkii"],
     "description": [],
     "family": "moraceae",
     "plantVariety": "ficus",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "moderate",
@@ -3139,21 +2928,13 @@
     "slug": "ficus-elastica-burgundy",
     "latinName": "Ficus Elastica Burgundy",
     "mostCommonName": "Green Rubber Plant",
-    "names": [
-      "Green Rubber Plant",
-      "Rubber Tree"
-    ],
+    "names": ["Green Rubber Plant", "Rubber Tree"],
     "description": [],
     "family": "moraceae",
     "plantVariety": "ficus",
-    "origins": [
-      "Asia"
-    ],
+    "origins": ["Asia"],
     "difficulty": "easy",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "moderate",
@@ -3185,11 +2966,7 @@
     "isPopular": true,
     "isClimber": false,
     "isAirPurifier": false,
-    "spaces": [
-      "bedroom",
-      "office",
-      "living room"
-    ],
+    "spaces": ["bedroom", "office", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -3261,11 +3038,7 @@
     "slug": "ficus-elastica-tineke",
     "latinName": "Ficus Elastica Tineke",
     "mostCommonName": "Ficus Elastica Variegata",
-    "names": [
-      "Rubber Plant Variegata",
-      "Rubber Tree Variegata",
-      "Rubber Tree"
-    ],
+    "names": ["Rubber Plant Variegata", "Rubber Tree Variegata", "Rubber Tree"],
     "description": [
       "The Ficus elastica Tineke also known as variegated rubber tree or Ficus elastica Variegata, is a popular variety of ficus known for its beautiful big and watercolor variegated foliage that looks similar to <a href='/ficus-elastica-burgundy'>Ficus Elastica Burgundy</a> that everyone wants to have in the living room.",
       "Apart from its gorgeous and unique foliage, Ficus Tineke is well-known for being a plant recommended plants for beginners because it's a low-maintenance plant. Ficus elastica is a drought-tolerant (but not so much) and can handle direct sunlight for a while thanks to its thick and shiny leaves.",
@@ -3275,9 +3048,7 @@
     "family": "moraceae",
     "plantVariety": "ficus",
     "difficulty": "easy",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "moderate",
@@ -3316,11 +3087,7 @@
     "isPopular": true,
     "isClimber": false,
     "isAirPurifier": false,
-    "spaces": [
-      "bedroom",
-      "office",
-      "living room"
-    ],
+    "spaces": ["bedroom", "office", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -3527,9 +3294,7 @@
     "slug": "ficus-lyrata",
     "latinName": "Ficus Lyrata",
     "mostCommonName": "Fiddle Leaf Fig",
-    "names": [
-      "Fiddle Leaf Fig"
-    ],
+    "names": ["Fiddle Leaf Fig"],
     "description": [
       "Ficus Lyrata commonly known as Fiddle Leaf Fig is a ficus that has become very popular in recent years thanks to how elegant and beautiful it is, the large size of its leaves, and how easy it is to take care of it.",
       "The ficus Lyrata is a tree native to West Africa that grows in the rain forest and, like all plants, will increase in size as we give it more room to grow, reaching up to 10 meters. Its leaves are a uniform green color, soft and can measure up to 8 inches.",
@@ -3538,14 +3303,9 @@
     ],
     "family": "moraceae",
     "plantVariety": "ficus",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "moderate",
@@ -3586,9 +3346,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": false,
-    "spaces": [
-      "living room"
-    ],
+    "spaces": ["living room"],
     "isHanging": false,
     "images": [
       {
@@ -3823,18 +3581,12 @@
     "slug": "ficus-pumila",
     "latinName": "Ficus Pumila",
     "mostCommonName": "Creeping Fig",
-    "names": [
-      "Creeping Fig",
-      "Creeping ficus"
-    ],
+    "names": ["Creeping Fig", "Creeping ficus"],
     "description": [],
     "family": "moraceae",
     "plantVariety": "ficus",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -3897,18 +3649,13 @@
     "slug": "maranta-leuconeura-erythroneura",
     "latinName": "Maranta Leuconeura Erythroneura",
     "mostCommonName": "Red Prayer Plant",
-    "names": [
-      "Red Prayer Plant",
-      "Prayer Plant"
-    ],
+    "names": ["Red Prayer Plant", "Prayer Plant"],
     "description": [],
     "family": "marantaceae",
     "plantVariety": "maranta",
     "difficulty": "intermediate",
-    "light": [
-      "moderate"
-    ],
-    "water": "frequently",
+    "light": ["moderate"],
+    "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
     "lightExplanation": [
@@ -3946,9 +3693,7 @@
     "isClimber": false,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": true,
     "images": [
       {
@@ -4089,10 +3834,8 @@
     "family": "marantaceae",
     "plantVariety": "maranta",
     "difficulty": "intermediate",
-    "light": [
-      "moderate"
-    ],
-    "water": "frequently",
+    "light": ["moderate"],
+    "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
     "lightExplanation": [
@@ -4130,9 +3873,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": false,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": true,
     "images": [
       {
@@ -4264,10 +4005,7 @@
     "family": "araceae",
     "plantVariety": "monstera",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -4309,9 +4047,7 @@
     "isClimber": true,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": true,
     "images": [
       {
@@ -4450,9 +4186,7 @@
     "family": "araceae",
     "plantVariety": "monstera",
     "difficulty": "intermediate",
-    "light": [
-      "low"
-    ],
+    "light": ["low"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -4490,9 +4224,7 @@
     "isClimber": true,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -4679,13 +4411,9 @@
     ],
     "family": "araceae",
     "plantVariety": "monstera",
-    "origins": [
-      "America"
-    ],
+    "origins": ["America"],
     "difficulty": "advanced",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -4721,9 +4449,7 @@
     "isClimber": true,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -4838,11 +4564,7 @@
     "slug": "monstera-deliciosa",
     "latinName": "Monstera Deliciosa",
     "mostCommonName": "Monstera Deliciosa",
-    "names": [
-      "Swiss cheese plant",
-      "Mexican Plant",
-      "Hurricane plant"
-    ],
+    "names": ["Swiss cheese plant", "Mexican Plant", "Hurricane plant"],
     "description": [
       "Monstera Deliciosa is recognizable by its large, glossy unique green leaves with deep splits and holes called fenestrations that appear when the plant matures.",
       "Monsteras are climbing plants native to southern Mexico and Central America that use its aerial roots to cling to large trees, so you should provide it with moss-covered support sticks or a trellis. If its aerial roots get unruly you can trim them, but it’s best to just tuck them back into the pot.",
@@ -4851,9 +4573,7 @@
     "family": "araceae",
     "plantVariety": "monstera",
     "difficulty": "intermediate",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -4891,9 +4611,7 @@
     "isClimber": true,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -4992,10 +4710,7 @@
     "slug": "monstera-peru",
     "latinName": "Monstera Peru",
     "mostCommonName": "Monstera Peru",
-    "names": [
-      "Monstera Karstenianum",
-      "Monstera Sp. Peru"
-    ],
+    "names": ["Monstera Karstenianum", "Monstera Sp. Peru"],
     "description": [
       "Monstera Peru is a very rare fast-growing plant with thick and unusually stiff leaves that is often mistaken for <a href='https://chooseyourplant.com/monstera-pinnatipartita'>Monstera Pinnatipartita</a> when young because the leaves look alike.",
       "The leaves of the Monstera Sp. Peru are somewhat wider, and look rounder, and differ from the leaves of Monstera Pinnatipartita that are more elongated.",
@@ -5005,10 +4720,7 @@
     "family": "araceae",
     "plantVariety": "monstera",
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -5052,9 +4764,7 @@
     "isClimber": true,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": true,
     "images": [
       {
@@ -5128,11 +4838,7 @@
     "slug": "monstera-pinnatipartita",
     "latinName": "Monstera Pinnatipartita",
     "mostCommonName": "Monstera Pinnatipartita",
-    "names": [
-      "Swiss cheese plant",
-      "Mexican Plant",
-      "Hurricane plant"
-    ],
+    "names": ["Swiss cheese plant", "Mexican Plant", "Hurricane plant"],
     "description": [
       "Monstera Pinnatipartita is a rare evergreen and beautiful climbing plant originally from South America that looks similar to Monstera Deliciosa. It has divided leaves when it matures and produces white waxy flowers that along with its aerial roots, make it look wildly.",
       "Monstera Pinnatipartita must not be placed in the direct sun for a long period because it will burn its leaves. Also, be mindful when getting a monstera home because they are mildly toxic if ingested, meaning that you should take precautions if you have pets or children.  I've never had a bad experience with my pets myself because they have an instinct, but I always try to see how they react the first days after adding this plant to my collection.",
@@ -5140,14 +4846,9 @@
     ],
     "family": "araceae",
     "plantVariety": "monstera",
-    "origins": [
-      "America"
-    ],
+    "origins": ["America"],
     "difficulty": "intermediate",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -5190,9 +4891,7 @@
     "isClimber": true,
     "isAirPurifier": false,
     "isPerennial": true,
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": ["bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -5276,11 +4975,7 @@
     "slug": "pilea-peperomioides",
     "latinName": "Pilea Peperomioides",
     "mostCommonName": "Pilea Peperomioides",
-    "names": [
-      "Chinese Money Plant",
-      "Friendship Plant",
-      "Pancake Plant"
-    ],
+    "names": ["Chinese Money Plant", "Friendship Plant", "Pancake Plant"],
     "description": [
       "Pilea Peperomioides is an easy plant native to Yunnan, a region of China. It has become very famous on Instagram and Pinterest for its minimal and elegant look that helps to decorate any room.",
       "Pilea Peperomioides is also known by the name of the Chinese Money Plant because of its rounded shape that reminds us of a coin. It has some thick green leaves with a little point in the center that is where the stem joins. In nature, it grows in the shade of taller vegetation and is never in direct sunlight. Its leaves are directed towards the light in an abrupt way and although in nature the light comes from above and that is why it is usually round in shape, in our houses that is not always the case. Therefore, it is advisable to rotate it so that it adopts that symmetrical shape that we like so much.",
@@ -5288,13 +4983,9 @@
     ],
     "family": "urticaceae",
     "plantVariety": "pilea",
-    "origins": [
-      "Asia"
-    ],
+    "origins": ["Asia"],
     "difficulty": "easy",
-    "light": [
-      "moderate"
-    ],
+    "light": ["moderate"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "low",
@@ -5337,11 +5028,7 @@
     "isAirPurifier": false,
     "isPerennial": true,
     "isHanging": false,
-    "spaces": [
-      "bedroom",
-      "office",
-      "living room"
-    ],
+    "spaces": ["bedroom", "office", "living room"],
     "images": [
       {
         "owner": {
@@ -5454,10 +5141,7 @@
     "family": "asparagaceae",
     "plantVariety": "snake plant",
     "difficulty": "easy",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -5495,10 +5179,7 @@
     "isClimber": false,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -5661,10 +5342,7 @@
     "family": "asparagaceae",
     "plantVariety": "snake plant",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -5701,10 +5379,7 @@
     "isPopular": true,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -5829,14 +5504,9 @@
     ],
     "family": "asparagaceae",
     "plantVariety": "snake plant",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -5874,10 +5544,7 @@
     "isClimber": false,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -5948,10 +5615,7 @@
     "family": "asparagaceae",
     "plantVariety": "snake plant",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -5988,10 +5652,7 @@
     "isClimber": false,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -6103,14 +5764,9 @@
     ],
     "family": "asparagaceae",
     "plantVariety": "snake plant",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -6145,10 +5801,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -6201,14 +5854,9 @@
     ],
     "family": "asparagaceae",
     "plantVariety": "snake plant",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "moderate",
@@ -6245,10 +5893,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -6318,10 +5963,7 @@
     "family": "asparagaceae",
     "plantVariety": "snake plant",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -6362,10 +6004,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -6432,10 +6071,7 @@
     "family": "asparagaceae",
     "plantVariety": "snake plant",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -6471,10 +6107,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -6557,10 +6190,7 @@
     "family": "asparagaceae",
     "plantVariety": "snake plant",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -6598,10 +6228,7 @@
     "isPopular": true,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -6763,14 +6390,9 @@
     ],
     "family": "asparagaceae",
     "plantVariety": "snake plant",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "easy",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -6807,10 +6429,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -6945,14 +6564,9 @@
     ],
     "family": "asparagaceae",
     "plantVariety": "snake plant",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -6991,10 +6605,7 @@
     "isPopular": false,
     "isClimber": false,
     "isAirPurifier": true,
-    "spaces": [
-      "bedroom",
-      "living room"
-    ],
+    "spaces": ["bedroom", "living room"],
     "isHanging": false,
     "images": [
       {
@@ -7105,14 +6716,9 @@
     ],
     "family": "araceae",
     "plantVariety": "pothos",
-    "origins": [
-      "Asia"
-    ],
+    "origins": ["Asia"],
     "difficulty": "easy",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "low",
@@ -7150,11 +6756,7 @@
     "isClimber": true,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bathroom",
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bathroom", "bedroom", "office"],
     "isHanging": true,
     "images": [
       {
@@ -7331,10 +6933,7 @@
     "family": "araceae",
     "plantVariety": "pothos",
     "difficulty": "easy",
-    "light": [
-      "moderate",
-      "bright"
-    ],
+    "light": ["moderate", "bright"],
     "water": "often",
     "humidity": "average",
     "fertilizer": "low",
@@ -7378,11 +6977,7 @@
     "isClimber": true,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bathroom",
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bathroom", "bedroom", "office"],
     "isHanging": true,
     "images": [
       {
@@ -7541,10 +7136,7 @@
     "slug": "senecio-rowleyanus",
     "latinName": "Senecio Rowleyanus",
     "mostCommonName": "String of Pearls",
-    "names": [
-      "String of Pearls",
-      "Bowl of peas"
-    ],
+    "names": ["String of Pearls", "Bowl of peas"],
     "description": [
       "Senecio Rowleyanus are succulent plants native to Africa with a beautiful look. String of Pearls is a drought-tolerant plant that stores water in its rounded leaves that reminds us of small pearls making it sensitive to water, so avoid overwatering it.",
       "Despite its delicate appearance, this unusual succulent plant is a vigorous grower, crawling quickly across the surface of the pot and then cascading down the side. Its stems can reach 60-90 cm.",
@@ -7552,13 +7144,9 @@
     ],
     "family": "asteraceae",
     "plantVariety": null,
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "intermediate",
-    "light": [
-      "bright"
-    ],
+    "light": ["bright"],
     "water": "little",
     "humidity": "average",
     "fertilizer": "low",
@@ -7751,12 +7339,7 @@
     "slug": "spathiphyllum-domino",
     "latinName": "Spathiphyllum Domino",
     "mostCommonName": "Peace Lily Domino",
-    "names": [
-      "Peace Lily",
-      "White Sails",
-      "Spathe Flower",
-      "Spath"
-    ],
+    "names": ["Peace Lily", "White Sails", "Spathe Flower", "Spath"],
     "description": [
       "Domino Peace Lily is a variegated form of the common Peace Lily. This tough and easy to grow plant recommended for beginners has blotches of white all over each leaf.",
       "Spathyllums are air purifier plants that remove toxins from the air, so they are perfect for bedrooms, living rooms, and offices.",
@@ -7764,15 +7347,9 @@
     ],
     "family": "araceae",
     "plantVariety": "peace lily",
-    "origins": [
-      "America",
-      "Asia"
-    ],
+    "origins": ["America", "Asia"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -7809,10 +7386,7 @@
     "isClimber": false,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bedroom",
-      "bathroom"
-    ],
+    "spaces": ["bedroom", "bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -7874,14 +7448,9 @@
     ],
     "family": "araceae",
     "plantVariety": "peace lily",
-    "origins": [
-      "Asia"
-    ],
+    "origins": ["Asia"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -7922,10 +7491,7 @@
     "isClimber": false,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bedroom",
-      "bathroom"
-    ],
+    "spaces": ["bedroom", "bathroom"],
     "isHanging": false,
     "images": [
       {
@@ -8015,26 +7581,16 @@
     "slug": "spathiphyllum-wallisii",
     "latinName": "Spathiphyllum Wallisii",
     "mostCommonName": "Peace Lily",
-    "names": [
-      "Peace Lily",
-      "White Sails",
-      "Spathe Flower"
-    ],
+    "names": ["Peace Lily", "White Sails", "Spathe Flower"],
     "description": [
       "The Peace Lily has been around for decades for a good reason: It is one of the easiest houseplants to grow because they thrive in low light conditions though they are toxic if ingested, so not highly recommended if you have cats, dogs or children.",
       "Spathiphyllums have been proven to be among the best houseplants to help improve indoor air quality which makes it perfect for bedrooms, livings rooms, and offices. Plus, it happily blooms throughout the year and can reach up to 90cm height"
     ],
     "family": "araceae",
     "plantVariety": "peace lily",
-    "origins": [
-      "America",
-      "Asia"
-    ],
+    "origins": ["America", "Asia"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "frequent",
     "humidity": "high",
     "fertilizer": "moderate",
@@ -8113,10 +7669,7 @@
     "slug": "zamioculca-zamiifolia-raven",
     "latinName": "Zamioculca Zamiifolia Raven",
     "mostCommonName": "ZZ Plant Raven",
-    "names": [
-      "ZZ Plant Raven",
-      "Zuzu plant"
-    ],
+    "names": ["ZZ Plant Raven", "Zuzu plant"],
     "description": [
       "Zamioculca Zamiifolia Raven was born in the summer of 2017. It is a succulent plant that has attractive dark glossy foliage due to its high concentration of chlorophyll. In fact, is one of the few plants that its leaves are almost black.",
       "Given its waxy leaves that look artificial and the large rhizome that reminds us of a potato, zamioculcas can store water giving them the capacity to survive for long periods of time without water. This makes ZZ plant one of the best drought-tolerant plants on earth. In addition, having the ability to retain water, makes it a sensitive plant, as it is easy for its roots to rot."
@@ -8124,10 +7677,7 @@
     "family": "araceae",
     "plantVariety": "zz plant",
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -8164,10 +7714,7 @@
     "isClimber": false,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bedroom", "office"],
     "isHanging": false,
     "images": [
       {
@@ -8319,11 +7866,7 @@
     "slug": "zamioculca-zamiifolia",
     "latinName": "Zamioculca Zamiifolia",
     "mostCommonName": "ZZ Plant",
-    "names": [
-      "ZZ Plant",
-      "Zanzibar Gem",
-      "Zuzu plant"
-    ],
+    "names": ["ZZ Plant", "Zanzibar Gem", "Zuzu plant"],
     "description": [
       "Zamioculca Zamiifolia is a plant native to Zanzibar, Kenya, and East Africa, famous for its attractive bright foliage and easy care. Commonly known as the ZZ plant, it is a recommended plant for beginners because it does not require much maintenance.",
       "Zamioculcas are recommended plants for travelers because they are drought tolerant thanks to their potato-shaped rhizome that allows them to store water and survive several days without water.",
@@ -8332,14 +7875,9 @@
     ],
     "family": "araceae",
     "plantVariety": "zz plant",
-    "origins": [
-      "Africa"
-    ],
+    "origins": ["Africa"],
     "difficulty": "easy",
-    "light": [
-      "low",
-      "moderate"
-    ],
+    "light": ["low", "moderate"],
     "water": "little",
     "humidity": "low",
     "fertilizer": "low",
@@ -8381,10 +7919,7 @@
     "isClimber": false,
     "isAirPurifier": true,
     "isPerennial": true,
-    "spaces": [
-      "bedroom",
-      "office"
-    ],
+    "spaces": ["bedroom", "office"],
     "isHanging": false,
     "images": [
       {
