@@ -7,7 +7,9 @@ export const resolvers = {
 
       const plantsInLocal = Object.values(plantsFileContent);
 
-      plantsInLocal.forEach((plant) => plants.push(plant));
+      plantsInLocal.forEach((plant) =>
+        plants.push(transformPlantToNewPlantApiContract(plant))
+      );
 
       return plants;
     },

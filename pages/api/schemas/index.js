@@ -93,9 +93,9 @@ export const typeDefs = gql`
 
   enum Space {
     Bathroom
-    LivingRoom
     Bedroom
     Office
+    LivingRoom
   }
 
   enum FertilizationFrequency {
