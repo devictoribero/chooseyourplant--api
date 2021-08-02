@@ -176,7 +176,7 @@ export const typeDefs = gql`
   type Bio {
     family: String
     subfamily: String
-    variety: String!
+    variety: String
     origins: [String!]
   }
 
