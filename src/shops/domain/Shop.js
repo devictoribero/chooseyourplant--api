@@ -1,4 +1,6 @@
-import { Coordinates } from "./Coordinates";
+import { PhoneNumber } from "./PhoneNumber";
+import { PhysicalLocation } from "./PhysicalLocation";
+import { SocialAccount } from "./SocialAccount";
 
 export class Shop {
   constructor({
@@ -6,8 +8,11 @@ export class Shop {
     website = null,
     coordinates = null,
     country,
+    countryCode,
     email,
     address,
+    socialUrls = null,
+    phoneNumber,
   }) {
     if (!name) {
       throw new Error('"name" is required for a Shop');
@@ -17,57 +22,14 @@ export class Shop {
     this.website = website;
     this.email = email;
     this.country = country;
-
-    // Physical Location of the shop
-    this.location = {
-      country: shop.location.country.name,
-      coordinates:
-        coordinates &&
-        new Coordinates({ lat: coordinates.lat, lng: coordinates.lng }),
-      address: address,
-    };
-
-    this.phone = {
-      prefix: shop.location.country.countryCode,
-      number: shop.contact.phone.number,
-    };
-    this.socials = getSocials(shop);
     this.catalogue = [];
-  }
-}
-
-const SocialMediaPlatforms = {
-  facebook: "Facebook",
-  instagram: "Instagram",
-};
-
-function getSocials(shop) {
-  let socials = [];
-
-  const { social } = shop;
-  const igAccount = social.instagram || "";
-
-  if (Boolean(igAccount) && !igAccount.includes("facebook.com")) {
-    socials.push({
-      type: SocialMediaPlatforms.instagram,
-      url: `https://www.instagram.com/${igAccount}/`,
+    this.phone = new PhoneNumber({ countryCode, number: phoneNumber });
+    this.location = new PhysicalLocation({
+      country,
+      address,
+      coordinates: { lat: coordinates.lat, lng: coordinates.lng },
     });
+    this.socials =
+      socialUrls && socialUrls.map((url) => new SocialAccount({ url }));
   }
-
-  const { website } = shop;
-  if (website && website.includes("facebook.com")) {
-    // There are some shops that have as website a facebook url.
-    socials.push({
-      type: SocialMediaPlatforms.facebook,
-      url: website,
-    });
-  } else if (igAccount && igAccount.includes("facebook.com")) {
-    // There are some shops that have as instagram account a facebook url.
-    socials.push({
-      type: SocialMediaPlatforms.facebook,
-      url: igAccount,
-    });
-  }
-
-  return socials;
 }
