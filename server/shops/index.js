@@ -1,18 +1,37 @@
-const { countries } = require("../location/countries");
+const { countries } = require("./countries");
 
 const shops = [
   {
+    name: "Flowerdale Nurseries",
+    description:
+      "Helpful staff, affordable prices and great selection found at Flowerdale Nursery in Santa Ana since 72’",
     meta: {
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
+    location: {
+      country: {
+        name: countries.usa.name,
+        iso: countries.usa.iso,
+        countryCode: countries.usa.countryCode,
+      },
+      coordinates: {
+        lat: 33.7754216,
+        lng: -117.8363172,
+      },
+      address: null,
+    },
+    website: "https://www.flowerdalenursery.com",
     contact: {
       email: null,
       phone: {
-        number: "7146339200"
-      }
+        number: "7146339200",
+      },
+    },
+    social: {
+      instagram: "flowerdalenursery",
     },
   },
   {
@@ -22,30 +41,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.0421469,
-        lng: -118.4449391
+        lng: -118.4449391,
       },
-      address: null
+      address: null,
     },
     website: "https://yamaguchinursery.com",
     contact: {
       email: null,
       phone: {
-        number: "3104735444"
-      }
+        number: "3104735444",
+      },
     },
     social: {
-      instagram: "yamaguchibonsainursery"
-    }
+      instagram: "yamaguchibonsainursery",
+    },
   },
   {
     name: "Hashimoto Nursery",
@@ -55,30 +74,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.0413546,
-        lng: -118.4445525
+        lng: -118.4445525,
       },
-      address: null
+      address: null,
     },
     website: "https://www.hashimotonursery.com",
     contact: {
       email: "shop@hashimotonursery.com",
       phone: {
-        number: "3104736232"
-      }
+        number: "3104736232",
+      },
     },
     social: {
-      instagram: "hashimoto_nursery"
-    }
+      instagram: "hashimoto_nursery",
+    },
   },
   {
     name: "Gray's Garden Centers",
@@ -88,30 +107,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.0536393,
-        lng: -123.103819
+        lng: -123.103819,
       },
-      address: null
+      address: null,
     },
     website: "https://graysgardens.com",
     contact: {
       email: "ggadmin@graysgardens.com",
       phone: {
-        number: "5413451569"
-      }
+        number: "5413451569",
+      },
     },
     social: {
-      instagram: "graysgardencenter"
-    }
+      instagram: "graysgardencenter",
+    },
   },
   {
     name: "Johnson Brothers Garden Market",
@@ -121,30 +140,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "instagram", "email"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.1458628,
-        lng: -123.0908877
+        lng: -123.0908877,
       },
-      address: null
+      address: null,
     },
     website: "https://jbgardenmarket.com",
     contact: {
       email: "info@jbgardenmarket.com",
       phone: {
-        number: "5414841649"
-      }
+        number: "5414841649",
+      },
     },
     social: {
-      instagram: "johnsonbrosgarden"
-    }
+      instagram: "johnsonbrosgarden",
+    },
   },
   {
     name: "Green Acres Nursery & Supply",
@@ -154,30 +173,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8006634,
-        lng: -121.2020684
+        lng: -121.2020684,
       },
-      address: null
+      address: null,
     },
     website: "https://idiggreenacres.com",
     contact: {
       email: "greenacres@idiggreenacres.com",
       phone: {
-        number: "9168241310"
-      }
+        number: "9168241310",
+      },
     },
     social: {
-      instagram: "idiggreenacres"
-    }
+      instagram: "idiggreenacres",
+    },
   },
   {
     name: "Green Acres Nursery & Supply",
@@ -187,30 +206,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.422693,
-        lng: -121.392799
+        lng: -121.392799,
       },
-      address: null
+      address: null,
     },
     website: "https://idiggreenacres.com",
     contact: {
       email: "greenacres@idiggreenacres.com",
       phone: {
-        number: "9167145600"
-      }
+        number: "9167145600",
+      },
     },
     social: {
-      instagram: "idiggreenacres"
-    }
+      instagram: "idiggreenacres",
+    },
   },
   {
     name: "Green Acres Nursery & Supply",
@@ -220,30 +239,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.646068,
-        lng: -121.107804
+        lng: -121.107804,
       },
-      address: null
+      address: null,
     },
     website: "https://idiggreenacres.com",
     contact: {
       email: "greenacres@idiggreenacres.com",
       phone: {
-        number: "9167145600"
-      }
+        number: "9167145600",
+      },
     },
     social: {
-      instagram: "idiggreenacres"
-    }
+      instagram: "idiggreenacres",
+    },
   },
   {
     name: "Green Acres Nursery & Supply",
@@ -253,30 +272,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.763595,
-        lng: -121.26776
+        lng: -121.26776,
       },
-      address: null
+      address: null,
     },
     website: "https://idiggreenacres.com",
     contact: {
       email: "greenacres@idiggreenacres.com",
       phone: {
-        number: "9167145600"
-      }
+        number: "9167145600",
+      },
     },
     social: {
-      instagram: "idiggreenacres"
-    }
+      instagram: "idiggreenacres",
+    },
   },
   {
     name: "Piep Houseplants",
@@ -285,30 +304,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.9816552,
-        lng: -117.3729404
+        lng: -117.3729404,
       },
-      address: "3770 Orange St, Riverside, CA 92501, United States"
+      address: "3770 Orange St, Riverside, CA 92501, United States",
     },
     website: "https://www.piep.co",
     contact: {
       email: "unicorn@piep.co",
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "piep.co"
-    }
+      instagram: "piep.co",
+    },
   },
   {
     name: "Crimson Horticultural Rarities",
@@ -318,30 +337,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.8359658,
-        lng: -122.2618031
+        lng: -122.2618031,
       },
-      address: null
+      address: null,
     },
     website: "https://www.crimsonhort.com",
     contact: {
       email: "info@crimsonhort.com",
       phone: {
-        number: "5109923359"
-      }
+        number: "5109923359",
+      },
     },
     social: {
-      instagram: "crimsonhort"
-    }
+      instagram: "crimsonhort",
+    },
   },
   {
     name: "Venice Plants",
@@ -350,30 +369,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.0004387,
-        lng: -118.4643068
+        lng: -118.4643068,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: "veniceplants@gmail.com",
       phone: {
-        number: "3103927923"
-      }
+        number: "3103927923",
+      },
     },
     social: {
-      instagram: "venice_plants"
-    }
+      instagram: "venice_plants",
+    },
   },
   {
     name: "Big Red Sun",
@@ -383,30 +402,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.9988087,
-        lng: -118.4721501
+        lng: -118.4721501,
       },
-      address: "560 Rose Ave, Venice, CA 90291, United States"
+      address: "560 Rose Ave, Venice, CA 90291, United States",
     },
     website: "http://www.bigredsun.com",
     contact: {
       email: "info@bigredsun.com",
       phone: {
-        number: "3104330019"
-      }
+        number: "3104330019",
+      },
     },
     social: {
-      instagram: "bigredsun"
-    }
+      instagram: "bigredsun",
+    },
   },
   {
     name: "Merrihew's Sunset Gardens",
@@ -415,30 +434,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.0110586,
-        lng: -118.4683525
+        lng: -118.4683525,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: "3104521051"
-      }
+        number: "3104521051",
+      },
     },
     social: {
-      instagram: "merrihewsnursery"
-    }
+      instagram: "merrihewsnursery",
+    },
   },
   {
     name: "Annie's Annuals & Perennials",
@@ -448,30 +467,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.9582945,
-        lng: -122.360943
+        lng: -122.360943,
       },
-      address: null
+      address: null,
     },
     website: "https://www.anniesannuals.com",
     contact: {
       email: "contact@anniesannuals.com",
       phone: {
-        number: "5102153301"
-      }
+        number: "5102153301",
+      },
     },
     social: {
-      instagram: "anniesannuals"
-    }
+      instagram: "anniesannuals",
+    },
   },
   {
     name: "Barrels & Branches",
@@ -480,30 +499,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0384198,
-        lng: -117.2602861
+        lng: -117.2602861,
       },
-      address: null
+      address: null,
     },
     website: "http://www.barrelsandbranches.com",
     contact: {
       email: null,
       phone: {
-        number: "7607532852"
-      }
+        number: "7607532852",
+      },
     },
     social: {
-      instagram: "barrelsnbranches"
-    }
+      instagram: "barrelsnbranches",
+    },
   },
   {
     name: "Botanica Home and Garden",
@@ -513,30 +532,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7459672,
-        lng: -117.2489972
+        lng: -117.2489972,
       },
-      address: null
+      address: null,
     },
     website: "http://www.botanicahomeandgarden.com",
     contact: {
       email: "contact@botanicahomeandgarden.com",
       phone: {
-        number: "6193268173"
-      }
+        number: "6193268173",
+      },
     },
     social: {
-      instagram: "botanica_home"
-    }
+      instagram: "botanica_home",
+    },
   },
   {
     name: "Cactus Jungle Nursery and Garden",
@@ -546,30 +565,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["you have instagram but not linked in your page"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.9736008,
-        lng: -122.561479
+        lng: -122.561479,
       },
-      address: null
+      address: null,
     },
     website: "https://cactusjungle.com",
     contact: {
       email: "contact@cactusjungle.com",
       phone: {
-        number: "4158709930"
-      }
+        number: "4158709930",
+      },
     },
     social: {
-      instagram: "cactusjungle"
-    }
+      instagram: "cactusjungle",
+    },
   },
   {
     name: "California Carnivores",
@@ -579,30 +598,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["website", "phone"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.3749257,
-        lng: -122.7899258
+        lng: -122.7899258,
       },
-      address: null
+      address: null,
     },
     website: "https://www.californiacarnivores.com",
     contact: {
       email: "info@californiacarnivores.com",
       phone: {
-        number: "7078240433"
-      }
+        number: "7078240433",
+      },
     },
     social: {
-      instagram: "california_carnivores"
-    }
+      instagram: "california_carnivores",
+    },
   },
   {
     name: "City Farmers Nursery",
@@ -612,30 +631,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7376785,
-        lng: -117.0926638
+        lng: -117.0926638,
       },
-      address: "3110 Euclid Ave, San Diego, CA 92105, United States"
+      address: "3110 Euclid Ave, San Diego, CA 92105, United States",
     },
     website: "https://www.cityfarmersnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "6192846358"
-      }
+        number: "6192846358",
+      },
     },
     social: {
-      instagram: "cityfarmersnsy"
-    }
+      instagram: "cityfarmersnsy",
+    },
   },
   {
     name: "Colibri",
@@ -644,30 +663,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5553838,
-        lng: -122.6506864
+        lng: -122.6506864,
       },
-      address: null
+      address: null,
     },
     website: "https://colibripdx.com",
     contact: {
       email: "flowers@colibripdx.com",
       phone: {
-        number: "5032888369"
-      }
+        number: "5032888369",
+      },
     },
     social: {
-      instagram: "colibripdx"
-    }
+      instagram: "colibripdx",
+    },
   },
   {
     name: "Craftmossphere",
@@ -678,32 +697,32 @@ const shops = [
       isPendingToContact: false,
       notes: [
         "The social icons you have in your website doesn't go to your social, it go to wix.",
-        "add phone to google. You show  it in your website"
+        "add phone to google. You show  it in your website",
       ],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.729072,
-        lng: -117.170914
+        lng: -117.170914,
       },
-      address: "2360 India St, San Diego, CA 92101, United States"
+      address: "2360 India St, San Diego, CA 92101, United States",
     },
     website: "https://www.craftmossphere.com",
     contact: {
       email: null,
       phone: {
-        number: "6199251060"
-      }
+        number: "6199251060",
+      },
     },
     social: {
-      instagram: "craftmossphere"
-    }
+      instagram: "craftmossphere",
+    },
   },
   {
     name: "Cuffel Farms",
@@ -713,30 +732,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8169028,
-        lng: -117.1724528
+        lng: -117.1724528,
       },
-      address: "6459 Mt Aguilar Dr, San Diego, CA 92111, United States"
+      address: "6459 Mt Aguilar Dr, San Diego, CA 92111, United States",
     },
     website: "https://cuffelfarms.com",
     contact: {
       email: "cuffelfarms@gmail.com",
       phone: {
-        number: "7608026670"
-      }
+        number: "7608026670",
+      },
     },
     social: {
-      instagram: "cuffelfarms"
-    }
+      instagram: "cuffelfarms",
+    },
   },
   {
     name: "Dana Point Nursery",
@@ -745,30 +764,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.4660875,
-        lng: -117.7051272
+        lng: -117.7051272,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: "9494965137"
-      }
+        number: "9494965137",
+      },
     },
     social: {
-      instagram: "thedanapointnursery"
-    }
+      instagram: "thedanapointnursery",
+    },
   },
   {
     name: "Ecovibe Home",
@@ -777,30 +796,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5589232,
-        lng: -122.645474
+        lng: -122.645474,
       },
-      address: null
+      address: null,
     },
     website: "https://ecovibestyle.com",
     contact: {
       email: "support@ecovibestyle.com",
       phone: {
-        number: "9712669538"
-      }
+        number: "9712669538",
+      },
     },
     social: {
-      instagram: "ecovibestyle"
-    }
+      instagram: "ecovibestyle",
+    },
   },
   {
     name: "Eden University Heights",
@@ -810,30 +829,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.761598,
-        lng: -117.1464727
+        lng: -117.1464727,
       },
-      address: "4636 Park Blvd, San Diego, CA 92116, United States"
+      address: "4636 Park Blvd, San Diego, CA 92116, United States",
     },
     website: "http://edengardenhome.com",
     contact: {
       email: null,
       phone: {
-        number: "6194315095"
-      }
+        number: "6194315095",
+      },
     },
     social: {
-      instagram: "eden.sd"
-    }
+      instagram: "eden.sd",
+    },
   },
   {
     name: "Flowerland Nursery",
@@ -843,30 +862,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["update your email on facebook"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.8904811,
-        lng: -122.2915227
+        lng: -122.2915227,
       },
-      address: null
+      address: null,
     },
     website: "https://flowerlandshop.com",
     contact: {
       email: "info@flowerlandshop.com",
       phone: {
-        number: "5105263550"
-      }
+        number: "5105263550",
+      },
     },
     social: {
-      instagram: "flowerlandshop"
-    }
+      instagram: "flowerlandshop",
+    },
   },
   {
     name: "Green Gardens Nursery",
@@ -876,30 +895,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8039871,
-        lng: -117.2541013
+        lng: -117.2541013,
       },
-      address: null
+      address: null,
     },
     website: "https://greengardenssd.com",
     contact: {
       email: "contact@greengardenssd.com",
       phone: {
-        number: "8584837846"
-      }
+        number: "8584837846",
+      },
     },
     social: {
-      instagram: "greengardenssd"
-    }
+      instagram: "greengardenssd",
+    },
   },
   {
     name: "Green Thumb Nursery - Ventura",
@@ -909,30 +928,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.256779,
-        lng: -119.211347
+        lng: -119.211347,
       },
-      address: "1899 S Victoria Ave, Ventura, CA 93003, United States"
+      address: "1899 S Victoria Ave, Ventura, CA 93003, United States",
     },
     website: "https://www.greenthumb.com",
     contact: {
       email: null,
       phone: {
-        number: "8056428517"
-      }
+        number: "8056428517",
+      },
     },
     social: {
-      instagram: "greenthumbnursery"
-    }
+      instagram: "greenthumbnursery",
+    },
   },
   {
     name: "Green Thumb Nursery - Canoga Park",
@@ -942,30 +961,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.20076,
-        lng: -118.603448
+        lng: -118.603448,
       },
-      address: "21812 Sherman Way, Canoga Park, CA 91303, United States"
+      address: "21812 Sherman Way, Canoga Park, CA 91303, United States",
     },
     website: "https://www.greenthumb.com",
     contact: {
       email: null,
       phone: {
-        number: "8183406400"
-      }
+        number: "8183406400",
+      },
     },
     social: {
-      instagram: "greenthumbnursery"
-    }
+      instagram: "greenthumbnursery",
+    },
   },
   {
     name: "Green Thumb Nursery - Santa Clarita",
@@ -975,30 +994,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.37201,
-        lng: -118.514998
+        lng: -118.514998,
       },
-      address: "23734 Newhall Ave, Santa Clarita, CA 91321, United States"
+      address: "23734 Newhall Ave, Santa Clarita, CA 91321, United States",
     },
     website: "https://www.greenthumb.com",
     contact: {
       email: null,
       phone: {
-        number: "6612591071"
-      }
+        number: "6612591071",
+      },
     },
     social: {
-      instagram: "greenthumbnursery"
-    }
+      instagram: "greenthumbnursery",
+    },
   },
   {
     name: "Casey's Corner Nursery",
@@ -1008,30 +1027,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["the facebook account from the website doesn't work"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.470063,
-        lng: -80.509437
+        lng: -80.509437,
       },
-      address: "31877 SW 197th Ave, Homestead, FL 33030, United States"
+      address: "31877 SW 197th Ave, Homestead, FL 33030, United States",
     },
     website: "https://www.fann.org/",
     contact: {
       email: null,
       phone: {
-        number: "3052487284"
-      }
+        number: "3052487284",
+      },
     },
     social: {
-      instagram: "fannisonline"
-    }
+      instagram: "fannisonline",
+    },
   },
   {
     name: "United Nursery",
@@ -1040,30 +1059,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["Add your instagram account in your website"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.483542,
-        lng: -80.542522
+        lng: -80.542522,
       },
-      address: "30401 SW 217th Ave, Homestead, FL 33030, United States"
+      address: "30401 SW 217th Ave, Homestead, FL 33030, United States",
     },
     website: "http://www.unitednursery.com",
     contact: {
       email: "sales@unitednursery.com",
       phone: {
-        number: "7862430905"
-      }
+        number: "7862430905",
+      },
     },
     social: {
-      instagram: "unitednursery"
-    }
+      instagram: "unitednursery",
+    },
   },
   {
     name: "Jungle Nursery",
@@ -1073,30 +1092,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.496309,
-        lng: -80.453103
+        lng: -80.453103,
       },
-      address: "29100 SW 162nd Ave, Homestead, FL 33033, United States"
+      address: "29100 SW 162nd Ave, Homestead, FL 33033, United States",
     },
     website: "https://www.junglenursery.com",
     contact: {
       email: "sales@junglenursery.com",
       phone: {
-        number: "3052465324"
-      }
+        number: "3052465324",
+      },
     },
     social: {
-      instagram: "thejunglenurseryinc"
-    }
+      instagram: "thejunglenurseryinc",
+    },
   },
   {
     name: "R Plants Inc. Nursery",
@@ -1106,30 +1125,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["the link to your instagram is wrong, double https"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.521732,
-        lng: -80.458357
+        lng: -80.458357,
       },
-      address: "16455 SW 264th St, Homestead, FL 33031, United States"
+      address: "16455 SW 264th St, Homestead, FL 33031, United States",
     },
     website: "https://rplantsinc.com",
     contact: {
       email: "michele@rplantsinc.com",
       phone: {
-        number: "3052579883"
-      }
+        number: "3052579883",
+      },
     },
     social: {
-      instagram: "r.plantsnursery"
-    }
+      instagram: "r.plantsnursery",
+    },
   },
   {
     name: "Georgie's Paradise",
@@ -1141,32 +1160,32 @@ const shops = [
       notes: [
         "no website on google, I added for you",
         "website is down",
-        "no email"
+        "no email",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.579237,
-        lng: -80.48042
+        lng: -80.48042,
       },
-      address: "20300 SW 177th Ave, Miami, FL 33187, United States"
+      address: "20300 SW 177th Ave, Miami, FL 33187, United States",
     },
     website: "https://georgiesparadise.com",
     contact: {
       email: null,
       phone: {
-        number: "3052359311"
-      }
+        number: "3052359311",
+      },
     },
     social: {
-      instagram: "georgiesparadise"
-    }
+      instagram: "georgiesparadise",
+    },
   },
   {
     name: "Isaac Farms",
@@ -1176,30 +1195,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.490261,
-        lng: -80.479564
+        lng: -80.479564,
       },
-      address: "18800 SW 177th Ave, Miami, FL 33187, United States"
+      address: "18800 SW 177th Ave, Miami, FL 33187, United States",
     },
     website: "https://isaacfarms.com",
     contact: {
       email: "aibusiness@hotmail.com",
       phone: {
-        number: "7869420551"
-      }
+        number: "7869420551",
+      },
     },
     social: {
-      instagram: "isaacfarms"
-    }
+      instagram: "isaacfarms",
+    },
   },
   {
     name: "Plants To Go",
@@ -1208,30 +1227,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.655112,
-        lng: -80.383673
+        lng: -80.383673,
       },
-      address: "12200 SW 117th Ave, Miami, FL 33186, United States"
+      address: "12200 SW 117th Ave, Miami, FL 33186, United States",
     },
     website: "https://plants-to-go.com",
     contact: {
       email: "plantstogo1@yahoo.com",
       phone: {
-        number: "3059720405"
-      }
+        number: "3059720405",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Galloway Farm Nursery Inc.",
@@ -1241,30 +1260,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.697301,
-        lng: -80.334401
+        lng: -80.334401,
       },
-      address: "7790 SW 87th Ave, Miami, FL 33173, United States"
+      address: "7790 SW 87th Ave, Miami, FL 33173, United States",
     },
     website: "https://www.gallowayfarminc.com",
     contact: {
       email: "galloway_inc@bellsouth.net",
       phone: {
-        number: "3052747472"
-      }
+        number: "3052747472",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plasencia Nursery",
@@ -1274,30 +1293,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.701415,
-        lng: -80.382041
+        lng: -80.382041,
       },
-      address: "11801 SW 72nd St, Miami, FL 33183, United States"
+      address: "11801 SW 72nd St, Miami, FL 33183, United States",
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: "3052719885"
-      }
+        number: "3052719885",
+      },
     },
     social: {
-      instagram: "plasencianursery"
-    }
+      instagram: "plasencianursery",
+    },
   },
   {
     name: "Casaplanta Garden Center",
@@ -1309,32 +1328,32 @@ const shops = [
       notes: [
         "I see 2 websites, and they are not linked to each other.",
         "The website that appear in Google is not the online shop",
-        "the online shop has no items and the all products page has random names."
+        "the online shop has no items and the all products page has random names.",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.702584,
-        lng: -80.398451
+        lng: -80.398451,
       },
-      address: "6825 SW 127th Ave, Miami, FL 33183, United States"
+      address: "6825 SW 127th Ave, Miami, FL 33183, United States",
     },
     website: "http://www.casaplantamiami.com",
     contact: {
       email: "daniel@casaplantamiami.com",
       phone: {
-        number: "3053921791"
-      }
+        number: "3053921791",
+      },
     },
     social: {
-      instagram: "casaplantamiami"
-    }
+      instagram: "casaplantamiami",
+    },
   },
   {
     name: "Lighthouse Garden Center",
@@ -1344,30 +1363,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["the link to your Instagram is wrong, it goes to wix"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.715025,
-        lng: -80.389609
+        lng: -80.389609,
       },
-      address: "12000 SW 56th St, Miami, FL 33175, United States"
+      address: "12000 SW 56th St, Miami, FL 33175, United States",
     },
     website: "https://lighthousegardencenter.com",
     contact: {
       email: "lighthousegarden56@gmail.com",
       phone: {
-        number: "3052717190"
-      }
+        number: "3052717190",
+      },
     },
     social: {
-      instagram: "lighthousegarden"
-    }
+      instagram: "lighthousegarden",
+    },
   },
   {
     name: "Florida Landscape Nursery",
@@ -1377,30 +1396,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.715551,
-        lng: -80.39756
+        lng: -80.39756,
       },
-      address: "12595 SW 56th St, Miami, FL 33175, United States"
+      address: "12595 SW 56th St, Miami, FL 33175, United States",
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: "3057884000"
-      }
+        number: "3057884000",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Emerald Forest",
@@ -1409,30 +1428,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["do you have instagram?"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.531507,
-        lng: -80.497093
+        lng: -80.497093,
       },
-      address: "25201 SW 189th Ave, Homestead, FL 33031, United States"
+      address: "25201 SW 189th Ave, Homestead, FL 33031, United States",
     },
     website: "https://www.emeraldforesttropicals.com",
     contact: {
       email: "sales@emeraldforesttropicals.com",
       phone: {
-        number: "3052421133"
-      }
+        number: "3052421133",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Delfosse Nursery",
@@ -1441,30 +1460,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["do you have instagram?"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.529019,
-        lng: -80.470983
+        lng: -80.470983,
       },
-      address: "17275 SW 256th St, Homestead, FL 33031, United States"
+      address: "17275 SW 256th St, Homestead, FL 33031, United States",
     },
     website: "https://www.delfossenursery.com",
     contact: {
       email: null,
       phone: {
-        number: "3052462950"
-      }
+        number: "3052462950",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Green Thumb Nursery - Lake Forest",
@@ -1474,30 +1493,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.617122,
-        lng: -117.7082758
+        lng: -117.7082758,
       },
-      address: "23782 Bridger Rd, Lake Forest, CA 92630, United States"
+      address: "23782 Bridger Rd, Lake Forest, CA 92630, United States",
     },
     website: "https://www.greenthumb.com",
     contact: {
       email: null,
       phone: {
-        number: "9498373040"
-      }
+        number: "9498373040",
+      },
     },
     social: {
-      instagram: "greenthumbnursery"
-    }
+      instagram: "greenthumbnursery",
+    },
   },
   {
     name: "Green Thumb Nursery - San Marcos",
@@ -1507,30 +1526,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.133578,
-        lng: -117.190066
+        lng: -117.190066,
       },
-      address: "1019 W San Marcos Blvd, San Marcos, CA 92078, United States"
+      address: "1019 W San Marcos Blvd, San Marcos, CA 92078, United States",
     },
     website: "https://www.greenthumb.com",
     contact: {
       email: null,
       phone: {
-        number: "7607443822"
-      }
+        number: "7607443822",
+      },
     },
     social: {
-      instagram: "greenthumbnursery"
-    }
+      instagram: "greenthumbnursery",
+    },
   },
   {
     name: "Marbotts",
@@ -1540,30 +1559,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: ["email"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5766131,
-        lng: -122.6465712
+        lng: -122.6465712,
       },
-      address: null
+      address: null,
     },
     website: "https://marbotts.com",
     contact: {
       email: null,
       phone: {
-        number: "5032852106"
-      }
+        number: "5032852106",
+      },
     },
     social: {
-      instagram: "marbotts_nursery"
-    }
+      instagram: "marbotts_nursery",
+    },
   },
   {
     name: "North Park Nursery",
@@ -1572,30 +1591,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7482051,
-        lng: -117.1393091
+        lng: -117.1393091,
       },
-      address: "2335 University Ave, San Diego, CA 92104, United States"
+      address: "2335 University Ave, San Diego, CA 92104, United States",
     },
     website: "http://northparknursery.com",
     contact: {
       email: null,
       phone: {
-        number: "6197951855"
-      }
+        number: "6197951855",
+      },
     },
     social: {
-      instagram: "northparknursery"
-    }
+      instagram: "northparknursery",
+    },
   },
   {
     name: "Plant Depot",
@@ -1605,30 +1624,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.4922712,
-        lng: -117.6602587
+        lng: -117.6602587,
       },
-      address: null
+      address: null,
     },
     website: "http://www.plantdepot.com",
     contact: {
       email: "plantdepothelp@gmail.com",
       phone: {
-        number: "9492402107"
-      }
+        number: "9492402107",
+      },
     },
     social: {
-      instagram: "plantdepotsjc"
-    }
+      instagram: "plantdepotsjc",
+    },
   },
   {
     name: "Poots Cactus Nursery",
@@ -1638,30 +1657,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["link your instagram to your website"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.7984717,
-        lng: -121.0982362
+        lng: -121.0982362,
       },
-      address: null
+      address: null,
     },
     website: "http://www.pootscactusnursery.com",
     contact: {
       email: "pootscactus@gmail.com",
       phone: {
-        number: "2095997241"
-      }
+        number: "2095997241",
+      },
     },
     social: {
-      instagram: "poots_cactus_nursery"
-    }
+      instagram: "poots_cactus_nursery",
+    },
   },
   {
     name: "Roger's Gardens",
@@ -1671,31 +1690,31 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.6132481,
-        lng: -117.8671252
+        lng: -117.8671252,
       },
       address:
-        "2301 San Joaquin Hills Rd, Corona Del Mar, CA 92625, United States"
+        "2301 San Joaquin Hills Rd, Corona Del Mar, CA 92625, United States",
     },
     website: "https://www.rogersgardens.com",
     contact: {
       email: "marketing@rogersgardens.com",
       phone: {
-        number: "9496405800"
-      }
+        number: "9496405800",
+      },
     },
     social: {
-      instagram: "rogersgardens"
-    }
+      instagram: "rogersgardens",
+    },
   },
   {
     name: "Smith & Gardener",
@@ -1704,30 +1723,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["website", "email", "phone"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5820616,
-        lng: -122.6866876
+        lng: -122.6866876,
       },
-      address: null
+      address: null,
     },
     website: "https://smithandgardener.com",
     contact: {
       email: "info@smithandgardener.com",
       phone: {
-        number: "5038948667"
-      }
+        number: "5038948667",
+      },
     },
     social: {
-      instagram: "smithandgardener"
-    }
+      instagram: "smithandgardener",
+    },
   },
   {
     name: "Terra Sol Garden Center",
@@ -1737,30 +1756,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.4396601,
-        lng: -119.8096805
+        lng: -119.8096805,
       },
-      address: null
+      address: null,
     },
     website: "https://terrasolgardencenter.com",
     contact: {
       email: "support@terrasolgardencenter.com",
       phone: {
-        number: "8059647811"
-      }
+        number: "8059647811",
+      },
     },
     social: {
-      instagram: "terra_sol_garden_center"
-    }
+      instagram: "terra_sol_garden_center",
+    },
   },
   {
     name: "Underhill Plants",
@@ -1770,30 +1789,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.0449874,
-        lng: -122.8990678
+        lng: -122.8990678,
       },
-      address: null
+      address: null,
     },
     website: "https://underhillplants.com",
     contact: {
       email: "underhillplants@gmail.com",
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "underhillplants"
-    }
+      instagram: "underhillplants",
+    },
   },
   {
     name: "Wild Island Collective",
@@ -1802,30 +1821,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7635416,
-        lng: -117.1171032
+        lng: -117.1171032,
       },
-      address: null
+      address: null,
     },
     website: "https://www.wildisland-collective.com",
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "wildisland.collective"
-    }
+      instagram: "wildisland.collective",
+    },
   },
   {
     name: "Gray's Garden Centers",
@@ -1835,30 +1854,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.0453282,
-        lng: -122.9569411
+        lng: -122.9569411,
       },
-      address: null
+      address: null,
     },
     website: "https://graysgardens.com",
     contact: {
       email: "ggadmin@graysgardens.com",
       phone: {
-        number: "5413575431"
-      }
+        number: "5413575431",
+      },
     },
     social: {
-      instagram: "graysgardencenter"
-    }
+      instagram: "graysgardencenter",
+    },
   },
   {
     name: "Down to Earth Home and Garden",
@@ -1867,30 +1886,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.0539158,
-        lng: -123.0948839
+        lng: -123.0948839,
       },
-      address: null
+      address: null,
     },
     website: "https://downtoeartheugene.com",
     contact: {
       email: null,
       phone: {
-        number: "5413426820"
-      }
+        number: "5413426820",
+      },
     },
     social: {
-      instagram: "downtoeartheugene"
-    }
+      instagram: "downtoeartheugene",
+    },
   },
   {
     name: "Leafy",
@@ -1900,30 +1919,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.3231754,
-        lng: -121.9470811
+        lng: -121.9470811,
       },
-      address: null
+      address: null,
     },
     website: "https://www.leafypaloalto.com",
     contact: {
       email: "info@leafypaloalto.com",
       phone: {
-        number: "4086380630"
-      }
+        number: "4086380630",
+      },
     },
     social: {
-      instagram: "theleafyplant"
-    }
+      instagram: "theleafyplant",
+    },
   },
   {
     name: "Leafy",
@@ -1933,30 +1952,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.447285,
-        lng: -122.158043
+        lng: -122.158043,
       },
-      address: null
+      address: null,
     },
     website: "https://www.leafypaloalto.com",
     contact: {
       email: "info@leafypaloalto.com",
       phone: {
-        number: "6506186678"
-      }
+        number: "6506186678",
+      },
     },
     social: {
-      instagram: "theleafyplant"
-    }
+      instagram: "theleafyplant",
+    },
   },
   {
     name: "SummerWinds Nursery",
@@ -1966,30 +1985,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.2974447,
-        lng: -122.0333453
+        lng: -122.0333453,
       },
-      address: null
+      address: null,
     },
     website: "https://summerwindsnursery.com",
     contact: {
       email: "shelly@summerwinds.net",
       phone: {
-        number: "4089968355"
-      }
+        number: "4089968355",
+      },
     },
     social: {
-      instagram: "summerwindsmtview"
-    }
+      instagram: "summerwindsmtview",
+    },
   },
   {
     name: "SummerWinds Nursery",
@@ -1999,30 +2018,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.2788406,
-        lng: -121.9489415
+        lng: -121.9489415,
       },
-      address: null
+      address: null,
     },
     website: "https://summerwindsnursery.com",
     contact: {
       email: "shelly@summerwinds.net",
       phone: {
-        number: "4088660171"
-      }
+        number: "4088660171",
+      },
     },
     social: {
-      instagram: "summerwindsmtview"
-    }
+      instagram: "summerwindsmtview",
+    },
   },
   {
     name: "SummerWinds Nursery",
@@ -2032,30 +2051,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.417475,
-        lng: -122.103561
+        lng: -122.103561,
       },
-      address: null
+      address: null,
     },
     website: "https://summerwindsnursery.com",
     contact: {
       email: "shelly@summerwinds.net",
       phone: {
-        number: "4088660171"
-      }
+        number: "4088660171",
+      },
     },
     social: {
-      instagram: "summerwindsmtview"
-    }
+      instagram: "summerwindsmtview",
+    },
   },
   {
     name: "Ladera Garden & Gifts",
@@ -2065,30 +2084,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.512191,
-        lng: -122.292962
+        lng: -122.292962,
       },
-      address: null
+      address: null,
     },
     website: "https://www.leafypaloalto.com",
     contact: {
       email: null,
       phone: {
-        number: "6502327154"
-      }
+        number: "6502327154",
+      },
     },
     social: {
-      instagram: "laderagardenandgifts"
-    }
+      instagram: "laderagardenandgifts",
+    },
   },
   {
     name: "Ladera Garden & Gifts",
@@ -2098,30 +2117,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.401027,
-        lng: -122.193372
+        lng: -122.193372,
       },
-      address: null
+      address: null,
     },
     website: "https://www.leafypaloalto.com",
     contact: {
       email: null,
       phone: {
-        number: "6502327154"
-      }
+        number: "6502327154",
+      },
     },
     social: {
-      instagram: "laderagardenandgifts"
-    }
+      instagram: "laderagardenandgifts",
+    },
   },
   {
     name: "Evergreen Farm",
@@ -2131,30 +2150,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.275321,
-        lng: -121.746759
+        lng: -121.746759,
       },
-      address: null
+      address: null,
     },
     website: "https://evgfarm.com",
     contact: {
       email: null,
       phone: {
-        number: "4088767802"
-      }
+        number: "4088767802",
+      },
     },
     social: {
-      instagram: "evgfarm"
-    }
+      instagram: "evgfarm",
+    },
   },
   {
     name: "Chinelo Design",
@@ -2164,30 +2183,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.379832,
-        lng: -122.116923
+        lng: -122.116923,
       },
-      address: null
+      address: null,
     },
     website: "https://www.chinelodesign.com",
     contact: {
       email: "raymundo@chinelodesign.com",
       phone: {
-        number: "6505756362"
-      }
+        number: "6505756362",
+      },
     },
     social: {
-      instagram: "evgfarm"
-    }
+      instagram: "evgfarm",
+    },
   },
   {
     name: "A Modern Plantsman",
@@ -2197,30 +2216,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "phone in web", "hours"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 46.8799885,
-        lng: -117.3641454
+        lng: -117.3641454,
       },
-      address: null
+      address: null,
     },
     website: "https://amodernplantsman.com",
     contact: {
       email: null,
       phone: {
-        number: "2087171106"
-      }
+        number: "2087171106",
+      },
     },
     social: {
-      instagram: "amodernplantsman"
-    }
+      instagram: "amodernplantsman",
+    },
   },
   {
     name: "Talise Garden",
@@ -2229,30 +2248,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5260921,
-        lng: -122.6819987
+        lng: -122.6819987,
       },
-      address: null
+      address: null,
     },
     website: "https://talisegarden.com",
     contact: {
       email: "info@talisegarden.com",
       phone: {
-        number: "5036080328"
-      }
+        number: "5036080328",
+      },
     },
     social: {
-      instagram: "talisegarden"
-    }
+      instagram: "talisegarden",
+    },
   },
   {
     name: "Local Branch",
@@ -2261,30 +2280,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["phone", "description", "reviews"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5173338,
-        lng: -122.6598836
+        lng: -122.6598836,
       },
-      address: null
+      address: null,
     },
     website: "https://yourlocalbranch.com",
     contact: {
       email: "yourlocalbranch@gmail.com",
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "localbranch"
-    }
+      instagram: "localbranch",
+    },
   },
   {
     name: "Appetite Shop",
@@ -2294,30 +2313,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5226683,
-        lng: -122.6437857
+        lng: -122.6437857,
       },
-      address: null
+      address: null,
     },
     website: "https://appetiteshop.com",
     contact: {
       email: "info@appetiteshop.com",
       phone: {
-        number: "5032331223"
-      }
+        number: "5032331223",
+      },
     },
     social: {
-      instagram: "appetiteshop"
-    }
+      instagram: "appetiteshop",
+    },
   },
   {
     name: "Appetite Shop",
@@ -2327,30 +2346,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.515881,
-        lng: -122.665017
+        lng: -122.665017,
       },
-      address: null
+      address: null,
     },
     website: "https://appetiteshop.com",
     contact: {
       email: null,
       phone: {
-        number: "5032331223"
-      }
+        number: "5032331223",
+      },
     },
     social: {
-      instagram: "appetiteshop"
-    }
+      instagram: "appetiteshop",
+    },
   },
   {
     name: "Portland Nursery",
@@ -2360,30 +2379,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5043212,
-        lng: -122.5706218
+        lng: -122.5706218,
       },
-      address: null
+      address: null,
     },
     website: "https://portlandnursery.com",
     contact: {
       email: "info@portlandnursery.com",
       phone: {
-        number: "5037889000"
-      }
+        number: "5037889000",
+      },
     },
     social: {
-      instagram: "portlandnursery"
-    }
+      instagram: "portlandnursery",
+    },
   },
   {
     name: "Portland Nursery",
@@ -2393,30 +2412,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5187671,
-        lng: -122.6110523
+        lng: -122.6110523,
       },
-      address: null
+      address: null,
     },
     website: "https://portlandnursery.com",
     contact: {
       email: "info@portlandnursery.com",
       phone: {
-        number: "5032315050"
-      }
+        number: "5032315050",
+      },
     },
     social: {
-      instagram: "portlandnursery"
-    }
+      instagram: "portlandnursery",
+    },
   },
   {
     name: "Solabee Flowers & Botanicals",
@@ -2426,30 +2445,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "2 differetn emails? its strange"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5353428,
-        lng: -122.7012357
+        lng: -122.7012357,
       },
-      address: null
+      address: null,
     },
     website: "https://solabeeflowers.com",
     contact: {
       email: "solabeeflowersnw@gmail.com",
       phone: {
-        number: "5032789077"
-      }
+        number: "5032789077",
+      },
     },
     social: {
-      instagram: "solabeeflowers"
-    }
+      instagram: "solabeeflowers",
+    },
   },
   {
     name: "Solabee Flowers & Botanicals",
@@ -2459,30 +2478,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "2 differetn emails? its strange"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.562728,
-        lng: -122.675014
+        lng: -122.675014,
       },
-      address: null
+      address: null,
     },
     website: "https://solabeeflowers.com",
     contact: {
       email: "hello@solabeeflowers.com",
       phone: {
-        number: "5033072758"
-      }
+        number: "5033072758",
+      },
     },
     social: {
-      instagram: "solabeeflowers"
-    }
+      instagram: "solabeeflowers",
+    },
   },
   {
     name: "Solabee Flowers & Botanicals",
@@ -2491,30 +2510,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5627925,
-        lng: -122.6751129
+        lng: -122.6751129,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Thicket",
@@ -2524,30 +2543,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5586442,
-        lng: -122.6422255
+        lng: -122.6422255,
       },
-      address: null
+      address: null,
     },
     website: "https://thicketpdx.com",
     contact: {
       email: "info@thicketpdx.com",
       phone: {
-        number: "5039263817"
-      }
+        number: "5039263817",
+      },
     },
     social: {
-      instagram: "thicketpdx"
-    }
+      instagram: "thicketpdx",
+    },
   },
   {
     name: "Potted Elephant",
@@ -2557,30 +2576,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "phone", "mixed websites and stock"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5621254,
-        lng: -122.8679822
+        lng: -122.8679822,
       },
-      address: null
+      address: null,
     },
     website: "https://pottedelephant.com",
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "pottedelephant"
-    }
+      instagram: "pottedelephant",
+    },
   },
   {
     name: "hammer + vine",
@@ -2589,30 +2608,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5232352,
-        lng: -122.6962752
+        lng: -122.6962752,
       },
-      address: null
+      address: null,
     },
     website: "https://hammerandvine.com",
     contact: {
       email: "hammerandvine@gmail.com",
       phone: {
-        number: "5032249678"
-      }
+        number: "5032249678",
+      },
     },
     social: {
-      instagram: "hammerandvine"
-    }
+      instagram: "hammerandvine",
+    },
   },
   {
     name: "Glasswing Greenhouse",
@@ -2621,30 +2640,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "email"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.6165927,
-        lng: -122.3276775
+        lng: -122.3276775,
       },
-      address: null
+      address: null,
     },
     website: "https://glasswingshop.com",
     contact: {
       email: "hello@glasswingshop.com",
       phone: {
-        number: "2068298955"
-      }
+        number: "2068298955",
+      },
     },
     social: {
-      instagram: "glasswingshop"
-    }
+      instagram: "glasswingshop",
+    },
   },
   {
     name: "Swansons Nursery",
@@ -2653,30 +2672,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.700006,
-        lng: -122.3781549
+        lng: -122.3781549,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Central Wholesale Nursery",
@@ -2686,30 +2705,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.307679,
-        lng: -121.919883
+        lng: -121.919883,
       },
-      address: null
+      address: null,
     },
     website: "https://www.centralwholesalenursery.com",
     contact: {
       email: "centralwholesale@sbcglobal.net",
       phone: {
-        number: "4082801131"
-      }
+        number: "4082801131",
+      },
     },
     social: {
-      instagram: "centralwholesalenursery"
-    }
+      instagram: "centralwholesalenursery",
+    },
   },
   {
     name: "Fractal Flora",
@@ -2719,30 +2738,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.336403,
-        lng: -121.89373
+        lng: -121.89373,
       },
-      address: null
+      address: null,
     },
     website: "https://www.fractalflora.com/",
     contact: {
       email: "hello@fractalflora.com",
       phone: {
-        number: "6503149853"
-      }
+        number: "6503149853",
+      },
     },
     social: {
-      instagram: "fractalflora"
-    }
+      instagram: "fractalflora",
+    },
   },
   {
     name: "The Plant Store",
@@ -2751,30 +2770,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.5184947,
-        lng: -122.3559291
+        lng: -122.3559291,
       },
-      address: null
+      address: null,
     },
     website: "http://theplantstoreonline.com",
     contact: {
       email: "seattleplantstore@gmail.com",
       phone: {
-        number: "5092409272"
-      }
+        number: "5092409272",
+      },
     },
     social: {
-      instagram: "seattleplantstore"
-    }
+      instagram: "seattleplantstore",
+    },
   },
   {
     name: "Folia Collective",
@@ -2783,30 +2802,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.1397799,
-        lng: -118.2142385
+        lng: -118.2142385,
       },
-      address: null
+      address: null,
     },
     website: "https://foliacollective.com",
     contact: {
       email: "hello@foliacollective.com",
       phone: {
-        number: "6267874957"
-      }
+        number: "6267874957",
+      },
     },
     social: {
-      instagram: "foliacollective"
-    }
+      instagram: "foliacollective",
+    },
   },
   {
     name: "Sunset Boulevard Nursery",
@@ -2815,30 +2834,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "description"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.096029,
-        lng: -118.284929
+        lng: -118.284929,
       },
-      address: null
+      address: null,
     },
     website: "https://swansonsnursery.com",
     contact: {
       email: "garden@swansonsnursery.com",
       phone: {
-        number: "2067822543"
-      }
+        number: "2067822543",
+      },
     },
     social: {
-      instagram: "swansonsnurseryseattle"
-    }
+      instagram: "swansonsnurseryseattle",
+    },
   },
   {
     name: "California Cactus Center",
@@ -2848,30 +2867,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.142552,
-        lng: -118.072929
+        lng: -118.072929,
       },
-      address: null
+      address: null,
     },
     website: "http://www.cactuscenter.com",
     contact: {
       email: null,
       phone: {
-        number: "6267952788"
-      }
+        number: "6267952788",
+      },
     },
     social: {
-      instagram: "california_cactus_center"
-    }
+      instagram: "california_cactus_center",
+    },
   },
   {
     name: "Francis Cactus Succulents",
@@ -2881,30 +2900,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["Add linkn to your instagram in your page"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.185332,
-        lng: -118.3609932
+        lng: -118.3609932,
       },
-      address: null
+      address: null,
     },
     website: "http://www.franciscactus.com",
     contact: {
       email: "info@franciscactus.com",
       phone: {
-        number: "8184236369"
-      }
+        number: "8184236369",
+      },
     },
     social: {
-      instagram: "cactfrancis"
-    }
+      instagram: "cactfrancis",
+    },
   },
   {
     name: "Pistils Nursery",
@@ -2914,30 +2933,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5340587,
-        lng: -122.6953998
+        lng: -122.6953998,
       },
-      address: null
+      address: null,
     },
     website: "https://pistilsnursery.com",
     contact: {
       email: "hello@pistilsnursery.com",
       phone: {
-        number: "5032884889"
-      }
+        number: "5032884889",
+      },
     },
     social: {
-      instagram: "pistilsnursery"
-    }
+      instagram: "pistilsnursery",
+    },
   },
   {
     name: "Pistils Nursery",
@@ -2947,30 +2966,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5504197,
-        lng: -122.6757158
+        lng: -122.6757158,
       },
-      address: null
+      address: null,
     },
     website: "https://pistilsnursery.com",
     contact: {
       email: "hello@pistilsnursery.com",
       phone: {
-        number: "5032884889"
-      }
+        number: "5032884889",
+      },
     },
     social: {
-      instagram: "pistilsnursery"
-    }
+      instagram: "pistilsnursery",
+    },
   },
   {
     name: "Gurton's Plant Shop",
@@ -2979,30 +2998,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.477823,
-        lng: -122.6960031
+        lng: -122.6960031,
       },
-      address: null
+      address: null,
     },
     website: "https://gurtons.com",
     contact: {
       email: "hellogurtons@gmail.com",
       phone: {
-        number: "5033877750"
-      }
+        number: "5033877750",
+      },
     },
     social: {
-      instagram: "gurtonsplantshop"
-    }
+      instagram: "gurtonsplantshop",
+    },
   },
   {
     name: "Arium Botanicals",
@@ -3012,30 +3031,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.5376353,
-        lng: -122.6611805
+        lng: -122.6611805,
       },
-      address: null
+      address: null,
     },
     website: "https://ariumbotanicals.com",
     contact: {
       email: null,
       phone: {
-        number: "5037194763"
-      }
+        number: "5037194763",
+      },
     },
     social: {
-      instagram: "ariumbotanicals"
-    }
+      instagram: "ariumbotanicals",
+    },
   },
   {
     name: "Windmill Gardens",
@@ -3044,30 +3063,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.2036388,
-        lng: -122.2152747
+        lng: -122.2152747,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Urban Plant Shop",
@@ -3077,30 +3096,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "email"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.5671106,
-        lng: -122.6307677
+        lng: -122.6307677,
       },
-      address: null
+      address: null,
     },
     website: "https://urbanplantshop.com",
     contact: {
       email: "urbanplantshop@icloud.com",
       phone: {
-        number: "2062346767"
-      }
+        number: "2062346767",
+      },
     },
     social: {
-      instagram: "urbanplantshop"
-    }
+      instagram: "urbanplantshop",
+    },
   },
   {
     name: "Urban Sprouts",
@@ -3110,30 +3129,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "description"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.4797895,
-        lng: -122.2069431
+        lng: -122.2069431,
       },
-      address: null
+      address: null,
     },
     website: "https://urbansproutsstore.com",
     contact: {
       email: "danny@urbansproutsstore.com",
       phone: {
-        number: "2067890710"
-      }
+        number: "2067890710",
+      },
     },
     social: {
-      instagram: "urbansproutsstore"
-    }
+      instagram: "urbansproutsstore",
+    },
   },
   {
     name: "Jungle Fever Exotics",
@@ -3142,30 +3161,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.297927,
-        lng: -122.5161269
+        lng: -122.5161269,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bark & Garden Center Inc",
@@ -3174,30 +3193,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "description", "no instagram"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.047774,
-        lng: -122.9527687
+        lng: -122.9527687,
       },
-      address: null
+      address: null,
     },
     website: "https://barkandgarden.com",
     contact: {
       email: "barkandgarden@juno.com",
       phone: {
-        number: "3603522955"
-      }
+        number: "3603522955",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cultivate Propagate",
@@ -3207,30 +3226,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "description"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.6235135,
-        lng: -122.3611553
+        lng: -122.3611553,
       },
-      address: null
+      address: null,
     },
     website: "https://cultivatepropagate.com",
     contact: {
       email: null,
       phone: {
-        number: "2064925969"
-      }
+        number: "2064925969",
+      },
     },
     social: {
-      instagram: "cultivatepropagate"
-    }
+      instagram: "cultivatepropagate",
+    },
   },
   {
     name: "Indoor Sun Shoppe",
@@ -3240,30 +3259,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.650838,
-        lng: -122.354882
+        lng: -122.354882,
       },
-      address: null
+      address: null,
     },
     website: "https://indoorsun.com",
     contact: {
       email: "info@indoorsun.com",
       phone: {
-        number: "2066343727"
-      }
+        number: "2066343727",
+      },
     },
     social: {
-      instagram: "indoorsun"
-    }
+      instagram: "indoorsun",
+    },
   },
   {
     name: "Plant Shop Seattle",
@@ -3272,30 +3291,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "description"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.6172733,
-        lng: -122.3033714
+        lng: -122.3033714,
       },
-      address: null
+      address: null,
     },
     website: "https://plantshopseattle.com",
     contact: {
       email: "info@plantshopseattle.com",
       phone: {
-        number: " 2064664880"
-      }
+        number: " 2064664880",
+      },
     },
     social: {
-      instagram: "plantshopseattle"
-    }
+      instagram: "plantshopseattle",
+    },
   },
   {
     name: "Plant Shop Seattle",
@@ -3304,30 +3323,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email", "description"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.61505,
-        lng: -122.326095
+        lng: -122.326095,
       },
-      address: null
+      address: null,
     },
     website: "https://plantshopseattle.com",
     contact: {
       email: "info@plantshopseattle.com",
       phone: {
-        number: " 2064664961"
-      }
+        number: " 2064664961",
+      },
     },
     social: {
-      instagram: "plantshopseattle"
-    }
+      instagram: "plantshopseattle",
+    },
   },
   {
     name: "Theodore Payne Foundation",
@@ -3337,30 +3356,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.2373025,
-        lng: -118.3596747
+        lng: -118.3596747,
       },
-      address: "10459 Tuxford St, Sun Valley, CA 91352, United States"
+      address: "10459 Tuxford St, Sun Valley, CA 91352, United States",
     },
     website: "http://theodorepayne.org",
     contact: {
       email: "info@theodorepayne.org",
       phone: {
-        number: "8187681802"
-      }
+        number: "8187681802",
+      },
     },
     social: {
-      instagram: "theodorepayne"
-    }
+      instagram: "theodorepayne",
+    },
   },
   {
     name: "Plant Shop Seattle",
@@ -3369,30 +3388,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.6150675,
-        lng: -122.326091
+        lng: -122.326091,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Fernseed",
@@ -3402,30 +3421,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "email"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.2722328,
-        lng: -122.4887328
+        lng: -122.4887328,
       },
-      address: null
+      address: null,
     },
     website: "https://thefernseed.com",
     contact: {
       email: null,
       phone: {
-        number: "2537594208"
-      }
+        number: "2537594208",
+      },
     },
     social: {
-      instagram: "thefernseed"
-    }
+      instagram: "thefernseed",
+    },
   },
   {
     name: "Watson's Greenhouse and Nursery",
@@ -3434,30 +3453,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.1982862,
-        lng: -122.3481163
+        lng: -122.3481163,
       },
-      address: null
+      address: null,
     },
     website: "https://shop.watsonsgreenhouse.com",
     contact: {
       email: "info@watsonsgreenhouse.com",
       phone: {
-        number: "2538457359"
-      }
+        number: "2538457359",
+      },
     },
     social: {
-      instagram: "watsonsgreenhouse"
-    }
+      instagram: "watsonsgreenhouse",
+    },
   },
   {
     name: "GardenSphere",
@@ -3467,30 +3486,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.27799,
-        lng: -122.489064
+        lng: -122.489064,
       },
-      address: "3310 N Proctor St, Tacoma, WA 98407, United States"
+      address: "3310 N Proctor St, Tacoma, WA 98407, United States",
     },
     website: "http://www.gardensphere.biz/index.html",
     contact: {
       email: "customerservice@gardensphere.biz",
       phone: {
-        number: "2537617936"
-      }
+        number: "2537617936",
+      },
     },
     social: {
-      instagram: "gardensphere"
-    }
+      instagram: "gardensphere",
+    },
   },
   {
     name: "Jade & Co Succulent Boutique LLC",
@@ -3499,30 +3518,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.2359833,
-        lng: -122.5268508
+        lng: -122.5268508,
       },
-      address: null
+      address: null,
     },
     website: "https://jadeandcoplants.com",
     contact: {
       email: "jadeandco1@gmail.com",
       phone: {
-        number: "2533203588"
-      }
+        number: "2533203588",
+      },
     },
     social: {
-      instagram: "jadeandco1"
-    }
+      instagram: "jadeandco1",
+    },
   },
   {
     name: "Orchid Fever",
@@ -3532,30 +3551,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.0173008,
-        lng: -118.3994206
+        lng: -118.3994206,
       },
-      address: null
+      address: null,
     },
     website: "http://www.orchidfeverla.net",
     contact: {
       email: "orchidfever@sbcglobal.net",
       phone: {
-        number: "3105596599"
-      }
+        number: "3105596599",
+      },
     },
     social: {
-      instagram: "orchidfeverlosangeles"
-    }
+      instagram: "orchidfeverlosangeles",
+    },
   },
   {
     name: "Rainforest Flora",
@@ -3565,30 +3584,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.8571229,
-        lng: -118.3542022
+        lng: -118.3542022,
       },
-      address: null
+      address: null,
     },
     website: "https://www.rainforestflora.com",
     contact: {
       email: null,
       phone: {
-        number: "3103708044"
-      }
+        number: "3103708044",
+      },
     },
     social: {
-      instagram: "rainforestflora"
-    }
+      instagram: "rainforestflora",
+    },
   },
   {
     name: "Norman's Orchid Nursery",
@@ -3598,30 +3617,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.053453,
-        lng: -117.6970933
+        lng: -117.6970933,
       },
-      address: null
+      address: null,
     },
     website: "http://www.orchids.com",
     contact: {
       email: null,
       phone: {
-        number: "9096279515"
-      }
+        number: "9096279515",
+      },
     },
     social: {
-      instagram: "normans_orchids"
-    }
+      instagram: "normans_orchids",
+    },
   },
   {
     name: "Dream Garden",
@@ -3631,30 +3650,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.0982251,
-        lng: -118.3377365
+        lng: -118.3377365,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: "thedream.garden@yahoo.com",
       phone: {
-        number: "3234650161"
-      }
+        number: "3234650161",
+      },
     },
     social: {
-      instagram: "dreamgardenla"
-    }
+      instagram: "dreamgardenla",
+    },
   },
   {
     name: "Xotx-Tropico",
@@ -3663,30 +3682,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.0873873,
-        lng: -118.3611529
+        lng: -118.3611529,
       },
-      address: null
+      address: null,
     },
     website: "https://www.xotxtropico.com",
     contact: {
       email: null,
       phone: {
-        number: "3236549999"
-      }
+        number: "3236549999",
+      },
     },
     social: {
-      instagram: "xotxtropico"
-    }
+      instagram: "xotxtropico",
+    },
   },
   {
     name: "Andy's Orchids inc",
@@ -3696,64 +3715,63 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0622699,
-        lng: -117.2922957
+        lng: -117.2922957,
       },
-      address: null
+      address: null,
     },
     website: "https://andysorchids.com",
     contact: {
       email: null,
       phone: {
-        number: "7604364239"
-      }
+        number: "7604364239",
+      },
     },
     social: {
-      instagram: "AndysOrchids"
-    }
+      instagram: "AndysOrchids",
+    },
   },
   {
-    name:
-      "Flori-Culture: Orchid & Specialty Growing Supply & Nursery (formerly Calwest Tropical Supply)",
+    name: "Flori-Culture: Orchid & Specialty Growing Supply & Nursery (formerly Calwest Tropical Supply)",
     description:
       "Flori-Culture Supplies & Rare Plant Nursery is a family owned business trading in the world's finest specialty gardening supplies and rare plants.",
     meta: {
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["email in website"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.6376768,
-        lng: -121.3246059
+        lng: -121.3246059,
       },
-      address: null
+      address: null,
     },
     website: "https://flori-culture.com",
     contact: {
       email: "sales@flori-culture.com",
       phone: {
-        number: "8003019009"
-      }
+        number: "8003019009",
+      },
     },
     social: {
-      instagram: "flori.culture.orchid.supplies"
-    }
+      instagram: "flori.culture.orchid.supplies",
+    },
   },
   {
     name: "Dig Gardens",
@@ -3762,30 +3780,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.9797194,
-        lng: -122.0204536
+        lng: -122.0204536,
       },
-      address: null
+      address: null,
     },
     website: "https://www.diggardens.com",
     contact: {
       email: "shop@diggardens.com",
       phone: {
-        number: "8314663444"
-      }
+        number: "8314663444",
+      },
     },
     social: {
-      instagram: "diggardens"
-    }
+      instagram: "diggardens",
+    },
   },
   {
     name: "Leaf and Vine Urban Plant Shop",
@@ -3794,30 +3812,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.9797194,
-        lng: -122.0204536
+        lng: -122.0204536,
       },
-      address: null
+      address: null,
     },
     website: "https://www.leafandvineplants.com",
     contact: {
       email: "leafandvineplants@gmail.com",
       phone: {
-        number: "8316008758"
-      }
+        number: "8316008758",
+      },
     },
     social: {
-      instagram: "leafandvineplants"
-    }
+      instagram: "leafandvineplants",
+    },
   },
   {
     name: "Far West Nursery",
@@ -3827,30 +3845,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.982844,
-        lng: -121.974508
+        lng: -121.974508,
       },
-      address: null
+      address: null,
     },
     website: "https://www.farwestnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "8314768866"
-      }
+        number: "8314768866",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Capitola Nursery",
@@ -3860,30 +3878,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["website"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.978644,
-        lng: -121.971069
+        lng: -121.971069,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: "capitolanursery@yahoo.com",
       phone: {
-        number: "8315353029"
-      }
+        number: "8315353029",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dig Gardens Aptos",
@@ -3893,30 +3911,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.979528,
-        lng: -121.907666
+        lng: -121.907666,
       },
-      address: null
+      address: null,
     },
     website: "https://www.diggardens.com",
     contact: {
       email: "shop@diggardens.com",
       phone: {
-        number: "8316887011"
-      }
+        number: "8316887011",
+      },
     },
     social: {
-      instagram: "diggardensaptos"
-    }
+      instagram: "diggardensaptos",
+    },
   },
   {
     name: "Alladin Nursery & Gift Shop",
@@ -3926,30 +3944,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.963374,
-        lng: -121.810034
+        lng: -121.810034,
       },
-      address: null
+      address: null,
     },
     website: "https://www.alladinnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "8317247517"
-      }
+        number: "8317247517",
+      },
     },
     social: {
-      instagram: "alladinnursery"
-    }
+      instagram: "alladinnursery",
+    },
   },
   {
     name: "Half Moon Bay Nursery",
@@ -3959,30 +3977,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["add instagram to the website"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.489711,
-        lng: -122.390244
+        lng: -122.390244,
       },
-      address: null
+      address: null,
     },
     website: "http://www.halfmoonbaynurseries.com",
     contact: {
       email: null,
       phone: {
-        number: "6507265392"
-      }
+        number: "6507265392",
+      },
     },
     social: {
-      instagram: "hmbnursery"
-    }
+      instagram: "hmbnursery",
+    },
   },
   {
     name: "The Sill",
@@ -3992,30 +4010,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.7970186,
-        lng: -122.4350235
+        lng: -122.4350235,
       },
-      address: null
+      address: null,
     },
     website: "https://www.thesill.com",
     contact: {
       email: "help@thesill.com",
       phone: {
-        number: "4158729445"
-      }
+        number: "4158729445",
+      },
     },
     social: {
-      instagram: "thesill"
-    }
+      instagram: "thesill",
+    },
   },
   {
     name: "Hortica",
@@ -4025,30 +4043,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.7598532,
-        lng: -122.4350821
+        lng: -122.4350821,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: "4158634697"
-      }
+        number: "4158634697",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sloat Garden Center",
@@ -4058,30 +4076,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.78261,
-        lng: -122.4616016
+        lng: -122.4616016,
       },
-      address: null
+      address: null,
     },
     website: "https://www.sloatgardens.com",
     contact: {
       email: "info@slotgardens.com",
       phone: {
-        number: "4157521614"
-      }
+        number: "4157521614",
+      },
     },
     social: {
-      instagram: "sloatgardens"
-    }
+      instagram: "sloatgardens",
+    },
   },
   {
     name: "East Bay Nursery",
@@ -4091,30 +4109,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.8640847,
-        lng: -122.2909105
+        lng: -122.2909105,
       },
-      address: null
+      address: null,
     },
     website: "https://www.eastbaynursery.com",
     contact: {
       email: "customerservice@eastbaynursery.com",
       phone: {
-        number: "5108456490"
-      }
+        number: "5108456490",
+      },
     },
     social: {
-      instagram: "eastbaynursery"
-    }
+      instagram: "eastbaynursery",
+    },
   },
   {
     name: "Encinal Nursery",
@@ -4124,30 +4142,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.7661049,
-        lng: -122.2514688
+        lng: -122.2514688,
       },
-      address: null
+      address: null,
     },
     website: "https://encinalnursery.com",
     contact: {
       email: "orders@encinalnursery.com",
       phone: {
-        number: "5105228616"
-      }
+        number: "5105228616",
+      },
     },
     social: {
-      instagram: "encinalnursery"
-    }
+      instagram: "encinalnursery",
+    },
   },
   {
     name: "Dry Garden Nursery",
@@ -4157,30 +4175,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.8513868,
-        lng: -122.2657662
+        lng: -122.2657662,
       },
-      address: null
+      address: null,
     },
     website: "https://www.thedrygardennursery.com",
     contact: {
       email: null,
       phone: {
-        number: "5105473564"
-      }
+        number: "5105473564",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cactus Jungle Nursery and Garden",
@@ -4190,30 +4208,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["you have instagram but not linked in your page"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.8745219,
-        lng: -122.3017132
+        lng: -122.3017132,
       },
-      address: null
+      address: null,
     },
     website: "https://cactusjungle.com",
     contact: {
       email: "contact@cactusjungle.com",
       phone: {
-        number: "5105588650"
-      }
+        number: "5105588650",
+      },
     },
     social: {
-      instagram: "cactusjungle"
-    }
+      instagram: "cactusjungle",
+    },
   },
   {
     name: "The Tiny Jungle",
@@ -4223,30 +4241,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["add your website to google"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.6902869,
-        lng: -122.4640282
+        lng: -122.4640282,
       },
-      address: null
+      address: null,
     },
     website: "https://www.thetinyjungle.com/#",
     contact: {
       email: "thetinyjungle@gmail.com",
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "letstalkplants"
-    }
+      instagram: "letstalkplants",
+    },
   },
   {
     name: "Flamingo Road Nursery",
@@ -4256,30 +4274,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.08897,
-        lng: -80.315587
+        lng: -80.315587,
       },
-      address: "1655 S Flamingo Rd, Davie, FL 33325, United States"
+      address: "1655 S Flamingo Rd, Davie, FL 33325, United States",
     },
     website: "http://www.flamingoroadnursery.com",
     contact: {
       email: "info@flamingoroadnursery.com",
       phone: {
-        number: "9544767878"
-      }
+        number: "9544767878",
+      },
     },
     social: {
-      instagram: "flamingoroadnursery"
-    }
+      instagram: "flamingoroadnursery",
+    },
   },
   {
     name: "Utsuwa Floral Design",
@@ -4289,30 +4307,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["link your instagram account to your website"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.7885796,
-        lng: -122.4201815
+        lng: -122.4201815,
       },
-      address: null
+      address: null,
     },
     website: "https://utsuwa.myshopify.com",
     contact: {
       email: "utsuwafd@icloud.com",
       phone: {
-        number: "4154478476"
-      }
+        number: "4154478476",
+      },
     },
     social: {
-      instagram: "utsuwafloraldesign"
-    }
+      instagram: "utsuwafloraldesign",
+    },
   },
   {
     name: "Flora Grubb Gardens",
@@ -4322,30 +4340,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.7397116,
-        lng: -122.3902313
+        lng: -122.3902313,
       },
-      address: null
+      address: null,
     },
     website: "https://www.floragrubb.com",
     contact: {
       email: "info@floragrubb.com",
       phone: {
-        number: "4156267256"
-      }
+        number: "4156267256",
+      },
     },
     social: {
-      instagram: "floragrubbgardens"
-    }
+      instagram: "floragrubbgardens",
+    },
   },
   {
     name: "Clement Nursery",
@@ -4355,30 +4373,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.782123,
-        lng: -122.4801343
+        lng: -122.4801343,
       },
-      address: null
+      address: null,
     },
     website: "https://www.facebook.com/clementnursery",
     contact: {
       email: "1921clement@gmail.com",
       phone: {
-        number: "4157503990"
-      }
+        number: "4157503990",
+      },
     },
     social: {
-      instagram: "clementnursery"
-    }
+      instagram: "clementnursery",
+    },
   },
   {
     name: "La Sumida Nursery",
@@ -4388,30 +4406,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.4360679,
-        lng: -119.8095801
+        lng: -119.8095801,
       },
-      address: null
+      address: null,
     },
     website: "http://www.lasumida.com",
     contact: {
       email: "nursery@lasumida.com",
       phone: {
-        number: "8059649944"
-      }
+        number: "8059649944",
+      },
     },
     social: {
-      instagram: "la_sumida_nursery"
-    }
+      instagram: "la_sumida_nursery",
+    },
   },
   {
     name: "Christianson's Nursery",
@@ -4421,30 +4439,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 48.4166649,
-        lng: -122.4443753
+        lng: -122.4443753,
       },
-      address: null
+      address: null,
     },
     website: "https://christiansonsnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "3604663821"
-      }
+        number: "3604663821",
+      },
     },
     social: {
-      instagram: "christiansonsnursery"
-    }
+      instagram: "christiansonsnursery",
+    },
   },
   {
     name: "PLANTA",
@@ -4454,30 +4472,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.1182092,
-        lng: -118.1888623
+        lng: -118.1888623,
       },
-      address: null
+      address: null,
     },
     website: "https://plantanursery.com",
     contact: {
       email: "info@plantanursery.com",
       phone: {
-        number: "3233978688"
-      }
+        number: "3233978688",
+      },
     },
     social: {
-      instagram: "plantanursery"
-    }
+      instagram: "plantanursery",
+    },
   },
   {
     name: "Leaf and Spine LLC",
@@ -4487,30 +4505,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.1195629,
-        lng: -118.1981827
+        lng: -118.1981827,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: "3232575323"
-      }
+        number: "3232575323",
+      },
     },
     social: {
-      instagram: "leafandspine"
-    }
+      instagram: "leafandspine",
+    },
   },
   {
     name: "The Plant Farm",
@@ -4520,30 +4538,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["instagram"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.6531269,
-        lng: -117.0372059
+        lng: -117.0372059,
       },
-      address: null
+      address: null,
     },
     website: "https://spokaneplantfarm.com",
     contact: {
       email: "plantfarm@creachgreenhouse.com",
       phone: {
-        number: "5099269397"
-      }
+        number: "5099269397",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Berkeley Horticultural Nursery",
@@ -4553,30 +4571,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.8814109,
-        lng: -122.2810331
+        lng: -122.2810331,
       },
-      address: null
+      address: null,
     },
     website: "https://berkeleyhort.com",
     contact: {
       email: "mail@berkeleyhort.com",
       phone: {
-        number: "5105264704"
-      }
+        number: "5105264704",
+      },
     },
     social: {
-      instagram: "berkeleyhort"
-    }
+      instagram: "berkeleyhort",
+    },
   },
   {
     name: "Succulent Gardens - Nursery and Demonstration Gardens",
@@ -4585,30 +4603,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.802293,
-        lng: -121.720304
+        lng: -121.720304,
       },
-      address: null
+      address: null,
     },
     website: "https://sgplants.com",
     contact: {
       email: "info@sgplants.com",
       phone: {
-        number: "8316320482"
-      }
+        number: "8316320482",
+      },
     },
     social: {
-      instagram: "succulentgardens"
-    }
+      instagram: "succulentgardens",
+    },
   },
   {
     name: "Altman Plants",
@@ -4618,30 +4636,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["missing phone in Google"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.746019,
-        lng: -121.694147
+        lng: -121.694147,
       },
-      address: null
+      address: null,
     },
     website: "https://altmanplants.com",
     contact: {
       email: "marketing@altmanplants.com",
       phone: {
-        number: "8003484881"
-      }
+        number: "8003484881",
+      },
     },
     social: {
-      instagram: "altmanplants"
-    }
+      instagram: "altmanplants",
+    },
   },
   {
     name: "Altman Plants",
@@ -4651,30 +4669,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["missing phone in Google"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.623841,
-        lng: -121.557641
+        lng: -121.557641,
       },
-      address: null
+      address: null,
     },
     website: "https://altmanplants.com",
     contact: {
       email: "marketing@altmanplants.com",
       phone: {
-        number: "8003484881"
-      }
+        number: "8003484881",
+      },
     },
     social: {
-      instagram: "altmanplants"
-    }
+      instagram: "altmanplants",
+    },
   },
   {
     name: "Bokay Nursery",
@@ -4684,30 +4702,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["Add a description to Google maps"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.645989,
-        lng: -121.666202
+        lng: -121.666202,
       },
-      address: null
+      address: null,
     },
     website: "https://www.bokaynursery.net",
     contact: {
       email: "bokaynursery2@gmail.com",
       phone: {
-        number: "8314551868"
-      }
+        number: "8314551868",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Morris Nursery",
@@ -4717,30 +4735,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["add email to the website"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.7339363,
-        lng: -120.9661295
+        lng: -120.9661295,
       },
-      address: null
+      address: null,
     },
     website: "https://www.morrisnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "2095275553"
-      }
+        number: "2095275553",
+      },
     },
     social: {
-      instagram: "morrisnursery"
-    }
+      instagram: "morrisnursery",
+    },
   },
   {
     name: "Green Acres Nursery & Supply",
@@ -4750,30 +4768,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.5446753,
-        lng: -121.3903286
+        lng: -121.3903286,
       },
-      address: null
+      address: null,
     },
     website: "https://idiggreenacres.com",
     contact: {
       email: "greenacres@idiggreenacres.com",
       phone: {
-        number: "9163811625"
-      }
+        number: "9163811625",
+      },
     },
     social: {
-      instagram: "idiggreenacres"
-    }
+      instagram: "idiggreenacres",
+    },
   },
   {
     name: "Prickett's Nursery",
@@ -4782,30 +4800,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.592453,
-        lng: -122.850731
+        lng: -122.850731,
       },
-      address: null
+      address: null,
     },
     website: "http://prickettsnursery.com",
     contact: {
       email: "prickettsnursery@att.net",
       phone: {
-        number: "7074338904"
-      }
+        number: "7074338904",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Prickett's Nursery",
@@ -4814,30 +4832,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.456778,
-        lng: -122.62757
+        lng: -122.62757,
       },
-      address: null
+      address: null,
     },
     website: "http://prickettsnursery.com",
     contact: {
       email: "prickettsnursery@att.net",
       phone: {
-        number: "7074338904"
-      }
+        number: "7074338904",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lone Pine Gardens",
@@ -4847,30 +4865,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.3691746,
-        lng: -122.803993
+        lng: -122.803993,
       },
-      address: null
+      address: null,
     },
     website: "http://www.lonepinegardens.com",
     contact: {
       email: null,
       phone: {
-        number: "7078235024"
-      }
+        number: "7078235024",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bennett Valley Gardens",
@@ -4880,30 +4898,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.4267403,
-        lng: -122.6673444
+        lng: -122.6673444,
       },
-      address: null
+      address: null,
     },
     website: "https://www.bennettvalleygardens.com",
     contact: {
       email: "jeanne@bennettvalleygardens.com",
       phone: {
-        number: "7075698624"
-      }
+        number: "7075698624",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wintercreek Nursery",
@@ -4913,30 +4931,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.1022052,
-        lng: -121.2603144
+        lng: -121.2603144,
       },
-      address: null
+      address: null,
     },
     website: "https://wintercreeknative.com",
     contact: {
       email: "karen@wintercreekrestoration.com",
       phone: {
-        number: "5419480063"
-      }
+        number: "5419480063",
+      },
     },
     social: {
-      instagram: "wintercreekrest"
-    }
+      instagram: "wintercreekrest",
+    },
   },
   {
     name: "Kreative Gardens",
@@ -4946,30 +4964,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.726003,
-        lng: -80.312187
+        lng: -80.312187,
       },
-      address: "7247 SW 48th St, Miami, FL 33155, United States"
+      address: "7247 SW 48th St, Miami, FL 33155, United States",
     },
     website: "http://kreativegardens.com",
     contact: {
       email: "kreativegardens@gmail.com",
       phone: {
-        number: "3056662531"
-      }
+        number: "3056662531",
+      },
     },
     social: {
-      instagram: "kreativegardens"
-    }
+      instagram: "kreativegardens",
+    },
   },
   {
     name: "Alton Road Nurseries",
@@ -4979,30 +4997,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.783538,
-        lng: -80.14075
+        lng: -80.14075,
       },
-      address: "1239 Alton Rd, Miami Beach, FL 33139, United States"
+      address: "1239 Alton Rd, Miami Beach, FL 33139, United States",
     },
     website: "http://www.altonroadnurseries.com",
     contact: {
       email: "kreativegardens@gmail.com",
       phone: {
-        number: "3055327939"
-      }
+        number: "3055327939",
+      },
     },
     social: {
-      instagram: "kreativegardens"
-    }
+      instagram: "kreativegardens",
+    },
   },
   {
     name: "Reclamation",
@@ -5011,30 +5029,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["phone", "email"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.551018,
-        lng: -122.6669547
+        lng: -122.6669547,
       },
-      address: null
+      address: null,
     },
     website: "https://shopreclamation.com",
     contact: {
       email: "shopreclamationpdx@gmail.com",
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "reclamationpdx"
-    }
+      instagram: "reclamationpdx",
+    },
   },
   {
     name: "Westbrae Nursery",
@@ -5044,30 +5062,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.8813725,
-        lng: -122.2907438
+        lng: -122.2907438,
       },
-      address: null
+      address: null,
     },
     website: "https://westbrae-nursery.com",
     contact: {
       email: "info@westbrae-nursery.com",
       phone: {
-        number: "5105265517"
-      }
+        number: "5105265517",
+      },
     },
     social: {
-      instagram: "westbraenursery"
-    }
+      instagram: "westbraenursery",
+    },
   },
   {
     name: "Broadway Terrace Nursery",
@@ -5077,30 +5095,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["the instagram account does not exist"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.840546,
-        lng: -122.236806
+        lng: -122.236806,
       },
-      address: null
+      address: null,
     },
     website: "http://www.broadwayterracenursery.com",
     contact: {
       email: "btnursery@gmail.com",
       phone: {
-        number: "5106583729"
-      }
+        number: "5106583729",
+      },
     },
     social: {
-      instagram: "broadwaytplants"
-    }
+      instagram: "broadwaytplants",
+    },
   },
   {
     name: "Kent East Hill Nursery",
@@ -5110,30 +5128,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.3878151,
-        lng: -122.1858781
+        lng: -122.1858781,
       },
-      address: null
+      address: null,
     },
     website: "https://kenteasthillnursery.shop",
     contact: {
       email: "info@kenteasthillnursery.com",
       phone: {
-        number: "2536315320"
-      }
+        number: "2536315320",
+      },
     },
     social: {
-      instagram: "kenteasthillnursery"
-    }
+      instagram: "kenteasthillnursery",
+    },
   },
   {
     name: "Peace Love and Happiness Club",
@@ -5143,30 +5161,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "email"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.6503628,
-        lng: -122.3502071
+        lng: -122.3502071,
       },
-      address: null
+      address: null,
     },
     website: "https://peaceloveandhappiness.club",
     contact: {
       email: null,
       phone: {
-        number: "2065471211"
-      }
+        number: "2065471211",
+      },
     },
     social: {
-      instagram: "peaceloveandhappinessclub"
-    }
+      instagram: "peaceloveandhappinessclub",
+    },
   },
   {
     name: "Houseplants Galore",
@@ -5175,30 +5193,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description", "email"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.9076569,
-        lng: -122.234264
+        lng: -122.234264,
       },
-      address: null
+      address: null,
     },
     website: "https://houseplantsgalore.com",
     contact: {
       email: null,
       phone: {
-        number: "4254825276"
-      }
+        number: "4254825276",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Kiko + Sven",
@@ -5208,30 +5226,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.763191,
-        lng: -117.112902
+        lng: -117.112902,
       },
-      address: null
+      address: null,
     },
     website: "https://www.kikoandsven.com",
     contact: {
       email: null,
       phone: {
-        number: "6196772192"
-      }
+        number: "6196772192",
+      },
     },
     social: {
-      instagram: "kikoandsven"
-    }
+      instagram: "kikoandsven",
+    },
   },
   {
     name: "Hunter's Nursery Inc",
@@ -5241,30 +5259,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.73875,
-        lng: -117.014635
+        lng: -117.014635,
       },
-      address: null
+      address: null,
     },
     website: "http://www.huntersnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "6196772192"
-      }
+        number: "6196772192",
+      },
     },
     social: {
-      instagram: "hunters_nursery"
-    }
+      instagram: "hunters_nursery",
+    },
   },
   {
     name: "Artifacts and Artichokes",
@@ -5274,30 +5292,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8071953,
-        lng: -117.0761121
+        lng: -117.0761121,
       },
-      address: "7549 Mission Gorge Rd, San Diego, CA 92120, United States"
+      address: "7549 Mission Gorge Rd, San Diego, CA 92120, United States",
     },
     website: "https://artifactsandartichokes.com",
     contact: {
       email: "info@artifactsandartichokes.com",
       phone: {
-        number: "6195017476"
-      }
+        number: "6195017476",
+      },
     },
     social: {
-      instagram: "shopartifactsandartichokes"
-    }
+      instagram: "shopartifactsandartichokes",
+    },
   },
   {
     name: "Jungle Music Palms, Cycads & Tropical Plants",
@@ -5307,30 +5325,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0565897,
-        lng: -117.2928554
+        lng: -117.2928554,
       },
-      address: null
+      address: null,
     },
     website: "https://www.junglemusic.net",
     contact: {
       email: "phil@junglemusic.net",
       phone: {
-        number: "6192914605"
-      }
+        number: "6192914605",
+      },
     },
     social: {
-      instagram: "junglemusicpalmsandcycads"
-    }
+      instagram: "junglemusicpalmsandcycads",
+    },
   },
   {
     name: "Bird Rock Tropicals",
@@ -5340,30 +5358,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.049446,
-        lng: -117.2715212
+        lng: -117.2715212,
       },
-      address: "221 Princehouse Ln, Encinitas, CA 92024, United States"
+      address: "221 Princehouse Ln, Encinitas, CA 92024, United States",
     },
     website: "https://www.birdrocktropicals.com",
     contact: {
       email: "info@birdrocktropicals.com",
       phone: {
-        number: "7604363088"
-      }
+        number: "7604363088",
+      },
     },
     social: {
-      instagram: "birdrocktropicals"
-    }
+      instagram: "birdrocktropicals",
+    },
   },
   {
     name: "Babygreens plant shop & cafe",
@@ -5373,30 +5391,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 48.7491175,
-        lng: -122.4807242
+        lng: -122.4807242,
       },
-      address: "1201 Cornwall Ave #103, Bellingham, WA 98225, United States"
+      address: "1201 Cornwall Ave #103, Bellingham, WA 98225, United States",
     },
     website: "https://shop.babygreens.co",
     contact: {
       email: "info@babygreens.co",
       phone: {
-        number: "3603550759"
-      }
+        number: "3603550759",
+      },
     },
     social: {
-      instagram: "babygreens.co"
-    }
+      instagram: "babygreens.co",
+    },
   },
   {
     name: "Anderson's La Costa Nursery",
@@ -5406,30 +5424,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0842396,
-        lng: -117.3038239
+        lng: -117.3038239,
       },
-      address: null
+      address: null,
     },
     website: "https://www.andersonslacostanursery.com",
     contact: {
       email: null,
       phone: {
-        number: "7607533153"
-      }
+        number: "7607533153",
+      },
     },
     social: {
-      instagram: "andersonslacosta"
-    }
+      instagram: "andersonslacosta",
+    },
   },
   {
     name: "Cordova Gardens",
@@ -5439,30 +5457,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0477618,
-        lng: -117.271827
+        lng: -117.271827,
       },
-      address: null
+      address: null,
     },
     website: "https://www.cordovagardens.com",
     contact: {
       email: "cordovagardens@sbcglobal.net",
       phone: {
-        number: "7609446984"
-      }
+        number: "7609446984",
+      },
     },
     social: {
-      instagram: "cordovagardens"
-    }
+      instagram: "cordovagardens",
+    },
   },
   {
     name: "Grow",
@@ -5472,30 +5490,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5630214,
-        lng: -121.0842863
+        lng: -121.0842863,
       },
-      address: "2024 Main St, Cambria, CA 93428, United States"
+      address: "2024 Main St, Cambria, CA 93428, United States",
     },
     website: "http://www.grownursery.com",
     contact: {
       email: "nick@grownursery.com",
       phone: {
-        number: "8059241340"
-      }
+        number: "8059241340",
+      },
     },
     social: {
-      instagram: "grownursery"
-    }
+      instagram: "grownursery",
+    },
   },
   {
     name: "Evergreen Garden Center Inc.",
@@ -5505,30 +5523,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.8445159,
-        lng: -119.715804
+        lng: -119.715804,
       },
-      address: null
+      address: null,
     },
     website: "https://www.evergreenclovis.com",
     contact: {
       email: "mike@evergreenclovis.com",
       phone: {
-        number: "5592993107"
-      }
+        number: "5592993107",
+      },
     },
     social: {
-      instagram: "evergreengardencenter"
-    }
+      instagram: "evergreengardencenter",
+    },
   },
   {
     name: "High-Hand Nursery",
@@ -5538,30 +5556,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8192643,
-        lng: -121.1958181
+        lng: -121.1958181,
       },
-      address: null
+      address: null,
     },
     website: "https://www.highhandnursery.com",
     contact: {
       email: "thoughts@highhand.com",
       phone: {
-        number: "9166522065"
-      }
+        number: "9166522065",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Talini's Nursery",
@@ -5571,30 +5589,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.55856,
-        lng: -121.4379589
+        lng: -121.4379589,
       },
-      address: null
+      address: null,
     },
     website: "http://talinisnursery.com",
     contact: {
       email: "www.talinisnursery.com",
       phone: {
-        number: "9164518150"
-      }
+        number: "9164518150",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fair Oaks Boulevard Nursery",
@@ -5603,30 +5621,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["better website"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.5873572,
-        lng: -121.3544812
+        lng: -121.3544812,
       },
-      address: null
+      address: null,
     },
     website: "http://www.fairoaksblvdnursery.com",
     contact: {
       email: "askus@fairoaksblvdnursery.com",
       phone: {
-        number: "9164831830"
-      }
+        number: "9164831830",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Semillas Plant Studio",
@@ -5635,30 +5653,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.857707,
-        lng: -87.66239
+        lng: -87.66239,
       },
-      address: "1425 W 18th St, Chicago, IL 60608, United States"
+      address: "1425 W 18th St, Chicago, IL 60608, United States",
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "semillaschicago"
-    }
+      instagram: "semillaschicago",
+    },
   },
   {
     name: "The Stem",
@@ -5668,27 +5686,27 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: null,
-      address: null
+      address: null,
     },
     website: "https://thestem.co.uk",
     contact: {
       email: "info@thestem.co.uk",
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "semillaschicago"
-    }
+      instagram: "semillaschicago",
+    },
   },
   {
     name: "The Plant Foundry | Nursery & Store",
@@ -5698,30 +5716,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.5509221,
-        lng: -121.4684681
+        lng: -121.4684681,
       },
-      address: null
+      address: null,
     },
     website: "https://www.plantfoundry.com",
     contact: {
       email: "info@plantfoundry.com",
       phone: {
-        number: "9169175787"
-      }
+        number: "9169175787",
+      },
     },
     social: {
-      instagram: "plantfoundry"
-    }
+      instagram: "plantfoundry",
+    },
   },
   {
     name: "Eisley Nursery Inc",
@@ -5731,30 +5749,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["instagram"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9081012,
-        lng: -121.0818612
+        lng: -121.0818612,
       },
-      address: null
+      address: null,
     },
     website: "https://www.eisleynursery.com",
     contact: {
       email: "cyndi.eisley@gmail.com",
       phone: {
-        number: "5308855163"
-      }
+        number: "5308855163",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bushnell Gardens, Home & Gift",
@@ -5765,32 +5783,32 @@ const shops = [
       isPendingToContact: false,
       notes: [
         "the icons of the social media have no links",
-        "add email to the web"
+        "add email to the web",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.744969,
-        lng: -121.2015947
+        lng: -121.2015947,
       },
-      address: null
+      address: null,
     },
     website: "https://www.bushnellgardens.com",
     contact: {
       email: "promotions@bushnellgardens.com",
       phone: {
-        number: "9167914199"
-      }
+        number: "9167914199",
+      },
     },
     social: {
-      instagram: "bushnell_gardens"
-    }
+      instagram: "bushnell_gardens",
+    },
   },
   {
     name: "Avantgarden",
@@ -5800,30 +5818,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["link the social media in the website, not only mention it"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8997662,
-        lng: -121.069686
+        lng: -121.069686,
       },
-      address: null
+      address: null,
     },
     website: "https://www.avantgardenauburn.com",
     contact: {
       email: "sales.avantgarden@gmail.com",
       phone: {
-        number: "5308881510"
-      }
+        number: "5308881510",
+      },
     },
     social: {
-      instagram: "avantgarden_auburn"
-    }
+      instagram: "avantgarden_auburn",
+    },
   },
   {
     name: "Peacock Horticultural Nursery",
@@ -5833,30 +5851,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.3595999,
-        lng: -122.7720009
+        lng: -122.7720009,
       },
-      address: null
+      address: null,
     },
     website: "https://peacockhorticulturalnursery.com",
     contact: {
       email: "peahortnursery@comcast.net",
       phone: {
-        number: "7072910547"
-      }
+        number: "7072910547",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cornell Farm",
@@ -5866,30 +5884,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.510721,
-        lng: -122.760201
+        lng: -122.760201,
       },
-      address: null
+      address: null,
     },
     website: "https://cornellfarms.com",
     contact: {
       email: "info@cornellfarms.com",
       phone: {
-        number: "5032929895"
-      }
+        number: "5032929895",
+      },
     },
     social: {
-      instagram: "cornellfarm"
-    }
+      instagram: "cornellfarm",
+    },
   },
   {
     name: "The Plant Ally",
@@ -5899,30 +5917,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 47.5954267,
-        lng: -120.6592377
+        lng: -120.6592377,
       },
-      address: null
+      address: null,
     },
     website: "https://theplantally.com",
     contact: {
       email: "contact@theplantally.com",
       phone: {
-        number: "2065360405"
-      }
+        number: "2065360405",
+      },
     },
     social: {
-      instagram: "theplantally"
-    }
+      instagram: "theplantally",
+    },
   },
   {
     name: "Steve's Leaves, Inc.",
@@ -5931,30 +5949,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0311121,
-        lng: -97.0237813
+        lng: -97.0237813,
       },
-      address: "1062 Kingston Dr, Lewisville, TX 75067"
+      address: "1062 Kingston Dr, Lewisville, TX 75067",
     },
     website: "https://stevesleaves.com",
     contact: {
       email: null,
       phone: {
-        number: "2143680530"
-      }
+        number: "2143680530",
+      },
     },
     social: {
-      instagram: "stevesleavesinc"
-    }
+      instagram: "stevesleavesinc",
+    },
   },
   {
     name: "The Natural Gardener",
@@ -5963,30 +5981,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.257061,
-        lng: -97.8905333
+        lng: -97.8905333,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sunshine Miniature Trees",
@@ -5995,30 +6013,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8761292,
-        lng: -96.761575
+        lng: -96.761575,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Robinson Greenhouse",
@@ -6027,30 +6045,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 31.4875382,
-        lng: -97.122268
+        lng: -97.122268,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greenlife Nursery",
@@ -6059,30 +6077,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 31.5375047,
-        lng: -97.1800423
+        lng: -97.1800423,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Westview Nursery & Landscape",
@@ -6091,30 +6109,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 31.5301853,
-        lng: -97.1875984
+        lng: -97.1875984,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Waco Flower Tent",
@@ -6123,30 +6141,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 31.5182918,
-        lng: -97.2120856
+        lng: -97.2120856,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Round Rock Gardens",
@@ -6155,30 +6173,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.5167469,
-        lng: -97.6918153
+        lng: -97.6918153,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Pueblo",
@@ -6187,30 +6205,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.4559629,
-        lng: -112.060505
+        lng: -112.060505,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "East Austin Succulents",
@@ -6219,30 +6237,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.2610492,
-        lng: -97.7042183
+        lng: -97.7042183,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "1101 E Butler Ave",
@@ -6251,30 +6269,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.190978,
-        lng: -111.6368486
+        lng: -111.6368486,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Archie's Gardenland",
@@ -6283,30 +6301,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7230142,
-        lng: -97.4329503
+        lng: -97.4329503,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Accent Plant Interior",
@@ -6315,30 +6333,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.3930424,
-        lng: -98.3884578
+        lng: -98.3884578,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calloway's Nursery",
@@ -6347,30 +6365,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8809724,
-        lng: -96.7594738
+        lng: -96.7594738,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calloway's Nursery",
@@ -6379,30 +6397,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.014059,
-        lng: -96.79413
+        lng: -96.79413,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calloway's Nursery",
@@ -6411,30 +6429,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0215912,
-        lng: -96.7342717
+        lng: -96.7342717,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calloway's Nursery",
@@ -6443,30 +6461,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.59788,
-        lng: -97.1349819
+        lng: -97.1349819,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calloway's Nursery",
@@ -6475,30 +6493,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7568057,
-        lng: -97.1033473
+        lng: -97.1033473,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calloway's Nursery",
@@ -6507,30 +6525,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8949533,
-        lng: -97.3027405
+        lng: -97.3027405,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dr. Delphinium Designs & Events",
@@ -6539,30 +6557,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8510047,
-        lng: -96.8127662
+        lng: -96.8127662,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dr Delphinium Flower & Orchid House",
@@ -6571,30 +6589,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.9757973,
-        lng: -96.7375221
+        lng: -96.7375221,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Evergreen Garden Center",
@@ -6603,30 +6621,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.466169,
-        lng: -98.508809
+        lng: -98.508809,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Grow Plant Shop",
@@ -6635,30 +6653,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7308148,
-        lng: -97.338787
+        lng: -97.338787,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hill Country Water Gardens and Nursery",
@@ -6667,30 +6685,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.5261745,
-        lng: -97.8332317
+        lng: -97.8332317,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Landscape Systems of Texas",
@@ -6699,30 +6717,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.935578,
-        lng: -97.20863
+        lng: -97.20863,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mike's Garden Center",
@@ -6731,30 +6749,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.9568495,
-        lng: -97.1433471
+        lng: -97.1433471,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Nicholson-Hardie Garden Shop",
@@ -6763,30 +6781,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8514027,
-        lng: -96.8144611
+        lng: -96.8144611,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Oasis Plant Shop",
@@ -6795,30 +6813,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7478752,
-        lng: -96.8291348
+        lng: -96.8291348,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plants & Planters",
@@ -6827,30 +6845,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.965106,
-        lng: -96.720875
+        lng: -96.720875,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Puckett's Nursery & Landscape",
@@ -6859,30 +6877,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.1007558,
-        lng: -96.6511639
+        lng: -96.6511639,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Roots Garden Center & Landscaping",
@@ -6891,30 +6909,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.5244027,
-        lng: -97.2685916
+        lng: -97.2685916,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rainbow Gardens",
@@ -6923,30 +6941,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.5219742,
-        lng: -98.6377161
+        lng: -98.6377161,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "redenta's garden shop",
@@ -6955,30 +6973,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8141014,
-        lng: -96.7617915
+        lng: -96.7617915,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ruibal's Plants of Texas",
@@ -6987,30 +7005,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.778552,
-        lng: -96.7905
+        lng: -96.7905,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ruibal's Plants of Texas -Whiterock",
@@ -7019,30 +7037,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8078294,
-        lng: -96.7332609
+        lng: -96.7332609,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ruibal's Rosemeade Market",
@@ -7051,30 +7069,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.0111009,
-        lng: -96.854645
+        lng: -96.854645,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Shades of Green",
@@ -7083,30 +7101,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.5071365,
-        lng: -98.4726416
+        lng: -98.4726416,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Shades of Green",
@@ -7115,30 +7133,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.1396702,
-        lng: -96.7687286
+        lng: -96.7687286,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Shoal Creek Nursery",
@@ -7147,30 +7165,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.3273013,
-        lng: -97.7481309
+        lng: -97.7481309,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Cactus King",
@@ -7179,30 +7197,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.8743713,
-        lng: -95.4096464
+        lng: -95.4096464,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Great Outdoors",
@@ -7211,30 +7229,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.2345848,
-        lng: -97.7575758
+        lng: -97.7575758,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tillage",
@@ -7243,30 +7261,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.4465355,
-        lng: -98.47511
+        lng: -98.47511,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rainbow Gardens",
@@ -7275,30 +7293,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.5848196,
-        lng: -98.4484387
+        lng: -98.4484387,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tillery Street Plant Co.",
@@ -7307,30 +7325,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.2610776,
-        lng: -97.7042474
+        lng: -97.7042474,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tom's Thumb Nursery",
@@ -7339,30 +7357,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.284147,
-        lng: -94.8137141
+        lng: -94.8137141,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tropic Of Capricorn",
@@ -7371,30 +7389,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.2565495,
-        lng: -97.7030599
+        lng: -97.7030599,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Peckerwood Garden Conservation Foundation",
@@ -7403,30 +7421,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.0560299,
-        lng: -96.0383534
+        lng: -96.0383534,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "River Oaks Flower House",
@@ -7435,30 +7453,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.730623,
-        lng: -95.43212
+        lng: -95.43212,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Houston Garden Centers",
@@ -7467,30 +7485,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.725001,
-        lng: -95.4589869
+        lng: -95.4589869,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Nelson Water Gardens & Nursery",
@@ -7499,30 +7517,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7947987,
-        lng: -95.800985
+        lng: -95.800985,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Thompson + Hanson Stone House",
@@ -7531,30 +7549,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7386442,
-        lng: -95.4346345
+        lng: -95.4346345,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fairbanks Garden Center",
@@ -7563,30 +7581,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.9211393,
-        lng: -95.5241646
+        lng: -95.5241646,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Maas Nursery",
@@ -7595,30 +7613,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.5926986,
-        lng: -94.9972471
+        lng: -94.9972471,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Caldwell Nursery",
@@ -7627,30 +7645,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.506421,
-        lng: -95.819258
+        lng: -95.819258,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Buchanan's Native Plants",
@@ -7659,30 +7677,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.790995,
-        lng: -95.391405
+        lng: -95.391405,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Enchanted Gardens",
@@ -7692,30 +7710,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.631945,
-        lng: -95.810515
+        lng: -95.810515,
       },
-      address: "6420 FM 359 Richmond, TX 77406"
+      address: "6420 FM 359 Richmond, TX 77406",
     },
     website: "https://www.myenchanted.com/",
     contact: {
       email: "gardens@myenchanted.com",
       phone: {
-        number: "2813411206"
-      }
+        number: "2813411206",
+      },
     },
     social: {
-      instagram: "enchantedgardensrichmond"
-    }
+      instagram: "enchantedgardensrichmond",
+    },
   },
   {
     name: "Fred Reyes Greenhouses",
@@ -7724,30 +7742,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.6787552,
-        lng: -96.0038747
+        lng: -96.0038747,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Southwood Landscape and Garden Center",
@@ -7756,30 +7774,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.032719,
-        lng: -95.95313
+        lng: -95.95313,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bustani Plant Farm",
@@ -7788,30 +7806,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.0722221,
-        lng: -97.0419249
+        lng: -97.0419249,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Coulter Gardens & Nursery Inc.",
@@ -7820,30 +7838,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.164024,
-        lng: -101.921034
+        lng: -101.921034,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bella Gardens",
@@ -7852,30 +7870,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.457143,
-        lng: -103.197098
+        lng: -103.197098,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Little Red Riding Hood Nursery",
@@ -7884,30 +7902,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.563679,
-        lng: -101.8996028
+        lng: -101.8996028,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bluebonnet House",
@@ -7916,30 +7934,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.1418321,
-        lng: -96.2569826
+        lng: -96.2569826,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Congo Nursery",
@@ -7948,30 +7966,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.6822966,
-        lng: -95.1936459
+        lng: -95.1936459,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Natius Nursery",
@@ -7980,30 +7998,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.0332668,
-        lng: -95.257548
+        lng: -95.257548,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Pete's Greenhouse",
@@ -8012,30 +8030,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.1324357,
-        lng: -101.9001749
+        lng: -101.9001749,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Osuna Nursery",
@@ -8044,30 +8062,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.1517619,
-        lng: -106.6200991
+        lng: -106.6200991,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Traci's Greenhouse",
@@ -8076,30 +8094,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.3966365,
-        lng: -103.1723047
+        lng: -103.1723047,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "EcoGro, LLC",
@@ -8108,30 +8126,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.228567,
-        lng: -110.980782
+        lng: -110.980782,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Harlow Gardens",
@@ -8140,30 +8158,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.2431295,
-        lng: -110.8720467
+        lng: -110.8720467,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bach's Greenhouse Cactus Nursery",
@@ -8172,30 +8190,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.3611768,
-        lng: -111.0442837
+        lng: -111.0442837,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Berridge Nurseries",
@@ -8204,30 +8222,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.5083646,
-        lng: -111.9788559
+        lng: -111.9788559,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plant Stand of Arizona",
@@ -8236,30 +8254,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.388622,
-        lng: -112.022713
+        lng: -112.022713,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mesquite Valley Growers Nursery",
@@ -8268,30 +8286,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.2361022,
-        lng: -110.8219032
+        lng: -110.8219032,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Green Things",
@@ -8300,30 +8318,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.2762461,
-        lng: -110.9240016
+        lng: -110.9240016,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Green 'n Growing",
@@ -8332,30 +8350,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.4412358,
-        lng: -97.6250545
+        lng: -97.6250545,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cornelius Nursery",
@@ -8364,30 +8382,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7874758,
-        lng: -95.729927
+        lng: -95.729927,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Joshua's Native Plants & Garden",
@@ -8396,30 +8414,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.801646,
-        lng: -95.40633
+        lng: -95.40633,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Zone 9 Tropicals",
@@ -8428,30 +8446,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7894825,
-        lng: -95.3944255
+        lng: -95.3944255,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Terrarium",
@@ -8460,30 +8478,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.0968189,
-        lng: -95.6164523
+        lng: -95.6164523,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Flora Culture",
@@ -8492,30 +8510,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7326487,
-        lng: -95.4768446
+        lng: -95.4768446,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Kingwood Garden Center",
@@ -8524,30 +8542,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.051183,
-        lng: -95.238651
+        lng: -95.238651,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "JRN Nursery 2 Vườn Cây Ăn Trái Houston",
@@ -8556,30 +8574,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7152175,
-        lng: -95.5845671
+        lng: -95.5845671,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Warren's Southern Gardens",
@@ -8588,30 +8606,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.0691653,
-        lng: -95.2303584
+        lng: -95.2303584,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tall Plants",
@@ -8620,30 +8638,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7834935,
-        lng: -95.5172299
+        lng: -95.5172299,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cornelius Nursery",
@@ -8652,30 +8670,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7441653,
-        lng: -95.5002316
+        lng: -95.5002316,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Another Place in Time",
@@ -8684,30 +8702,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.7908252,
-        lng: -95.4020742
+        lng: -95.4020742,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "TLC Garden Centers - NW",
@@ -8716,30 +8734,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.566689,
-        lng: -97.659753
+        lng: -97.659753,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "TLC Garden Centers",
@@ -8748,30 +8766,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.6095895,
-        lng: -97.5159446
+        lng: -97.5159446,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Southern Window Plants",
@@ -8780,30 +8798,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.4774802,
-        lng: -97.5145292
+        lng: -97.5145292,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plant Wisdom Garden Center",
@@ -8812,30 +8830,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5190812,
-        lng: -97.5656726
+        lng: -97.5656726,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Greenhouse Inc.",
@@ -8844,30 +8862,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.197817,
-        lng: -97.477358
+        lng: -97.477358,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Jade & Clover",
@@ -8876,30 +8894,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.783923,
-        lng: -96.785009
+        lng: -96.785009,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calvert's Plant Interiors Inc",
@@ -8908,30 +8926,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5253369,
-        lng: -97.5346035
+        lng: -97.5346035,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Precure Nursery & Garden Center",
@@ -8940,30 +8958,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.465292,
-        lng: -97.656986
+        lng: -97.656986,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cottage Cuttings",
@@ -8972,30 +8990,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.126384,
-        lng: -93.7919876
+        lng: -93.7919876,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rehm's Nursery and Garden Center",
@@ -9004,30 +9022,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.0877899,
-        lng: -106.5816413
+        lng: -106.5816413,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Marcum's Nursery",
@@ -9036,30 +9054,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.295549,
-        lng: -97.422212
+        lng: -97.422212,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sharum's Garden Center LLC",
@@ -9068,30 +9086,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.289917,
-        lng: -94.384791
+        lng: -94.384791,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Westwood Gardens",
@@ -9100,30 +9118,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.087802,
-        lng: -94.130069
+        lng: -94.130069,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Westwood Gardens Inc",
@@ -9132,30 +9150,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.079784,
-        lng: -94.222524
+        lng: -94.222524,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Westwood Gardens",
@@ -9164,30 +9182,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.3115951,
-        lng: -94.169667
+        lng: -94.169667,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Westwood Gardens",
@@ -9196,30 +9214,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.2012227,
-        lng: -94.137775
+        lng: -94.137775,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "White River Nursery",
@@ -9228,30 +9246,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.045791,
-        lng: -94.0803556
+        lng: -94.0803556,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Chicken Holler Lawn & Garden",
@@ -9260,30 +9278,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.041307,
-        lng: -94.2508804
+        lng: -94.2508804,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sanders Nursery & Distribution",
@@ -9292,30 +9310,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.9326953,
-        lng: -95.7472856
+        lng: -95.7472856,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Colebrook Nursery",
@@ -9324,30 +9342,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.1193281,
-        lng: -96.057061
+        lng: -96.057061,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Civano Nursery - Retail Location",
@@ -9356,30 +9374,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.1542688,
-        lng: -110.7719423
+        lng: -110.7719423,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wright in the garden",
@@ -9388,30 +9406,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.5857413,
-        lng: -112.0140094
+        lng: -112.0140094,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Bosque at Pueblo- Life, Curated",
@@ -9420,30 +9438,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.4560326,
-        lng: -112.0605603
+        lng: -112.0605603,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dig It Gardens",
@@ -9452,30 +9470,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.4824888,
-        lng: -112.0474088
+        lng: -112.0474088,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Whitfill Nurseries Inc",
@@ -9484,30 +9502,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.5386278,
-        lng: -112.0610102
+        lng: -112.0610102,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Blooming Colors Nursery",
@@ -9516,30 +9534,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.9278905,
-        lng: -97.1024203
+        lng: -97.1024203,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tropical Greenery",
@@ -9548,30 +9566,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8273795,
-        lng: -97.2239111
+        lng: -97.2239111,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rainbow Plant Sales Saginaw",
@@ -9580,30 +9598,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.863682,
-        lng: -97.3674017
+        lng: -97.3674017,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Calloway's Nursery",
@@ -9612,30 +9630,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.9403212,
-        lng: -97.1468972
+        lng: -97.1468972,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "North Haven Gardens",
@@ -9644,30 +9662,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.900451,
-        lng: -96.775312
+        lng: -96.775312,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wayside Garden Center Rochester NY",
@@ -9676,30 +9694,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0639391,
-        lng: -77.370674
+        lng: -77.370674,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bristol's Garden Center",
@@ -9708,30 +9726,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0037997,
-        lng: -77.4397188
+        lng: -77.4397188,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gallea's Florist & Greenhouse",
@@ -9740,30 +9758,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.088023,
-        lng: -77.542068
+        lng: -77.542068,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Williams Nursery",
@@ -9772,30 +9790,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.677458,
-        lng: -74.331024
+        lng: -74.331024,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wentworth Greenhouses",
@@ -9804,30 +9822,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.2163867,
-        lng: -70.8604016
+        lng: -70.8604016,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Sill",
@@ -9837,30 +9855,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.784908,
-        lng: -73.977354
+        lng: -73.977354,
       },
-      address: null
+      address: null,
     },
     website: "https://www.thesill.com",
     contact: {
       email: "help@thesill.com",
       phone: {
-        number: "6468994015"
-      }
+        number: "6468994015",
+      },
     },
     social: {
-      instagram: "thesill"
-    }
+      instagram: "thesill",
+    },
   },
   {
     name: "The Sill",
@@ -9870,30 +9888,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.716195,
-        lng: -73.992264
+        lng: -73.992264,
       },
-      address: null
+      address: null,
     },
     website: "https://www.thesill.com",
     contact: {
       email: "help@thesill.com",
       phone: {
-        number: "6468994015"
-      }
+        number: "6468994015",
+      },
     },
     social: {
-      instagram: "thesill"
-    }
+      instagram: "thesill",
+    },
   },
   {
     name: "The Sill",
@@ -9903,30 +9921,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.072406,
-        lng: -118.366685
+        lng: -118.366685,
       },
-      address: null
+      address: null,
     },
     website: "https://www.thesill.com",
     contact: {
       email: "help@thesill.com",
       phone: {
-        number: "3238799720"
-      }
+        number: "3238799720",
+      },
     },
     social: {
-      instagram: "thesill"
-    }
+      instagram: "thesill",
+    },
   },
   {
     name: "Briggs Nursery",
@@ -9935,30 +9953,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.9916521,
-        lng: -71.2894398
+        lng: -71.2894398,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mahoney's Garden Centers",
@@ -9967,30 +9985,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5800904,
-        lng: -70.5413959
+        lng: -70.5413959,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Chelsea Garden Center Williamsburg",
@@ -9999,30 +10017,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7138255,
-        lng: -73.9558797
+        lng: -73.9558797,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Seed To Stem",
@@ -10031,30 +10049,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.2562404,
-        lng: -71.7975295
+        lng: -71.7975295,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bayport Flower Houses, Inc.",
@@ -10063,30 +10081,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7476259,
-        lng: -73.047419
+        lng: -73.047419,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Da Hing Florist",
@@ -10095,30 +10113,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.717515,
-        lng: -73.992432
+        lng: -73.992432,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dahing Plants",
@@ -10127,30 +10145,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7175139,
-        lng: -73.9924339
+        lng: -73.9924339,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Broadway Gardens Greenhouses Inc.",
@@ -10159,30 +10177,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.6293373,
-        lng: -70.3024478
+        lng: -70.3024478,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sprague's Nursery & Garden Center",
@@ -10191,30 +10209,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.8279126,
-        lng: -68.8334796
+        lng: -68.8334796,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sprout Home",
@@ -10223,30 +10241,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7160023,
-        lng: -73.9649632
+        lng: -73.9649632,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Joy's Flower Pot",
@@ -10255,30 +10273,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7155133,
-        lng: -73.9900477
+        lng: -73.9900477,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "risbara's greenhouse inc.",
@@ -10287,30 +10305,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.7015507,
-        lng: -70.3027975
+        lng: -70.3027975,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Osborne's Agway Concord",
@@ -10319,30 +10337,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.2167918,
-        lng: -71.4825461
+        lng: -71.4825461,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Found Things co.",
@@ -10351,30 +10369,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0689042,
-        lng: -76.1077837
+        lng: -76.1077837,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "82 Wakefield St",
@@ -10383,30 +10401,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.3083252,
-        lng: -70.9775042
+        lng: -70.9775042,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Urban Leaf",
@@ -10415,30 +10433,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.6315304,
-        lng: -70.2668925
+        lng: -70.2668925,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "GREEN FINGERS MARKET",
@@ -10447,30 +10465,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7212785,
-        lng: -73.9929467
+        lng: -73.9929467,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Farmer's Daughter",
@@ -10479,30 +10497,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4910233,
-        lng: -71.4816768
+        lng: -71.4816768,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "448 Amsterdam Ave",
@@ -10511,30 +10529,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.784923,
-        lng: -73.977382
+        lng: -73.977382,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bell Nurseries Inc",
@@ -10543,30 +10561,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3829735,
-        lng: -72.88143
+        lng: -72.88143,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ballek's Garden Center",
@@ -10575,30 +10593,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4711181,
-        lng: -72.44692
+        lng: -72.44692,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Olde Saratoga Home & Garden",
@@ -10607,30 +10625,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.1029709,
-        lng: -73.642109
+        lng: -73.642109,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dehn's Flowers & Greenhouses, Inc",
@@ -10639,30 +10657,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0832504,
-        lng: -73.7933822
+        lng: -73.7933822,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sunnyside Gardens",
@@ -10671,30 +10689,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0864561,
-        lng: -73.8104837
+        lng: -73.8104837,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Banker Orchards",
@@ -10703,30 +10721,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.7042432,
-        lng: -73.5442484
+        lng: -73.5442484,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bonesteel Farm Market",
@@ -10735,30 +10753,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.847095,
-        lng: -74.381034
+        lng: -74.381034,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gonyea's Greenhouses Inc",
@@ -10767,30 +10785,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.8573473,
-        lng: -74.2885094
+        lng: -74.2885094,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Adirondack Growers",
@@ -10799,30 +10817,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.6899732,
-        lng: -74.7061996
+        lng: -74.7061996,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cropley's Lawn & Garden Center",
@@ -10831,30 +10849,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.7975026,
-        lng: -72.4185157
+        lng: -72.4185157,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Moscarillo's Garden Shoppe",
@@ -10863,30 +10881,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.786648,
-        lng: -72.755433
+        lng: -72.755433,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Flower Power Farm",
@@ -10895,30 +10913,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.8932015,
-        lng: -72.608748
+        lng: -72.608748,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hadley Garden Center",
@@ -10927,30 +10945,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.351262,
-        lng: -72.5630906
+        lng: -72.5630906,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sixteen Acres",
@@ -10959,30 +10977,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.1067079,
-        lng: -72.502735
+        lng: -72.502735,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Van Wilgen's Garden Center",
@@ -10991,30 +11009,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3073644,
-        lng: -72.7659822
+        lng: -72.7659822,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sunny View Greenery",
@@ -11023,30 +11041,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.9353999,
-        lng: -74.5936076
+        lng: -74.5936076,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Greenery",
@@ -11055,30 +11073,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.8818884,
-        lng: -73.785621
+        lng: -73.785621,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Garden Sales llc",
@@ -11087,30 +11105,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.8040569,
-        lng: -72.5184992
+        lng: -72.5184992,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Malone Farm & Home Center",
@@ -11119,30 +11137,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.855273,
-        lng: -74.2795318
+        lng: -74.2795318,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Woodland Gardens",
@@ -11151,30 +11169,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.7890306,
-        lng: -72.5324525
+        lng: -72.5324525,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Garden Barn Nursery & Landscape",
@@ -11183,30 +11201,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.8449072,
-        lng: -72.4657049
+        lng: -72.4657049,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Old Country Gardens",
@@ -11215,30 +11233,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.788808,
-        lng: -75.5322646
+        lng: -75.5322646,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gardener's Supply Company",
@@ -11247,30 +11265,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.4921709,
-        lng: -73.203708
+        lng: -73.203708,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gardener's Supply Company",
@@ -11279,30 +11297,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.4464352,
-        lng: -73.1203033
+        lng: -73.1203033,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Brookside Gardens",
@@ -11311,30 +11329,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.0597347,
-        lng: -77.0390212
+        lng: -77.0390212,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rooted NYC",
@@ -11343,30 +11361,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7186898,
-        lng: -73.9997895
+        lng: -73.9997895,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Crest Hardware & Urban Garden Center",
@@ -11375,30 +11393,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7137949,
-        lng: -73.9502673
+        lng: -73.9502673,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greenery Unlimited",
@@ -11407,30 +11425,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7296535,
-        lng: -73.9592909
+        lng: -73.9592909,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ginkgo Gardens",
@@ -11439,30 +11457,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8788367,
-        lng: -76.9917685
+        lng: -76.9917685,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tula Plants & Design",
@@ -11471,30 +11489,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7264157,
-        lng: -73.9550744
+        lng: -73.9550744,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greenstreet Gardens",
@@ -11503,30 +11521,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.78127,
-        lng: -76.627117
+        lng: -76.627117,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Farmers Market Place",
@@ -11535,30 +11553,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0738092,
-        lng: -76.1675219
+        lng: -76.1675219,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Willey Farms",
@@ -11567,30 +11585,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3905826,
-        lng: -75.6627201
+        lng: -75.6627201,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lasnicki Landscaping & Nursery",
@@ -11599,30 +11617,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.33893,
-        lng: -76.1465583
+        lng: -76.1465583,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "big reds greenhouses",
@@ -11631,30 +11649,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.262915,
-        lng: -76.3450891
+        lng: -76.3450891,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Chuck Hafner's Farmers Market and Garden Center",
@@ -11663,30 +11681,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.122756,
-        lng: -76.160768
+        lng: -76.160768,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Phoenix Flower Farm & Landscaping",
@@ -11695,30 +11713,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.2180009,
-        lng: -76.3265639
+        lng: -76.3265639,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Homestead Gardens Horticulture Supply",
@@ -11727,30 +11745,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9479,
-        lng: -76.650402
+        lng: -76.650402,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "B.Willow",
@@ -11759,30 +11777,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3207049,
-        lng: -76.620566
+        lng: -76.620566,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plantacea",
@@ -11791,30 +11809,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.2786209,
-        lng: -76.6146163
+        lng: -76.6146163,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Valley View Farms",
@@ -11823,30 +11841,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.4897287,
-        lng: -76.6464323
+        lng: -76.6464323,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Pepper Greenhouses",
@@ -11855,30 +11873,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.800453,
-        lng: -75.324105
+        lng: -75.324105,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bountiful Gardens",
@@ -11887,30 +11905,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2897703,
-        lng: -74.7967998
+        lng: -74.7967998,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Magnolia Garden Village",
@@ -11919,30 +11937,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.852612,
-        lng: -75.024695
+        lng: -75.024695,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dragonfly Farms",
@@ -11951,30 +11969,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2141984,
-        lng: -74.7074606
+        lng: -74.7074606,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Flagg's Garden Center & Landscaping, LLC",
@@ -11983,30 +12001,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.999276,
-        lng: -74.9402607
+        lng: -74.9402607,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mahoney's Garden Center",
@@ -12015,30 +12033,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.5963142,
-        lng: -71.2165605
+        lng: -71.2165605,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mahoney's Garden Centers",
@@ -12047,30 +12065,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.422155,
-        lng: -71.371393
+        lng: -71.371393,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Peckham's Greenhouse",
@@ -12079,30 +12097,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.528005,
-        lng: -71.1941454
+        lng: -71.1941454,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ricky's Flower Market",
@@ -12111,30 +12129,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.3792817,
-        lng: -71.0937558
+        lng: -71.0937558,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mahoney's Garden Center",
@@ -12143,30 +12161,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.4521496,
-        lng: -71.158419
+        lng: -71.158419,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Jordan's Jungle",
@@ -12175,30 +12193,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.8591221,
-        lng: -71.3982925
+        lng: -71.3982925,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mahoney's Garden Centers",
@@ -12207,30 +12225,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.3624067,
-        lng: -71.1418926
+        lng: -71.1418926,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Longwood Gardens",
@@ -12239,30 +12257,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.871271,
-        lng: -75.6747203
+        lng: -75.6747203,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Morris County Farms Inc",
@@ -12271,30 +12289,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.862513,
-        lng: -74.513099
+        lng: -74.513099,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greenology Organic Living",
@@ -12303,30 +12321,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.3480555,
-        lng: -75.0308445
+        lng: -75.0308445,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Geerlings Garden, Gift, and Patio",
@@ -12335,30 +12353,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.3071888,
-        lng: -75.0452801
+        lng: -75.0452801,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Living Earth",
@@ -12367,30 +12385,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.3652,
-        lng: -74.961107
+        lng: -74.961107,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Seasons Garden Center",
@@ -12399,30 +12417,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2908127,
-        lng: -74.8688102
+        lng: -74.8688102,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "County Line Landscape Nursery",
@@ -12431,30 +12449,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2948404,
-        lng: -75.3766558
+        lng: -75.3766558,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bountiful Acres",
@@ -12463,30 +12481,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.3323795,
-        lng: -75.0514985
+        lng: -75.0514985,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Primex Garden Center",
@@ -12495,30 +12513,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.10468,
-        lng: -75.160871
+        lng: -75.160871,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "ILLExotics",
@@ -12527,30 +12545,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.928225,
-        lng: -75.1656535
+        lng: -75.1656535,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "City Planter",
@@ -12559,30 +12577,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9642173,
-        lng: -75.1444631
+        lng: -75.1444631,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "STUMP : Philadelphia",
@@ -12591,30 +12609,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.965589,
-        lng: -75.1405784
+        lng: -75.1405784,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Urban Jungle",
@@ -12623,30 +12641,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.930388,
-        lng: -75.163065
+        lng: -75.163065,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hickory Grove Greenhouses Inc",
@@ -12655,30 +12673,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.663134,
-        lng: -75.471091
+        lng: -75.471091,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Rhoads Garden",
@@ -12687,30 +12705,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2154053,
-        lng: -75.2490464
+        lng: -75.2490464,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Frederick's Flowers & Gifts",
@@ -12719,30 +12737,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.321077,
-        lng: -75.302893
+        lng: -75.302893,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ott's Exotic Plants",
@@ -12751,30 +12769,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2390543,
-        lng: -75.4563078
+        lng: -75.4563078,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Logee's Greenhouses",
@@ -12783,30 +12801,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.8154977,
-        lng: -71.8824614
+        lng: -71.8824614,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "14th Street Garden Center",
@@ -12815,30 +12833,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7324607,
-        lng: -74.0446655
+        lng: -74.0446655,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plant Detectives Inc",
@@ -12847,30 +12865,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.809398,
-        lng: -74.712377
+        lng: -74.712377,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hicks Nurseries, Inc.",
@@ -12879,30 +12897,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7628356,
-        lng: -73.5969959
+        lng: -73.5969959,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Barlow's",
@@ -12911,30 +12929,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.132902,
-        lng: -74.049123
+        lng: -74.049123,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "American Plant",
@@ -12943,30 +12961,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9653731,
-        lng: -77.1053341
+        lng: -77.1053341,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "McNaughton's Garden Center and Landscaping",
@@ -12975,30 +12993,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8933513,
-        lng: -75.0108014
+        lng: -75.0108014,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Metropolitan Plant and Flower Exchange",
@@ -13007,30 +13025,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.8587003,
-        lng: -73.9732774
+        lng: -73.9732774,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Seasons Nursery Inc.",
@@ -13039,30 +13057,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.1646194,
-        lng: -77.1671645
+        lng: -77.1671645,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Genrich's Florist & Greenhouse",
@@ -13071,30 +13089,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.2181944,
-        lng: -77.5990785
+        lng: -77.5990785,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Garden Factory Inc",
@@ -13103,30 +13121,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.1488129,
-        lng: -77.708582
+        lng: -77.708582,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lavocat's Family Greenhouse and Nursery",
@@ -13135,30 +13153,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0323599,
-        lng: -78.6798226
+        lng: -78.6798226,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Badding Bros Farm Market and Garden Center",
@@ -13167,30 +13185,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0632781,
-        lng: -78.6976557
+        lng: -78.6976557,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Niagara County Produce",
@@ -13199,30 +13217,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0838196,
-        lng: -78.6955106
+        lng: -78.6955106,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Urban Garden Center",
@@ -13231,30 +13249,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.799362,
-        lng: -73.943202
+        lng: -73.943202,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Plant Shack",
@@ -13263,30 +13281,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.768118,
-        lng: -78.611975
+        lng: -78.611975,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Life is Succulent",
@@ -13295,30 +13313,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.9624957,
-        lng: -78.8037243
+        lng: -78.8037243,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Daddy's Plants",
@@ -13327,30 +13345,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.9183666,
-        lng: -78.8996168
+        lng: -78.8996168,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Urban Roots Cooperative Garden Market",
@@ -13359,30 +13377,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.9116417,
-        lng: -78.8859937
+        lng: -78.8859937,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lockwood's Greenhouses & Farm",
@@ -13391,30 +13409,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.7307229,
-        lng: -78.81632
+        lng: -78.81632,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Angle Acres Greenhouse",
@@ -13423,30 +13441,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.808366,
-        lng: -78.716181
+        lng: -78.716181,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "A & J Landscape Supply",
@@ -13455,30 +13473,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9681639,
-        lng: -75.0238949
+        lng: -75.0238949,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Achin' Back Garden Center Inc",
@@ -13487,30 +13505,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.243557,
-        lng: -75.560213
+        lng: -75.560213,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Albrecht Nurseries and Greenhouses",
@@ -13519,30 +13537,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.331965,
-        lng: -75.0504452
+        lng: -75.0504452,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Axten's Nursery & Landscape",
@@ -13551,30 +13569,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8691,
-        lng: -74.893
+        lng: -74.893,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Behmerwald Nursery",
@@ -13583,30 +13601,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2544012,
-        lng: -75.4433365
+        lng: -75.4433365,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Briar Rose Greenhouses",
@@ -13615,30 +13633,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.107792,
-        lng: -76.0087
+        lng: -76.0087,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Buckman's Home & Garden",
@@ -13647,30 +13665,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2816453,
-        lng: -75.1263487
+        lng: -75.1263487,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Chadds Ford Greenhouses",
@@ -13679,30 +13697,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8712541,
-        lng: -75.5722555
+        lng: -75.5722555,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cinnaminson Nurseries, Inc.",
@@ -13711,30 +13729,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9512209,
-        lng: -74.857487
+        lng: -74.857487,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dambly's Garden Center",
@@ -13743,30 +13761,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7594278,
-        lng: -74.9251891
+        lng: -74.9251891,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Distinctive Gardens",
@@ -13775,30 +13793,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9500406,
-        lng: -75.6970077
+        lng: -75.6970077,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fairless Hills Garden Center",
@@ -13807,30 +13825,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1893209,
-        lng: -74.8301373
+        lng: -74.8301373,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Feeney's Wholesale Nursery",
@@ -13839,30 +13857,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.306242,
-        lng: -75.0270024
+        lng: -75.0270024,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Field Plant and Supply",
@@ -13871,30 +13889,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9794136,
-        lng: -75.1300397
+        lng: -75.1300397,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gardner's Landscape Nursery",
@@ -13903,30 +13921,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.069397,
-        lng: -75.6447796
+        lng: -75.6447796,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greensgrow Farms",
@@ -13935,30 +13953,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.978254,
-        lng: -75.120951
+        lng: -75.120951,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Groff's Nursery",
@@ -13967,30 +13985,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7345628,
-        lng: -75.1137835
+        lng: -75.1137835,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Haines Farm & Garden Supply",
@@ -13999,30 +14017,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9862211,
-        lng: -75.0127133
+        lng: -75.0127133,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hillside Nursery",
@@ -14031,30 +14049,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9331081,
-        lng: -75.2853236
+        lng: -75.2853236,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hilltop Garden Center",
@@ -14063,30 +14081,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8230279,
-        lng: -75.0675438
+        lng: -75.0675438,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Holly Days Nursery",
@@ -14095,30 +14113,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2135772,
-        lng: -75.1894585
+        lng: -75.1894585,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "New Moon Nursery",
@@ -14127,30 +14145,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.6468884,
-        lng: -75.3740976
+        lng: -75.3740976,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lakedale Nurseries Inc",
@@ -14159,30 +14177,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7383669,
-        lng: -74.932885
+        lng: -74.932885,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Laurel Hill Gardens",
@@ -14191,30 +14209,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.072935,
-        lng: -75.2022206
+        lng: -75.2022206,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Leonberg Nursery",
@@ -14223,30 +14241,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9660566,
-        lng: -74.9868066
+        lng: -74.9868066,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Linvilla Orchards",
@@ -14255,30 +14273,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8854306,
-        lng: -75.4111734
+        lng: -75.4111734,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Little Brook Orchids",
@@ -14287,30 +14305,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.037664,
-        lng: -76.3248799
+        lng: -76.3248799,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Medford Nursery Inc",
@@ -14319,30 +14337,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.944813,
-        lng: -74.7871937
+        lng: -74.7871937,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Miller Greenhouses of Wallingford",
@@ -14351,30 +14369,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8774767,
-        lng: -75.3752139
+        lng: -75.3752139,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mostardi Nursery",
@@ -14383,30 +14401,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9837104,
-        lng: -75.4215918
+        lng: -75.4215918,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mutschler's Florist & Plants",
@@ -14415,30 +14433,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2884192,
-        lng: -75.8191319
+        lng: -75.8191319,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Nurseries Moon",
@@ -14447,30 +14465,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9415,
-        lng: -74.853
+        lng: -74.853,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "PHS Meadowbrook Farm",
@@ -14479,30 +14497,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1183215,
-        lng: -75.0956212
+        lng: -75.0956212,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Platt's Farm Market",
@@ -14511,30 +14529,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8065562,
-        lng: -75.2297201
+        lng: -75.2297201,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Redbud Native Plant Nursery",
@@ -14543,30 +14561,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.929352,
-        lng: -75.387528
+        lng: -75.387528,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Roberts Nursery & Landscaping",
@@ -14575,30 +14593,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.752457,
-        lng: -75.073167
+        lng: -75.073167,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Taddeo's Greenhouses",
@@ -14607,30 +14625,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.990297,
-        lng: -75.304325
+        lng: -75.304325,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Terrain Cafe",
@@ -14639,30 +14657,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0458437,
-        lng: -75.4222872
+        lng: -75.4222872,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tinari Greenhouses",
@@ -14671,30 +14689,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1255069,
-        lng: -75.0753692
+        lng: -75.0753692,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Triple Oaks Nursery & Herb Garden",
@@ -14703,30 +14721,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.61432,
-        lng: -75.077042
+        lng: -75.077042,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wedgewood Gardens",
@@ -14735,30 +14753,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9453281,
-        lng: -75.502146
+        lng: -75.502146,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Willow Brook Greenhouse",
@@ -14767,30 +14785,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0684671,
-        lng: -75.9141624
+        lng: -75.9141624,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Waldor Orchids",
@@ -14799,30 +14817,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3503995,
-        lng: -74.5651425
+        lng: -74.5651425,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Black Creek Greenhouses",
@@ -14831,30 +14849,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1735821,
-        lng: -75.9991787
+        lng: -75.9991787,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Big 8 Supermarket",
@@ -14863,30 +14881,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9392105,
-        lng: -75.1702764
+        lng: -75.1702764,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bucks Country Gardens",
@@ -14895,30 +14913,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.3591445,
-        lng: -75.1399755
+        lng: -75.1399755,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Clearwater Ponds & Aquatics",
@@ -14927,30 +14945,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1849726,
-        lng: -76.0104408
+        lng: -76.0104408,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Germantown Kitchen Garden Farm Stand and Plant Nursery",
@@ -14959,30 +14977,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0348587,
-        lng: -75.166909
+        lng: -75.166909,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Good Host Plants",
@@ -14991,30 +15009,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0079393,
-        lng: -75.1290395
+        lng: -75.1290395,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greensgrow West",
@@ -15023,30 +15041,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9480069,
-        lng: -75.2262874
+        lng: -75.2262874,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "King's Herb Nook",
@@ -15055,30 +15073,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.077274,
-        lng: -75.914203
+        lng: -75.914203,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plants Etc",
@@ -15087,30 +15105,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9675053,
-        lng: -75.175839
+        lng: -75.175839,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Secret Garden",
@@ -15119,30 +15137,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0518217,
-        lng: -75.2354057
+        lng: -75.2354057,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Terrain",
@@ -15151,30 +15169,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8841041,
-        lng: -75.5319299
+        lng: -75.5319299,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Vault + Vine",
@@ -15183,30 +15201,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0137158,
-        lng: -75.1926508
+        lng: -75.1926508,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cultivaire Plant Store",
@@ -15215,30 +15233,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9741355,
-        lng: -75.181647
+        lng: -75.181647,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fairmount Hardware",
@@ -15247,30 +15265,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9674079,
-        lng: -75.170436
+        lng: -75.170436,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Terrain Gardens",
@@ -15279,30 +15297,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0455981,
-        lng: -75.42246
+        lng: -75.42246,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Meadows Farms Nurseries and Landscape",
@@ -15311,30 +15329,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.1188087,
-        lng: -76.932191
+        lng: -76.932191,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Frank's Produce & Greenhouse",
@@ -15343,30 +15361,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.186852,
-        lng: -76.7896656
+        lng: -76.7896656,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Patuxent Nursery",
@@ -15375,30 +15393,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.922881,
-        lng: -76.714529
+        lng: -76.714529,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Homestead Gardens",
@@ -15407,30 +15425,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9234675,
-        lng: -76.6247287
+        lng: -76.6247287,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Green Fields Nursery",
@@ -15439,30 +15457,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3610131,
-        lng: -76.6464299
+        lng: -76.6464299,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Radebaugh Florist and Greenhouses",
@@ -15471,30 +15489,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3949286,
-        lng: -76.5977002
+        lng: -76.5977002,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Little Greenhouse",
@@ -15503,30 +15521,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.4027639,
-        lng: -76.516922
+        lng: -76.516922,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Chapel Hills Nursery",
@@ -15535,30 +15553,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.403861,
-        lng: -76.4494397
+        lng: -76.4494397,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Maryland Flower & Foliage Co",
@@ -15567,30 +15585,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3690111,
-        lng: -76.4163468
+        lng: -76.4163468,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "B.Willow Studio",
@@ -15599,30 +15617,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.2804643,
-        lng: -76.5759709
+        lng: -76.5759709,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Walther Gardens at White Oak",
@@ -15631,30 +15649,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3415239,
-        lng: -76.5629666
+        lng: -76.5629666,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Willow Oak Flower & Herb Farm",
@@ -15663,30 +15681,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.1126734,
-        lng: -76.6917435
+        lng: -76.6917435,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Homestead Gardens",
@@ -15695,30 +15713,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.0785065,
-        lng: -76.547763
+        lng: -76.547763,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "A.A. Co. Lawn & Garden Center LLC",
@@ -15727,30 +15745,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.0854323,
-        lng: -76.5843922
+        lng: -76.5843922,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Evergreen Gene's, Inc.",
@@ -15759,30 +15777,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.1597412,
-        lng: -76.627735
+        lng: -76.627735,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dutch Plant Farm",
@@ -15791,30 +15809,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.4188915,
-        lng: -77.438319
+        lng: -77.438319,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "D.R. Snell Nursery & Garden Center",
@@ -15823,30 +15841,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.343048,
-        lng: -77.181625
+        lng: -77.181625,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "White House Nursery - retail outlet",
@@ -15855,30 +15873,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.6031318,
-        lng: -76.7752203
+        lng: -76.7752203,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Carnivorous Plant Nursery",
@@ -15887,30 +15905,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.610587,
-        lng: -77.538635
+        lng: -77.538635,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Little Leaf",
@@ -15919,30 +15937,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9142482,
-        lng: -77.0322977
+        lng: -77.0322977,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wentworth Nursery",
@@ -15951,30 +15969,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.5012969,
-        lng: -76.7758233
+        lng: -76.7758233,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "REWILD",
@@ -15983,30 +16001,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9167795,
-        lng: -77.0238516
+        lng: -77.0238516,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Johnson's Florist and Garden Centers",
@@ -16015,30 +16033,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.0254201,
-        lng: -77.0714779
+        lng: -77.0714779,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Johnson's Florist and Garden Centers",
@@ -16047,30 +16065,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.1790858,
-        lng: -77.1009213
+        lng: -77.1009213,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ken's Gardens: Garden Center & Greenhouse",
@@ -16079,30 +16097,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0400195,
-        lng: -76.2035026
+        lng: -76.2035026,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Atlantic Nursery & Garden Shop",
@@ -16111,30 +16129,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.6458737,
-        lng: -73.5870014
+        lng: -73.5870014,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Benson Lumber & Hardware",
@@ -16143,30 +16161,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.8606402,
-        lng: -71.3551586
+        lng: -71.3551586,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Creekside Gardens",
@@ -16175,30 +16193,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5161671,
-        lng: -75.9615443
+        lng: -75.9615443,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Class Glass Garden Center",
@@ -16207,30 +16225,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.2558481,
-        lng: -72.5173372
+        lng: -72.5173372,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Estabrook's",
@@ -16239,30 +16257,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.3725059,
-        lng: -70.5533458
+        lng: -70.5533458,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sunscape Farms",
@@ -16271,30 +16289,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.1776539,
-        lng: -77.5027911
+        lng: -77.5027911,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Garden's Dream",
@@ -16303,30 +16321,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.99692,
-        lng: -72.515484
+        lng: -72.515484,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Graziano Gardens",
@@ -16335,30 +16353,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.0798495,
-        lng: -72.5083334
+        lng: -72.5083334,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tioga gardens",
@@ -16367,30 +16385,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.0914713,
-        lng: -76.2108707
+        lng: -76.2108707,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Binghamton Agway",
@@ -16399,30 +16417,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.117075,
-        lng: -75.890407
+        lng: -75.890407,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Nanticoke Gardens",
@@ -16431,30 +16449,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.1273183,
-        lng: -76.0661056
+        lng: -76.0661056,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Point 211",
@@ -16463,30 +16481,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.2777508,
-        lng: -72.8230693
+        lng: -72.8230693,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Soulbury Cultural Gifts Store",
@@ -16495,30 +16513,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5228832,
-        lng: -73.2017976
+        lng: -73.2017976,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Amity Gardens",
@@ -16527,30 +16545,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4388521,
-        lng: -72.9907486
+        lng: -72.9907486,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "EBM Vintage",
@@ -16559,30 +16577,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.305792,
-        lng: -72.9249271
+        lng: -72.9249271,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Terri's Flower Shop",
@@ -16591,30 +16609,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4898637,
-        lng: -73.0557623
+        lng: -73.0557623,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Li ’l Plant Shop",
@@ -16623,30 +16641,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.671107,
-        lng: -72.866892
+        lng: -72.866892,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Town & Country Nurseries",
@@ -16655,30 +16673,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4747816,
-        lng: -72.5050813
+        lng: -72.5050813,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Winterberry Gardens",
@@ -16687,30 +16705,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.6449329,
-        lng: -72.9032514
+        lng: -72.9032514,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Uncle Bob's Flower & Garden",
@@ -16719,30 +16737,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5451372,
-        lng: -72.7106568
+        lng: -72.7106568,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Country Flower Farms",
@@ -16751,30 +16769,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5244096,
-        lng: -72.7282201
+        lng: -72.7282201,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ganim's Garden Center and Florist, LLC",
@@ -16783,30 +16801,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.161285,
-        lng: -73.2400112
+        lng: -73.2400112,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dietrich Gardens",
@@ -16815,30 +16833,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5534116,
-        lng: -72.8902675
+        lng: -72.8902675,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Terrain",
@@ -16847,30 +16865,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.1395478,
-        lng: -73.3458369
+        lng: -73.3458369,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hart's Greenhouse & Florist",
@@ -16879,30 +16897,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.7938224,
-        lng: -71.9385076
+        lng: -71.9385076,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Madison Flower Shop & Garden Center",
@@ -16911,30 +16929,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3046718,
-        lng: -72.6039541
+        lng: -72.6039541,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hollandia Nurseries",
@@ -16943,30 +16961,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4130437,
-        lng: -73.3763116
+        lng: -73.3763116,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "River Crest Farm",
@@ -16975,30 +16993,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.2381698,
-        lng: -73.0910284
+        lng: -73.0910284,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "White Flower Farm Store & Gardens",
@@ -17007,30 +17025,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.698519,
-        lng: -73.184571
+        lng: -73.184571,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Verab Greenhouses",
@@ -17039,30 +17057,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4411049,
-        lng: -72.9884824
+        lng: -72.9884824,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Town & Country Farm & Garden",
@@ -17071,30 +17089,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.239202,
-        lng: -73.4328339
+        lng: -73.4328339,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Smith's Acres Llc",
@@ -17103,30 +17121,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3218183,
-        lng: -72.2034114
+        lng: -72.2034114,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wolf's Blooms Berries",
@@ -17135,30 +17153,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3932563,
-        lng: -83.5545867
+        lng: -83.5545867,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Yelo Aple",
@@ -17167,30 +17185,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9870128,
-        lng: -83.0059967
+        lng: -83.0059967,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Klein's Floral And Greenhouses",
@@ -17199,30 +17217,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.11888,
-        lng: -89.322999
+        lng: -89.322999,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Alsip Home & Nursery",
@@ -17231,30 +17249,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4330578,
-        lng: -87.4692196
+        lng: -87.4692196,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dunkler's Farm Market",
@@ -17263,30 +17281,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.078459,
-        lng: -81.588664
+        lng: -81.588664,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Suncrest Gardens",
@@ -17295,30 +17313,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.2093516,
-        lng: -81.4921337
+        lng: -81.4921337,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bowood Farms",
@@ -17327,30 +17345,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.649364,
-        lng: -90.257177
+        lng: -90.257177,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "County Line Greenhouse",
@@ -17359,30 +17377,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4952286,
-        lng: -87.2201614
+        lng: -87.2201614,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "De Bloemen Hof",
@@ -17391,30 +17409,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4115856,
-        lng: -92.9417992
+        lng: -92.9417992,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Flowers & Weeds",
@@ -17423,30 +17441,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.5949207,
-        lng: -90.2369742
+        lng: -90.2369742,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gethsemane Garden Center",
@@ -17455,30 +17473,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.9867675,
-        lng: -87.6691322
+        lng: -87.6691322,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Goode Greenhouses",
@@ -17487,30 +17505,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.6517767,
-        lng: -93.6054629
+        lng: -93.6054629,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Joplin Greenhouse and the Coffee Shop",
@@ -17519,30 +17537,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.0544304,
-        lng: -94.4808126
+        lng: -94.4808126,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Nick's Greenhouse & Floral",
@@ -17551,30 +17569,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3981941,
-        lng: -92.9079409
+        lng: -92.9079409,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Orchids by Hausermann Inc",
@@ -17583,30 +17601,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.9082372,
-        lng: -87.9899293
+        lng: -87.9899293,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Premier Succulents",
@@ -17615,30 +17633,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4576768,
-        lng: -87.5592888
+        lng: -87.5592888,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Remus Farms Inc",
@@ -17647,30 +17665,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5512557,
-        lng: -87.2241969
+        lng: -87.2241969,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ted Lare Design Build & Garden Center",
@@ -17679,30 +17697,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4837567,
-        lng: -93.739623
+        lng: -93.739623,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Woldhuis Farms Sunrise Greenhouse, Inc",
@@ -17711,30 +17729,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.2493722,
-        lng: -87.6759236
+        lng: -87.6759236,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Baker's Acres Greenhouse",
@@ -17743,30 +17761,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.10651,
-        lng: -82.636892
+        lng: -82.636892,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Boyert's Greenhouse & Farm",
@@ -17775,30 +17793,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.0789967,
-        lng: -81.8631639
+        lng: -81.8631639,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Furst The Florist & Greenhouses",
@@ -17807,30 +17825,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7856359,
-        lng: -84.1710059
+        lng: -84.1710059,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "North Dayton Garden Center & Nursery",
@@ -17839,30 +17857,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.79558,
-        lng: -84.154481
+        lng: -84.154481,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cappelli's Country Gardens",
@@ -17871,30 +17889,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8930813,
-        lng: -83.7824181
+        lng: -83.7824181,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Little Fairy Garden",
@@ -17903,30 +17921,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8061734,
-        lng: -83.8893591
+        lng: -83.8893591,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Stoney Creek Garden Center",
@@ -17935,30 +17953,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.81171,
-        lng: -83.877467
+        lng: -83.877467,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Oakland Nursery - New Albany",
@@ -17967,30 +17985,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0617185,
-        lng: -82.8322958
+        lng: -82.8322958,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Oakland Nursery Delaware",
@@ -17999,30 +18017,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2961529,
-        lng: -83.0391216
+        lng: -83.0391216,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Delhi Flower & Garden Center",
@@ -18031,30 +18049,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3919618,
-        lng: -84.3689082
+        lng: -84.3689082,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "White Oak Garden Center",
@@ -18063,30 +18081,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.2123596,
-        lng: -84.6001459
+        lng: -84.6001459,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Buchwalter Greenhouse",
@@ -18095,30 +18113,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.8297353,
-        lng: -81.8509718
+        lng: -81.8509718,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Downs Farm Market & Greenhouse",
@@ -18128,30 +18146,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.8027258,
-        lng: -82.5904758
+        lng: -82.5904758,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Stratton Greenhouses",
@@ -18160,30 +18178,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.834813,
-        lng: -83.91779
+        lng: -83.91779,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Art Form Nurseries",
@@ -18192,30 +18210,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.441975,
-        lng: -81.346203
+        lng: -81.346203,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bob's Market & Greenhouses Inc",
@@ -18224,30 +18242,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.2800382,
-        lng: -81.6129932
+        lng: -81.6129932,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wright Landscape Supply And Market Place",
@@ -18256,30 +18274,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.685232,
-        lng: -82.682989
+        lng: -82.682989,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Kitch Greenhouses",
@@ -18288,30 +18306,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.647373,
-        lng: -84.274049
+        lng: -84.274049,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Glasshouse Works",
@@ -18320,30 +18338,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3063233,
-        lng: -81.8943155
+        lng: -81.8943155,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Petitti Garden Centers",
@@ -18352,30 +18370,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.0418452,
-        lng: -80.6331468
+        lng: -80.6331468,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Manda's Plant Farm",
@@ -18384,30 +18402,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.875576,
-        lng: -81.578011
+        lng: -81.578011,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lancaster Greenhouse & Nursery",
@@ -18416,30 +18434,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.731609,
-        lng: -82.5914373
+        lng: -82.5914373,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Singing Springs Nursery",
@@ -18448,30 +18466,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.500429,
-        lng: -82.9081973
+        lng: -82.9081973,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Daysspring Nursery Inc",
@@ -18480,30 +18498,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.893571,
-        lng: -82.724059
+        lng: -82.724059,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Scheiderer Farms Greenhouse",
@@ -18512,30 +18530,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1959532,
-        lng: -83.3747697
+        lng: -83.3747697,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wilson's Garden Center",
@@ -18544,30 +18562,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.064885,
-        lng: -82.340938
+        lng: -82.340938,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Baskets and Blooms",
@@ -18576,30 +18594,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.598395,
-        lng: -81.8161733
+        lng: -81.8161733,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mt Eaton Greenhouse",
@@ -18608,30 +18626,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.6962619,
-        lng: -81.714549
+        lng: -81.714549,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "de Monye's Greenhouse Inc",
@@ -18640,30 +18658,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9922794,
-        lng: -82.9367816
+        lng: -82.9367816,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Perfection Landscape & Greenhouse, LLC",
@@ -18672,30 +18690,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.004483,
-        lng: -82.8814749
+        lng: -82.8814749,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cliffs Greenhouse & Garden Center",
@@ -18704,30 +18722,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.0186739,
-        lng: -82.387155
+        lng: -82.387155,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Groovy Plants Ranch",
@@ -18736,30 +18754,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.3574457,
-        lng: -82.8247129
+        lng: -82.8247129,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Green Valley Growers Inc",
@@ -18768,30 +18786,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.8253316,
-        lng: -82.2649819
+        lng: -82.2649819,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hadam Hills Greenhouse",
@@ -18800,30 +18818,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.9317846,
-        lng: -82.2733794
+        lng: -82.2733794,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "LuRay Gardens",
@@ -18832,30 +18850,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.953972,
-        lng: -82.582963
+        lng: -82.582963,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Country Lane Greenhouse",
@@ -18864,30 +18882,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.8547728,
-        lng: -82.5131848
+        lng: -82.5131848,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wade & Gatton Nurseries",
@@ -18896,30 +18914,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.596643,
-        lng: -82.463838
+        lng: -82.463838,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Stony Ridge Greenhouse",
@@ -18928,30 +18946,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.9516418,
-        lng: -82.6386234
+        lng: -82.6386234,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Yoder's Greenhouse",
@@ -18960,30 +18978,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7263402,
-        lng: -81.7752261
+        lng: -81.7752261,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Richardson's Greenhouse",
@@ -18992,30 +19010,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.653365,
-        lng: -82.198742
+        lng: -82.198742,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Country Nook Greenhouse",
@@ -19024,30 +19042,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3067009,
-        lng: -83.20668
+        lng: -83.20668,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Alta Florist & Greenhouse",
@@ -19056,30 +19074,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7336151,
-        lng: -82.5703088
+        lng: -82.5703088,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Arnold's Garden Center",
@@ -19088,30 +19106,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7605362,
-        lng: -82.6274583
+        lng: -82.6274583,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "STUMP : Cleveland",
@@ -19120,30 +19138,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4670676,
-        lng: -81.5377819
+        lng: -81.5377819,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Uncle John's Plant Farm Home & Garden",
@@ -19152,30 +19170,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.36728,
-        lng: -81.9014
+        lng: -81.9014,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Garden Village Nursery",
@@ -19184,30 +19202,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3993081,
-        lng: -81.9926815
+        lng: -81.9926815,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Meadow View Growers",
@@ -19216,30 +19234,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.925924,
-        lng: -84.031172
+        lng: -84.031172,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Luna Gifts & Botanicals",
@@ -19248,30 +19266,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7573748,
-        lng: -84.1826567
+        lng: -84.1826567,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Knollwood Garden Center and Landscaping",
@@ -19280,30 +19298,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7356216,
-        lng: -84.0749877
+        lng: -84.0749877,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Strader's Garden Center",
@@ -19312,30 +19330,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8387029,
-        lng: -83.0769674
+        lng: -83.0769674,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "A J Rahn Greenhouses",
@@ -19344,30 +19362,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.1824284,
-        lng: -84.5264844
+        lng: -84.5264844,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Strader's Garden Center",
@@ -19376,30 +19394,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0664258,
-        lng: -83.1040032
+        lng: -83.1040032,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Strader's Garden Centers",
@@ -19408,30 +19426,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.982266,
-        lng: -82.811392
+        lng: -82.811392,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Oakland Nursery - Columbus",
@@ -19440,30 +19458,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.033361,
-        lng: -82.9831559
+        lng: -82.9831559,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "STUMP : Italian Village",
@@ -19472,30 +19490,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.9866227,
-        lng: -82.9971458
+        lng: -82.9971458,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Oakland Nursery",
@@ -19504,30 +19522,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0984093,
-        lng: -83.1036521
+        lng: -83.1036521,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Havel's Flowers & Greenhouses",
@@ -19536,30 +19554,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.677768,
-        lng: -81.306864
+        lng: -81.306864,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Urban Planting Cleveland",
@@ -19568,30 +19586,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.486367,
-        lng: -81.760665
+        lng: -81.760665,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lakewood Plant Company",
@@ -19600,30 +19618,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4851221,
-        lng: -81.806377
+        lng: -81.806377,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Hirt's Gardens",
@@ -19632,30 +19650,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.1408419,
-        lng: -81.7346281
+        lng: -81.7346281,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gale's Westlake Garden Center",
@@ -19664,30 +19682,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.4572129,
-        lng: -81.8909848
+        lng: -81.8909848,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Grant Line Garden Center & Nursery",
@@ -19696,30 +19714,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.3094499,
-        lng: -85.8214716
+        lng: -85.8214716,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ferguson's Floral and Garden Center",
@@ -19728,30 +19746,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.4066186,
-        lng: -95.1278949
+        lng: -95.1278949,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Telly's Greenhouse and Garden Center",
@@ -19760,30 +19778,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.5690728,
-        lng: -83.1089922
+        lng: -83.1089922,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Graye's Greenhouse",
@@ -19792,30 +19810,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.3523092,
-        lng: -83.458448
+        lng: -83.458448,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Heartland Nursery and Garden Center",
@@ -19824,30 +19842,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.935314,
-        lng: -94.451317
+        lng: -94.451317,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Colonial Gardens",
@@ -19856,30 +19874,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9669753,
-        lng: -94.2596578
+        lng: -94.2596578,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Family Tree Nursery",
@@ -19888,30 +19906,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.24104,
-        lng: -94.434091
+        lng: -94.434091,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Suburban Lawn & Garden",
@@ -19920,30 +19938,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8849729,
-        lng: -94.5980311
+        lng: -94.5980311,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Suburban Lawn & Garden - Garden Center",
@@ -19952,30 +19970,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.937546,
-        lng: -94.6386587
+        lng: -94.6386587,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Suburban Lawn & Garden",
@@ -19984,30 +20002,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9608824,
-        lng: -94.8567351
+        lng: -94.8567351,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Larry's Nursery",
@@ -20016,30 +20034,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.169739,
-        lng: -94.610081
+        lng: -94.610081,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Family Tree Nursery - Nieman",
@@ -20048,30 +20066,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.000865,
-        lng: -94.715235
+        lng: -94.715235,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Jungle House",
@@ -20080,30 +20098,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9662797,
-        lng: -95.2276338
+        lng: -95.2276338,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Family Tree Nursery",
@@ -20112,30 +20130,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9758294,
-        lng: -94.7007588
+        lng: -94.7007588,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Pierson's Flower Shop & Greenhouses Inc",
@@ -20144,30 +20162,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.992699,
-        lng: -91.682785
+        lng: -91.682785,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Frontier Garden Center",
@@ -20176,30 +20194,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.0346623,
-        lng: -91.6648135
+        lng: -91.6648135,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mother Earth Gardens",
@@ -20208,30 +20226,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.934467,
-        lng: -93.213129
+        lng: -93.213129,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mother Earth Gardens",
@@ -20240,30 +20258,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 45.0130734,
-        lng: -93.2273215
+        lng: -93.2273215,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sunnyside Gardens",
@@ -20272,30 +20290,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.9224775,
-        lng: -93.3278555
+        lng: -93.3278555,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tonkadale Greenhouse",
@@ -20304,30 +20322,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.9347318,
-        lng: -93.4811739
+        lng: -93.4811739,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Maypop Coffee & Garden Shop",
@@ -20336,30 +20354,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.6042179,
-        lng: -90.3371597
+        lng: -90.3371597,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Garden Heights Nursery",
@@ -20368,30 +20386,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.6246968,
-        lng: -90.3210569
+        lng: -90.3210569,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rolling Ridge Nursery Inc",
@@ -20400,30 +20418,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.595264,
-        lng: -90.3599883
+        lng: -90.3599883,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fendler Nursery & Garden Center",
@@ -20432,30 +20450,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.527857,
-        lng: -90.292976
+        lng: -90.292976,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bug Store",
@@ -20464,30 +20482,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.616956,
-        lng: -90.261173
+        lng: -90.261173,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sugar Creek Gardens",
@@ -20496,30 +20514,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.598753,
-        lng: -90.396839
+        lng: -90.396839,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Missouri Botanical Garden",
@@ -20528,30 +20546,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.6127672,
-        lng: -90.2593798
+        lng: -90.2593798,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Planthaven Farms - Olivette",
@@ -20560,30 +20578,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.6737656,
-        lng: -90.3817878
+        lng: -90.3817878,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Planthaven Farms - Oakville",
@@ -20592,30 +20610,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.4437684,
-        lng: -90.3191505
+        lng: -90.3191505,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bayer Garden Shops Inc",
@@ -20624,30 +20642,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.3730259,
-        lng: -90.3788917
+        lng: -90.3788917,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bayer's Garden Shop",
@@ -20656,30 +20674,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.6006972,
-        lng: -90.2923014
+        lng: -90.2923014,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fred Drummond Nursery",
@@ -20688,30 +20706,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.0941026,
-        lng: -90.5050293
+        lng: -90.5050293,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Jung Garden Center",
@@ -20720,30 +20738,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0138825,
-        lng: -89.4748901
+        lng: -89.4748901,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Jung Garden Center",
@@ -20752,30 +20770,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.1346487,
-        lng: -89.3739804
+        lng: -89.3739804,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Madison Greenhouse Store",
@@ -20784,30 +20802,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.0853059,
-        lng: -89.3617791
+        lng: -89.3617791,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Country Arbors Nursery",
@@ -20816,30 +20834,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0847284,
-        lng: -88.1357462
+        lng: -88.1357462,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Prairie Gardens",
@@ -20848,30 +20866,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1137563,
-        lng: -88.2967427
+        lng: -88.2967427,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Danville Gardens Too",
@@ -20880,30 +20898,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1306175,
-        lng: -88.2583811
+        lng: -88.2583811,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Danville Gardens",
@@ -20912,30 +20930,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.1117501,
-        lng: -87.6043033
+        lng: -87.6043033,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Vilt's Greenhouse",
@@ -20944,30 +20962,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.3027645,
-        lng: -88.210988
+        lng: -88.210988,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Eisele Greenhouse Inc",
@@ -20976,30 +20994,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 44.7167108,
-        lng: -93.2346579
+        lng: -93.2346579,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bittersweet Nursery",
@@ -21008,30 +21026,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.309769,
-        lng: -86.564051
+        lng: -86.564051,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Huyck Farms",
@@ -21040,30 +21058,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.0962897,
-        lng: -88.6447668
+        lng: -88.6447668,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Plantier",
@@ -21072,30 +21090,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.8977677,
-        lng: -87.6676528
+        lng: -87.6676528,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Farmers Market - Chicago's Garden Center",
@@ -21104,30 +21122,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.9552565,
-        lng: -87.7220525
+        lng: -87.7220525,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plant Shop Chicago",
@@ -21136,30 +21154,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.9647685,
-        lng: -87.7349658
+        lng: -87.7349658,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Foyer Shop",
@@ -21168,30 +21186,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.9781582,
-        lng: -87.6678116
+        lng: -87.6678116,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sprout Home",
@@ -21200,30 +21218,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.895349,
-        lng: -87.6768319
+        lng: -87.6768319,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cultivate Urban Rainforest & Gallery",
@@ -21232,30 +21250,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.033827,
-        lng: -87.680895
+        lng: -87.680895,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Landscape Garden Centers",
@@ -21264,30 +21282,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.479122,
-        lng: -96.728447
+        lng: -96.728447,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cliff Avenue Greenhouse & Garden Center",
@@ -21296,30 +21314,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.5154323,
-        lng: -96.8162763
+        lng: -96.8162763,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cliff Avenue Greenhouse & Garden Center",
@@ -21328,30 +21346,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.5284532,
-        lng: -96.6980528
+        lng: -96.6980528,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Stark Bro's Nurseries & Orchards Co.",
@@ -21360,30 +21378,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.4276971,
-        lng: -91.0822659
+        lng: -91.0822659,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ray Wiegand's Nursery",
@@ -21392,30 +21410,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.6477571,
-        lng: -82.9376368
+        lng: -82.9376368,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Canoyer Garden Center",
@@ -21424,30 +21442,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.6606359,
-        lng: -93.776678
+        lng: -93.776678,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Canoyer Garden Center",
@@ -21456,30 +21474,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.147993,
-        lng: -96.015464
+        lng: -96.015464,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Canoyer Garden Center - Ankeny",
@@ -21488,30 +21506,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.7028151,
-        lng: -93.6023327
+        lng: -93.6023327,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Natorp's Nursery Outlet & Landscaping",
@@ -21520,30 +21538,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.3136243,
-        lng: -84.3329534
+        lng: -84.3329534,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Earl Thieneman Greenhouses",
@@ -21552,30 +21570,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.2581436,
-        lng: -85.5174723
+        lng: -85.5174723,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Brian’s Botanicals",
@@ -21584,30 +21602,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.0709111,
-        lng: -85.6693503
+        lng: -85.6693503,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Allisonville Nursery, Garden & Home",
@@ -21616,30 +21634,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.95306,
-        lng: -86.040414
+        lng: -86.040414,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Dammann's Lawn & Garden Center",
@@ -21648,30 +21666,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7657313,
-        lng: -86.2446718
+        lng: -86.2446718,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Root 31",
@@ -21680,30 +21698,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.0408692,
-        lng: -86.1305134
+        lng: -86.1305134,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Forest Flower",
@@ -21712,30 +21730,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8832383,
-        lng: -86.2144004
+        lng: -86.2144004,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Grounded Plant and Floral Co",
@@ -21744,30 +21762,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7741629,
-        lng: -86.1331142
+        lng: -86.1331142,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Mahonia",
@@ -21776,30 +21794,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.2529396,
-        lng: -85.7371513
+        lng: -85.7371513,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wallitsch Garden Center",
@@ -21808,30 +21826,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.2019275,
-        lng: -85.6504684
+        lng: -85.6504684,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Plant Kingdom",
@@ -21840,30 +21858,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.2576025,
-        lng: -85.6476995
+        lng: -85.6476995,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wickman's Garden Village",
@@ -21872,30 +21890,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.190577,
-        lng: -93.30949
+        lng: -93.30949,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Maria Gardens Center",
@@ -21904,30 +21922,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.334791,
-        lng: -81.784384
+        lng: -81.784384,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Maria Gardens Center",
@@ -21936,30 +21954,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.311233,
-        lng: -81.851932
+        lng: -81.851932,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Oak Creek Plants and Flowers.",
@@ -21968,30 +21986,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7781676,
-        lng: -96.7036369
+        lng: -96.7036369,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ginger Valley",
@@ -22000,30 +22018,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.7327948,
-        lng: -86.1606701
+        lng: -86.1606701,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Point 156",
@@ -22032,30 +22050,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.7917211,
-        lng: -87.8549077
+        lng: -87.8549077,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ted's Greenhouse",
@@ -22064,30 +22082,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.5828188,
-        lng: -87.8238245
+        lng: -87.8238245,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Christy Webber Farm & Garden",
@@ -22096,30 +22114,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.8954544,
-        lng: -87.6981315
+        lng: -87.6981315,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Yankton Nurseries",
@@ -22128,30 +22146,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 42.8891022,
-        lng: -97.374488
+        lng: -97.374488,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fensel's Greenhouse & Flower Hotel",
@@ -22160,30 +22178,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.3586129,
-        lng: -97.4197422
+        lng: -97.4197422,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Moana Nursery",
@@ -22193,30 +22211,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.4289994,
-        lng: -119.7633556
+        lng: -119.7633556,
       },
-      address: null
+      address: null,
     },
     website: "https://www.moananursery.com",
     contact: {
       email: "customerservice@moananursery.com",
       phone: {
-        number: "7758531319"
-      }
+        number: "7758531319",
+      },
     },
     social: {
-      instagram: "moananursery"
-    }
+      instagram: "moananursery",
+    },
   },
   {
     name: "Moana Nursery",
@@ -22226,30 +22244,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.560089,
-        lng: -119.7529968
+        lng: -119.7529968,
       },
-      address: null
+      address: null,
     },
     website: "https://www.moananursery.com",
     contact: {
       email: "customerservice@moananursery.com",
       phone: {
-        number: "7754254300"
-      }
+        number: "7754254300",
+      },
     },
     social: {
-      instagram: "moananursery"
-    }
+      instagram: "moananursery",
+    },
   },
   {
     name: "Urban Scout Reno",
@@ -22259,30 +22277,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.4924516,
-        lng: -119.807771
+        lng: -119.807771,
       },
-      address: null
+      address: null,
     },
     website: "https://www.urbanscout.us",
     contact: {
       email: "info@urbanscout.us",
       phone: {
-        number: "7758266605"
-      }
+        number: "7758266605",
+      },
     },
     social: {
-      instagram: "urbanscoutreno"
-    }
+      instagram: "urbanscoutreno",
+    },
   },
   {
     name: "Natural Selection",
@@ -22292,30 +22310,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.5181271,
-        lng: -119.8102028
+        lng: -119.8102028,
       },
-      address: null
+      address: null,
     },
     website: "https://www.naturalselectionstore.com",
     contact: {
       email: "emily@naturalselectionstore.com",
       phone: {
-        number: "7753762282"
-      }
+        number: "7753762282",
+      },
     },
     social: {
-      instagram: "naturalselectionstore"
-    }
+      instagram: "naturalselectionstore",
+    },
   },
   {
     name: "Sierra Water Gardens",
@@ -22325,30 +22343,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["the facebook link in your website is broken"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.5221834,
-        lng: -119.8371144
+        lng: -119.8371144,
       },
-      address: null
+      address: null,
     },
     website: "https://www.sierrawatergardens.com",
     contact: {
       email: "sam@sierrawatergardens.com",
       phone: {
-        number: "7756224090"
-      }
+        number: "7756224090",
+      },
     },
     social: {
-      instagram: "sierrawatergardens"
-    }
+      instagram: "sierrawatergardens",
+    },
   },
   {
     name: "Moana Nursery Landscape Services",
@@ -22358,30 +22376,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.490946,
-        lng: -119.809804
+        lng: -119.809804,
       },
-      address: null
+      address: null,
     },
     website: "https://www.moananursery.com",
     contact: {
       email: "customerservice@moananursery.com",
       phone: {
-        number: "7758250602"
-      }
+        number: "7758250602",
+      },
     },
     social: {
-      instagram: "moananursery"
-    }
+      instagram: "moananursery",
+    },
   },
   {
     name: "Sin City Plants",
@@ -22391,31 +22409,31 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.06898,
-        lng: -115.191231
+        lng: -115.191231,
       },
       address:
-        "6625 S Valley View Blvd #232, Las Vegas, NV 89118, United States"
+        "6625 S Valley View Blvd #232, Las Vegas, NV 89118, United States",
     },
     website: "http://sincityplants.com",
     contact: {
       email: "sales@sincityplants.com",
       phone: {
-        number: "7029974094"
-      }
+        number: "7029974094",
+      },
     },
     social: {
-      instagram: "sincityplants"
-    }
+      instagram: "sincityplants",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22425,30 +22443,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.241367,
-        lng: -115.226944
+        lng: -115.226944,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22458,30 +22476,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.203893,
-        lng: -115.065117
+        lng: -115.065117,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22491,30 +22509,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.162925,
-        lng: -115.335538
+        lng: -115.335538,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22524,30 +22542,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.182233,
-        lng: -115.257707
+        lng: -115.257707,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22557,30 +22575,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.156685,
-        lng: -115.204579
+        lng: -115.204579,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22590,30 +22608,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.157753,
-        lng: -115.111692
+        lng: -115.111692,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22623,30 +22641,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.097163,
-        lng: -115.2938
+        lng: -115.2938,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22656,30 +22674,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.084148,
-        lng: -115.122099
+        lng: -115.122099,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -22689,30 +22707,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.006941,
-        lng: -115.118303
+        lng: -115.118303,
       },
-      address: null
+      address: null,
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7028040054"
-      }
+        number: "7028040054",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Carrie Lynn’s plants",
@@ -22722,30 +22740,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description in google maps"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.167058,
-        lng: -115.133911
+        lng: -115.133911,
       },
-      address: "1028 Fremont St, Las Vegas, NV 89101, United States"
+      address: "1028 Fremont St, Las Vegas, NV 89101, United States",
     },
     website: "https://www.carrielynns.com",
     contact: {
       email: "support@carrielynns.com",
       phone: {
-        number: "7029100400"
-      }
+        number: "7029100400",
+      },
     },
     social: {
-      instagram: "carrielynnsplants"
-    }
+      instagram: "carrielynnsplants",
+    },
   },
   {
     name: "Cactus Joe's Blue Diamond Nursery",
@@ -22755,30 +22773,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["description in google maps"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.039305,
-        lng: -115.367358
+        lng: -115.367358,
       },
-      address: null
+      address: null,
     },
     website: "http://www.cactusjoeslasvegas.com",
     contact: {
       email: "cactusjoeslasvegas@gmail.com",
       phone: {
-        number: "7028751968"
-      }
+        number: "7028751968",
+      },
     },
     social: {
-      instagram: "cactus.joes"
-    }
+      instagram: "cactus.joes",
+    },
   },
   {
     name: "Shade Home and Garden",
@@ -22787,30 +22805,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.2891106,
-        lng: -111.7330946
+        lng: -111.7330946,
       },
-      address: "435 S Geneva Rd #5862, Orem, UT 84058, United States"
+      address: "435 S Geneva Rd #5862, Orem, UT 84058, United States",
     },
     website: "http://shadehomeandgarden.com",
     contact: {
       email: null,
       phone: {
-        number: "8012254357"
-      }
+        number: "8012254357",
+      },
     },
     social: {
-      instagram: "shadehomeandgarden"
-    }
+      instagram: "shadehomeandgarden",
+    },
   },
   {
     name: "Cactus & Tropicals",
@@ -22819,30 +22837,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.5277459,
-        lng: -111.8525903
+        lng: -111.8525903,
       },
-      address: "12252 Draper Gate Dr, Draper, UT 84020, United States"
+      address: "12252 Draper Gate Dr, Draper, UT 84020, United States",
     },
     website: "http://www.cactusandtropicals.com",
     contact: {
       email: "draper@cactusandtropicals.com",
       phone: {
-        number: "8016760935"
-      }
+        number: "8016760935",
+      },
     },
     social: {
-      instagram: "cactusandtropicals"
-    }
+      instagram: "cactusandtropicals",
+    },
   },
   {
     name: "Thyme and Place",
@@ -22851,30 +22869,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.749516,
-        lng: -111.8805241
+        lng: -111.8805241,
       },
-      address: "362 E 900 S, Salt Lake City, UT 84111, United States"
+      address: "362 E 900 S, Salt Lake City, UT 84111, United States",
     },
     website: "https://www.thymeandplaceshop.com",
     contact: {
       email: "hello@thymeandplaceshop.com",
       phone: {
-        number: "3852181684"
-      }
+        number: "3852181684",
+      },
     },
     social: {
-      instagram: "ThymeandPlaceSLC"
-    }
+      instagram: "ThymeandPlaceSLC",
+    },
   },
   {
     name: "Orchid Dynasty",
@@ -22884,30 +22902,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7494509,
-        lng: -111.9018061
+        lng: -111.9018061,
       },
-      address: "365 W 900 S, Salt Lake City, UT 84105, United States"
+      address: "365 W 900 S, Salt Lake City, UT 84105, United States",
     },
     website: "http://www.orchiddynasty.com",
     contact: {
       email: "orders@orchiddynasty.com",
       phone: {
-        number: "8015834754"
-      }
+        number: "8015834754",
+      },
     },
     social: {
-      instagram: "orchiddynasty"
-    }
+      instagram: "orchiddynasty",
+    },
   },
   {
     name: "Bookcliff Gardens",
@@ -22916,30 +22934,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.1137768,
-        lng: -108.5722558
+        lng: -108.5722558,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Herbery",
@@ -22948,30 +22966,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7257474,
-        lng: -104.9770597
+        lng: -104.9770597,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "City Floral Garden Center",
@@ -22980,30 +22998,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.73902,
-        lng: -104.9168889
+        lng: -104.9168889,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "O'Toole's Garden Center",
@@ -23012,30 +23030,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.6222093,
-        lng: -105.0291675
+        lng: -105.0291675,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Green Lady Gardens",
@@ -23044,30 +23062,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7280837,
-        lng: -104.9989985
+        lng: -104.9989985,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tagawa Gardens",
@@ -23076,30 +23094,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.5766059,
-        lng: -104.7953062
+        lng: -104.7953062,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "O'Toole's Garden Center",
@@ -23108,30 +23126,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.8671944,
-        lng: -105.0854254
+        lng: -105.0854254,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "O'Toole's Garden Center",
@@ -23140,30 +23158,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7385918,
-        lng: -105.1225734
+        lng: -105.1225734,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Echter's Nursery & Garden Center",
@@ -23172,30 +23190,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.790109,
-        lng: -105.099625
+        lng: -105.099625,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Nick's Garden Center & Farm Market",
@@ -23204,30 +23222,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.6793688,
-        lng: -104.811221
+        lng: -104.811221,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Flower Bin Garden Center & Nursery",
@@ -23236,30 +23254,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.151726,
-        lng: -105.1226481
+        lng: -105.1226481,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "J&J Nursery and Garden Center",
@@ -23269,30 +23287,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 41.059446,
-        lng: -112.000538
+        lng: -112.000538,
       },
-      address: "1815 W Gentile St, Layton, UT 84041, United States"
+      address: "1815 W Gentile St, Layton, UT 84041, United States",
     },
     website: "http://www.jjnursery.com",
     contact: {
       email: "nursery@jjnursery.com",
       phone: {
-        number: "8015441211"
-      }
+        number: "8015441211",
+      },
     },
     social: {
-      instagram: "jjnursery"
-    }
+      instagram: "jjnursery",
+    },
   },
   {
     name: "Paradise Palm Inc",
@@ -23302,30 +23320,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7630209,
-        lng: -111.881952
+        lng: -111.881952,
       },
-      address: "307 E Broadway, Salt Lake City, UT 84111, United States"
+      address: "307 E Broadway, Salt Lake City, UT 84111, United States",
     },
     website: "http://www.paradisepalm.com",
     contact: {
       email: "john@paradisepalm.com",
       phone: {
-        number: "8015823212"
-      }
+        number: "8015823212",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Madeline George Garden Design Nursery",
@@ -23335,30 +23353,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.6925018,
-        lng: -116.3133642
+        lng: -116.3133642,
       },
-      address: null
+      address: null,
     },
     website: "http://www.madelinegeorge.com",
     contact: {
       email: "info@madelinegeorge.com",
       phone: {
-        number: "2089952815"
-      }
+        number: "2089952815",
+      },
     },
     social: {
-      instagram: "madelinegeorgenursery"
-    }
+      instagram: "madelinegeorgenursery",
+    },
   },
   {
     name: "36TH STREET GARDEN CENTER",
@@ -23368,30 +23386,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.654776,
-        lng: -116.234492
+        lng: -116.234492,
       },
-      address: null
+      address: null,
     },
     website: "http://www.36streetgardencenter.com",
     contact: {
       email: "info@36streetgardencenter.com",
       phone: {
-        number: "2084335100"
-      }
+        number: "2084335100",
+      },
     },
     social: {
-      instagram: "36th_street_garden_center"
-    }
+      instagram: "36th_street_garden_center",
+    },
   },
   {
     name: "Sun River Gardens",
@@ -23401,30 +23419,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.3200287,
-        lng: -111.7041346
+        lng: -111.7041346,
       },
-      address: null
+      address: null,
     },
     website: "https://sunrivergardens.com",
     contact: {
       email: "info@sunrivergardens.com",
       phone: {
-        number: "8012291975"
-      }
+        number: "8012291975",
+      },
     },
     social: {
-      instagram: "sunrivergardens"
-    }
+      instagram: "sunrivergardens",
+    },
   },
   {
     name: "Cactus & Tropicals",
@@ -23433,30 +23451,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.7120101,
-        lng: -111.8335183
+        lng: -111.8335183,
       },
-      address: "2735 S 2000 E, Salt Lake City, UT 84109, United States"
+      address: "2735 S 2000 E, Salt Lake City, UT 84109, United States",
     },
     website: "http://www.cactusandtropicals.com",
     contact: {
       email: "saltlake@cactusandtropicals.com",
       phone: {
-        number: "8014852542"
-      }
+        number: "8014852542",
+      },
     },
     social: {
-      instagram: "cactusandtropicals"
-    }
+      instagram: "cactusandtropicals",
+    },
   },
   {
     name: "North End Organic Nursery",
@@ -23466,30 +23484,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: ["I added your website too google maps so people can find you"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.6258676,
-        lng: -116.2444883
+        lng: -116.2444883,
       },
-      address: null
+      address: null,
     },
     website: "https://www.northendnursery.com",
     contact: {
       email: "info@northendnursery.com",
       phone: {
-        number: "2083894769"
-      }
+        number: "2083894769",
+      },
     },
     social: {
-      instagram: "northendorganicnursery"
-    }
+      instagram: "northendorganicnursery",
+    },
   },
   {
     name: "Edwards Greenhouse",
@@ -23499,30 +23517,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 43.657661,
-        lng: -116.240552
+        lng: -116.240552,
       },
-      address: null
+      address: null,
     },
     website: "https://www.edwardsgreenhouse.com",
     contact: {
       email: "info@edwardsgreenhouse.com",
       phone: {
-        number: "2083427548"
-      }
+        number: "2083427548",
+      },
     },
     social: {
-      instagram: "edwardsgreenhouse"
-    }
+      instagram: "edwardsgreenhouse",
+    },
   },
   {
     name: "Gulley Greenhouse and Garden Center",
@@ -23531,30 +23549,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 40.501482,
-        lng: -105.097329
+        lng: -105.097329,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Phelan Gardens",
@@ -23563,30 +23581,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9030289,
-        lng: -104.739244
+        lng: -104.739244,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Good Earth Garden Center",
@@ -23595,30 +23613,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8530341,
-        lng: -104.8337097
+        lng: -104.8337097,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rick's Garden Center",
@@ -23627,30 +23645,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8476778,
-        lng: -104.8490369
+        lng: -104.8490369,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Summerland Gardens",
@@ -23659,30 +23677,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8090693,
-        lng: -104.8418166
+        lng: -104.8418166,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Harding Nursery",
@@ -23691,30 +23709,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8422559,
-        lng: -104.7197887
+        lng: -104.7197887,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Abner's Garden Center",
@@ -23723,30 +23741,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.7777778,
-        lng: -105.1366667
+        lng: -105.1366667,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "PlantBar",
@@ -23755,30 +23773,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.8592548,
-        lng: -75.9827486
+        lng: -75.9827486,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Norfolk County Feed and Seed",
@@ -23787,30 +23805,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.829324,
-        lng: -76.3448127
+        lng: -76.3448127,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Paradise Found Nursery",
@@ -23820,30 +23838,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.4028741,
-        lng: -82.5182666
+        lng: -82.5182666,
       },
-      address: "3570 Tallevast Rd, Sarasota, FL 34243, United States"
+      address: "3570 Tallevast Rd, Sarasota, FL 34243, United States",
     },
     website: "https://www.paradisefoundnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "5402291997"
-      }
+        number: "5402291997",
+      },
     },
     social: {
-      instagram: "paradisefoundnursery"
-    }
+      instagram: "paradisefoundnursery",
+    },
   },
   {
     name: "Godley's Garden Center & Nursery Inc",
@@ -23852,30 +23870,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.6953107,
-        lng: -80.5242234
+        lng: -80.5242234,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Brawley Garden Center",
@@ -23884,30 +23902,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5898908,
-        lng: -80.7954369
+        lng: -80.7954369,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Upchurch Garden Center",
@@ -23916,30 +23934,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.3920906,
-        lng: -81.3633113
+        lng: -81.3633113,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Kerby's Nursery & Landscaping",
@@ -23949,30 +23967,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.9746235,
-        lng: -82.2863337
+        lng: -82.2863337,
       },
-      address: "2311 S Parsons Ave, Seffner, FL 33584, United States"
+      address: "2311 S Parsons Ave, Seffner, FL 33584, United States",
     },
     website: "http://www.kerbysnursery.com",
     contact: {
       email: "admin@kerbysnursery.com",
       phone: {
-        number: "8136853265"
-      }
+        number: "8136853265",
+      },
     },
     social: {
-      instagram: "kerbysnursery"
-    }
+      instagram: "kerbysnursery",
+    },
   },
   {
     name: "South Pleasantburg Nursery",
@@ -23981,30 +23999,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.8091284,
-        lng: -82.3686609
+        lng: -82.3686609,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Martin Garden Center",
@@ -24013,30 +24031,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.7853998,
-        lng: -82.3546958
+        lng: -82.3546958,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Stranges Florist & Garden Center",
@@ -24045,30 +24063,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.5718825,
-        lng: -77.3985979
+        lng: -77.3985979,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "POP'S NURSERY",
@@ -24078,30 +24096,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.035766,
-        lng: -80.248018
+        lng: -80.248018,
       },
-      address: "2807 N University Dr, Hollywood, FL 33024, United States"
+      address: "2807 N University Dr, Hollywood, FL 33024, United States",
     },
     website: "http://www.popsnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "9544327302"
-      }
+        number: "9544327302",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Stanley's Greenhouse",
@@ -24110,30 +24128,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.949653,
-        lng: -83.8999663
+        lng: -83.8999663,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Living Color Garden Center",
@@ -24143,30 +24161,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.062988,
-        lng: -80.195786
+        lng: -80.195786,
       },
-      address: "3691 FL-818, Fort Lauderdale, FL 33312, United States"
+      address: "3691 FL-818, Fort Lauderdale, FL 33312, United States",
     },
     website: "https://www.livingcolorgardencenter.net",
     contact: {
       email: "office@livingcolorgardencenter.net",
       phone: {
-        number: "9549858787"
-      }
+        number: "9549858787",
+      },
     },
     social: {
-      instagram: "livingcolorgardencenter"
-    }
+      instagram: "livingcolorgardencenter",
+    },
   },
   {
     name: "Perfect Choice Nursery",
@@ -24176,30 +24194,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.0612504,
-        lng: -80.3962018
+        lng: -80.3962018,
       },
-      address: "4700 SW 186th Ave, Southwest Ranches, FL 33332, United States"
+      address: "4700 SW 186th Ave, Southwest Ranches, FL 33332, United States",
     },
     website: "https://www.perfectchoicenursery.com",
     contact: {
       email: "perfectchoicelc@bellsouth.net",
       phone: {
-        number: "9544457234"
-      }
+        number: "9544457234",
+      },
     },
     social: {
-      instagram: "perfectchoicenu"
-    }
+      instagram: "perfectchoicenu",
+    },
   },
   {
     name: "The Plant Place",
@@ -24209,30 +24227,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.423258,
-        lng: -82.575052
+        lng: -82.575052,
       },
-      address: "6611 14th St W, Bradenton, FL 34207, United States"
+      address: "6611 14th St W, Bradenton, FL 34207, United States",
     },
     website: "http://www.plantplace.com",
     contact: {
       email: "info@plantplace.com",
       phone: {
-        number: "9417536611"
-      }
+        number: "9417536611",
+      },
     },
     social: {
-      instagram: "theplantplace1962"
-    }
+      instagram: "theplantplace1962",
+    },
   },
   {
     name: "Garden Gate Nursery",
@@ -24242,30 +24260,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.6753434,
-        lng: -82.3895749
+        lng: -82.3895749,
       },
-      address: "2406 NW 43rd St, Gainesville, FL 32606, United States"
+      address: "2406 NW 43rd St, Gainesville, FL 32606, United States",
     },
     website: "http://www.gardengatenursery.net",
     contact: {
       email: null,
       phone: {
-        number: "3523764922"
-      }
+        number: "3523764922",
+      },
     },
     social: {
-      instagram: "garden.gate.nursery"
-    }
+      instagram: "garden.gate.nursery",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -24275,30 +24293,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.676556,
-        lng: -82.340884
+        lng: -82.340884,
       },
-      address: "2564 NW 13th St, Gainesville, FL 32609, United States"
+      address: "2564 NW 13th St, Gainesville, FL 32609, United States",
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "3523678900"
-      }
+        number: "3523678900",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -24308,30 +24326,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.62526,
-        lng: -82.381412
+        lng: -82.381412,
       },
-      address: "3101 Clark Butler Blvd, Gainesville, FL 32608, United States"
+      address: "3101 Clark Butler Blvd, Gainesville, FL 32608, United States",
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "3524482000"
-      }
+        number: "3524482000",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "The Green House Nursery",
@@ -24341,30 +24359,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.652818,
-        lng: -82.50619
+        lng: -82.50619,
       },
-      address: "15207 W Newberry Rd, Newberry, FL 32669, United States"
+      address: "15207 W Newberry Rd, Newberry, FL 32669, United States",
     },
     website: "http://www.tghnfl.com",
     contact: {
       email: "info@tghnfl.com",
       phone: {
-        number: "3524723699"
-      }
+        number: "3524723699",
+      },
     },
     social: {
-      instagram: "greenhousenursery"
-    }
+      instagram: "greenhousenursery",
+    },
   },
   {
     name: "The Transplanted Garden",
@@ -24373,30 +24391,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.2303211,
-        lng: -77.9285748
+        lng: -77.9285748,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Oakdale Greenhouse",
@@ -24405,30 +24423,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.2968834,
-        lng: -80.7883541
+        lng: -80.7883541,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Strange's Florists, Greenhouses and Garden Centers",
@@ -24437,30 +24455,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.657583,
-        lng: -77.634771
+        lng: -77.634771,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "McDonald Garden Center",
@@ -24469,30 +24487,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.8734198,
-        lng: -76.0380861
+        lng: -76.0380861,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "McDonald Garden Center",
@@ -24501,30 +24519,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.877283,
-        lng: -76.132558
+        lng: -76.132558,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Anderson's Newport News",
@@ -24533,30 +24551,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 37.0635512,
-        lng: -76.4668438
+        lng: -76.4668438,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fiddleheads Garden Center",
@@ -24565,30 +24583,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.7582801,
-        lng: -84.9895751
+        lng: -84.9895751,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Williams Greenhouses & Nursery",
@@ -24597,30 +24615,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.0216937,
-        lng: -77.4141556
+        lng: -77.4141556,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Meadows Farms Nurseries and Landscape",
@@ -24629,30 +24647,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9277249,
-        lng: -77.5127956
+        lng: -77.5127956,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Meadows Farms Nurseries and Landscape",
@@ -24661,30 +24679,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8705335,
-        lng: -77.1655694
+        lng: -77.1655694,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Merrifield Garden Center",
@@ -24693,30 +24711,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8757011,
-        lng: -77.2264388
+        lng: -77.2264388,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Twigs Nursery",
@@ -24725,30 +24743,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.4071647,
-        lng: -88.7762978
+        lng: -88.7762978,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Clegg's Nursery #3",
@@ -24757,30 +24775,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.4938529,
-        lng: -91.0653141
+        lng: -91.0653141,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Clegg's Nursery #2",
@@ -24789,30 +24807,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.3991092,
-        lng: -91.0565357
+        lng: -91.0565357,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Clegg's Nursery #1",
@@ -24821,30 +24839,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.45279,
-        lng: -91.1180436
+        lng: -91.1180436,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Carolina Garden World",
@@ -24853,30 +24871,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.9248304,
-        lng: -81.8863317
+        lng: -81.8863317,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Red Barn Greenhouse & Garden",
@@ -24885,30 +24903,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.527646,
-        lng: -82.9965034
+        lng: -82.9965034,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Malone's Nursery",
@@ -24917,30 +24935,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.301293,
-        lng: -80.895323
+        lng: -80.895323,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Louisiana Nursery",
@@ -24949,30 +24967,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.3869234,
-        lng: -91.1046279
+        lng: -91.1046279,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Baton Rouge Succulent Co.",
@@ -24981,30 +24999,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.37855,
-        lng: -91.140754
+        lng: -91.140754,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Flora/Fauna",
@@ -25013,30 +25031,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.7480602,
-        lng: -84.3627074
+        lng: -84.3627074,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Victorian Atlanta",
@@ -25045,30 +25063,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.772768,
-        lng: -84.365758
+        lng: -84.365758,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ninth Ward Nursery",
@@ -25077,30 +25095,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.9791658,
-        lng: -90.0185721
+        lng: -90.0185721,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "TPG - The Plant Gallery",
@@ -25109,30 +25127,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.972548,
-        lng: -90.123537
+        lng: -90.123537,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Urban Roots Garden Center",
@@ -25141,30 +25159,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.9221025,
-        lng: -90.0745047
+        lng: -90.0745047,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Harolds Indoor Outdoor Plants",
@@ -25173,30 +25191,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.968851,
-        lng: -90.0464006
+        lng: -90.0464006,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Good Earth Produce & Garden Center",
@@ -25205,30 +25223,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.5059794,
-        lng: -82.0824665
+        lng: -82.0824665,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Griffin's Greenhouses",
@@ -25237,30 +25255,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.295115,
-        lng: -81.961426
+        lng: -81.961426,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gabriella Plants",
@@ -25270,30 +25288,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.628904,
-        lng: -81.2595193
+        lng: -81.2595193,
       },
-      address: "4875 Gabriella Ln, Oviedo, FL 32765, United States"
+      address: "4875 Gabriella Ln, Oviedo, FL 32765, United States",
     },
     website: "http://www.gabriellaplants.com",
     contact: {
       email: "orders@gabriellaplants.com",
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: "gabriellaplantsonline"
-    }
+      instagram: "gabriellaplantsonline",
+    },
   },
   {
     name: "Meadows Farms Nurseries and Landscape",
@@ -25302,30 +25320,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9957271,
-        lng: -77.3349708
+        lng: -77.3349708,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Meadows Farms Nurseries and Landscape",
@@ -25334,30 +25352,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.9778701,
-        lng: -77.3143648
+        lng: -77.3143648,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Meadows Farms Nurseries and Landscape",
@@ -25366,30 +25384,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8192668,
-        lng: -77.1904481
+        lng: -77.1904481,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Merrifield Garden Center",
@@ -25398,30 +25416,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8461587,
-        lng: -77.3658514
+        lng: -77.3658514,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Holly, Woods & Vines",
@@ -25430,30 +25448,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.727306,
-        lng: -77.110631
+        lng: -77.110631,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wild Roots",
@@ -25463,30 +25481,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.7703524,
-        lng: -82.6598302
+        lng: -82.6598302,
       },
-      address: "1949 1st Ave S Unit A, St. Petersburg, FL 33712, United States"
+      address: "1949 1st Ave S Unit A, St. Petersburg, FL 33712, United States",
     },
     website: "https://www.wildrootsstpete.com",
     contact: {
       email: "wildrootsstpete@gmail.com",
       phone: {
-        number: "3528716975"
-      }
+        number: "3528716975",
+      },
     },
     social: {
-      instagram: "wildrootsstpete"
-    }
+      instagram: "wildrootsstpete",
+    },
   },
   {
     name: "Bloom Garden Shop",
@@ -25496,30 +25514,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.919191,
-        lng: -82.493782
+        lng: -82.493782,
       },
-      address: "3005 S MacDill Ave, Tampa, FL 33629, United States"
+      address: "3005 S MacDill Ave, Tampa, FL 33629, United States",
     },
     website: "http://www.bloomtampa.com",
     contact: {
       email: "info@bloomtampa.com",
       phone: {
-        number: "8138052151"
-      }
+        number: "8138052151",
+      },
     },
     social: {
-      instagram: "bloom.gardenshop"
-    }
+      instagram: "bloom.gardenshop",
+    },
   },
   {
     name: "Green Thumb Nursery - Tampa",
@@ -25529,30 +25547,30 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.01387,
-        lng: -82.58241
+        lng: -82.58241,
       },
-      address: "6913 Sheldon Rd, Tampa, FL 33615, United States"
+      address: "6913 Sheldon Rd, Tampa, FL 33615, United States",
     },
     website: "https://www.greenthumb.com",
     contact: {
       email: null,
       phone: {
-        number: "8138843797"
-      }
+        number: "8138843797",
+      },
     },
     social: {
-      instagram: "greenthumbnursery"
-    }
+      instagram: "greenthumbnursery",
+    },
   },
   {
     name: "Kathy's Korner Nursery Inc",
@@ -25562,30 +25580,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.827424,
-        lng: -82.674641
+        lng: -82.674641,
       },
-      address: "3118 62nd Ave N, St. Petersburg, FL 33702, United States"
+      address: "3118 62nd Ave N, St. Petersburg, FL 33702, United States",
     },
     website: "http://kathyskornernursery.com",
     contact: {
       email: null,
       phone: {
-        number: "7275259640"
-      }
+        number: "7275259640",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "ABC Tropical Plant Nursery, Inc.",
@@ -25595,30 +25613,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.89229,
-        lng: -82.728306
+        lng: -82.728306,
       },
-      address: "13275 66th St N, Largo, FL 33773, United States"
+      address: "13275 66th St N, Largo, FL 33773, United States",
     },
     website: "http://www.buyplumerias.com",
     contact: {
       email: "sales@buyplumerias.com",
       phone: {
-        number: "7275468787"
-      }
+        number: "7275468787",
+      },
     },
     social: {
-      instagram: "buyplumerias"
-    }
+      instagram: "buyplumerias",
+    },
   },
   {
     name: "Haynor's Potting Shed and Nursery",
@@ -25628,30 +25646,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.901526,
-        lng: -82.761328
+        lng: -82.761328,
       },
-      address: "1625 Starkey Rd, Largo, FL 33771, United States"
+      address: "1625 Starkey Rd, Largo, FL 33771, United States",
     },
     website: "https://www.gardendesign-inc.com",
     contact: {
       email: "george@gardendesign-inc.com",
       phone: {
-        number: "7275856171"
-      }
+        number: "7275856171",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Discount Palms & Plants",
@@ -25661,30 +25679,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.854561,
-        lng: -82.786715
+        lng: -82.786715,
       },
-      address: "9009 Seminole Blvd, Seminole, FL 33772, United States"
+      address: "9009 Seminole Blvd, Seminole, FL 33772, United States",
     },
     website: "https://www.discountpalmsandplants.com",
     contact: {
       email: "sdlawnandlandscape@earthlink.net",
       phone: {
-        number: "7273857851"
-      }
+        number: "7273857851",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Wilcox Nursery and Landscape",
@@ -25694,30 +25712,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.886702,
-        lng: -82.832179
+        lng: -82.832179,
       },
-      address: "12501 Indian Rocks Rd, Largo, FL 33774, United States"
+      address: "12501 Indian Rocks Rd, Largo, FL 33774, United States",
     },
     website: "https://www.wilcoxnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "7275952073"
-      }
+        number: "7275952073",
+      },
     },
     social: {
-      instagram: "wilcox_nursery"
-    }
+      instagram: "wilcox_nursery",
+    },
   },
   {
     name: "Eden Nursery",
@@ -25727,30 +25745,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.034488,
-        lng: -82.70786
+        lng: -82.70786,
       },
-      address: "3145 N, McMullen Booth Rd, Clearwater, FL 33761, United States"
+      address: "3145 N, McMullen Booth Rd, Clearwater, FL 33761, United States",
     },
     website: "https://www.edennursery.com",
     contact: {
       email: "edennurseryfl@aol.com",
       phone: {
-        number: "7277254207"
-      }
+        number: "7277254207",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Local gardens plant shop",
@@ -25759,30 +25777,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.148707,
-        lng: -82.754857
+        lng: -82.754857,
       },
-      address: "136 Cypress St, Tarpon Springs, FL 34689, United States"
+      address: "136 Cypress St, Tarpon Springs, FL 34689, United States",
     },
     website: "http://www.localgardensplantshop.com",
     contact: {
       email: "localgardensbym@gmail.com",
       phone: {
-        number: "7275071283"
-      }
+        number: "7275071283",
+      },
     },
     social: {
-      instagram: "localgardensplantshop"
-    }
+      instagram: "localgardensplantshop",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -25792,30 +25810,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.151643,
-        lng: -82.74267
+        lng: -82.74267,
       },
-      address: "41800 US Hwy 19 N, Tarpon Springs, FL 34689, United States"
+      address: "41800 US Hwy 19 N, Tarpon Springs, FL 34689, United States",
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "7272799000"
-      }
+        number: "7272799000",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Grand Garden Nursery",
@@ -25824,30 +25842,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.194774,
-        lng: -82.723943
+        lng: -82.723943,
       },
-      address: "2449 Grand Blvd, Holiday, FL 34690, United States"
+      address: "2449 Grand Blvd, Holiday, FL 34690, United States",
     },
     website: "https://grand-garden-nursery.business.site",
     contact: {
       email: null,
       phone: {
-        number: "7273898238"
-      }
+        number: "7273898238",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "ADU Tropical Plants",
@@ -25857,30 +25875,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.219753,
-        lng: -82.690916
+        lng: -82.690916,
       },
-      address: "4154 Rowan Rd, New Port Richey, FL 34653, United States"
+      address: "4154 Rowan Rd, New Port Richey, FL 34653, United States",
     },
     website: "https://adu-tropical-plants.business.site",
     contact: {
       email: null,
       phone: {
-        number: "7278461230"
-      }
+        number: "7278461230",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Christine's Tropical & Exotic Plants",
@@ -25891,32 +25909,32 @@ const shops = [
       isPendingToContact: true,
       notes: [
         "add your instagram to your website",
-        "can you tell me once your shop is live? so I can upload it on my website"
+        "can you tell me once your shop is live? so I can upload it on my website",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.035536,
-        lng: -82.648993
+        lng: -82.648993,
       },
-      address: "180 Race Track Road North, Oldsmar, FL 34677, United States"
+      address: "180 Race Track Road North, Oldsmar, FL 34677, United States",
     },
     website: "http://www.plantlocator1.com",
     contact: {
       email: null,
       phone: {
-        number: "8138545888"
-      }
+        number: "8138545888",
+      },
     },
     social: {
-      instagram: "christinesplants"
-    }
+      instagram: "christinesplants",
+    },
   },
   {
     name: "Dolins Garden Center",
@@ -25926,30 +25944,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.828759,
-        lng: -82.646003
+        lng: -82.646003,
       },
-      address: "801 62nd Ave N, St. Petersburg, FL 33702, United States"
+      address: "801 62nd Ave N, St. Petersburg, FL 33702, United States",
     },
     website: "http://dolinsgardencenter.com",
     contact: {
       email: "mail@dolinsgardencenter.com",
       phone: {
-        number: "7275253434"
-      }
+        number: "7275253434",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "E.F.G. Orchids inc.",
@@ -25958,30 +25976,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.12114,
-        lng: -81.269241
+        lng: -81.269241,
       },
-      address: "4265 Marsh Rd, DeLand, FL 32724, United States"
+      address: "4265 Marsh Rd, DeLand, FL 32724, United States",
     },
     website: "http://www.efgorchids.com",
     contact: {
       email: "efg.orchids@gmail.com",
       phone: {
-        number: "3864906924"
-      }
+        number: "3864906924",
+      },
     },
     social: {
-      instagram: "efgorchids"
-    }
+      instagram: "efgorchids",
+    },
   },
   {
     name: "Ellis Home Decor and Garden",
@@ -25990,30 +26008,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.5497343,
-        lng: -93.6666872
+        lng: -93.6666872,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fancy Free Nursery",
@@ -26023,32 +26041,32 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [
-        "impossible to read the menu, apply some overlay or something, the white text it's not readable if not."
+        "impossible to read the menu, apply some overlay or something, the white text it's not readable if not.",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.9585458,
-        lng: -82.4596883
+        lng: -82.4596883,
       },
-      address: "1502 N Florida Ave, Tampa, FL 33602, United States"
+      address: "1502 N Florida Ave, Tampa, FL 33602, United States",
     },
     website: "https://www.fancyfreenursery.com",
     contact: {
       email: "hello@fancyfreenursery.com",
       phone: {
-        number: "8132600217"
-      }
+        number: "8132600217",
+      },
     },
     social: {
-      instagram: "fancyfreenursery"
-    }
+      instagram: "fancyfreenursery",
+    },
   },
   {
     name: "Seeds",
@@ -26057,30 +26075,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["add your instagram in your facebook account"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.011136,
-        lng: -82.7895659
+        lng: -82.7895659,
       },
-      address: "719 Broadway, Dunedin, FL 34698, United States"
+      address: "719 Broadway, Dunedin, FL 34698, United States",
     },
     website: "https://seedsdunedin.com",
     contact: {
       email: "succulentsbyseeds@gmail.com",
       phone: {
-        number: "7272282254"
-      }
+        number: "7272282254",
+      },
     },
     social: {
-      instagram: "seeds_dunedin"
-    }
+      instagram: "seeds_dunedin",
+    },
   },
   {
     name: "Tarheel Nursery",
@@ -26089,30 +26107,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.508214,
-        lng: -78.6882237
+        lng: -78.6882237,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "DeWayne's",
@@ -26121,30 +26139,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5164733,
-        lng: -78.2987192
+        lng: -78.2987192,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Painters Greenhouse",
@@ -26153,30 +26171,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5789466,
-        lng: -82.1969645
+        lng: -82.1969645,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Appalachian Tropicals",
@@ -26185,30 +26203,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5437641,
-        lng: -82.4439709
+        lng: -82.4439709,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "217 Old Airport Rd",
@@ -26217,30 +26235,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.3928377,
-        lng: -80.547274
+        lng: -80.547274,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Signal Mountain Nursery",
@@ -26249,30 +26267,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.180813,
-        lng: -85.3174388
+        lng: -85.3174388,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "2914 Sandy Ridge Rd",
@@ -26281,30 +26299,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.0878439,
-        lng: -79.989675
+        lng: -79.989675,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tallahassee Nurseries",
@@ -26313,30 +26331,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 30.4823602,
-        lng: -84.2566043
+        lng: -84.2566043,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Cold Creek Nurseries",
@@ -26345,30 +26363,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 33.554308,
-        lng: -81.779554
+        lng: -81.779554,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Forest Lake Greenhouses",
@@ -26377,30 +26395,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.1485277,
-        lng: -79.8354736
+        lng: -79.8354736,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "B. B. Barns The Garden Company",
@@ -26409,30 +26427,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.484137,
-        lng: -82.519377
+        lng: -82.519377,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Jesse Israel & Sons Garden Center",
@@ -26441,30 +26459,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5554443,
-        lng: -82.5985156
+        lng: -82.5985156,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rose's Garden Shop",
@@ -26473,30 +26491,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.6070302,
-        lng: -82.5458197
+        lng: -82.5458197,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Carolina Gardens",
@@ -26505,30 +26523,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.9853415,
-        lng: -79.801615
+        lng: -79.801615,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Tiny Greenhouse",
@@ -26537,30 +26555,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.0846452,
-        lng: -79.8038049
+        lng: -79.8038049,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Guilford Garden Center",
@@ -26569,30 +26587,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.087994,
-        lng: -79.887235
+        lng: -79.887235,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Big Greenhouse",
@@ -26601,30 +26619,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.0610646,
-        lng: -79.853678
+        lng: -79.853678,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Big Bloomers Flower Farm",
@@ -26633,30 +26651,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.4325919,
-        lng: -79.229836
+        lng: -79.229836,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "J&C Gardenworld",
@@ -26665,30 +26683,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.458947,
-        lng: -78.1419497
+        lng: -78.1419497,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The ZEN Succulent",
@@ -26697,30 +26715,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.9968122,
-        lng: -78.9021574
+        lng: -78.9021574,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "For Garden's Sake",
@@ -26729,30 +26747,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.8649942,
-        lng: -78.9461607
+        lng: -78.9461607,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Logan's One Stop Garden Shop",
@@ -26761,30 +26779,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.789951,
-        lng: -78.640877
+        lng: -78.640877,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plant Delights Nursery, Inc.",
@@ -26793,30 +26811,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.6263887,
-        lng: -78.6395756
+        lng: -78.6395756,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Growin Green Nursery",
@@ -26825,30 +26843,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.0061896,
-        lng: -78.0012091
+        lng: -78.0012091,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gunters Greenhouse",
@@ -26857,30 +26875,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.93851,
-        lng: -78.826035
+        lng: -78.826035,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Fairview Garden Center",
@@ -26889,30 +26907,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.707115,
-        lng: -78.765091
+        lng: -78.765091,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Plant and See Nursery",
@@ -26921,30 +26939,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.5487562,
-        lng: -77.3849722
+        lng: -77.3849722,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The Potted Plant",
@@ -26953,30 +26971,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.7294534,
-        lng: -76.6391934
+        lng: -76.6391934,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Pender Pines Garden Center",
@@ -26985,30 +27003,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.4322185,
-        lng: -77.6348952
+        lng: -77.6348952,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Anderson's Virginia Beach",
@@ -27017,30 +27035,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.7475423,
-        lng: -76.0059377
+        lng: -76.0059377,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Homewood Nursery & Garden Center",
@@ -27049,30 +27067,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.9275588,
-        lng: -78.6220569
+        lng: -78.6220569,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Atlantic Gardening Company",
@@ -27081,30 +27099,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.854089,
-        lng: -78.600297
+        lng: -78.600297,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Garden Supply Company",
@@ -27113,30 +27131,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.7663613,
-        lng: -78.8094483
+        lng: -78.8094483,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Campbell Road Nursery - Retail",
@@ -27145,30 +27163,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.7412154,
-        lng: -78.7368082
+        lng: -78.7368082,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Farmers market",
@@ -27177,30 +27195,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.7627683,
-        lng: -78.6640634
+        lng: -78.6640634,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "The ZEN Succulent",
@@ -27209,30 +27227,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.7779513,
-        lng: -78.6384231
+        lng: -78.6384231,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Macon Gardens",
@@ -27241,30 +27259,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.9175357,
-        lng: -78.540486
+        lng: -78.540486,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Abernethy & Spencer Greenhouse and Garden Center",
@@ -27273,30 +27291,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.117834,
-        lng: -77.697791
+        lng: -77.697791,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Al's Orchid Greenhouse",
@@ -27305,30 +27323,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.086158,
-        lng: -77.582123
+        lng: -77.582123,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greenstreet Gardens of Virginia",
@@ -27337,30 +27355,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 38.8271424,
-        lng: -77.0868441
+        lng: -77.0868441,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Weber's Nursery & Garden Center",
@@ -27369,30 +27387,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 39.2208674,
-        lng: -78.1298508
+        lng: -78.1298508,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Abide A While Garden Boutique",
@@ -27401,30 +27419,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8160823,
-        lng: -79.8475212
+        lng: -79.8475212,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Brownswood Nursery and Landscape Design",
@@ -27433,30 +27451,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.7384234,
-        lng: -80.0757843
+        lng: -80.0757843,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "plant babe",
@@ -27465,30 +27483,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 32.8292664,
-        lng: -79.9518398
+        lng: -79.9518398,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Brafford's Greenhouses",
@@ -27497,30 +27515,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.3909047,
-        lng: -80.5470985
+        lng: -80.5470985,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Rountree Plantation",
@@ -27529,30 +27547,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.1715218,
-        lng: -80.8805061
+        lng: -80.8805061,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "A B Seed Inc",
@@ -27561,30 +27579,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.087863,
-        lng: -79.989141
+        lng: -79.989141,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "A & A Plants",
@@ -27593,30 +27611,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 36.218788,
-        lng: -79.6350779
+        lng: -79.6350779,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Ecuagenera USA",
@@ -27626,30 +27644,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.7366094,
-        lng: -81.5599502
+        lng: -81.5599502,
       },
-      address: "3600 Plymouth Sorrento Rd, Apopka, FL 32712, United States"
+      address: "3600 Plymouth Sorrento Rd, Apopka, FL 32712, United States",
     },
     website: "http://ecuageneraus.com",
     contact: {
       email: "marketing@ecuageneraus.com",
       phone: {
-        number: "9419606950"
-      }
+        number: "9419606950",
+      },
     },
     social: {
-      instagram: "ecuagenerausa"
-    }
+      instagram: "ecuagenerausa",
+    },
   },
   {
     name: "P & P Nursery",
@@ -27658,30 +27676,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.531609,
-        lng: -80.475844
+        lng: -80.475844,
       },
-      address: "25201 SW 177th Ave, Homestead, FL 33031, United States"
+      address: "25201 SW 177th Ave, Homestead, FL 33031, United States",
     },
     website: "https://www.pnpnursery.com",
     contact: {
       email: "sales@pnpnursery.com",
       phone: {
-        number: "3052488200"
-      }
+        number: "3052488200",
+      },
     },
     social: {
-      instagram: "pnp_nursery_"
-    }
+      instagram: "pnp_nursery_",
+    },
   },
   {
     name: "Redland Nursery, Inc.",
@@ -27692,32 +27710,32 @@ const shops = [
       isPendingToContact: true,
       notes: [
         "I added the website on google for you so you can reach more people",
-        "Don't you have instagram account?"
+        "Don't you have instagram account?",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.5216914,
-        lng: -80.4911538
+        lng: -80.4911538,
       },
-      address: "18455 SW 264th St, Homestead, FL 33031, United States"
+      address: "18455 SW 264th St, Homestead, FL 33031, United States",
     },
     website: null,
     contact: {
       email: "info@redlandnursery.com",
       phone: {
-        number: "3052485109"
-      }
+        number: "3052485109",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Bonita Bromeliads",
@@ -27726,30 +27744,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.3518521,
-        lng: -81.7460823
+        lng: -81.7460823,
       },
-      address: "12525 Tower Rd, Bonita Springs, FL 34135, United States"
+      address: "12525 Tower Rd, Bonita Springs, FL 34135, United States",
     },
     website: "http://www.bonitabromeliads.com",
     contact: {
       email: null,
       phone: {
-        number: "2397784193"
-      }
+        number: "2397784193",
+      },
     },
     social: {
-      instagram: "bonitabromeliads"
-    }
+      instagram: "bonitabromeliads",
+    },
   },
   {
     name: "Driftwood Garden Center",
@@ -27759,30 +27777,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.4472091,
-        lng: -81.8158162
+        lng: -81.8158162,
       },
-      address: "20071 South Tamiami Trail, Estero, FL 33928, United States"
+      address: "20071 South Tamiami Trail, Estero, FL 33928, United States",
     },
     website: "http://www.driftwoodgardencenter.com",
     contact: {
       email: "estero@driftwoodgardencenter.com",
       phone: {
-        number: "2399479676"
-      }
+        number: "2399479676",
+      },
     },
     social: {
-      instagram: "driftwood_garden_center"
-    }
+      instagram: "driftwood_garden_center",
+    },
   },
   {
     name: "Landscaper's Choice: Wholesale Plant Nursery",
@@ -27791,30 +27809,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.389607,
-        lng: -81.807264
+        lng: -81.807264,
       },
-      address: "24242 Production Cir, Bonita Springs, FL 34135, United States"
+      address: "24242 Production Cir, Bonita Springs, FL 34135, United States",
     },
     website: "http://lcflorida.com",
     contact: {
       email: "info@lcflorida.com",
       phone: {
-        number: "2396768293"
-      }
+        number: "2396768293",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Sundance Orchids & Bromeliads",
@@ -27824,30 +27842,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.508214,
-        lng: -81.83884
+        lng: -81.83884,
       },
-      address: "16095 S Pebble Ln, Fort Myers, FL 33912, United States"
+      address: "16095 S Pebble Ln, Fort Myers, FL 33912, United States",
     },
     website: "http://www.sundanceorchids.com",
     contact: {
       email: "info@sundanceorchids.com",
       phone: {
-        number: "2394891234"
-      }
+        number: "2394891234",
+      },
     },
     social: {
-      instagram: "sundanceorchids"
-    }
+      instagram: "sundanceorchids",
+    },
   },
   {
     name: "Ray's Forest",
@@ -27857,30 +27875,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.617069,
-        lng: -81.646064
+        lng: -81.646064,
       },
-      address: "415 Williams Ave, Lehigh Acres, FL 33972, United States"
+      address: "415 Williams Ave, Lehigh Acres, FL 33972, United States",
     },
     website: "https://rays-forest.business.site",
     contact: {
       email: null,
       phone: {
-        number: "2392589653"
-      }
+        number: "2392589653",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "R S Walsh Landscaping - In The Garden",
@@ -27890,30 +27908,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.445609,
-        lng: -82.116324
+        lng: -82.116324,
       },
-      address: "3889 Sanibel Captiva Rd, Sanibel, FL 33957, United States"
+      address: "3889 Sanibel Captiva Rd, Sanibel, FL 33957, United States",
     },
     website: "https://rswalsh.com/garden-center",
     contact: {
       email: "inthegarden@rswalsh.com",
       phone: {
-        number: "2393955859"
-      }
+        number: "2393955859",
+      },
     },
     social: {
-      instagram: "rswalsh"
-    }
+      instagram: "rswalsh",
+    },
   },
   {
     name: "Powell Nursery & Landscaping",
@@ -27923,30 +27941,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.937036,
-        lng: -82.037276
+        lng: -82.037276,
       },
-      address: "6366 Elliott St, Punta Gorda, FL 33950, United States"
+      address: "6366 Elliott St, Punta Gorda, FL 33950, United States",
     },
     website: "http://www.powellsnursery.com",
     contact: {
       email: "info@powellsnursery.com",
       phone: {
-        number: "9416392446"
-      }
+        number: "9416392446",
+      },
     },
     social: {
-      instagram: "powells_nursery_nc"
-    }
+      instagram: "powells_nursery_nc",
+    },
   },
   {
     name: "Emerald Air Plants",
@@ -27956,32 +27974,32 @@ const shops = [
       isPendingToContact: true,
       notes: [
         "your FB, twitter and Instagram linkk in your website take you to wix.",
-        "your location links take nowhere. might be interested to add as links the location via Google Maps"
+        "your location links take nowhere. might be interested to add as links the location via Google Maps",
       ],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.924798,
-        lng: -82.070045
+        lng: -82.070045,
       },
-      address: "W Marion Ave, Punta Gorda, FL 33950, United States"
+      address: "W Marion Ave, Punta Gorda, FL 33950, United States",
     },
     website: null,
     contact: {
       email: "info@emeraldairplants.com",
       phone: {
-        number: "2393219527"
-      }
+        number: "2393219527",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "D & B Nursery",
@@ -27990,32 +28008,32 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [
-        "the links to facebook and twitter are wrong. People can't find you"
+        "the links to facebook and twitter are wrong. People can't find you",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.028621,
-        lng: -82.130521
+        lng: -82.130521,
       },
-      address: "142 Panther Ct, Port Charlotte, FL 33954, United States"
+      address: "142 Panther Ct, Port Charlotte, FL 33954, United States",
     },
     website: "http://www.dbnursery.com",
     contact: {
       email: null,
       phone: {
-        number: "9412767758"
-      }
+        number: "9412767758",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -28025,30 +28043,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.006247,
-        lng: -82.127687
+        lng: -82.127687,
       },
-      address: "2000 Tamiami Trail, Port Charlotte, FL 33948, United States"
+      address: "2000 Tamiami Trail, Port Charlotte, FL 33948, United States",
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "9414211041"
-      }
+        number: "9414211041",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -28058,30 +28076,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.042038,
-        lng: -82.228349
+        lng: -82.228349,
       },
-      address: "5601 Tuscola Blvd, North Port, FL 34287, United States"
+      address: "5601 Tuscola Blvd, North Port, FL 34287, United States",
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "9412572200"
-      }
+        number: "9412572200",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "RoJo's Nursery & Landscape Design",
@@ -28091,30 +28109,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.959294,
-        lng: -82.330725
+        lng: -82.330725,
       },
-      address: "733 Crestwood Rd, Englewood, FL 34223, United States"
+      address: "733 Crestwood Rd, Englewood, FL 34223, United States",
     },
     website: null,
     contact: {
       email: "rojosnursery733@gmail.com",
       phone: {
-        number: "9414730070"
-      }
+        number: "9414730070",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gulf Breeze Garden Center",
@@ -28124,30 +28142,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.984637,
-        lng: -82.353422
+        lng: -82.353422,
       },
-      address: "1200 N Indiana Ave, Englewood, FL 34223, United States"
+      address: "1200 N Indiana Ave, Englewood, FL 34223, United States",
     },
     website: "https://gulfbreezegardencenter.com",
     contact: {
       email: null,
       phone: {
-        number: "9414749177"
-      }
+        number: "9414749177",
+      },
     },
     social: {
-      instagram: "gulfbreezegardencenter"
-    }
+      instagram: "gulfbreezegardencenter",
+    },
   },
   {
     name: "Michael's Bromeliads, Inc.",
@@ -28157,30 +28175,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["beautiful website!"],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.124849,
-        lng: -82.358446
+        lng: -82.358446,
       },
-      address: "973 1st Dirt Rd, Venice, FL 34292, United States"
+      address: "973 1st Dirt Rd, Venice, FL 34292, United States",
     },
     website: "http://www.michaelsbromeliads.com",
     contact: {
       email: "mike@michaelsbromeliads.com",
       phone: {
-        number: "7274157276"
-      }
+        number: "7274157276",
+      },
     },
     social: {
-      instagram: "michaelsbromeliads"
-    }
+      instagram: "michaelsbromeliads",
+    },
   },
   {
     name: "Lowe's Garden Center",
@@ -28190,30 +28208,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.224617,
-        lng: -82.489008
+        lng: -82.489008,
       },
-      address: "4020 Central Sarasota Pkwy, Sarasota, FL 34238, United States"
+      address: "4020 Central Sarasota Pkwy, Sarasota, FL 34238, United States",
     },
     website: "https://www.lowes.com",
     contact: {
       email: null,
       phone: {
-        number: "9419184000"
-      }
+        number: "9419184000",
+      },
     },
     social: {
-      instagram: "loweshomeimprovement"
-    }
+      instagram: "loweshomeimprovement",
+    },
   },
   {
     name: "Beneva Flowers & Plantscapes",
@@ -28223,30 +28241,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.254869,
-        lng: -82.49822
+        lng: -82.49822,
       },
-      address: "6980 S Beneva Rd, Sarasota, FL 34238, United States"
+      address: "6980 S Beneva Rd, Sarasota, FL 34238, United States",
     },
     website: "https://www.beneva.com",
     contact: {
       email: "store@beneva.com",
       phone: {
-        number: "9419237401"
-      }
+        number: "9419237401",
+      },
     },
     social: {
-      instagram: "benevaflowers"
-    }
+      instagram: "benevaflowers",
+    },
   },
   {
     name: "Troy's Tropics Inc.",
@@ -28256,30 +28274,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.283886,
-        lng: -82.466353
+        lng: -82.466353,
       },
-      address: "5224 Proctor Rd, Sarasota, FL 34233, United States"
+      address: "5224 Proctor Rd, Sarasota, FL 34233, United States",
     },
     website: "http://troystropics.com",
     contact: {
       email: "nursery@troystropics.com",
       phone: {
-        number: "9419233756"
-      }
+        number: "9419233756",
+      },
     },
     social: {
-      instagram: "troystropics"
-    }
+      instagram: "troystropics",
+    },
   },
   {
     name: "Albritton's Nursery",
@@ -28289,30 +28307,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.274824,
-        lng: -82.486342
+        lng: -82.486342,
       },
-      address: "4151 Proctor Rd, Sarasota, FL 34233, United States"
+      address: "4151 Proctor Rd, Sarasota, FL 34233, United States",
     },
     website: "https://www.albrittonsnursery.com",
     contact: {
       email: "info@albrittonsnursery.com",
       phone: {
-        number: "9419250344"
-      }
+        number: "9419250344",
+      },
     },
     social: {
-      instagram: "albrittonsnursery"
-    }
+      instagram: "albrittonsnursery",
+    },
   },
   {
     name: "Your Farm & Garden",
@@ -28322,30 +28340,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.329501,
-        lng: -82.496848
+        lng: -82.496848,
       },
-      address: "735 S Beneva Rd, Sarasota, FL 34232, United States"
+      address: "735 S Beneva Rd, Sarasota, FL 34232, United States",
     },
     website: "https://yourfarmandgarden.com",
     contact: {
       email: null,
       phone: {
-        number: "9413664954"
-      }
+        number: "9413664954",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Tropiflora",
@@ -28355,30 +28373,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.401767,
-        lng: -82.518694
+        lng: -82.518694,
       },
-      address: "3530 Tallevast Rd, Sarasota, FL 34243, United States"
+      address: "3530 Tallevast Rd, Sarasota, FL 34243, United States",
     },
     website: "https://tropiflora.com",
     contact: {
       email: "dennis@tropiflora.com",
       phone: {
-        number: "8006137520"
-      }
+        number: "8006137520",
+      },
     },
     social: {
-      instagram: "tropiflora"
-    }
+      instagram: "tropiflora",
+    },
   },
   {
     name: "Mariposa Nursery Inc.",
@@ -28388,30 +28406,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.451353,
-        lng: -82.396417
+        lng: -82.396417,
       },
-      address: "5020 Lorraine Rd #5301, Bradenton, FL 34211, United States"
+      address: "5020 Lorraine Rd #5301, Bradenton, FL 34211, United States",
     },
     website: "https://mariposanursery.com",
     contact: {
       email: "info@mariposanursery.com",
       phone: {
-        number: "9417470499"
-      }
+        number: "9417470499",
+      },
     },
     social: {
-      instagram: "https://www.facebook.com/MariposaNursery"
-    }
+      instagram: "https://www.facebook.com/MariposaNursery",
+    },
   },
   {
     name: "Wagon Wheel Plants",
@@ -28421,30 +28439,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["I added your website to google maps"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.57163,
-        lng: -82.475462
+        lng: -82.475462,
       },
-      address: "8855 Erie Rd, Parrish, FL 34219, United States"
+      address: "8855 Erie Rd, Parrish, FL 34219, United States",
     },
     website: "http://wagonwheelinc.com",
     contact: {
       email: "alexgwagonwheel@gmail.com",
       phone: {
-        number: "9417762220"
-      }
+        number: "9417762220",
+      },
     },
     social: {
-      instagram: "wagonwheelfarmstand"
-    }
+      instagram: "wagonwheelfarmstand",
+    },
   },
   {
     name: "Green Door Nursery",
@@ -28454,30 +28472,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.1191008,
-        lng: -81.7708258
+        lng: -81.7708258,
       },
-      address: "3700 Bayshore Dr, Naples, FL 34112, United States"
+      address: "3700 Bayshore Dr, Naples, FL 34112, United States",
     },
     website: "http://www.greendoornursery.com",
     contact: {
       email: "greendoornaples@aol.com",
       phone: {
-        number: "2394034736"
-      }
+        number: "2394034736",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Top Tropicals Garden Center",
@@ -28487,30 +28505,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.6755263,
-        lng: -81.7288186
+        lng: -81.7288186,
       },
-      address: "13890 Orange River Blvd, Fort Myers, FL 33905, United States"
+      address: "13890 Orange River Blvd, Fort Myers, FL 33905, United States",
     },
     website: "https://toptropicals.com",
     contact: {
       email: "info@toptripicals.com",
       phone: {
-        number: "2396895745"
-      }
+        number: "2396895745",
+      },
     },
     social: {
-      instagram: "TopTropicals"
-    }
+      instagram: "TopTropicals",
+    },
   },
   {
     name: "Green Side Up Garden & Gifts",
@@ -28519,30 +28537,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 34.9639408,
-        lng: -78.8444192
+        lng: -78.8444192,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Gulley's Garden Center Inc",
@@ -28551,30 +28569,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.170736,
-        lng: -79.396214
+        lng: -79.396214,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Excelsa Gardens Nursery",
@@ -28584,30 +28602,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.7144697,
-        lng: -80.246748
+        lng: -80.246748,
       },
-      address: "12839 25th St N, Loxahatchee, FL 33470, United States"
+      address: "12839 25th St N, Loxahatchee, FL 33470, United States",
     },
     website: "http://www.excelsagardens.com",
     contact: {
       email: null,
       phone: {
-        number: "5617903789"
-      }
+        number: "5617903789",
+      },
     },
     social: {
-      instagram: "excelsagardens"
-    }
+      instagram: "excelsagardens",
+    },
   },
   {
     name: "First Orchid",
@@ -28617,30 +28635,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 28.7144458,
-        lng: -81.5559071
+        lng: -81.5559071,
       },
-      address: "2107 Plymouth Sorrento Rd, Apopka, FL 32712, United States"
+      address: "2107 Plymouth Sorrento Rd, Apopka, FL 32712, United States",
     },
     website: "https://firstorchidnursery.com",
     contact: {
       email: "firstorchid@outlook.com",
       phone: {
-        number: "4078149394"
-      }
+        number: "4078149394",
+      },
     },
     social: {
-      instagram: "firstorchid"
-    }
+      instagram: "firstorchid",
+    },
   },
   {
     name: "Golden Gate Nursery & Sod",
@@ -28649,30 +28667,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.257102,
-        lng: -81.689742
+        lng: -81.689742,
       },
-      address: "14765 Collier Blvd, Naples, FL 34119, United States"
+      address: "14765 Collier Blvd, Naples, FL 34119, United States",
     },
     website: "http://www.goldengatenursery.com",
     contact: {
       email: "info@goldengatenursery.com",
       phone: {
-        number: "2394557233"
-      }
+        number: "2394557233",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Greendale Nursery Inc",
@@ -28681,30 +28699,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.5041946,
-        lng: -80.4781491
+        lng: -80.4781491,
       },
-      address: "28300 SW 177th Ave, Homestead, FL 33033, United States"
+      address: "28300 SW 177th Ave, Homestead, FL 33033, United States",
     },
     website: "http://greendalenursery.com",
     contact: {
       email: "sales@greendalenursery.com",
       phone: {
-        number: "8007717071"
-      }
+        number: "8007717071",
+      },
     },
     social: {
-      instagram: "greendalenursery"
-    }
+      instagram: "greendalenursery",
+    },
   },
   {
     name: "Plant Creations",
@@ -28715,32 +28733,32 @@ const shops = [
       isPendingToContact: true,
       notes: [
         "beautiful website",
-        "the link from your website to your facebook account is broken"
+        "the link from your website to your facebook account is broken",
       ],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.5037045,
-        lng: -80.4685057
+        lng: -80.4685057,
       },
-      address: "28301 SW 172nd Ave, Homestead, FL 33030, United States"
+      address: "28301 SW 172nd Ave, Homestead, FL 33030, United States",
     },
     website: "http://www.plantcreations.com",
     contact: {
       email: "natives@plantcreations.com",
       phone: {
-        number: "3052488147"
-      }
+        number: "3052488147",
+      },
     },
     social: {
-      instagram: "plant.creations"
-    }
+      instagram: "plant.creations",
+    },
   },
   {
     name: "Summer Day Garden Nursery , LLC",
@@ -28749,30 +28767,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 25.8801648,
-        lng: -80.1673545
+        lng: -80.1673545,
       },
-      address: "11338 Biscayne Blvd, Miami, FL 33181, United States"
+      address: "11338 Biscayne Blvd, Miami, FL 33181, United States",
     },
     website: "https://summer-day-garden-nursery-llc.business.site",
     contact: {
       email: null,
       phone: {
-        number: "3054507661"
-      }
+        number: "3054507661",
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "Pinder's Nursery",
@@ -28781,30 +28799,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: ["there's no email in your website!"],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.1605615,
-        lng: -80.3281491
+        lng: -80.3281491,
       },
-      address: "5500 SW Martin Hwy, Palm City, FL 34990, United States"
+      address: "5500 SW Martin Hwy, Palm City, FL 34990, United States",
     },
     website: "http://www.pindersnursery.com",
     contact: {
       email: "info@pindersnursery.com",
       phone: {
-        number: "7727818085"
-      }
+        number: "7727818085",
+      },
     },
     social: {
-      instagram: "pindersnursery"
-    }
+      instagram: "pindersnursery",
+    },
   },
   {
     name: "Blooming Freedom Inc",
@@ -28814,30 +28832,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 27.156266,
-        lng: -80.305563
+        lng: -80.305563,
       },
-      address: "3993 SW Leighton Farm Ave, Palm City, FL 34990, United States"
+      address: "3993 SW Leighton Farm Ave, Palm City, FL 34990, United States",
     },
     website: "http://www.bloomingfreedom.com",
     contact: {
       email: "info@bloomingfreedom.com",
       phone: {
-        number: "7726265333"
-      }
+        number: "7726265333",
+      },
     },
     social: {
-      instagram: "bloomingfreedom"
-    }
+      instagram: "bloomingfreedom",
+    },
   },
   {
     name: "Amelia's SmartyPlants",
@@ -28847,30 +28865,30 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 26.6339919,
-        lng: -80.057574
+        lng: -80.057574,
       },
-      address: "1515 N Dixie Hwy, Lake Worth, FL 33460, United States"
+      address: "1515 N Dixie Hwy, Lake Worth, FL 33460, United States",
     },
     website: "http://www.amelias-smartyplants.com",
     contact: {
       email: "smartyplantslw@gmail.com",
       phone: {
-        number: "5615406296"
-      }
+        number: "5615406296",
+      },
     },
     social: {
-      instagram: "amelias_smartyplants"
-    }
+      instagram: "amelias_smartyplants",
+    },
   },
   {
     name: "Grateful Maple Nursery",
@@ -28879,57 +28897,57 @@ const shops = [
       hasAlreadyContacted: false,
       isPendingToContact: false,
       notes: [],
-      isSellingPlantsOnline: false
+      isSellingPlantsOnline: false,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 35.6109813,
-        lng: -78.6590753
+        lng: -78.6590753,
       },
-      address: null
+      address: null,
     },
     website: null,
     contact: {
       email: null,
       phone: {
-        number: null
-      }
+        number: null,
+      },
     },
     social: {
-      instagram: null
-    }
+      instagram: null,
+    },
   },
   {
     name: "POTPLANT STUDIO",
     description: "🌵 Indoor Plant Store for New Zealand",
     meta: {
       hasAlreadyContacted: true,
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.newZealand.name,
         iso: countries.newZealand.iso,
-        countryCode: countries.newZealand.countryCode
+        countryCode: countries.newZealand.countryCode,
       },
       coordinates: null,
-      address: null
+      address: null,
     },
     website: "https://www.potplantstudio.co.nz/",
     contact: {
       email: null,
       phone: {
-        number: "276539605"
-      }
+        number: "276539605",
+      },
     },
     social: {
-      instagram: "potplant_studio"
-    }
+      instagram: "potplant_studio",
+    },
   },
   {
     name: "Enchanted Forest",
@@ -28937,57 +28955,57 @@ const shops = [
       "Hidden away beneath beautiful Texas native trees, the Enchanted Forest is a retail garden center that shares its site with Enchanted Landscapes. With an established loyal customer base, this location provides a quiet getaway to satisfy your gardening needs. It is located in Richmond near Sugar Land and Houston, right off of HWY 59. ",
     meta: {
       hasAlreadyContacted: false,
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.usa.name,
         iso: countries.usa.iso,
-        countryCode: countries.usa.countryCode
+        countryCode: countries.usa.countryCode,
       },
       coordinates: {
         lat: 29.525852,
-        lng: -95.640395
+        lng: -95.640395,
       },
-      address: "10611 FM 2759 Rd, Richmond, TX 77469, United States"
+      address: "10611 FM 2759 Rd, Richmond, TX 77469, United States",
     },
     website: "https://www.myenchanted.com/",
     contact: {
       email: "forest@myenchanted.com",
       phone: {
-        number: "2819379449"
-      }
+        number: "2819379449",
+      },
     },
     social: {
-      instagram: "enchanted_forest_richmond"
-    }
+      instagram: "enchanted_forest_richmond",
+    },
   },
   {
     name: "DancingAirplants!",
     description: null,
     meta: {
       hasAlreadyContacted: true,
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.spain.name,
         iso: countries.spain.iso,
-        countryCode: countries.spain.countryCode
+        countryCode: countries.spain.countryCode,
       },
       coordinates: null,
-      address: null
+      address: null,
     },
     website: "www.dancingairplants.com",
     contact: {
       email: null,
       phone: {
-        number: "699148464"
-      }
+        number: "699148464",
+      },
     },
     social: {
-      instagram: "dancing.airplants"
-    }
+      instagram: "dancing.airplants",
+    },
   },
   {
     name: "The Jungle Club",
@@ -28997,31 +29015,31 @@ const shops = [
       hasAlreadyContacted: true,
       isPendingToContact: true,
       notes: [],
-      isSellingPlantsOnline: true
+      isSellingPlantsOnline: true,
     },
     location: {
       country: {
         name: countries.england.name,
         iso: countries.england.iso,
-        countryCode: countries.england.countryCode
+        countryCode: countries.england.countryCode,
       },
       coordinates: {
         lat: 52.201405,
-        lng: -2.225505
+        lng: -2.225505,
       },
-      address: "7 Barbourne Road, Worcester, WR1 1RS, UK"
+      address: "7 Barbourne Road, Worcester, WR1 1RS, UK",
     },
     website: "https://www.thejungleclubworcester.co.uk",
     contact: {
       email: "thejungleclubworcester@gmail.com",
       phone: {
-        number: "0190524714"
-      }
+        number: "0190524714",
+      },
     },
     social: {
-      instagram: "thejungleclubworcester"
-    }
-  }
+      instagram: "thejungleclubworcester",
+    },
+  },
 ];
 
 module.exports = { shops };
