@@ -1,45 +1,30 @@
-import { transformPlantToNewPlantApiContract } from "lib/plants";
-
-const plantsFileContent = require(`public/plants.json`);
-// const shopsFileContent = require(`public/shops.json`);
+import { transformPlantToNewPlantApiContract } from "src/plants/application/transformPlantToNewPlantApiContract";
+import { transformShopToNewShopApiContract } from "src/shops/application/transformShopToNewShopApiContract";
+import { getPlant } from "src/plants/infrastructure/getPlant";
+import { getPlants } from "src/plants/infrastructure/getPlants";
+import { getShops } from "src/shops/infrastructure/getShops";
 
 export const resolvers = {
   Query: {
     getManyPlants: async (root, args, context) => {
-      const plants = [];
+      const plants = await getPlants();
 
-      const plantsInLocal = Object.values(plantsFileContent);
-
-      plantsInLocal.forEach((plant) =>
-        plants.push(transformPlantToNewPlantApiContract(plant))
-      );
-
-      return plants;
+      return plants.map(transformPlantToNewPlantApiContract);
     },
-    getPlant: (root, args, context) => {
+    getPlant: async (root, args, context) => {
       const { slug } = args;
+      const requestedPlant = await getPlant({ slug });
 
-      const requestedPlant = plantsFileContent[slug];
-      const doesPlantExist = Boolean(requestedPlant);
-
-      if (!doesPlantExist) {
+      if (!Boolean(requestedPlant)) {
         return null;
       }
 
-      const plantParsed = transformPlantToNewPlantApiContract(requestedPlant);
-
-      return { ...plantParsed, id: null };
+      return transformPlantToNewPlantApiContract(requestedPlant);
     },
-    getManyShops: (root, args, context) => {
-      const shops = [];
+    getManyShops: async (root, args, context) => {
+      const shops = await getShops();
 
-      const shopsInLocal = Object.values(shopsFileContent);
-
-      shopsInLocal.forEach((plant) =>
-        shops.push(transformShopToNewShopApiContract(plant))
-      );
-
-      return shops;
+      return shops.map(transformShopToNewShopApiContract);
     },
   },
 };

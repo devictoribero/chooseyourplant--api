@@ -2,7 +2,6 @@ const fs = require("fs");
 const { createFile } = require("./utils/create-file");
 const { shops } = require("../server/shops");
 
-shops.forEach((shop) => console.log(shop.name));
 const shopsJSON = getShopsJSON();
 const indexFileContent = JSON.stringify(shopsJSON, null, 2);
 

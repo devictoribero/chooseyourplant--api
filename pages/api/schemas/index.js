@@ -194,7 +194,6 @@ export const typeDefs = gql`
     name: String!
     description: String
     shops: [Shop!]!
-    socials: [SocialMedia!]
   }
 
   type SocialMedia {
@@ -212,6 +211,7 @@ export const typeDefs = gql`
     location: Location
     website: String
     contact: Contact
+    socials: [SocialMedia!]
     catalogue: [Product!]
   }
 
