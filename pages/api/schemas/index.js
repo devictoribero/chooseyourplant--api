@@ -145,10 +145,6 @@ export const typeDefs = gql`
     symbol: String!
   }
 
-  type Shop {
-    name: String!
-  }
-
   type PlantVideo {
     owner: VideoOwner
     url: String
@@ -191,5 +187,63 @@ export const typeDefs = gql`
   type Query {
     getManyPlants: [Plant]
     getPlant(slug: String!): Plant
+    getManyShops: [Shop]
+  }
+
+  type Company {
+    name: String!
+    description: String
+    shops: [Shop!]!
+    socials: [SocialMedia!]
+  }
+
+  type SocialMedia {
+    type: SocialMediaPlatforms!
+    url: String!
+  }
+
+  enum SocialMediaPlatforms {
+    Facebook
+    Instagram
+  }
+
+  type Shop {
+    name: String!
+    location: Location
+    website: String
+    contact: Contact
+    catalogue: [Product!]
+  }
+
+  type Location {
+    country: String
+    coordinates: Coordinates
+    address: String
+  }
+
+  type Coordinates {
+    latitude: String
+    longitude: String
+  }
+
+  type Contact {
+    email: String
+    phone: PhoneNumber
+  }
+
+  type PhoneNumber {
+    prefix: String
+    number: String
+  }
+
+  type Product {
+    name: String!
+    description: String
+    price: Price
+  }
+
+  type Price {
+    amount: Float
+    currency: Currency
   }
 `;
