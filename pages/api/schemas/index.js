@@ -211,6 +211,7 @@ export const typeDefs = gql`
     description: String
     location: Location
     website: String
+    hasEcommerce: Boolean
     contact: Contact
     socials: [SocialMedia!]
     catalogue: [Product!]

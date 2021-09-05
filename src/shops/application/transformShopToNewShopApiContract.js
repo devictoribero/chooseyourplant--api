@@ -8,6 +8,7 @@ export function transformShopToNewShopApiContract(shop) {
       address: shop.location.address,
     },
     website: shop.website,
+    hasEcommerce: shop.meta.isSellingPlantsOnline,
     contact: {
       email: shop.contact.email,
       phone: {
