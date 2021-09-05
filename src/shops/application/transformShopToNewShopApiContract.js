@@ -1,6 +1,7 @@
 export function transformShopToNewShopApiContract(shop) {
   return {
     name: shop.name,
+    description: shop.description,
     location: {
       country: shop.location.country.name,
       coordinates: getCoordinates(shop),

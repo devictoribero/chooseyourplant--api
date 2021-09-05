@@ -208,6 +208,7 @@ export const typeDefs = gql`
 
   type Shop {
     name: String!
+    description: String
     location: Location
     website: String
     contact: Contact
