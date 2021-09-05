@@ -73,7 +73,6 @@ function getFoliageFeatures(plant) {
 }
 
 function getPlantImages(images) {
-  console.log(images);
   return images.map((img) => ({
     src: img.src,
     owner: img.owner ? { value: img.owner.name } : null,
