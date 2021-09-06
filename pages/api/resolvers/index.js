@@ -22,7 +22,8 @@ export const resolvers = {
       return transformPlantToNewPlantApiContract(requestedPlant);
     },
     getManyShops: async (root, args, context) => {
-      const shops = await getShops();
+      const { hasEcommerce, startsWith } = args;
+      const shops = await getShops({ hasEcommerce, startsWith });
 
       return shops.map(transformShopToNewShopApiContract);
     },

@@ -187,7 +187,7 @@ export const typeDefs = gql`
   type Query {
     getManyPlants: [Plant]
     getPlant(slug: String!): Plant
-    getManyShops: [Shop]
+    getManyShops(hasEcommerce: Boolean, startsWith: String): [Shop]
   }
 
   type Company {
