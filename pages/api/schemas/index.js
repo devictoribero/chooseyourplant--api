@@ -10,8 +10,8 @@ export const typeDefs = gql`
     description: [String]
     bio: Bio
     physicalCharacteristics: PhysicalCharacteristics
-    images: [PlantImage!]!
-    videos: [PlantVideo!]
+    images: [PlantMedia!]!
+    videos: [PlantMedia!]
     popularity: PlantPopularity
     linksToBuy: [LinkToBuyPlant]
     cares: PlantCares
@@ -145,23 +145,14 @@ export const typeDefs = gql`
     symbol: String!
   }
 
-  type PlantVideo {
-    owner: VideoOwner
-    url: String
-  }
-
-  type VideoOwner {
-    displayName: String
-    url: String
-  }
-
-  type PlantImage {
-    owner: InstagramHandle
+  type PlantMedia {
+    owner: MediaOwner
     src: String
   }
 
-  type InstagramHandle {
-    value: String
+  type MediaOwner {
+    displayName: String
+    url: String
   }
 
   enum FoliageFeature {

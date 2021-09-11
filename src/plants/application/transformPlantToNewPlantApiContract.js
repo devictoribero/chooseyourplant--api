@@ -74,8 +74,13 @@ function getFoliageFeatures(plant) {
 
 function getPlantImages(images) {
   return images.map((img) => ({
+    owner: img.owner
+      ? {
+          displayName: img.owner.name,
+          url: `https://instagram.com/${video.author.link}`,
+        }
+      : null,
     src: img.src,
-    owner: img.owner ? { value: img.owner.name } : null,
   }));
 }
 
@@ -85,8 +90,8 @@ function getPlantVideos(videos) {
   }
 
   return videos.map((video) => ({
-    url: video.link,
     owner: { displayName: video.author.name, url: video.author.link },
+    src: video.link,
   }));
 }
 
