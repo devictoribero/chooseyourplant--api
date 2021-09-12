@@ -1,4 +1,4 @@
-export function transformShopToNewShopApiContract(shop) {
+function transformShopToNewShopApiContract(shop) {
   return {
     name: shop.name,
     description: shop.description,
@@ -20,6 +20,8 @@ export function transformShopToNewShopApiContract(shop) {
     catalogue: [],
   };
 }
+
+module.exports = { transformShopToNewShopApiContract };
 
 function getCoordinates(shop) {
   const { coordinates } = shop.location;
