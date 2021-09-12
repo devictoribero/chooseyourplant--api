@@ -3,10 +3,14 @@ const dotenv = require("dotenv");
 const {
   transformPlantToNewPlantApiContract,
 } = require("../src/plants/application/transformPlantToNewPlantApiContract");
+const { getDatabaseUri } = require("../lib/database");
 
 // Required to include `process.env` variables
 dotenv.config();
 
+initPopulateDB({ database: "chooseyourplant-test" });
+
+// Initializes the database given a database name for development purposes
 async function initPopulateDB({ database } = {}) {
   const dbUri = getDatabaseUri();
   const clientDB = new MongoClient(dbUri);
@@ -17,13 +21,13 @@ async function initPopulateDB({ database } = {}) {
 
     const plantsToPopulate = retrievePlants();
 
-    const results = await clientDB
+    const plantResults = await clientDB
       .db(database)
       .collection("plants")
       .insertMany(plantsToPopulate);
 
     console.log(
-      `✅ ${results.insertedCount} plants were inserted successfully `
+      `✅ ${plantResults.insertedCount} plants were inserted successfully `
     );
 
     // console.log(collections);
@@ -32,18 +36,6 @@ async function initPopulateDB({ database } = {}) {
   } finally {
     clientDB.close();
   }
-}
-
-initPopulateDB({ database: "chooseyourplant-test" });
-
-function getDatabaseUri() {
-  const dbUriPlaceholder =
-    "DB_URI=mongodb+srv://<db_user>:<db_password>@chooseyourplant-db.j0jhc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-  const dbUri = dbUriPlaceholder
-    .replace("<db_user>", process.env.DB_USER)
-    .replace("<db_password>", process.env.DB_PASSWORD);
-
-  return dbUri;
 }
 
 function retrievePlants() {

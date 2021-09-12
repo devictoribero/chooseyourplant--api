@@ -3,15 +3,15 @@ import { typeDefs } from "./schemas";
 import { resolvers } from "./resolvers";
 import withCors from "../../lib/cors";
 import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
+import { getDatabaseUri } from "lib/database";
+
+// Required to include `process.env` variables
+dotenv.config();
 
 export default async function handler(req, res) {
   // Connection to Database
-  const dbUri = process.env.DB_URI;
-  const clientDB = new MongoClient(
-    dbUri
-      .replace("<db_user>", process.env.DB_USER)
-      .replace("<db_password>", process.env.DB_PASSWORD)
-  );
+  const clientDB = new MongoClient(getDatabaseUri());
 
   const apolloServer = new ApolloServer({
     typeDefs,
