@@ -4,6 +4,9 @@ const {
   transformPlantToNewPlantApiContract,
 } = require("../src/plants/application/transformPlantToNewPlantApiContract");
 const { getDatabaseUri } = require("../lib/database");
+const {
+  transformShopToNewShopApiContract,
+} = require("../src/shops/application/transformShopToNewShopApiContract");
 
 // Required to include `process.env` variables
 dotenv.config();
@@ -17,20 +20,29 @@ async function initPopulateDB({ database } = {}) {
 
   try {
     await clientDB.connect();
+    const db = await clientDB.db(database);
     console.log("✅ Connected to the server successfully :)");
 
-    const plantsToPopulate = await retrievePlants();
+    // Populate the database with companies
+    const shops = await retrieveShops();
+    const companiesToPopulate = shops.map(createCompanyFromShop);
+    const companiesResults = await db
+      .collection("companies")
+      .insertMany(companiesToPopulate);
 
-    const plantResults = await clientDB
-      .db(database)
+    console.log(
+      `✅ ${companiesResults.insertedCount} companies were inserted successfully`
+    );
+
+    // Populate the database with plants
+    const plantsToPopulate = await retrievePlants();
+    const plantResults = await db
       .collection("plants")
       .insertMany(plantsToPopulate);
 
     console.log(
       `✅ ${plantResults.insertedCount} plants were inserted successfully `
     );
-
-    // console.log(collections);
   } catch (error) {
     console.error(error);
   } finally {
@@ -44,4 +56,20 @@ async function retrievePlants() {
 
   // We get the new API format for all the plants
   return Object.values(plantsJSON).map(transformPlantToNewPlantApiContract);
+}
+
+async function retrieveShops() {
+  // Get all the plants that are generated statically
+  const shopsJson = require(`${process.cwd()}/public/shops.json`);
+
+  // We get the new API format for all the plants
+  return Object.values(shopsJson).map(transformShopToNewShopApiContract);
+}
+
+function createCompanyFromShop(shop) {
+  return {
+    name: shop.name,
+    description: shop.description,
+    shops: [shop],
+  };
 }
