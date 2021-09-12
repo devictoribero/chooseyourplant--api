@@ -1,4 +1,4 @@
-export function transformPlantToNewPlantApiContract(plant) {
+function transformPlantToNewPlantApiContract(plant) {
   // estimatedMaturePlantHeight is in centimeters
   return {
     id: null,
@@ -31,6 +31,8 @@ export function transformPlantToNewPlantApiContract(plant) {
     features: getPlantFeatures(plant),
   };
 }
+
+module.exports = { transformPlantToNewPlantApiContract };
 
 const FoliageSize = {
   Mini: "Mini",
@@ -77,7 +79,7 @@ function getPlantImages(images) {
     owner: img.owner
       ? {
           displayName: img.owner.name,
-          url: `https://instagram.com/${video.author.link}`,
+          url: img.owner.link,
         }
       : null,
     src: img.src,
