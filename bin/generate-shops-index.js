@@ -1,4 +1,3 @@
-const fs = require("fs");
 const { createFile } = require("./utils/create-file");
 const { shops } = require("../server/shops");
 
