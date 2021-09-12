@@ -19,7 +19,7 @@ async function initPopulateDB({ database } = {}) {
     await clientDB.connect();
     console.log("✅ Connected to the server successfully :)");
 
-    const plantsToPopulate = retrievePlants();
+    const plantsToPopulate = await retrievePlants();
 
     const plantResults = await clientDB
       .db(database)
@@ -38,7 +38,7 @@ async function initPopulateDB({ database } = {}) {
   }
 }
 
-function retrievePlants() {
+async function retrievePlants() {
   // Get all the plants that are generated statically
   const plantsJSON = require(`${process.cwd()}/public/plants.json`);
 
