@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "populate": "npx babel-node ./bin/populate-database.js",
+    "populate": "NODE_ENV=development npx babel-node ./bin/populate-database.js",
     "generate-index": "node ./bin/generate-plants-index"
   },
   "dependencies": {
