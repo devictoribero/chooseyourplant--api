@@ -8,7 +8,7 @@ const { getDatabaseUri } = require("../lib/database");
 // Required to include `process.env` variables
 dotenv.config();
 
-initPopulateDB({ database: "chooseyourplant-test" });
+initPopulateDB({ database: "cyp-dev" });
 
 // Initializes the database given a database name for development purposes
 async function initPopulateDB({ database } = {}) {
