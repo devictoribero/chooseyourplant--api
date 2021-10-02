@@ -1,56 +1,37 @@
-const { MongoClient } = require("mongodb");
 const dotenv = require("dotenv");
 const {
   transformPlantToNewPlantApiContract,
 } = require("../src/plants/application/transformPlantToNewPlantApiContract");
-const { getDatabaseUri } = require("../lib/database");
 const {
   transformShopToNewShopApiContract,
 } = require("../src/shops/application/transformShopToNewShopApiContract");
+const { getDatabaseConnection } = require("../lib/mongodb");
+const { InsertManyPlants } = require("src/plants/application/InsertManyPlants");
 
 // Required to include `process.env` variables
 dotenv.config();
 
-initPopulateDB({ database: "cyp-dev" });
+initPopulateDB({ database: "chooseyourplant-dev" });
 
 // Initializes the database given a database name for development purposes
-async function initPopulateDB({ database } = {}) {
-  const dbUri = getDatabaseUri();
-  const clientDB = new MongoClient(dbUri);
+async function initPopulateDB({ database }) {
+  // Connection to the database
+  const clientDB = await getDatabaseConnection({ database });
+  console.log("✅ Connected to the server successfully :)");
 
-  try {
-    await clientDB.connect();
-    const db = await clientDB.db(database);
-    console.log("✅ Connected to the server successfully :)");
+  // Populate plants to database
+  const insertManyPlants = new InsertManyPlants({ clientDB });
+  await insertManyPlants.run(retrievePlantsFromLocal());
+  console.log("🌱 Inserted plants tot he database successfully :)");
 
-    // Populate the database with companies
-    const shops = await retrieveShops();
-    const companiesToPopulate = shops.map(createCompanyFromShop);
-    const companiesResults = await db
-      .collection("companies")
-      .insertMany(companiesToPopulate);
-
-    console.log(
-      `✅ ${companiesResults.insertedCount} companies were inserted successfully`
-    );
-
-    // Populate the database with plants
-    const plantsToPopulate = await retrievePlants();
-    const plantResults = await db
-      .collection("plants")
-      .insertMany(plantsToPopulate);
-
-    console.log(
-      `✅ ${plantResults.insertedCount} plants were inserted successfully `
-    );
-  } catch (error) {
-    console.error(error);
-  } finally {
-    clientDB.close();
-  }
+  // Populate shops to database
+  // const insertManyPlants = new InsertManyPlants({ clientDB });
+  // const plantsToInsertToDB = retrievePlantsFromLocal();
+  // await insertManyPlants.run(plantsToInsertToDB);
+  // console.log("🌱 Inserted shops tot he database successfully :)");
 }
 
-async function retrievePlants() {
+async function retrievePlantsFromLocal() {
   // Get all the plants that are generated statically
   const plantsJSON = require(`${process.cwd()}/public/plants.json`);
 
@@ -58,18 +39,18 @@ async function retrievePlants() {
   return Object.values(plantsJSON).map(transformPlantToNewPlantApiContract);
 }
 
-async function retrieveShops() {
-  // Get all the plants that are generated statically
-  const shopsJson = require(`${process.cwd()}/public/shops.json`);
+// async function retrieveShops() {
+//   // Get all the plants that are generated statically
+//   const shopsJson = require(`${process.cwd()}/public/shops.json`);
 
-  // We get the new API format for all the plants
-  return Object.values(shopsJson).map(transformShopToNewShopApiContract);
-}
+//   // We get the new API format for all the plants
+//   return Object.values(shopsJson).map(transformShopToNewShopApiContract);
+// }
 
-function createCompanyFromShop(shop) {
-  return {
-    name: shop.name,
-    description: shop.description,
-    shops: [shop],
-  };
-}
+// function createCompanyFromShop(shop) {
+//   return {
+//     name: shop.name,
+//     description: shop.description,
+//     shops: [shop],
+//   };
+// }
