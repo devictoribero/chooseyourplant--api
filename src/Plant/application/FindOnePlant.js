@@ -1,4 +1,4 @@
-import { PlantRepository } from "../domain/PlantRepository";
+import { PlantRepository } from "../infrastructure/PlantMongoRepository";
 
 export class FindOnePlant {
   constructor({ clientDB }) {

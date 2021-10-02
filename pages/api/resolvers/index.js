@@ -1,8 +1,8 @@
-import { transformPlantToNewPlantApiContract } from "src/plants/application/transformPlantToNewPlantApiContract";
-import { transformShopToNewShopApiContract } from "src/shops/application/transformShopToNewShopApiContract";
-import { FindOnePlant } from "src/plants/application/FindOnePlant";
-import { FindManyPlants } from "src/plants/application/FindManyPlants";
-import { getShops } from "src/shops/application/getShops";
+import { transformPlantToNewPlantApiContract } from "src/Plant/application/transformPlantToNewPlantApiContract";
+import { transformShopToNewShopApiContract } from "src/Shop/Application/transformShopToNewShopApiContract";
+import { FindOnePlant } from "src/Plant/application/FindOnePlant";
+import { FindManyPlants } from "src/Plant/application/FindManyPlants";
+import { FindManyShops } from "src/Shop/Application/FindManyShops";
 
 export const resolvers = {
   Query: {
@@ -24,9 +24,16 @@ export const resolvers = {
       return plant ? transformPlantToNewPlantApiContract(plant) : null;
     },
     getManyShops: async (root, args, context) => {
-      const { hasEcommerce, startsWith } = args;
+      const { hasEcommerce, startsWith = null } = args;
       const { clientDB } = context;
-      const shops = await getShops({ clientDB, hasEcommerce, startsWith });
+      const findManyShops = new FindManyShops({ clientDB });
+
+      // TODO
+      // work in a criteria object
+      const shops = await findManyShops.run({
+        query: { hasEcommerce, startsWith },
+        limit: 1000,
+      });
 
       return shops.map(transformShopToNewShopApiContract);
     },
