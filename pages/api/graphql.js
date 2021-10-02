@@ -2,27 +2,27 @@ import { ApolloServer } from "apollo-server-micro";
 import { typeDefs } from "./schemas";
 import { resolvers } from "./resolvers";
 import withCors from "../../lib/cors";
-import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
-import { getDatabaseUri } from "lib/database";
+import { getDatabaseConnection } from "lib/mongodb";
 
 // Required to include `process.env` variables
 dotenv.config();
 
 export default async function handler(req, res) {
-  // Connection to Database
-  const clientDB = new MongoClient(getDatabaseUri());
-
   const apolloServer = new ApolloServer({
     typeDefs,
     resolvers,
     cors: { origin: true },
-    context: { clientDB },
+    context: async () => {
+      const database = "chooseyourplant-dev";
+      const clientDB = await getDatabaseConnection({ database });
+
+      return { clientDB };
+    },
   });
 
-  const apiRequestHandler = apolloServer.createHandler({
-    path: "/api/graphql",
-  });
+  const endpointAPI = "/api/graphql";
+  const apiRequestHandler = apolloServer.createHandler({ path: endpointAPI });
 
   // By default, NextJS doesn't add any headers, so we have to add
   // the headers that allows to use CORS manually.
