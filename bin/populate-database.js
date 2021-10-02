@@ -1,12 +1,12 @@
 const dotenv = require("dotenv");
 const {
   transformPlantToNewPlantApiContract,
-} = require("../src/plants/application/transformPlantToNewPlantApiContract");
+} = require("../src/Plant/application/transformPlantToNewPlantApiContract");
 const {
   transformShopToNewShopApiContract,
-} = require("../src/shops/application/transformShopToNewShopApiContract");
+} = require("../src/Shop/Application/transformShopToNewShopApiContract");
 const { getDatabaseConnection } = require("../lib/mongodb");
-const { InsertManyPlants } = require("src/plants/application/InsertManyPlants");
+const { InsertManyPlants } = require("src/Plant/application/InsertManyPlants");
 
 // Required to include `process.env` variables
 dotenv.config();
@@ -25,10 +25,13 @@ async function initPopulateDB({ database }) {
   console.log("🌱 Inserted plants tot he database successfully :)");
 
   // Populate shops to database
-  // const insertManyPlants = new InsertManyPlants({ clientDB });
-  // const plantsToInsertToDB = retrievePlantsFromLocal();
-  // await insertManyPlants.run(plantsToInsertToDB);
-  // console.log("🌱 Inserted shops tot he database successfully :)");
+  const InsertManyCompanies = new InsertManyCompanies({ clientDB });
+  const plantsToInsertToDB = retrieveShopsFromLocal();
+  const companies = plantsToInsertToDB.map(createCompanyFromShop);
+  await InsertManyCompanies.run(companies);
+  console.log(
+    "✅ Inserted companies and shops to the database successfully :)"
+  );
 }
 
 async function retrievePlantsFromLocal() {
@@ -39,18 +42,18 @@ async function retrievePlantsFromLocal() {
   return Object.values(plantsJSON).map(transformPlantToNewPlantApiContract);
 }
 
-// async function retrieveShops() {
-//   // Get all the plants that are generated statically
-//   const shopsJson = require(`${process.cwd()}/public/shops.json`);
+async function retrieveShops() {
+  // Get all the plants that are generated statically
+  const shopsJson = require(`${process.cwd()}/public/shops.json`);
 
-//   // We get the new API format for all the plants
-//   return Object.values(shopsJson).map(transformShopToNewShopApiContract);
-// }
+  // We get the new API format for all the plants
+  return Object.values(shopsJson).map(transformShopToNewShopApiContract);
+}
 
-// function createCompanyFromShop(shop) {
-//   return {
-//     name: shop.name,
-//     description: shop.description,
-//     shops: [shop],
-//   };
-// }
+function createCompanyFromShop(shop) {
+  return {
+    name: shop.name,
+    description: shop.description,
+    shops: [shop],
+  };
+}
