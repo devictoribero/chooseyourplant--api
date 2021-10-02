@@ -1,8 +1,11 @@
-// Implementation of fetching plants
-// This is tightly coupled to the repository
-export async function getShops({ hasEcommerce, startsWith = "" }) {
-  const shopsFileContent = require(`public/shops.json`);
-  const shops = Object.values(shopsFileContent);
+import { ShopRepository } from "../domain/ShopRepository";
+
+let repository;
+
+export async function getShops({ clientDB, hasEcommerce, startsWith = "" }) {
+  repository = new ShopRepository({ client: clientDB });
+
+  const shops = repository.findMany({ query: {}, limit: 1000 });
 
   const shopsFilteredByEcommerce =
     hasEcommerce !== undefined

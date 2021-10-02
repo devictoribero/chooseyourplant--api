@@ -1,29 +1,32 @@
 import { transformPlantToNewPlantApiContract } from "src/plants/application/transformPlantToNewPlantApiContract";
 import { transformShopToNewShopApiContract } from "src/shops/application/transformShopToNewShopApiContract";
-import { getPlant } from "src/plants/infrastructure/getPlant";
-import { getPlants } from "src/plants/infrastructure/getPlants";
-import { getShops } from "src/shops/infrastructure/getShops";
+import { FindOnePlant } from "src/plants/application/FindOnePlant";
+import { FindManyPlants } from "src/plants/application/FindManyPlants";
+import { getShops } from "src/shops/application/getShops";
 
 export const resolvers = {
   Query: {
     getManyPlants: async (root, args, context) => {
-      const plants = await getPlants();
+      const { clientDB } = context;
+      const findManyPlants = new FindManyPlants({ clientDB });
 
-      return plants.map(transformPlantToNewPlantApiContract);
+      const plants = await findManyPlants.run({ query: {}, limit: 1000 });
+
+      return (plants || []).map(transformPlantToNewPlantApiContract);
     },
     getPlant: async (root, args, context) => {
       const { slug } = args;
-      const requestedPlant = await getPlant({ slug });
+      const { clientDB } = context;
+      const findOnePlant = new FindOnePlant({ clientDB });
 
-      if (!Boolean(requestedPlant)) {
-        return null;
-      }
+      const plant = await findOnePlant.run({ slug });
 
-      return transformPlantToNewPlantApiContract(requestedPlant);
+      return plant ? transformPlantToNewPlantApiContract(plant) : null;
     },
     getManyShops: async (root, args, context) => {
       const { hasEcommerce, startsWith } = args;
-      const shops = await getShops({ hasEcommerce, startsWith });
+      const { clientDB } = context;
+      const shops = await getShops({ clientDB, hasEcommerce, startsWith });
 
       return shops.map(transformShopToNewShopApiContract);
     },
