@@ -1,5 +1,4 @@
 import { transformPlantToNewPlantApiContract } from "src/Plant/application/transformPlantToNewPlantApiContract";
-import { transformShopToNewShopApiContract } from "src/Company/Application/transformShopToNewShopApiContract";
 import { FindOnePlant } from "src/Plant/application/FindOnePlant";
 import { FindManyPlants } from "src/Plant/application/FindManyPlants";
 import { FindManyShops } from "src/Company/Application/FindManyShops";

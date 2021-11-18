@@ -1,30 +1,29 @@
-function transformShopToNewShopApiContract(shop) {
-  
-  const { country } = shop.location;
+export class TransformShopToNewShopApiContract {
+  transform(shop) {
+    const { country } = shop.location;
 
-  return {
-    name: shop.name,
-    description: shop.description,
-    location: {
-      country: country.name ?? null,
-      coordinates: getCoordinates(shop),
-      address: shop.location.address,
-    },
-    website: shop.website,
-    hasEcommerce: shop?.meta?.isSellingPlantsOnline,
-    contact: {
-      email: shop.contact.email,
-      phone: {
-        prefix: country.countryCode ?? null,
-        number: shop.contact.phone.number,
+    return {
+      name: shop.name,
+      description: shop.description,
+      location: {
+        country: country.name ?? null,
+        coordinates: getCoordinates(shop),
+        address: shop.location.address,
       },
-    },
-    socials: getSocials(shop),
-    catalogue: [],
-  };
+      website: shop.website,
+      hasEcommerce: shop?.meta?.isSellingPlantsOnline,
+      contact: {
+        email: shop.contact.email,
+        phone: {
+          prefix: country.countryCode ?? null,
+          number: shop.contact.phone.number,
+        },
+      },
+      socials: getSocials(shop),
+      catalogue: [],
+    };
+  }
 }
-
-module.exports = { transformShopToNewShopApiContract };
 
 function getCoordinates(shop) {
   const { coordinates } = shop.location;
@@ -45,8 +44,8 @@ const SocialMediaPlatforms = {
 function getSocials(shop) {
   let socialsParsed = [];
 
-  const { socials } = shop;
-  const igAccount = socials.instagram || "";
+  const { social } = shop;
+  const igAccount = social.instagram || "";
 
   if (Boolean(igAccount) && !igAccount.includes("facebook.com")) {
     socialsParsed.push({
@@ -70,5 +69,5 @@ function getSocials(shop) {
     });
   }
 
-  return socials;
+  return socialsParsed.length > 0 ? socialsParsed : null;
 }

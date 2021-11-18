@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import { transformPlantToNewPlantApiContract } from "../src/Plant/application/transformPlantToNewPlantApiContract";
-import { transformShopToNewShopApiContract } from "../src/Company/Application/transformShopToNewShopApiContract";
+import { TransformShopToNewShopApiContract } from "../src/Company/Application/TransformShopToNewShopApiContract";
 import { getDatabaseConnection } from "../lib/mongodb";
 // todo make absolute paths work
 import { InsertManyCompanies } from "../src/Company/Application/InsertManyCompanies";
@@ -47,12 +47,13 @@ async function retrievePlantsFromLocal() {
   return Object.values(plantsJSON).map(transformPlantToNewPlantApiContract);
 }
 
+const shopTransformer = new TransformShopToNewShopApiContract();
 async function retrieveShopsFromLocal() {
   // Get all the plants that are generated statically
   const shopsJson = require(`${process.cwd()}/public/shops.json`);
 
   // We get the new API format for all the plants
-  return Object.values(shopsJson).map(transformShopToNewShopApiContract);
+  return Object.values(shopsJson).map(shopTransformer.transform);
 }
 
 function createCompanyFromShop(shop) {
