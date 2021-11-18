@@ -1,4 +1,4 @@
-import { ShopRepository } from "../infrastructure/ShopMongoRepository";
+import { ShopRepository } from "../../Company/Infrastructure/ShopMongoRepository";
 
 export class InsertShop {
   constructor({ clientDB }) {

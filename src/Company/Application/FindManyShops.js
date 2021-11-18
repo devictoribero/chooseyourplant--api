@@ -1,4 +1,4 @@
-import { ShopRepository } from "../infrastructure/ShopMongoRepository";
+import { ShopRepository } from "../Infrastructure/ShopMongoRepository";
 
 export class FindManyShops {
   constructor({ clientDB }) {
