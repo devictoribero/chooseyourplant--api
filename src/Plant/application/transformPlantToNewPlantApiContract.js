@@ -1,38 +1,38 @@
-function transformPlantToNewPlantApiContract(plant) {
-  // estimatedMaturePlantHeight is in centimeters
-  return {
-    id: null,
-    latinName: plant.latinName,
-    mostCommonName: plant.mostCommonName,
-    names: plant.names,
-    slug: plant.slug,
-    description: plant.description,
-    bio: {
-      family: plant.family ?? null,
-      subfamily: null,
-      variety: plant.plantVariety ?? null,
-      origins: plant.origins ?? null,
-    },
-    physicalCharacteristics: {
-      estimatedMaturePlantHeight: plant.heightCm,
-      foliage: {
-        size: getFoliageSize(plant.leafSize),
-        features: getFoliageFeatures(plant),
-        // todo add feature of has pattern
-        hasPattern: false,
+export class TransformPlantToNewPlantApiContract {
+  transform(plant) {
+    return {
+      id: null,
+      latinName: plant.latinName,
+      mostCommonName: plant.mostCommonName,
+      names: plant.names,
+      slug: plant.slug,
+      description: plant.description,
+      bio: {
+        family: plant.family ?? null,
+        subfamily: null,
+        variety: plant.plantVariety ?? null,
+        origins: plant.origins ?? null,
       },
-    },
-    images: getPlantImages(plant.images),
-    videos: getPlantVideos(plant.videos),
-    popularity: getPlantPopularity(plant),
-    linksToBuy: getLinksToBuyPlant(plant.productLinks),
-    cares: getPlantCares(plant),
-    growth: getPlantGrowth(plant),
-    features: getPlantFeatures(plant),
-  };
+      physicalCharacteristics: {
+        // estimatedMaturePlantHeight is in centimeters
+        estimatedMaturePlantHeight: plant.heightCm,
+        foliage: {
+          size: getFoliageSize(plant.leafSize),
+          features: getFoliageFeatures(plant),
+          // todo add feature of has pattern
+          hasPattern: false,
+        },
+      },
+      images: getPlantImages(plant.images),
+      videos: getPlantVideos(plant.videos),
+      popularity: getPlantPopularity(plant),
+      linksToBuy: getLinksToBuyPlant(plant.productLinks),
+      cares: getPlantCares(plant),
+      growth: getPlantGrowth(plant),
+      features: getPlantFeatures(plant),
+    };
+  }
 }
-
-module.exports = { transformPlantToNewPlantApiContract };
 
 const FoliageSize = {
   Mini: "Mini",

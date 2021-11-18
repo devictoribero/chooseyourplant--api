@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import { transformPlantToNewPlantApiContract } from "../src/Plant/application/transformPlantToNewPlantApiContract";
+import { TransformPlantToNewPlantApiContract } from "../src/Plant/application/TransformPlantToNewPlantApiContract";
 import { TransformShopToNewShopApiContract } from "../src/Company/Application/TransformShopToNewShopApiContract";
 import { getDatabaseConnection } from "../lib/mongodb";
 // todo make absolute paths work
@@ -39,12 +39,13 @@ async function initPopulateDB({ database }) {
   );
 }
 
+const plantTransformer = new TransformPlantToNewPlantApiContract();
 async function retrievePlantsFromLocal() {
   // Get all the plants that are generated statically
   const plantsJSON = require(`${process.cwd()}/public/plants.json`);
 
   // We get the new API format for all the plants
-  return Object.values(plantsJSON).map(transformPlantToNewPlantApiContract);
+  return Object.values(plantsJSON).map(plantTransformer.transform);
 }
 
 const shopTransformer = new TransformShopToNewShopApiContract();

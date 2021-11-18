@@ -1,7 +1,9 @@
-import { transformPlantToNewPlantApiContract } from "src/Plant/application/transformPlantToNewPlantApiContract";
+import { TransformPlantToNewPlantApiContract } from "src/Plant/application/TransformPlantToNewPlantApiContract";
 import { FindOnePlant } from "src/Plant/application/FindOnePlant";
 import { FindManyPlants } from "src/Plant/application/FindManyPlants";
 import { FindManyShops } from "src/Company/Application/FindManyShops";
+
+const plantTransformer = new TransformPlantToNewPlantApiContract();
 
 export const resolvers = {
   Query: {
@@ -11,7 +13,11 @@ export const resolvers = {
 
       const plants = await findManyPlants.run({ query: {}, limit: 1000 });
 
-      return (plants || []).map(transformPlantToNewPlantApiContract);
+      if (!plants || plants.length === 0) {
+        return [];
+      }
+
+      return plants.map(plantTransformer.transform);
     },
     getPlant: async (root, args, context) => {
       const { slug } = args;
@@ -20,7 +26,7 @@ export const resolvers = {
 
       const plant = await findOnePlant.run({ slug });
 
-      return plant ? transformPlantToNewPlantApiContract(plant) : null;
+      return plant ? plantTransformer.transform(plant) : null;
     },
     getManyShops: async (root, args, context) => {
       const { hasEcommerce, startsWith = null } = args;
