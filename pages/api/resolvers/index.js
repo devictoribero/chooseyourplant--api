@@ -26,7 +26,7 @@ export const resolvers = {
 
       const plant = await findOnePlant.run({ slug });
 
-      return plant ? plantTransformer.transform(plant) : null;
+      return plant || null;
     },
     getManyShops: async (root, args, context) => {
       const { hasEcommerce, startsWith = null } = args;
