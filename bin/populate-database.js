@@ -1,17 +1,18 @@
-const dotenv = require("dotenv");
-const {
-  transformPlantToNewPlantApiContract,
-} = require("../src/Plant/application/transformPlantToNewPlantApiContract");
-const {
-  transformShopToNewShopApiContract,
-} = require("../src/Shop/Application/transformShopToNewShopApiContract");
-const { getDatabaseConnection } = require("../lib/mongodb");
-const { InsertManyPlants } = require("src/Plant/application/InsertManyPlants");
+import dotenv from "dotenv";
+import { transformPlantToNewPlantApiContract } from "../src/Plant/application/transformPlantToNewPlantApiContract";
+import { transformShopToNewShopApiContract } from "../src/Shop/Application/transformShopToNewShopApiContract";
+import { getDatabaseConnection } from "../lib/mongodb";
+// todo make absolute paths work
+import { InsertManyCompanies } from "../src/Company/Application/InsertManyCompanies";
+import { InsertManyPlants } from "../src/Plant/application/InsertManyPlants";
 
 // Required to include `process.env` variables
 dotenv.config();
 
-initPopulateDB({ database: "chooseyourplant-dev" });
+(async function () {
+  await initPopulateDB({ database: "chooseyourplant-dev" });
+  process.exit();
+})();
 
 // Initializes the database given a database name for development purposes
 async function initPopulateDB({ database }) {
@@ -21,16 +22,20 @@ async function initPopulateDB({ database }) {
 
   // Populate plants to database
   const insertManyPlants = new InsertManyPlants({ clientDB });
-  await insertManyPlants.run(retrievePlantsFromLocal());
-  console.log("🌱 Inserted plants tot he database successfully :)");
+  await insertManyPlants.run(await retrievePlantsFromLocal());
+  console.log("🌱 Inserted plants to the database successfully :)");
 
   // Populate shops to database
-  const InsertManyCompanies = new InsertManyCompanies({ clientDB });
-  const plantsToInsertToDB = retrieveShopsFromLocal();
-  const companies = plantsToInsertToDB.map(createCompanyFromShop);
-  await InsertManyCompanies.run(companies);
+  // ⚠️ DISCLAIMER: At this moment, each shop is a company.
+  // todo: I will have to somehow relate shops that are part of the same company.
+  const insertManyCompanies = new InsertManyCompanies({ clientDB });
+  const plantsToInsertToDB = await retrieveShopsFromLocal();
+  const companies = plantsToInsertToDB
+    .sort(sortCompaniesByName)
+    .map(createCompanyFromShop);
+  await insertManyCompanies.run(companies);
   console.log(
-    "✅ Inserted companies and shops to the database successfully :)"
+    "🏪 Inserted companies and shops to the database successfully :)"
   );
 }
 
@@ -42,7 +47,7 @@ async function retrievePlantsFromLocal() {
   return Object.values(plantsJSON).map(transformPlantToNewPlantApiContract);
 }
 
-async function retrieveShops() {
+async function retrieveShopsFromLocal() {
   // Get all the plants that are generated statically
   const shopsJson = require(`${process.cwd()}/public/shops.json`);
 
@@ -56,4 +61,10 @@ function createCompanyFromShop(shop) {
     description: shop.description,
     shops: [shop],
   };
+}
+
+function sortCompaniesByName(companyA, companyB) {
+  const textA = companyA.name.toUpperCase();
+  const textB = companyB.name.toUpperCase();
+  return textA < textB ? -1 : textA > textB ? 1 : 0;
 }

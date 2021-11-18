@@ -5,7 +5,7 @@ export class InsertManyCompanies {
     this.repository = new CompanyRepository({ client: clientDB });
   }
 
-  async run({ companies }) {
-    return this.repository.insertMany({ companies });
+  async run(companies) {
+    return this.repository.insertMany(companies);
   }
 }

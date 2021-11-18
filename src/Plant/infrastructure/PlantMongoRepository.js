@@ -23,6 +23,9 @@ export class PlantRepository {
   }
 
   async insertMany(plants) {
-    return this.clientDB.collection(PLANTS_COLLECTION).insertMany(plants);
+    const response = await this.clientDB
+      .collection(PLANTS_COLLECTION)
+      .insertMany(plants);
+    return response;
   }
 }

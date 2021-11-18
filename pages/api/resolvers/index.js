@@ -34,6 +34,7 @@ export const resolvers = {
         query: { hasEcommerce, startsWith },
         limit: 1000,
       });
+      console.log(shops);
 
       return shops.map(transformShopToNewShopApiContract);
     },

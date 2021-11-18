@@ -101,9 +101,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description"
-      ],
+      "notes": ["description"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -135,11 +133,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description",
-        "instagram",
-        "email"
-      ],
+      "notes": ["description", "instagram", "email"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -459,9 +453,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "you have instagram but not linked in your page"
-      ],
+      "notes": ["you have instagram but not linked in your page"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -493,10 +485,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "website",
-        "phone"
-      ],
+      "notes": ["website", "phone"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -691,9 +680,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description"
-      ],
+      "notes": ["description"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -757,9 +744,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "update your email on facebook"
-      ],
+      "notes": ["update your email on facebook"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -919,9 +904,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "the facebook account from the website doesn't work"
-      ],
+      "notes": ["the facebook account from the website doesn't work"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -953,9 +936,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "Add your instagram account in your website"
-      ],
+      "notes": ["Add your instagram account in your website"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1019,9 +1000,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "the link to your instagram is wrong, double https"
-      ],
+      "notes": ["the link to your instagram is wrong, double https"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1253,9 +1232,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "the link to your Instagram is wrong, it goes to wix"
-      ],
+      "notes": ["the link to your Instagram is wrong, it goes to wix"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1319,9 +1296,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "do you have instagram?"
-      ],
+      "notes": ["do you have instagram?"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1353,9 +1328,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "do you have instagram?"
-      ],
+      "notes": ["do you have instagram?"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1451,9 +1424,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": false,
-      "notes": [
-        "email"
-      ],
+      "notes": ["email"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1549,9 +1520,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "link your instagram to your website"
-      ],
+      "notes": ["link your instagram to your website"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1615,11 +1584,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "website",
-        "email",
-        "phone"
-      ],
+      "notes": ["website", "email", "phone"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -1939,11 +1904,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email",
-        "phone in web",
-        "hours"
-      ],
+      "notes": ["email", "phone in web", "hours"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2007,11 +1968,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "phone",
-        "description",
-        "reviews"
-      ],
+      "notes": ["phone", "description", "reviews"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -2171,11 +2128,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email",
-        "phone",
-        "mixed websites and stock"
-      ],
+      "notes": ["email", "phone", "mixed websites and stock"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2207,9 +2160,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description"
-      ],
+      "notes": ["description"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2241,10 +2192,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description",
-        "email"
-      ],
+      "notes": ["description", "email"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -2436,10 +2384,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email",
-        "description"
-      ],
+      "notes": ["email", "description"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2503,9 +2448,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "Add linkn to your instagram in your page"
-      ],
+      "notes": ["Add linkn to your instagram in your page"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -2601,9 +2544,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email"
-      ],
+      "notes": ["email"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2667,10 +2608,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description",
-        "email"
-      ],
+      "notes": ["description", "email"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2702,10 +2640,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email",
-        "description"
-      ],
+      "notes": ["email", "description"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2769,11 +2704,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email",
-        "description",
-        "no instagram"
-      ],
+      "notes": ["email", "description", "no instagram"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -2805,10 +2736,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email",
-        "description"
-      ],
+      "notes": ["email", "description"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -2840,9 +2768,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description"
-      ],
+      "notes": ["description"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -2938,10 +2864,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description",
-        "email"
-      ],
+      "notes": ["description", "email"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -2973,9 +2896,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description"
-      ],
+      "notes": ["description"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -3039,9 +2960,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email"
-      ],
+      "notes": ["email"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -3265,9 +3184,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "email in website"
-      ],
+      "notes": ["email in website"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -3395,9 +3312,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "website"
-      ],
+      "notes": ["website"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -3493,9 +3408,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "add instagram to the website"
-      ],
+      "notes": ["add instagram to the website"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -3719,9 +3632,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "add your website to google"
-      ],
+      "notes": ["add your website to google"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -3785,9 +3696,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "link your instagram account to your website"
-      ],
+      "notes": ["link your instagram account to your website"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -3915,9 +3824,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description"
-      ],
+      "notes": ["description"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -4013,9 +3920,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "instagram"
-      ],
+      "notes": ["instagram"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -4111,9 +4016,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "missing phone in Google"
-      ],
+      "notes": ["missing phone in Google"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -4145,9 +4048,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "Add a description to Google maps"
-      ],
+      "notes": ["Add a description to Google maps"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -4179,9 +4080,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "add email to the website"
-      ],
+      "notes": ["add email to the website"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -4405,10 +4304,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "phone",
-        "email"
-      ],
+      "notes": ["phone", "email"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -4472,9 +4368,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "the instagram account does not exist"
-      ],
+      "notes": ["the instagram account does not exist"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -4538,10 +4432,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description",
-        "email"
-      ],
+      "notes": ["description", "email"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -4573,10 +4464,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description",
-        "email"
-      ],
+      "notes": ["description", "email"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -4992,9 +4880,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "better website"
-      ],
+      "notes": ["better website"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -5119,9 +5005,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "instagram"
-      ],
+      "notes": ["instagram"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -5188,9 +5072,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "link the social media in the website, not only mention it"
-      ],
+      "notes": ["link the social media in the website, not only mention it"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -20678,9 +20560,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "the facebook link in your website is broken"
-      ],
+      "notes": ["the facebook link in your website is broken"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -20808,9 +20688,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description in google maps"
-      ],
+      "notes": ["description in google maps"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -20842,9 +20720,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "description in google maps"
-      ],
+      "notes": ["description in google maps"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -21452,9 +21328,7 @@
     "meta": {
       "hasAlreadyContacted": true,
       "isPendingToContact": false,
-      "notes": [
-        "I added your website too google maps so people can find you"
-      ],
+      "notes": ["I added your website too google maps so people can find you"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -23699,9 +23573,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "add your instagram in your facebook account"
-      ],
+      "notes": ["add your instagram in your facebook account"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -25693,9 +25565,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "beautiful website!"
-      ],
+      "notes": ["beautiful website!"],
       "isSellingPlantsOnline": true
     },
     "location": {
@@ -25919,9 +25789,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "I added your website to google maps"
-      ],
+      "notes": ["I added your website to google maps"],
       "isSellingPlantsOnline": false
     },
     "location": {
@@ -26276,9 +26144,7 @@
     "meta": {
       "hasAlreadyContacted": false,
       "isPendingToContact": true,
-      "notes": [
-        "there's no email in your website!"
-      ],
+      "notes": ["there's no email in your website!"],
       "isSellingPlantsOnline": false
     },
     "location": {
