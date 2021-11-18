@@ -1,7 +1,7 @@
 export class TransformPlantToNewPlantApiContract {
   transform(plant) {
     return {
-      id: null,
+      id: plant.id,
       latinName: plant.latinName,
       mostCommonName: plant.mostCommonName,
       names: plant.names,

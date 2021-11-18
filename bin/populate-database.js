@@ -1,10 +1,12 @@
 import dotenv from "dotenv";
+
 import { TransformPlantToNewPlantApiContract } from "../src/Plant/application/TransformPlantToNewPlantApiContract";
 import { TransformShopToNewShopApiContract } from "../src/Company/Application/TransformShopToNewShopApiContract";
 import { getDatabaseConnection } from "../lib/mongodb";
 // todo make absolute paths work
 import { InsertManyCompanies } from "../src/Company/Application/InsertManyCompanies";
 import { InsertManyPlants } from "../src/Plant/application/InsertManyPlants";
+import { Uuid } from "../src/Shared/Domain/ValueObject/Uuid";
 
 // Required to include `process.env` variables
 dotenv.config();
@@ -45,7 +47,9 @@ async function retrievePlantsFromLocal() {
   const plantsJSON = require(`${process.cwd()}/public/plants.json`);
 
   // We get the new API format for all the plants
-  return Object.values(plantsJSON).map(plantTransformer.transform);
+  return Object.values(plantsJSON).map((plant) =>
+    plantTransformer.transform({ id: Uuid.generate(), ...plant })
+  );
 }
 
 const shopTransformer = new TransformShopToNewShopApiContract();

@@ -17,7 +17,7 @@ export const resolvers = {
         return [];
       }
 
-      return plants.map(plantTransformer.transform);
+      return plants;
     },
     getPlant: async (root, args, context) => {
       const { slug } = args;
