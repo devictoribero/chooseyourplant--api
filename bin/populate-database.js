@@ -25,7 +25,7 @@ async function initPopulateDB({ database }) {
   await insertManyPlants.run(await retrievePlantsFromLocal());
   console.log("🌱 Inserted plants to the database successfully :)");
 
-  // Populate shops to database
+  // Populate companies to database
   // ⚠️ DISCLAIMER: At this moment, each shop is a company.
   // todo: I will have to somehow relate shops that are part of the same company.
   const insertManyCompanies = new InsertManyCompanies({ clientDB });

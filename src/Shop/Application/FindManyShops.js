@@ -9,13 +9,15 @@ export class FindManyShops {
     const { hasEcommerce, startsWith } = query;
     const shopsFound = await this.repository.findMany({ query, limit });
 
-    // TODOfindManyShops
+    if (!shopsFound || shopsFound.length === 0) {
+      return [];
+    }
+
+    // TODO
     // The following logic should be implement in a criteria object
     const shopsFilteredByEcommerce =
       hasEcommerce !== undefined
-        ? shopsFound.filter(
-            (shop) => shop.meta.isSellingPlantsOnline === hasEcommerce
-          )
+        ? shopsFound.filter((shop) => shop.hasEcommerce === hasEcommerce)
         : shopsFound;
 
     const shopsFilteredBySearchTerm = Boolean(startsWith)

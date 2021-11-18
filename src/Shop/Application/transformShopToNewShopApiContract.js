@@ -1,18 +1,21 @@
 function transformShopToNewShopApiContract(shop) {
+  
+  const { country } = shop.location;
+
   return {
     name: shop.name,
     description: shop.description,
     location: {
-      country: shop.location.country.name,
+      country: country.name ?? null,
       coordinates: getCoordinates(shop),
       address: shop.location.address,
     },
     website: shop.website,
-    hasEcommerce: shop.meta.isSellingPlantsOnline,
+    hasEcommerce: shop?.meta?.isSellingPlantsOnline,
     contact: {
       email: shop.contact.email,
       phone: {
-        prefix: shop.location.country.countryCode,
+        prefix: country.countryCode ?? null,
         number: shop.contact.phone.number,
       },
     },
@@ -40,13 +43,13 @@ const SocialMediaPlatforms = {
 };
 
 function getSocials(shop) {
-  let socials = [];
+  let socialsParsed = [];
 
-  const { social } = shop;
-  const igAccount = social.instagram || "";
+  const { socials } = shop;
+  const igAccount = socials.instagram || "";
 
   if (Boolean(igAccount) && !igAccount.includes("facebook.com")) {
-    socials.push({
+    socialsParsed.push({
       type: SocialMediaPlatforms.instagram,
       url: `https://www.instagram.com/${igAccount}/`,
     });
@@ -55,13 +58,13 @@ function getSocials(shop) {
   const { website } = shop;
   if (website && website.includes("facebook.com")) {
     // There are some shops that have as website a facebook url.
-    socials.push({
+    socialsParsed.push({
       type: SocialMediaPlatforms.facebook,
       url: website,
     });
   } else if (igAccount && igAccount.includes("facebook.com")) {
     // There are some shops that have as instagram account a facebook url.
-    socials.push({
+    socialsParsed.push({
       type: SocialMediaPlatforms.facebook,
       url: igAccount,
     });
