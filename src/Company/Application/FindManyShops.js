@@ -20,6 +20,7 @@ export class FindManyShops {
         ? shopsFound.filter((shop) => shop.hasEcommerce === hasEcommerce)
         : shopsFound;
 
+    // Filter shops by search term
     const shopsFilteredBySearchTerm = Boolean(startsWith)
       ? shopsFilteredByEcommerce.filter((shop) =>
           shopNameMatchesTerm(shop, startsWith)
@@ -43,9 +44,8 @@ export class FindManyShops {
 function shopNameMatchesTerm(shop, startsWith) {
   const shopName = shop.name.toLowerCase();
   const startsWithLowerCased = startsWith.toLowerCase();
-  const hasMatch = shopName.indexOf(startsWithLowerCased) === 0;
 
-  return hasMatch;
+  return shopName.includes(startsWithLowerCased);
 }
 
 function sortCompaniesByName(companyA, companyB) {
