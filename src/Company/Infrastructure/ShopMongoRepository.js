@@ -6,9 +6,19 @@ export class ShopRepository {
   }
 
   async findMany({ query, limit }) {
+    const { startsWith } = query;
+
+    // todo Cant apply a criteria object because the frontend
+    // calls twice and the second time its without parameters
+    // Need to fix this.
+    // const criteria = startsWith
+    //   ? { "shops.name": { $regex: /the sill/i } }
+    //   : {};
+
     const cursor = await this.clientDB
       .collection(COMPANIES_COLLECTION)
-      .find(query)
+      // .find(criteria)
+      .find({})
       .limit(limit);
 
     const companiesFound = await cursor.toArray();

@@ -6,7 +6,7 @@ export class FindManyShops {
   }
 
   async run({ query = {}, limit = 1000 } = { query: {}, limit: 1000 }) {
-    const shopsFound = await this.repository.findMany({ query: {}, limit });
+    const shopsFound = await this.repository.findMany({ query, limit });
 
     if (!shopsFound || shopsFound.length === 0) {
       return [];
