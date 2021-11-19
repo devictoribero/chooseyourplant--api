@@ -6,13 +6,13 @@ export class FindManyShops {
   }
 
   async run({ query = {}, limit = 1000 } = { query: {}, limit: 1000 }) {
-    const { hasEcommerce, startsWith } = query;
-    const shopsFound = await this.repository.findMany({ query, limit });
+    const shopsFound = await this.repository.findMany({ query: {}, limit });
 
     if (!shopsFound || shopsFound.length === 0) {
       return [];
     }
 
+    const { hasEcommerce, startsWith } = query;
     // TODO
     // The following logic should be implement in a criteria object
     const shopsFilteredByEcommerce =
@@ -26,7 +26,17 @@ export class FindManyShops {
         )
       : shopsFilteredByEcommerce;
 
-    return shopsFilteredBySearchTerm;
+    // We group shops by the ones that have a description and not,
+    // and we order them alphabetically.
+    let shopsWithDescription = [];
+    let shopsWithEmptyDescription = [];
+    shopsFilteredBySearchTerm.forEach((shop) => {
+      Boolean(shop.description)
+        ? shopsWithDescription.push(shop)
+        : shopsWithEmptyDescription.push(shop);
+    });
+
+    return [...shopsWithDescription, ...shopsWithEmptyDescription];
   }
 }
 
@@ -36,4 +46,10 @@ function shopNameMatchesTerm(shop, startsWith) {
   const hasMatch = shopName.indexOf(startsWithLowerCased) === 0;
 
   return hasMatch;
+}
+
+function sortCompaniesByName(companyA, companyB) {
+  const textA = companyA.name.toUpperCase();
+  const textB = companyB.name.toUpperCase();
+  return textA < textB ? -1 : textA > textB ? 1 : 0;
 }
