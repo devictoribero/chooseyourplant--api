@@ -6,9 +6,8 @@ export class ShopRepository {
   }
 
   async findMany({ query, limit }) {
-    const { startsWith } = query;
-
     // todo Cant apply a criteria object because the frontend
+    // const { startsWith } = query;
     // calls twice and the second time its without parameters
     // Need to fix this.
     // const criteria = startsWith
