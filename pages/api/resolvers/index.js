@@ -1,7 +1,7 @@
 import { FindOnePlant } from "src/Plant/application/FindOnePlant";
 import { FindManyPlants } from "src/Plant/application/FindManyPlants";
 import { FindManyShops } from "src/Company/Application/FindManyShops";
-import { TransformPlantToNewPlantApiContract } from "src/Plant/application/a";
+import { TransformPlantToNewPlantApiContract } from "src/Plant/application/TransformPlantToNewPlantApiContract";
 
 const plantTransformer = new TransformPlantToNewPlantApiContract();
 
