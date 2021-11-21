@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 
-import { TransformPlantToNewPlantApiContract } from "../src/Plant/application/TransformPlantToNewPlantApiContract";
+import { TransformPlantToNewPlantApiContract } from "../src/Plant/application/a";
 import { TransformShopToNewShopApiContract } from "../src/Company/Application/TransformShopToNewShopApiContract";
 import { getDatabaseConnection } from "../lib/mongodb";
 // todo make absolute paths work
